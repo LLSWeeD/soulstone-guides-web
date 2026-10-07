@@ -187,3 +187,10 @@ JSON-схема + валидатор-скрипт (имена пассивок/�
 - Метка версии у style.css и app.js (`?v=<хеш>`): браузер не берёт устаревшую копию из кэша после пересборки.
 - Проверено в браузере: 1280 и 375 px без переполнения, фильтры и счётчики работают, переход по ссылке #id подсвечивает элемент, битых иконок нет.
 - Осталось: публикация на GitHub Pages (нужен git-репозиторий), вопросы для проверки в игре.
+
+## Публикация на GitHub (2026-10-08)
+- Репозиторий: https://github.com/LLSWeeD/soulstone-guides-web — **публичный** (решение пользователя, вариант 3: бесплатный тариф не даёт Pages для приватных репозиториев). Сайт: https://llsweed.github.io/soulstone-guides-web/
+- Коммиты от LLSWeeD <74013096+LLSWeeD@users.noreply.github.com> (как в SoulstoneTweaks), без строк про Claude.
+- В git не входят: raw/, clean/ (полный текст чужих гайдов), work/, dist/. Глоссарий скопирован в data/glossary.md (исходник ../soulstone-guides/glossary.md), чтобы сборка на GitHub не зависела от соседней папки; build_reference.py не падает без raw/.
+- `.github/workflows/pages.yml`: на пуш в main — validate.py, build_site.py, публикация dist/ на Pages. Первый запуск упал на configure-pages (Pages ещё не включены), после включения перезапущен.
+- Обновление сайта: поменять данные -> `python scripts/validate.py` -> commit -> push; GitHub сам пересоберёт.
