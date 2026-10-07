@@ -194,3 +194,20 @@ JSON-схема + валидатор-скрипт (имена пассивок/�
 - В git не входят: raw/, clean/ (полный текст чужих гайдов), work/, dist/. Глоссарий скопирован в data/glossary.md (исходник ../soulstone-guides/glossary.md), чтобы сборка на GitHub не зависела от соседней папки; build_reference.py не падает без raw/.
 - `.github/workflows/pages.yml`: на пуш в main — validate.py, build_site.py, публикация dist/ на Pages. Первый запуск упал на configure-pages (Pages ещё не включены), после включения перезапущен.
 - Обновление сайта: поменять данные -> `python scripts/validate.py` -> commit -> push; GitHub сам пересоберёт.
+
+## Итог на 2026-10-08 и что дальше
+Состояние: сайт опубликован (https://llsweed.github.io/soulstone-guides-web/), все 23 карточки извлечены и сверены, есть справочник (навыки, пассивки, руны), общий гайд, иконки, автосборка на GitHub. Валидатор: 0 ошибок.
+
+Ждёт ответа пользователя из игры (вносить в карточки, потом validate -> commit -> push):
+1. Пассивка Hemorrhage: существует ли (сейчас везде заменена на Bloodshed, claims = conflict).
+2. «Skill Chain: Poison -> Projectile» в гайде Sentinel: как называется на самом деле (сейчас power_name).
+3. Quicksand + Fortitude: растёт ли урон от здоровья в 1.5d (Beastmaster, Shaman: claims = conflict).
+4. Myrmidon, билд Ice: какая руна Tenacity вместо «Icy Veins» (кандидаты Absolute Zero, Enduring Cold, Frozen Blood); сейчас 3 руны из 4.
+Уже отвечено: Vulnerable Target = +50% (внесено во все карточки).
+Остальные вопросы для игры — в разделе «Вопросы для проверки в игре» выше (Elemental Flow 1.5d, пороги Ammunition/Electrified/Icy Veins, легендарное оружие 10 персонажей, Draconic Flame, Fateful Strike, Singular Focus).
+
+Возможные следующие шаги (не начаты):
+- Внести ответы из игры (Sonnet).
+- После нового патча: перекачать вики и гайды (`fetch_all.py`, `clean.py`, `build_reference.py`, `fetch_icons.py`), сравнить, пересверить изменившиеся карточки по `work/RECONCILE.md` (Opus).
+- Легендарное оружие R5 у 10 персонажей: добавить, когда появится на вики или в гайдах.
+- Модель: правки данных и сайта — Sonnet; сверка карточек — Opus.
