@@ -1,0 +1,847 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Assassin",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Быстрый ближнебойный персонаж с кинжалами: +25% скорости, +1 рывок и +15% частоты каста, но -10% к площади. Типы навыков: Thrust, Swing, Shadow, Bomb, Nature. Играет через механику Ambush (удар со спины или из Smoke Bomb) и ailment-ы (Bleed, Doom); уникальные навыки: Rupture, Shadow Step, Smoke Bomb, Summon Assassin Enclave.",
+    "en": "A fast melee dagger user: +25% movement speed, +1 dash and +15% cast frequency, but -10% area. Skill types: Thrust, Swing, Shadow, Bomb, Nature. Plays around Ambush (hitting from behind or inside Smoke Bomb) and ailments (Bleed, Doom); unique skills: Rupture, Shadow Step, Smoke Bomb, Summon Assassin Enclave."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-assassin",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2025/06/14/soulstone-survivors-guide-the-assassin/",
+      "title": "Soulstone Survivors Guide: The Assassin",
+      "game_version": "1.5d",
+      "updated": "2026-06-26",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "assassin-bleed",
+          "name": {
+            "ru": "Кровотечение",
+            "en": "Bleed"
+          },
+          "weapon_id": "WornDaggers",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Bleed",
+            "Ambush",
+            "Finesse",
+            "Haste"
+          ],
+          "skills": [
+            {
+              "id": "SinisterStrike",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык с малым кулдауном, даёт Haste и Form.",
+                "en": "Starting skill with a low cooldown, grants Haste and Form."
+              }
+            },
+            {
+              "id": "Eviscerate",
+              "role": "damage",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Под Ambush сильно растёт от стаков Bleed на цели.",
+                "en": "Under Ambush it scales strongly with Bleed stacks on the target."
+              }
+            },
+            {
+              "id": "Flurry",
+              "role": "damage",
+              "note": {
+                "ru": "Часто бьёт и сам копит Bleed; хорош против Lords of the Void.",
+                "en": "Hits often and stacks Bleed itself; strong against Lords of the Void."
+              }
+            },
+            {
+              "id": "SummonAssassinEnclave",
+              "role": "support",
+              "note": {
+                "ru": "Миньоны накладывают Bleed атаками.",
+                "en": "Minions apply Bleed with their attacks."
+              }
+            },
+            {
+              "id": "FanofBombs",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Область, урон, копит Finesse и накладывает Bleed; приходит через Unexpected Arsenal.",
+                "en": "Good area and damage, stacks Finesse and applies Bleed; comes via Unexpected Arsenal."
+              }
+            },
+            {
+              "id": "ShrapnelBomb",
+              "role": "damage",
+              "note": {
+                "ru": "Добивающий навык, урон растёт от стаков Bleed.",
+                "en": "Finisher skill whose damage scales with Bleed stacks."
+              }
+            },
+            {
+              "id": "BloodySaw",
+              "role": "support",
+              "note": {
+                "ru": "Аналог Bladestorm, сам копит Bleed.",
+                "en": "Bladestorm-like skill that stacks Bleed itself."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "must"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must"
+            },
+            {
+              "power_id": "BloodShed",
+              "priority": "high",
+              "note": {
+                "ru": "В гайде названа Hemorrhage («пассивно накладывать Bleed всеми навыками»). Вероятно, это старое имя: по вики и по гайду Barbarian того же автора Hemorrhage теперь свойство самого Bleed, а вешает Bleed на все атаки пассивка Bloodshed (шанс 25%).",
+                "en": "The guide calls it Hemorrhage (\"passively apply Bleed with all your skills\"), likely an old name: per the wiki and the same author's Barbarian guide, Hemorrhage is now a property of Bleed itself, and Bloodshed is the passive that lets all attacks apply Bleed (25% chance)."
+              }
+            },
+            {
+              "power_id": "BrutalStrikes",
+              "priority": "high",
+              "note": {
+                "ru": "Bleed при критах.",
+                "en": "Applies Bleed on crits."
+              }
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "situational",
+              "note": {
+                "ru": "Довести до 100% и выше, если есть выбор.",
+                "en": "Push to 100% and beyond if choices allow."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "VulnerableTarget"
+              },
+              {
+                "id": "CriticalMastery"
+              },
+              {
+                "id": "MercilessPrecision"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "UnexpectedArsenal"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Копить как можно больше стаков Bleed всеми навыками и добивать цель навыками, которые от них растут. Подходит и для Grenadier's Mark почти без изменений.",
+            "en": "Stack as much Bleed as possible with every skill and finish targets with skills that scale off it. Works with Grenadier's Mark with few changes."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory даёт седьмой слот навыка ценой 15% урона.",
+                "en": "Improved Repertory gives a seventh skill slot at the cost of 15% less damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Vulnerable Target даёт +25% шанса крита с самого начала.",
+                "en": "Vulnerable Target gives +25% crit chance from the start."
+              },
+              "status": "conflict",
+              "verified_by": "user",
+              "detail": "В игре (1.5d) Vulnerable Target даёт +50% шанса крита (проверено пользователем); 25% — старое значение, как на вики. Гайд в этом месте устарел."
+            },
+            {
+              "text": {
+                "ru": "Critical Mastery переводит 25% шанса крита в крит. урон.",
+                "en": "Critical Mastery converts 25% of crit chance into critical damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита добавляется к множителю крит. урона, включая бонус от негативных эффектов."
+            },
+            {
+              "text": {
+                "ru": "Merciless Precision повышает шанс крита против целей с низким здоровьем.",
+                "en": "Merciless Precision raises crit chance against low-health targets."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +100% шанса крита против врагов ниже 30% здоровья."
+            },
+            {
+              "text": {
+                "ru": "Пассивка Hemorrhage заставляет все навыки накладывать Bleed.",
+                "en": "The Hemorrhage passive makes all skills apply Bleed."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: Hemorrhage был отдельным улучшенным Bleed, теперь слит с ним (шанс +40% урона тика, если враг движется). Bleed на все атаки вешает Bloodshed (шанс 25%), так же пишет гайд Barbarian того же автора (1.5d). Строка Hemorrhage в файлах игры, видимо, остаток. В карточке пассивка заменена на Bloodshed."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "assassin-swing",
+          "name": {
+            "ru": "Взмахи",
+            "en": "Swing"
+          },
+          "weapon_id": "CurvedDaggers",
+          "archetypes": [
+            "synchrony",
+            "multiplier"
+          ],
+          "core_mechanics": [
+            "Finesse",
+            "Haste",
+            "Ambush",
+            "Bleed"
+          ],
+          "skills": [
+            {
+              "id": "TwinDaggers",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык, копит Finesse и Haste, под Ambush вешает Bleed.",
+                "en": "Starting skill, stacks Finesse and Haste, applies Bleed under Ambush."
+              }
+            },
+            {
+              "id": "Backstab",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Как Twin Daggers, но под Ambush утраивает урон.",
+                "en": "Like Twin Daggers, but triples damage under Ambush."
+              }
+            },
+            {
+              "id": "SavageStrike",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Огромный урон по площади, хорошо растёт от процентных бонусов.",
+                "en": "Huge area damage that scales well with percentage bonuses."
+              }
+            },
+            {
+              "id": "Bladestorm",
+              "role": "damage",
+              "note": {
+                "ru": "Лучшая зачистка волн, с Decapitator убивает массу врагов.",
+                "en": "Top wave clear; with Decapitator it removes many enemies."
+              }
+            },
+            {
+              "id": "Uppercut",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Растёт от Finesse, оглушает.",
+                "en": "Scales with Finesse and stuns."
+              }
+            },
+            {
+              "id": "ScentofBlood",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Баф частоты каста от стаков Finesse.",
+                "en": "Cast frequency buff based on Finesse stacks."
+              }
+            },
+            {
+              "id": "FanofBombs",
+              "role": "optional",
+              "obtained": "rune"
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "must"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must"
+            },
+            {
+              "power_id": "BloodShed",
+              "priority": "high",
+              "note": {
+                "ru": "Шанс наложить Bleed у каждого навыка.",
+                "en": "Every skill gets a chance to apply Bleed."
+              }
+            },
+            {
+              "power_id": "Laceration",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "situational"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Synchrony"
+              },
+              {
+                "id": "Decapitator"
+              },
+              {
+                "id": "SacrificedGrowth"
+              },
+              {
+                "id": "Prophecy"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Swing"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Swing"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Много быстрых ударов Swing-навыками, Bleed лишь поддерживает. Под Prophecy банить ненужные пассивки (Block, Poisonous Blood, Leviathan, часто броню), чтобы чаще выпадали редкие.",
+            "en": "Lots of fast hits with Swing skills, Bleed only plays a supporting role. With Prophecy, banish useless passives (Block, Poisonous Blood, Leviathan, often armor) to see rarer ones more often."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Sacrificed Growth даёт +25% урона.",
+                "en": "Sacrificed Growth gives +25% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1% урона за уровень, максимум 25%, но опыт -10%. Полные 25% только с 25 уровня; минус к опыту автор закрывает пассивкой Magnetic."
+            },
+            {
+              "text": {
+                "ru": "Backstab под Ambush наносит тройной урон.",
+                "en": "Backstab deals triple damage under Ambush."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: урон 500, под Ambush 1500 (ровно в 3 раза)."
+            },
+            {
+              "text": {
+                "ru": "Twin Daggers под Ambush накладывает Bleed.",
+                "en": "Twin Daggers applies Bleed under Ambush."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: под Ambush урон 600 и Bleed на 400."
+            },
+            {
+              "text": {
+                "ru": "Synchrony увеличивает урон за общие типы навыков (здесь Physical и Swing).",
+                "en": "Synchrony increases damage for shared skill types (here Physical and Swing)."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (модуль рун, старее 1.5d): +0,7% за общий тип, максимум 20%. Выжимка 1.5d: +1,5%, максимум 30%. Для 1.5d верить выжимке; руна стала сильнее."
+            },
+            {
+              "text": {
+                "ru": "Prophecy при бане заменяет пассивку на более редкую.",
+                "en": "Prophecy replaces a banished power-up with a rarer one."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: замена после бана будет редкости Epic или выше."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "assassin-singular-doom",
+          "name": {
+            "ru": "Одинокая Погибель",
+            "en": "Singular Doom"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Doom",
+            "Ambush",
+            "Marked Target"
+          ],
+          "skills": [
+            {
+              "id": "Reap",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Накладывает много Doom и под Ambush бьёт множителем от суммарного урона Doom.",
+                "en": "Applies lots of Doom and under Ambush hits for a multiple of total Doom damage."
+              }
+            },
+            {
+              "id": "ShadowStab",
+              "role": "optional",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык для лёгкого начала.",
+                "en": "Starting skill to ease the early game."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "must"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must"
+            },
+            {
+              "power_id": "BountyHunter",
+              "priority": "must",
+              "note": {
+                "ru": "Обе версии: помеченная цель чаще и дольше, заменяет условие Ambush.",
+                "en": "Both versions: marked target appears more often and lasts longer, skipping the Ambush check."
+              }
+            },
+            {
+              "power_id": "FatefulStrikes",
+              "priority": "high"
+            },
+            {
+              "power_id": "GrimPrecision",
+              "priority": "high"
+            },
+            {
+              "power_id": "Calamity",
+              "priority": "high"
+            },
+            {
+              "power_id": "Ruin",
+              "priority": "high"
+            },
+            {
+              "power_id": "SkillChain",
+              "variant": "Shadow -> Swing",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "FocusedMind"
+              },
+              {
+                "id": "SingularFocus"
+              },
+              {
+                "id": "DemonicPact"
+              },
+              {
+                "id": "ImprovedRepertory"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Shadow"
+              },
+              {
+                "id": "RerollMastery"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Строить всё вокруг нескольких копий Reap: усиливать Doom и держать Ambush или помеченную цель. Банить оба Shadow-навыка, чтобы Reap выпадал чаще.",
+            "en": "Build everything around multiple copies of Reap: boost Doom and keep Ambush or a marked target active. Banish both Shadow skills so Reap shows up more often."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Focused Mind уменьшает число слотов навыков на 2 и даёт +70% урона.",
+                "en": "Focused Mind removes 2 skill slots and gives +70% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: на 2 слота навыков меньше, весь урон +70%."
+            },
+            {
+              "text": {
+                "ru": "Demonic Pact даёт +2 очка рун ценой -30% брони.",
+                "en": "Demonic Pact gives +2 rune points at the cost of -30% armor."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: рунная сила +2, броня -30%."
+            },
+            {
+              "text": {
+                "ru": "Singular Focus позволяет брать один навык (Reap) несколько раз.",
+                "en": "Singular Focus lets you pick the same skill (Reap) multiple times."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: навыки можно брать несколько раз; улучшения навыка идут в случайную копию."
+            },
+            {
+              "text": {
+                "ru": "Reap под Ambush наносит умноженный суммарный урон всех стаков Doom.",
+                "en": "Under Ambush Reap deals a multiple of the total damage of all Doom stacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: под Ambush все стаки Doom в области сразу наносят 250% своего урона и снимаются. Doom на 1000 у самого Reap."
+            },
+            {
+              "text": {
+                "ru": "Со стартовыми тремя рывками и скоростью выживаемость высокая.",
+                "en": "Three starting dashes plus movement speed give strong survivability."
+              },
+              "status": "unverified",
+              "detail": "Вики: Assassin даёт +1 рывок и +25% скорости; базовое число рывков в справочнике не указано, оценка выживаемости авторская."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "assassin-doom-reap-legacy",
+          "name": {
+            "ru": "Doom и Reap (старый)",
+            "en": "Doom and Reap (legacy)"
+          },
+          "weapon_id": "EdgeofDoom",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Doom",
+            "Ambush"
+          ],
+          "skills": [
+            {
+              "id": "ShadowStab",
+              "role": "support",
+              "obtained": "weapon_primary"
+            },
+            {
+              "id": "Reap",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "При Ambush мгновенно применяет все стаки Doom.",
+                "en": "On Ambush it instantly applies all Doom stacks."
+              }
+            },
+            {
+              "id": "ShadowOrb",
+              "role": "support",
+              "note": {
+                "ru": "Навык, накладывающий Doom.",
+                "en": "A Doom-applying skill."
+              }
+            },
+            {
+              "id": "DeathVortex",
+              "role": "support",
+              "note": {
+                "ru": "Навык, накладывающий Doom.",
+                "en": "A Doom-applying skill."
+              }
+            },
+            {
+              "id": "ShadowBolt",
+              "role": "support",
+              "note": {
+                "ru": "Навык, накладывающий Doom.",
+                "en": "A Doom-applying skill."
+              }
+            },
+            {
+              "id": "SmokeBomb",
+              "role": "core",
+              "note": {
+                "ru": "Весь урон внутри дыма считается Ambush.",
+                "en": "All damage inside the smoke counts as Ambush."
+              }
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "VulnerableExploit"
+              },
+              {
+                "id": "VulnerableTarget"
+              },
+              {
+                "id": "ExtendedReach"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Связка Reap и Smoke Bomb наносит огромный урон, усиливаясь другими Doom-навыками. Авторы советуют заменить один из шести Doom-навыков на Bladestorm.",
+            "en": "Reap with Smoke Bomb deals huge damage and scales with other Doom skills. The authors suggest swapping one of the six Doom skills for Bladestorm."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Reap под Ambush мгновенно применяет все стаки Doom.",
+                "en": "Reap under Ambush instantly applies all Doom stacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: под Ambush стаки Doom в области сразу наносят 250% урона и снимаются."
+            },
+            {
+              "text": {
+                "ru": "Весь урон внутри Smoke Bomb считается Ambush.",
+                "en": "All damage inside Smoke Bomb counts as Ambush."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: все атаки внутри области считаются Ambush, плюс Disoriented (+20% крит. урона), длительность 6 с."
+            }
+          ],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Doom)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Doom корректно масштабируется от модификаторов урона; билд из шести Doom-навыков от этого выигрывает.",
+                "en": "Since 1.4 Doom scales properly with damage modifiers; a build of six Doom skills benefits."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Чистый Doom вокруг Reap совпадает с метой 1.5d (специализация на одном ailment).",
+                "en": "Pure Doom around Reap matches the 1.5d meta (single-ailment specialization)."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "В 1.5d переделан: урон эффекта приходит сразу при наложении. Как это сочетается с Doom и Reap (который сам взрывает стаки), источники не говорят.",
+                "en": "Reworked in 1.5d: effect damage lands on application. How this interacts with Doom and Reap (which detonates stacks itself) is not covered by the sources."
+              }
+            },
+            {
+              "mechanic": "Vulnerable Exploit",
+              "impact": "buffed",
+              "note": {
+                "ru": "Выжимка относит руну к источникам, от которых DoT выигрывает с 1.4; Smoke Bomb вешает Disoriented, который руна учитывает.",
+                "en": "The digest lists this rune among sources DoT benefits from since 1.4; Smoke Bomb applies Disoriented, which the rune counts."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учтены в 1.2. У Assassin есть Warblades of Ozzinath (R5); по вики титан-сила Ultimate Assassin делает каждый удар Ambush.",
+                "en": "Not considered in 1.2. Assassin has Warblades of Ozzinath (R5); per the wiki the Ultimate Assassin titan power makes every hit an Ambush."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под 1.2: связка Reap + Smoke Bomb + шесть Doom-навыков, без пассивок и чисел. Идея Reap под Ambush жива, но актуальный гайд (Singular Doom) строит её иначе: несколько копий Reap через Singular Focus и Bounty Hunter вместо Smoke Bomb. Elemental Flow в 1.5d переделан, поэтому руну стоит перепроверить.",
+        "en": "Written for 1.2: Reap + Smoke Bomb + six Doom skills, no passives or numbers. The Reap-under-Ambush idea still works, but the current guide (Singular Doom) builds it differently: several Reaps via Singular Focus and Bounty Hunter instead of Smoke Bomb. Elemental Flow was reworked in 1.5d, so that rune needs rechecking."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Block and armor passives",
+        "builds": [
+          "assassin-swing"
+        ],
+        "reason": {
+          "ru": "Из гайда: Block автор банит сразу, броню часто тоже, обходясь здоровьем и уклонением; с Prophecy бан даёт более редкую пассивку.",
+          "en": "From the guide: the author bans Block right away and often armor too, relying on health and dodging; with Prophecy each ban yields a rarer passive."
+        }
+      },
+      {
+        "target": "PoisonousBlood",
+        "builds": [
+          "assassin-swing"
+        ],
+        "reason": {
+          "ru": "Из гайда: автор не вкладывается в Poisonous Blood.",
+          "en": "From the guide: the author does not invest in Poisonous Blood."
+        }
+      },
+      {
+        "target": "Leviathan",
+        "builds": [
+          "assassin-swing"
+        ],
+        "reason": {
+          "ru": "Из гайда: отнимает скорость передвижения.",
+          "en": "From the guide: it costs movement speed."
+        }
+      },
+      {
+        "target": "Other Shadow skills (not Reap)",
+        "builds": [
+          "assassin-singular-doom"
+        ],
+        "reason": {
+          "ru": "Из гайда: с Skill Inclination: Shadow бан остальных Shadow-навыков делает Reap частым на уровнях.",
+          "en": "From the guide: with Skill Inclination: Shadow, banning the other Shadow skills makes Reap show up more often."
+        }
+      },
+      {
+        "target": "Passives of other ailments (Poison, Burn; Doom in Bleed, Bleed in Doom)",
+        "builds": [
+          "assassin-bleed",
+          "assassin-singular-doom"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: в 1.5d выгодна специализация на одном ailment, чужие пассивки размывают пул.",
+          "en": "Inference, not from a source: 1.5d rewards single-ailment specialization; other ailments' passives dilute the pool."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Во всех билдах: скорость передвижения и Magnetic в первую очередь.",
+        "en": "All builds: movement speed and Magnetic first."
+      },
+      {
+        "ru": "Bleed: Bloodshed (в гайде «Hemorrhage») и Brutal Strikes, затем всё, что усиливает Bleed, частота каста и мультикаст; шанс крита довести до 100%.",
+        "en": "Bleed: Bloodshed (\"Hemorrhage\" in the guide) and Brutal Strikes, then anything that boosts Bleed, cast frequency and multi cast; push crit chance to 100%."
+      },
+      {
+        "ru": "Swing: Bloodshed и Laceration как поддержка, площадь; Bleed-пассивки можно заменять критом или чистым уроном.",
+        "en": "Swing: Bloodshed and Laceration as support, plus area; Bleed passives can be swapped for crit or flat damage."
+      },
+      {
+        "ru": "Singular Doom: обе Bounty Hunter, затем Fateful Strikes, Grim Precision, Calamity, Ruin; брать каждую копию Reap.",
+        "en": "Singular Doom: both Bounty Hunter passives, then Fateful Strikes, Grim Precision, Calamity, Ruin; take every Reap copy."
+      },
+      {
+        "ru": "Singular Doom: Skill Chain Shadow -> Swing (и обратно), усиления типов Shadow, Swing, Physical; при Demonic Pact брать редкие пассивки брони.",
+        "en": "Singular Doom: Skill Chain Shadow -> Swing (and back), Shadow/Swing/Physical type upgrades; with Demonic Pact take rare armor passives."
+      },
+      {
+        "ru": "Против Lords of the Void в Bleed-билде главные Flurry и Shrapnel Bomb.",
+        "en": "Against Lords of the Void in the Bleed build, Flurry and Shrapnel Bomb do the work."
+      }
+    ],
+    "basis": {
+      "ru": "Собрано по гайду cubiccreativity (1.5d, помечен автором как WIP), Steam-гайду (1.2) и выжимке меты; числа сверены с вики. Четыре бана из пяти и все правила уровней взяты из гайда; бан чужих ailment-пассивок — вывод по выжимке.",
+      "en": "Compiled from the cubiccreativity guide (1.5d, marked WIP by the author), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. Four of five bans and all level-up rules come from the guide; banning other ailments' passives is an inference from the digest."
+    }
+  },
+  "gaps": [
+    "Гайд cubiccreativity помечен автором как WIP (в работе): билды могут меняться.",
+    "Оружие билда Singular Doom гайд не называет; по навыкам Reap и Shadow Stab вероятно Edge of Doom (в карточке weapon_id = null).",
+    "В билде Singular Doom гайд называет только Reap и Shadow Stab; остальные слоты не перечислены (Singular Focus + несколько Reap).",
+    "Гайд называет ключевую Bleed-пассивку Hemorrhage; в карточке заменена на Bloodshed (см. claims билда Bleed). Проверить в игре.",
+    "Bounty Hunter нет на вики (только в файлах игры); гайд говорит о двух пассивках с этим именем, числа неизвестны.",
+    "Extract добавил Laceration в билд Bleed, но в тексте этого билда она не названа (только «всё, что усиливает Bleed»); убрана.",
+    "Приоритеты пассивок в гайде не заданы чётко: порядок и priority оценочные.",
+    "В актуальном гайде нет билдов под Grenadier's Mark (упомянут как вариант Bleed) и Warblades of Ozzinath (R5).",
+    "В Steam-гайде нет пассивок, Versatility-рун и чисел; разделения Tenacity/Versatility нет, руны положены в tenacity.",
+    "Модуль рун на вики старее 1.5d (Synchrony, Elemental Flow расходятся с выжимкой)."
+  ]
+}

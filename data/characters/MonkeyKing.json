@@ -1,0 +1,801 @@
+{
+  "schema_version": "0.2",
+  "character_id": "MonkeyKing",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Ближний боец с посохом (класс Melee), типы навыков Bomb, Earth, Electric, Holy, Slam. Бонусы: +10% урона, +15% скорости движения, +25% площади, но -10% крит. урона. Уникальные навыки: Electric Strike, Whirling Defense, Expansive Throw. Оружие: Immortal's Staff (Slam), Cloudseeker (Electric), Trickster's Boomstick (Bomb), Might of the Mountains (Earth). Актуальный гайд предлагает три билда: стаки Prowess на Slam, крит на Electric Strike и Bleed на бомбах.",
+    "en": "Melee staff fighter with Bomb, Earth, Electric, Holy and Slam skill types. Bonuses: +10% damage, +15% movement speed, +25% area, but -10% critical damage. Unique skills: Electric Strike, Whirling Defense, Expansive Throw. Weapons: Immortal's Staff (Slam), Cloudseeker (Electric), Trickster's Boomstick (Bomb), Might of the Mountains (Earth). The current guide offers three builds: Prowess stacking with Slam, crits with Electric Strike, and Bleed with bombs."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-monkeyking",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2024/08/20/soulstone-survivors-guide-the-monkey-king/",
+      "title": "Soulstone Survivors Guide: The Monkey King",
+      "game_version": "1.5d",
+      "updated": "2026-08-11",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "monkeyking-singular-slam",
+          "name": {
+            "ru": "Одиночный Slam",
+            "en": "Singular Slam"
+          },
+          "weapon_id": "ImmortalsStaff",
+          "archetypes": [
+            "stack"
+          ],
+          "core_mechanics": [
+            "Prowess",
+            "Shattered",
+            "Resilience"
+          ],
+          "skills": [
+            {
+              "id": "MassiveSlam",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык, копит Prowess, урон растёт от Shattered.",
+                "en": "Starting skill, builds Prowess, damage scales with Shattered."
+              }
+            },
+            {
+              "id": "SpinningStaff",
+              "role": "core",
+              "note": {
+                "ru": "Берётся примерно 4 раза: копит Prowess и вешает Shattered.",
+                "en": "Taken about 4 times: builds Prowess and applies Shattered."
+              }
+            },
+            {
+              "id": "ExpansiveThrow",
+              "role": "damage",
+              "note": {
+                "ru": "Урон по крупным целям, растёт от Prowess; около 2 копий.",
+                "en": "Damage against big targets, scales with Prowess; about 2 copies."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Damage Modifier",
+              "priority": "high",
+              "note": {
+                "ru": "Плоский урон.",
+                "en": "Flat damage."
+              }
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "high"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "high",
+              "note": {
+                "ru": "Больше стаков Prowess.",
+                "en": "More Prowess stacks."
+              }
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "high"
+            },
+            {
+              "power_id": "FortifyingDamage",
+              "priority": "medium",
+              "note": {
+                "ru": "Постоянная броня от Resilience при частых кастах.",
+                "en": "Near-permanent armor from Resilience thanks to frequent casts."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "situational"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "situational"
+            },
+            {
+              "power_name": "Skill Chain",
+              "priority": "situational",
+              "note": {
+                "ru": "Гайд не называет типы: «любая цепочка, которая запускает полезные навыки». Все навыки билда типа Slam.",
+                "en": "The guide names no types: any chain that fires the useful skills. All build skills are Slam type."
+              }
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "situational"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "SingularFocus"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "BattleProficiency"
+              },
+              {
+                "id": "ExtendedMagazines"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Slam"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Брать одни и те же Slam-навыки по нескольку раз и копить Prowess. Мелочь умирает от множества Spinning Staff, по крупным бьёт Expansive Throw.",
+            "en": "Pick the same Slam skills several times and stack Prowess. Small enemies die to many Spinning Staffs, Expansive Throw handles big ones."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory снижает урон на 15%, но лишние стаки Prowess это перекрывают.",
+                "en": "Improved Repertory costs 15% damage, but the extra Prowess stacks outweigh it."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%, цена 3 руны."
+            },
+            {
+              "text": {
+                "ru": "Singular Focus стоит 5 очков рун.",
+                "en": "Singular Focus costs 5 Rune Points."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: цена Singular Focus 4 очка рун (legendary). С остальными рунами билда (3+1+1) выходит 9 очков."
+            },
+            {
+              "text": {
+                "ru": "Fortifying Damage даёт Resilience с низким шансом при получении Prowess.",
+                "en": "Fortifying Damage grants Resilience with a low chance when gaining Prowess."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: шанс 25% при каждом получении Prowess, Resilience +1% силы брони. Механика совпадает; «низкий» шанс у автора — это 25%."
+            },
+            {
+              "text": {
+                "ru": "Battle Proficiency: 10% шанс получить Prowess при касте навыка.",
+                "en": "Battle Proficiency: 10% chance to gain Prowess on skill cast."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 10% шанс, Prowess +3% модификатора урона на 6 с. Гайд чисел не даёт, утверждение добавлено по вики."
+            },
+            {
+              "text": {
+                "ru": "Extended Magazines иногда даёт касту максимальный мультикаст.",
+                "en": "Extended Magazines occasionally gives a cast maximum multi cast."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 10% шанс получить 1 стак Ammunition при касте; 20 стаков тратятся на +5 зарядов мультикаста к навыку."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "monkeyking-singular-electric",
+          "name": {
+            "ru": "Одиночный Electric",
+            "en": "Singular Electric"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "multiplier"
+          ],
+          "core_mechanics": [
+            "Dazed",
+            "Critical Chance"
+          ],
+          "skills": [
+            {
+              "id": "ElectricStrike",
+              "role": "core",
+              "note": {
+                "ru": "Единственный источник урона, 5 копий, урон растёт от шанса крита.",
+                "en": "Sole damage dealer, 5 copies, damage scales with critical chance."
+              }
+            },
+            {
+              "id": "LightningSurge",
+              "role": "support",
+              "note": {
+                "ru": "Даёт скорость движения и вешает Dazed от всех навыков.",
+                "en": "Grants movement speed and makes all skills apply Dazed."
+              }
+            },
+            {
+              "id": "PrecisionWave",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Даёт шанс крита; доступен через Skill Mastery: Thrust.",
+                "en": "Grants critical chance; available via Skill Mastery: Thrust."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Critical Chance",
+              "priority": "must"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "must"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "high",
+              "note": {
+                "ru": "Плоский урон умножается критом.",
+                "en": "Flat damage is multiplied by crits."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "medium"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "situational",
+              "note": {
+                "ru": "Для Electric Strike.",
+                "en": "For Electric Strike."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "SingularFocus"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "CriticalMastery"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillMastery",
+                "variant": "Thrust"
+              },
+              {
+                "id": "UnconventionalStart"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Electric"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Всё строится на критах: накопить 5 Electric Strike и усиливать шанс и урон крита. Баффы Lightning Surge и Precision Wave поддерживают мультикриты.",
+            "en": "Everything is built on crits: stack five Electric Strikes and boost crit chance and damage. Lightning Surge and Precision Wave buffs support multi-crits."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Critical Mastery даёт крит. урон в размере 25% от шанса крита.",
+                "en": "Critical Mastery gives critical damage equal to 25% of critical chance."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита (включая бонус от негативных эффектов) добавляется к множителю крит. урона, цена 2 руны."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory снижает урон на 15%.",
+                "en": "Improved Repertory costs 15% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%, цена 3 руны."
+            },
+            {
+              "text": {
+                "ru": "Lightning Surge заставляет все навыки вешать Dazed, а Dazed повышает шанс крита.",
+                "en": "Lightning Surge makes all skills apply Dazed, which raises critical chance."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Lightning Surge +45% скорости на 10 с, Dazed +4% шанса крита, кулдаун 17 с."
+            },
+            {
+              "text": {
+                "ru": "Precision Wave даёт шанс крита.",
+                "en": "Precision Wave grants critical chance."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +50% шанса крита на 10 с, кулдаун 25 с; тип Thrust, поэтому нужен Skill Mastery: Thrust."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "monkeyking-bomb",
+          "name": {
+            "ru": "Бомбы (Bleed)",
+            "en": "Bomb (Bleed)"
+          },
+          "weapon_id": "TrickstersBoomstick",
+          "archetypes": [
+            "dot",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Bleed",
+            "Weakness",
+            "Fragility",
+            "Finesse",
+            "Prowess"
+          ],
+          "skills": [
+            {
+              "id": "GunpowderStrike",
+              "role": "support",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Короткий кулдаун, вешает Bleed и Weakness.",
+                "en": "Short cooldown, applies Bleed and Weakness."
+              }
+            },
+            {
+              "id": "ShrapnelBomb",
+              "role": "core",
+              "note": {
+                "ru": "Главный урон, растёт от стаков Bleed.",
+                "en": "Main damage, scales with Bleed stacks."
+              }
+            },
+            {
+              "id": "ShrapnelMine",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Зачистка волн; доступна через Skill Mastery: Bomb.",
+                "en": "Wave clear; available via Skill Mastery: Bomb."
+              }
+            },
+            {
+              "id": "SuctionBomb",
+              "role": "optional",
+              "note": {
+                "ru": "Стягивает врагов к минам; может утащить игрока.",
+                "en": "Pulls enemies onto mines; can drag the player."
+              }
+            },
+            {
+              "id": "MineField",
+              "role": "optional",
+              "note": {
+                "ru": "Пассивный урон по полю вместо burst.",
+                "en": "Passive field damage instead of burst."
+              }
+            },
+            {
+              "id": "FanofBombs",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Зачистка, Bleed, Fragility и Finesse; через Skill Mastery: Bomb.",
+                "en": "Wave clear, Bleed, Fragility and Finesse; via Skill Mastery: Bomb."
+              }
+            },
+            {
+              "id": "BombBarrage",
+              "role": "damage",
+              "note": {
+                "ru": "Град бомб по медленным целям, много Bleed.",
+                "en": "Bomb volley against slow targets, lots of Bleed."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "BloodShed",
+              "priority": "must",
+              "note": {
+                "ru": "Гайд пишет «пассивка, позволяющая каждому навыку вешать Bleed», без названия. По вики это Bloodshed (все атаки могут вешать Bleed); так же её называет гайд Barbarian того же автора.",
+                "en": "The guide says 'the passive that allows every skill to inflict Bleed' without a name. Per the wiki this is Bloodshed (all attacks may apply Bleed); the same author's Barbarian guide names it."
+              }
+            },
+            {
+              "power_id": "Dismemberment",
+              "priority": "high"
+            },
+            {
+              "power_id": "DeepWounds",
+              "priority": "high"
+            },
+            {
+              "power_name": "Increased Bleed proc chance",
+              "priority": "medium",
+              "note": {
+                "ru": "Пассивка на учащение срабатываний Bleed; название не дано.",
+                "en": "Passive that increases bleed procs; name not given."
+              }
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "situational"
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "situational"
+            },
+            {
+              "power_id": "SkillChain",
+              "variant": "Bomb -> Swing",
+              "priority": "situational",
+              "note": {
+                "ru": "Запускает Fan of Bombs при касте Bomb-навыка.",
+                "en": "Triggers Fan of Bombs when a Bomb skill is used."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "situational"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "AmplifiedPower"
+              },
+              {
+                "id": "LordsBane"
+              },
+              {
+                "id": "BattleProficiency"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillInclination",
+                "variant": "Bomb"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Bomb"
+              },
+              {
+                "id": "RerollMastery"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Копить Bleed на врагах и добивать Shrapnel Bomb; мины и Suction Bomb готовят поле. Защитные улучшения брать только при необходимости.",
+            "en": "Stack Bleed on enemies and finish with Shrapnel Bomb; mines and Suction Bomb prepare the field. Take defensive upgrades only when necessary."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Amplified Power даёт до +25% урона после 250000 Minor Soulstones (0,1% за каждые 500).",
+                "en": "Amplified Power gives up to +25% damage after 250000 Minor Soulstones (0.1% per 500)."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,1% за каждые 500 Minor Soulstones, максимум 25%. По этой формуле максимум достигается уже при 125000, а не 250000."
+            },
+            {
+              "text": {
+                "ru": "Lord's Bane даёт +25% урона, пока на экране Lords of the Void.",
+                "en": "Lord's Bane gives +25% damage while Lords of the Void are on screen."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +25% урона, пока жив хотя бы один Lord of the Void (условие «жив», а не «на экране»)."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory снижает урон на 15%, но даёт седьмой слот навыка.",
+                "en": "Improved Repertory costs 15% damage but gives a seventh skill slot."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%, цена 3 руны."
+            },
+            {
+              "text": {
+                "ru": "Skill Chain: Bomb -> Swing запускает Fan of Bombs при касте Bomb-навыка.",
+                "en": "Skill Chain: Bomb -> Swing triggers Fan of Bombs when a Bomb skill is cast."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Fan of Bombs имеет типы Swing и Bomb; шанс цепочки 6/8/10% (rare/epic/legendary). Другие Swing-навыки в билде гайда отсутствуют."
+            },
+            {
+              "text": {
+                "ru": "Gunpowder Strike вешает Bleed и может вызывать Weakness.",
+                "en": "Gunpowder Strike applies Bleed and can cause Weakness."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: кулдаун 1,2 с, Bleed 150; Weakness (+5% урона от эффектов) только если удар задел не меньше 4 врагов с Bleed."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "monkeyking-bomb-debuff-legacy",
+          "name": {
+            "ru": "Бомбы с дебаффами (старый)",
+            "en": "Bomb with debuffs (legacy)"
+          },
+          "weapon_id": "TrickstersBoomstick",
+          "archetypes": [
+            "dot",
+            "other"
+          ],
+          "core_mechanics": [
+            "Bleed",
+            "Weakness",
+            "Exposed",
+            "Brittle",
+            "Shattered"
+          ],
+          "skills": [
+            {
+              "id": "GunpowderStrike",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Вешает Weakness и Bleed.",
+                "en": "Applies Weakness and Bleed."
+              }
+            },
+            {
+              "id": "TricksterDecoy",
+              "role": "optional",
+              "note": {
+                "ru": "Мало урона, предложена замена на Armor Shatter.",
+                "en": "Little damage; Armor Shatter suggested as a swap."
+              }
+            },
+            {
+              "id": "WhirlingDefense",
+              "role": "support"
+            },
+            {
+              "id": "ShrapnelBomb",
+              "role": "damage",
+              "note": {
+                "ru": "Добивает ослабленных врагов и боссов.",
+                "en": "Finishes weakened enemies and bosses."
+              }
+            },
+            {
+              "id": "Earthquake",
+              "role": "support"
+            },
+            {
+              "id": "LightBeam",
+              "role": "support"
+            },
+            {
+              "id": "ArmorShatter",
+              "role": "optional",
+              "note": {
+                "ru": "Предложена вместо Trickster Decoy.",
+                "en": "Suggested in place of Trickster Decoy."
+              }
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "Executioner"
+              },
+              {
+                "id": "PulseofAgony"
+              },
+              {
+                "id": "Decapitator"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Накладывать дебаффы Exposed, Brittle, Shattered и Weakness, затем добивать Shrapnel Bomb. Банить пассивки на Poison, Fire и Doom, брать пассивки на Physical и Bleed.",
+            "en": "Apply Exposed, Brittle, Shattered and Weakness debuffs, then finish with Shrapnel Bomb. Banish Poison, Fire and Doom passives; take Physical and Bleed passives."
+          },
+          "claims": [],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Bleed)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Bleed нормально масштабируется от модификаторов урона; билд на Bleed и Shrapnel Bomb от этого выигрывает.",
+                "en": "Since 1.4 Bleed scales properly with damage modifiers; a Bleed plus Shrapnel Bomb build benefits."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Совет банить Poison, Fire и Doom ради Bleed и Physical совпадает с метой 1.5d.",
+                "en": "Banning Poison, Fire and Doom to focus Bleed and Physical matches the 1.5d meta."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "В 1.5d руна переделана: урон эффекта приходит сразу при наложении вместо ускорения тиков. Для Bleed-билда может остаться полезной, но расчёт гайда устарел.",
+                "en": "Reworked in 1.5d: ailment damage lands instantly on application instead of faster ticks. May still help a Bleed build, but the guide's reasoning is outdated."
+              }
+            },
+            {
+              "mechanic": "Executioner",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Билд специально вешает много разных дебаффов (Exposed, Brittle, Shattered, Weakness, Bleed), так что Executioner (+4% за тип, максимум 20%) по-прежнему подходит; выжимка относит его к источникам, от которых DoT теперь получает выгоду.",
+                "en": "The build deliberately stacks many debuff types (Exposed, Brittle, Shattered, Weakness, Bleed), so Executioner (+4% per type, max 20%) still fits; the digest lists it among sources DoT now benefits from."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon и Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Легендарное оружие Monkey King (1.5) и Titan Powers в гайде 1.2 не учтены; на вики R5 для персонажа нет.",
+                "en": "The Monkey King legendary weapon (1.5) and Titan Powers are not covered by the 1.2 guide; the wiki has no R5 for this character."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2: только навыки и 4 руны, без пассивок и Versatility. Идея Bleed плюс Shrapnel Bomb на Trickster's Boomstick жива и стала сильнее, но в актуальном гайде есть Bomb-билд на том же оружии с проработанными пассивками (Bloodshed, Dismemberment, Deep Wounds) и рунами: он предпочтительнее. Расчёт на старый Elemental Flow устарел.",
+        "en": "Written for 1.2: skills and 4 runes only, no passives or Versatility runes. The Bleed plus Shrapnel Bomb idea on Trickster's Boomstick still works and got stronger, but the current guide has a Bomb build on the same weapon with worked-out passives (Bloodshed, Dismemberment, Deep Wounds) and runes; prefer it. Reliance on the old Elemental Flow is outdated."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Poison, Fire, Doom passives",
+        "builds": [
+          "monkeyking-bomb-debuff-legacy"
+        ],
+        "reason": {
+          "ru": "Из гайда: старый гайд велит блокировать пассивки на Poison, Fire и Doom и брать Physical и Bleed.",
+          "en": "From the guide: the old guide says to block Poison, Fire and Doom passives and take Physical and Bleed ones."
+        }
+      },
+      {
+        "target": "Poison, Burn, Doom passives",
+        "builds": [
+          "monkeyking-bomb"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: актуальный Bomb-билд чисто на Bleed, чужие ailment размывают выбор пассивок; совпадает со специализацией в мете 1.5d.",
+          "en": "Inference, not from the source: the current Bomb build is pure Bleed, other ailments dilute passive picks; matches 1.5d specialization."
+        }
+      },
+      {
+        "target": "Active skills outside the build",
+        "builds": [
+          "monkeyking-singular-slam",
+          "monkeyking-singular-electric"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: с Singular Focus нужны копии одних навыков (4 Spinning Staff и 2 Expansive Throw или 5 Electric Strike), поэтому лишние навыки лучше убирать из пула.",
+          "en": "Inference, not from the source: with Singular Focus you want copies of the same skills (4 Spinning Staff and 2 Expansive Throw, or 5 Electric Strike), so other skills are better removed from the pool."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Singular Slam: Spinning Staff брать примерно 4 раза, Expansive Throw 2 раза; дальше урон, площадь, частота кастов и мультикаст.",
+        "en": "Singular Slam: take Spinning Staff about 4 times and Expansive Throw twice; then damage, area, cast frequency and multi cast."
+      },
+      {
+        "ru": "Singular Electric: собрать 5 Electric Strike и по одному Lightning Surge и Precision Wave; шанс и урон крита в приоритете, затем плоский урон.",
+        "en": "Singular Electric: collect 5 Electric Strikes plus one Lightning Surge and one Precision Wave; crit chance and damage first, then flat damage."
+      },
+      {
+        "ru": "Bomb: первой брать пассивку, дающую Bleed всем навыкам (Bloodshed), затем Dismemberment, Deep Wounds и пассивку на частоту Bleed.",
+        "en": "Bomb: first take the passive that lets every skill apply Bleed (Bloodshed), then Dismemberment, Deep Wounds and the Bleed proc passive."
+      },
+      {
+        "ru": "Bomb: если выпала Skill Chain Bomb -> Swing, брать: Fan of Bombs станет основным уроном; Shrapnel Bomb и Bomb Barrage против Lords of the Void.",
+        "en": "Bomb: if Skill Chain Bomb -> Swing appears, take it: Fan of Bombs becomes the main damage; Shrapnel Bomb and Bomb Barrage for Lords of the Void."
+      },
+      {
+        "ru": "Во всех билдах: скорость движения и несколько Magnetic для удобства; защитные пассивки только при необходимости.",
+        "en": "All builds: movement speed and a few Magnetic for quality of life; defensive passives only when needed."
+      }
+    ],
+    "basis": {
+      "ru": "Сведено из гайда cubiccreativity (1.5d), Steam-гайда (1.2) и выжимки меты; числа сверены с вики. Бан Poison/Fire/Doom для старого билда назван автором Steam-гайда; два других бана — выводы. Актуальный гайд прямых советов по банам не даёт.",
+      "en": "Compiled from the cubiccreativity guide (1.5d), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. The Poison/Fire/Doom ban for the old build comes from the Steam guide author; the other two bans are inferences. The current guide gives no direct ban advice."
+    }
+  },
+  "gaps": [
+    "В cubic_builds.md списки навыков и рун под заголовками билдов пустые (были картинками); навыки и руны собраны только по тексту гайда.",
+    "Билд Singular Electric: оружие в тексте не названо (упомянут «Cloudweaver», такого оружия нет); вероятно Cloudseeker, weapon_id оставлен null.",
+    "Билд Bomb: пассивка «каждый навык вешает Bleed» названа без имени, по описанию вики записана как BloodShed; пассивка «чаще срабатывает Bleed» не опознана и осталась описанием в power_name.",
+    "Singular Slam: Skill Chain в гайде без типов («любая цепочка с полезными навыками»), записана как power_name «Skill Chain»; вариант Slam -> Slam из Extract убран.",
+    "Singular Slam: гайд называет Singular Focus «вариантом за 5 очков рун», на вики цена 4.",
+    "Bomb: по формуле Amplified Power максимум 25% достигается при 125000 Minor Soulstones, гайд пишет 250000.",
+    "Приоритеты пассивок в гайдах расплывчатые, priority выставлен по тону текста.",
+    "Легендарного оружия R5 на вики нет; актуальный гайд билда под него не даёт.",
+    "Актуальный гайд не даёт советов по банам; баны для актуальных билдов — выводы.",
+    "Steam-раздел (патч 1.2): пассивок нет, разделения Tenacity/Versatility нет (все 4 руны в tenacity).",
+    "Модуль рун на вики старее 1.5d (Elemental Flow и др.)."
+  ]
+}

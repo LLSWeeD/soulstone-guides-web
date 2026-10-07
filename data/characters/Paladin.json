@@ -1,0 +1,495 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Paladin",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Медленный ближний боец с молотом и щитом (навыки Arcane, Electric, Holy, Swing, Slam): +30 здоровья, +25 силы брони и +20% к лечению, но -5% шанса крита и -10% скорости. Играет через хил Purity, стаки Prowess или крит с Dazed, в зависимости от билда.",
+    "en": "Slow melee fighter with hammer and shield (Arcane, Electric, Holy, Swing, Slam skills): +30 health, +25 armor power and +20% healing, but -5% crit chance and -10% movement speed. Plays through Purity healing, Prowess stacking or Dazed-fuelled crits depending on the build."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-paladin",
+      "kind": "legacy",
+      "url": "https://cubiccreativity.wordpress.com/2025/05/31/soulstone-survivors-guide-the-paladin/",
+      "title": "Soulstone Survivors Guide: The Paladin",
+      "game_version": "1.4",
+      "updated": "2025-11-30",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "paladin-singular-holy-legacy",
+          "name": { "ru": "Singular Holy (дубли Holy-навыков)", "en": "Singular Holy" },
+          "weapon_id": "HarbingerofJustice",
+          "archetypes": ["stack", "multiplier"],
+          "core_mechanics": ["Purity", "Exposed", "Dazed", "Devastating"],
+          "skills": [
+            { "id": "BeaconofLight", "role": "core", "note": { "ru": "Вешает Exposed на врагов и Purity на героя: подготовка, зачистка и лечение.", "en": "Applies Exposed to enemies and Purity to you: setup, wave clear and healing." } },
+            { "id": "TemplarsVerdict", "role": "damage", "note": { "ru": "Главный убийца билда, критует благодаря Devastating.", "en": "Main killer of the build, crits thanks to Devastating." } },
+            { "id": "LightningSurge", "role": "support", "note": { "ru": "Даёт скорость передвижения, а остальные навыки на время начинают вешать Dazed.", "en": "Gives movement speed and makes your other skills apply Dazed for a while." } }
+          ],
+          "passives": [
+            { "stat": "Movement Speed", "priority": "must" },
+            { "power_id": "Magnetic", "priority": "must" },
+            { "stat": "Critical Chance", "priority": "high" },
+            { "stat": "Critical Damage", "priority": "high" },
+            { "stat": "Area Modifier", "priority": "high" },
+            { "stat": "Cast Frequency", "priority": "medium" },
+            { "stat": "Multi Cast Chance", "priority": "medium" },
+            { "stat": "Armor Power", "priority": "medium", "note": { "ru": "Гайд советует компенсировать потерю брони от Demonic Pact.", "en": "The guide advises offsetting the armor lost to Demonic Pact." } }
+          ],
+          "runes": {
+            "tenacity": [
+              { "id": "SingularFocus" },
+              { "id": "ImprovedRepertory" },
+              { "id": "DemonicPact" },
+              { "id": "FatefulStrike" }
+            ],
+            "versatility": [
+              { "id": "UnconventionalStart" },
+              { "id": "RerollMastery" },
+              { "id": "SkillInclination", "variant": "Holy" }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Брать по три копии Beacon of Light и Templar's Verdict и одну Lightning Surge. Beacon чистит волны и копит Purity для лечения, Verdict добивает критами. Harbinger of Justice взят только ради статов (крит. урон, мультикаст), его навыки не нужны: отсюда Unconventional Start.",
+            "en": "Take three copies each of Beacon of Light and Templar's Verdict plus one Lightning Surge. Beacon clears waves and builds Purity for healing, Verdict finishes with crits. Harbinger of Justice is taken only for its stats (crit damage, multicast); its skills are unwanted, hence Unconventional Start."
+          },
+          "claims": [
+            {
+              "text": { "ru": "Demonic Pact даёт 2 очка рун, но снижает силу брони на 30.", "en": "Demonic Pact gives 2 rune points but lowers armor power by 30." },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: +2 очка рун, броня -30% (процент, а не 30 очков). В разделе рун гайд сам пишет 30%, «-30 armor power» в абзаце о пассивках, видимо, оговорка."
+            },
+            {
+              "text": { "ru": "Стандартное соотношение: 3 Beacon of Light, 3 Templar's Verdict, 1 Lightning Surge (6 Holy-навыков, 3 Area и 3 Aura).", "en": "Standard ratio: 3 Beacon of Light, 3 Templar's Verdict, 1 Lightning Surge (6 Holy skills, 3 Area and 3 Aura)." },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Beacon of Light — Holy, Lasting, Aura; Templar's Verdict — Holy, Swing, Area; Lightning Surge — Electric. Счёт типов сходится."
+            },
+            {
+              "text": { "ru": "Harbinger of Justice даёт крит. урон и шанс мультикаста.", "en": "Harbinger of Justice gives crit damage and multicast chance." },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +15% крит. урона, +15% шанса мультикаста; но также -10 здоровья и -10% модификатора урона (гайд минусы не упоминает)."
+            },
+            {
+              "text": { "ru": "Стаки Purity запускают дополнительный эффект, который лечит героя.", "en": "Purity stacks fire an extra effect that heals you." },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: при 15 стаках Purity волна света на 1000 урона; лечит, если задела больше четырёх врагов. Beacon of Light даёт 3 стака, Templar's Verdict 2."
+            },
+            {
+              "text": { "ru": "Purity вылечивает с 30 здоровья до полного между спавнами Lords of the Void.", "en": "Purity heals from 30 health to full between Lords of the Void spawns." },
+              "status": "unverified",
+              "detail": "Наблюдение автора из забега под 1.4."
+            }
+          ],
+          "confidence": "medium",
+          "legacy_check": [
+            {
+              "mechanic": "Crit/Multiplier",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Крит-архетип в 1.5d жив (по выжимке слегка слабее). Рун, изменённых после 1.4, билд не использует: Fateful Strike и Demonic Pact сверены с вики.",
+                "en": "The crit archetype is alive in 1.5d (slightly weaker per the digest). The build uses none of the runes changed after 1.4; Fateful Strike and Demonic Pact match the wiki."
+              }
+            },
+            {
+              "mechanic": "Synchrony",
+              "impact": "unknown",
+              "note": {
+                "ru": "Билд повторяет типы Holy/Area/Aura, а Synchrony в 1.5d усилен (+1,5% за общий тип, до 30%). В гайде руны нет; подойдёт ли она вместо одной из рун, вывод, не проверено.",
+                "en": "The build repeats Holy/Area/Aura types and Synchrony was buffed in 1.5d (+1.5% per shared type, up to 30%). The guide does not use it; whether it should replace a rune is an untested inference."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Гайд под 1.4: Titan Powers Hecthoor и Underson (1.5) не учтены.",
+                "en": "Written for 1.4: the Hecthoor and Underson Titan Powers (1.5) are not considered."
+              }
+            }
+          ]
+        },
+        {
+          "id": "paladin-electric-legacy",
+          "name": { "ru": "Electric (крит и Dazed)", "en": "Electric" },
+          "weapon_id": "HarbingerofJustice",
+          "archetypes": ["multiplier", "stack"],
+          "core_mechanics": ["Dazed", "Electrified", "Devastating"],
+          "skills": [
+            { "id": "LightningField", "role": "support", "obtained": "rune", "note": { "ru": "Копит Dazed на врагах и Electrified на герое.", "en": "Stacks Dazed on enemies and Electrified on you." } },
+            { "id": "Energizer", "role": "damage", "obtained": "rune", "note": { "ru": "Урон растёт от стаков Electrified и сама их копит.", "en": "Damage scales with Electrified stacks and adds more." } },
+            { "id": "LightningSurge", "role": "support", "note": { "ru": "Скорость передвижения и массовый Dazed.", "en": "Movement speed and heavy Dazed stacking." } },
+            { "id": "Tornado", "role": "damage", "obtained": "rune", "note": { "ru": "Урон с Devastating и стаки Electrified.", "en": "Devastating damage plus Electrified stacks." } },
+            { "id": "LightningBolt", "role": "optional", "note": { "ru": "Альтернатива: Electrified и Devastating.", "en": "Alternative: Electrified and Devastating." } },
+            { "id": "HighVoltage", "role": "core", "obtained": "rune", "note": { "ru": "Ключевой навык билда: Dazed, Electrified, Devastating, дальний урон.", "en": "Key skill: Dazed, Electrified, Devastating, long-range damage." } },
+            { "id": "LivingWeapons", "role": "support", "note": { "ru": "Урон и дополнительный Dazed вместе с Lightning Surge.", "en": "Damage and extra Dazed together with Lightning Surge." } }
+          ],
+          "passives": [
+            { "stat": "Movement Speed", "priority": "must" },
+            { "power_id": "Magnetic", "priority": "must" },
+            { "stat": "Critical Chance", "priority": "high" },
+            { "stat": "Critical Damage", "priority": "high" }
+          ],
+          "runes": {
+            "tenacity": [
+              { "id": "ImprovedRepertory" },
+              { "id": "FatefulStrike" },
+              { "id": "CriticalMastery" },
+              { "id": "SavagePact" }
+            ],
+            "versatility": [
+              { "id": "SkillMastery", "variant": "Electric" },
+              { "id": "UnconventionalStart" },
+              { "id": "RerollMastery" }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Быстро стрелять электрическими навыками, копить Dazed через Lightning Surge и бить растущими критами. Билд простой: скорость, Magnetic, крит. Harbinger of Justice взят ради статов, его навыки заменяются через Unconventional Start.",
+            "en": "Fire Electric skills fast, stack Dazed via Lightning Surge and hit with growing crits. A straightforward build: speed, Magnetic, crit. Harbinger of Justice is taken for its stats; its skills are replaced via Unconventional Start."
+          },
+          "claims": [
+            {
+              "text": { "ru": "Improved Repertory даёт седьмой слот навыка, но снижает урон на 15%.", "en": "Improved Repertory gives a 7th skill slot but lowers damage by 15%." },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": { "ru": "Fateful Strike: -20% общего урона, +60% урона критов.", "en": "Fateful Strike: -20% overall damage, +60% critical hit damage." },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +60% крит. урона, -20% урона."
+            },
+            {
+              "text": { "ru": "Critical Mastery превращает 25% шанса крита в крит. урон.", "en": "Critical Mastery converts 25% of crit chance into crit damage." },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита добавляется к множителю крит. урона, включая бонус от эффектов на врагах (Dazed)."
+            },
+            {
+              "text": { "ru": "Savage Pact добавляет крит. урон в зависимости от максимального здоровья.", "en": "Savage Pact adds crit damage based on maximum health." },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (модуль рун, старее 1.5d): до 40% крит. урона. Выжимка 1.5d: максимум 30%, порог здоровья 700 вместо 500. Для 1.5d верить выжимке."
+            },
+            {
+              "text": { "ru": "Lightning Surge даёт скорость и заставляет остальные навыки вешать Dazed.", "en": "Lightning Surge gives speed and makes other skills apply Dazed." },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +45% скорости на 10 с, все остальные навыки временно вешают Dazed (+4% шанса крита за стак), кулдаун 17 с."
+            }
+          ],
+          "confidence": "medium",
+          "legacy_check": [
+            {
+              "mechanic": "Savage Pact",
+              "impact": "weakened",
+              "note": {
+                "ru": "В 1.5d максимум снижен с 40% до 30%, порог здоровья поднят с 500 до 700. У Harbinger of Justice ещё и -10 здоровья.",
+                "en": "In 1.5d the cap dropped from 40% to 30% and the health threshold rose from 500 to 700. Harbinger of Justice also costs 10 health."
+              }
+            },
+            {
+              "mechanic": "Crit/Multiplier",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Крит через Dazed остаётся рабочим архетипом; Fateful Strike и Critical Mastery по вики не менялись.",
+                "en": "Dazed-based crit remains a working archetype; Fateful Strike and Critical Mastery are unchanged per the wiki."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Titan Powers 1.5 не учтены. Гайд не рассматривает Electric-оружие Паладина R5 Golden Lion's Crusher (+10% шанса крита, +25% области), хотя тип навыков совпадает.",
+                "en": "The 1.5 Titan Powers are not considered. The guide ignores Paladin's R5 Electric weapon Golden Lion's Crusher (+10% crit chance, +25% area), despite the matching skill type."
+              }
+            }
+          ]
+        },
+        {
+          "id": "paladin-slam-legacy",
+          "name": { "ru": "Slam (стаки Prowess)", "en": "Slam" },
+          "weapon_id": "DawnbreakersMace",
+          "archetypes": ["stack"],
+          "core_mechanics": ["Prowess", "Resilience"],
+          "skills": [
+            { "id": "FissureStrike", "role": "support", "obtained": "weapon_primary", "note": { "ru": "Копит Prowess и Resilience.", "en": "Stacks Prowess and Resilience." } },
+            { "id": "StaggeringBlow", "role": "core", "obtained": "weapon_secondary", "note": { "ru": "Урон растёт от стаков Prowess.", "en": "Damage scales with Prowess stacks." } },
+            { "id": "BrutalSlam", "role": "damage", "obtained": "rune", "note": { "ru": "Урон от максимального здоровья, копит Prowess.", "en": "Scales with max health, stacks Prowess." } },
+            { "id": "BodySlam", "role": "damage", "note": { "ru": "Урон от силы брони, копит Prowess.", "en": "Scales with armor power, stacks Prowess." } },
+            { "id": "ExpansiveThrow", "role": "core", "obtained": "rune", "note": { "ru": "Второй навык, зависящий от Prowess; большая область.", "en": "Second Prowess-scaling skill; large area." } },
+            { "id": "SeismicShock", "role": "damage", "note": { "ru": "Урон по конусу, копит Prowess и Resilience.", "en": "Cone damage, stacks Prowess and Resilience." } },
+            { "id": "ResonantSlam", "role": "damage", "note": { "ru": "Урон вокруг героя, сильнее вблизи; копит Prowess и Resilience.", "en": "Damage all around, stronger up close; stacks Prowess and Resilience." } }
+          ],
+          "passives": [
+            { "stat": "Movement Speed", "priority": "must" },
+            { "stat": "Maximum Health", "priority": "high" },
+            { "stat": "Damage Modifier", "priority": "high" },
+            { "stat": "Area Modifier", "priority": "high" },
+            { "stat": "Armor Power", "priority": "high", "note": { "ru": "Выживание и урон Body Slam.", "en": "Survival plus Body Slam damage." } },
+            { "power_id": "Swift", "priority": "must", "note": { "ru": "В гайде «дополнительный рывок» с максимальным приоритетом; на вики это пассивка Swift (+1 рывок).", "en": "The guide's 'additional dash' at maximum priority; on the wiki this is the Swift passive (+1 dash)." } },
+            { "stat": "Critical Chance", "priority": "situational" },
+            { "stat": "Critical Damage", "priority": "situational" },
+            { "power_id": "DivineInspiration", "priority": "situational", "note": { "ru": "Гайд: этот билд больше всех выигрывает от частых срабатываний. Описания на вики нет.", "en": "Per the guide this build benefits most from frequent triggers. No wiki description." } }
+          ],
+          "runes": {
+            "tenacity": [
+              { "id": "ImprovedRepertory" },
+              { "id": "FocusFire" },
+              { "id": "AmplifiedPower" },
+              { "id": "BattleProficiency" }
+            ],
+            "versatility": [
+              { "id": "SkillMastery", "variant": "Slam" },
+              { "id": "WeaponExpert" },
+              { "id": "RerollMastery" }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Медленный устойчивый урон от плоских бонусов и стаков Prowess. Нужно вкладываться и в урон, и в выживание (здоровье, броня, скорость), так как лечения Purity здесь нет.",
+            "en": "Slow, sustained damage from flat bonuses and Prowess stacks. Invest in both damage and survival (health, armor, speed), since there is no Purity healing here."
+          },
+          "claims": [
+            {
+              "text": { "ru": "Focus Fire: +30% урона за -15% области.", "en": "Focus Fire: +30% damage for -15% area." },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: весь урон +30%, область навыков -15%."
+            },
+            {
+              "text": { "ru": "Amplified Power даёт +25% урона без штрафов.", "en": "Amplified Power gives +25% damage with no drawback." },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,1% урона за каждые 500 Minor Soulstones в инвентаре, максимум 25%. Полные 25% только при 125 000 Minor Soulstones на руках."
+            },
+            {
+              "text": { "ru": "Battle Proficiency: каждый каст даёт небольшой шанс получить Prowess.", "en": "Battle Proficiency: every cast has a small chance to grant Prowess." },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 10% шанс при касте; Prowess +3% модификатора урона на 6 с."
+            },
+            {
+              "text": { "ru": "Improved Repertory: лишний слот навыка стоит -15% урона.", "en": "Improved Repertory: the extra skill slot costs -15% damage." },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": { "ru": "Purity упирается в 20 стаков (довод против Sacred Warhammer).", "en": "Purity tops out at 20 stacks (argument against Sacred Warhammer)." },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: Purity срабатывает на 15 стаках и копится без предела; 20 стаков было до релиза 1.0."
+            }
+          ],
+          "confidence": "medium",
+          "legacy_check": [
+            {
+              "mechanic": "Stack (Prowess)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Стак-архетип в 1.5d остаётся сильным; руны билда (Focus Fire, Battle Proficiency, Improved Repertory) по вики не менялись. Сам автор признаёт, что билд слабее ailment-билдов.",
+                "en": "The stack archetype stays strong in 1.5d; the build's runes (Focus Fire, Battle Proficiency, Improved Repertory) are unchanged per the wiki. The author admits it is weaker than ailment builds."
+              }
+            },
+            {
+              "mechanic": "Synchrony",
+              "impact": "unknown",
+              "note": {
+                "ru": "Все семь навыков типа Slam, а Synchrony в 1.5d усилен (+1,5% за общий тип, до 30%). В гайде руны нет; это вывод, не проверено.",
+                "en": "All seven skills are Slam-type and Synchrony was buffed in 1.5d (+1.5% per shared type, up to 30%). The guide does not use it; untested inference."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Titan Powers Hecthoor и Underson (1.5) не учтены.",
+                "en": "The Hecthoor and Underson Titan Powers (1.5) are not considered."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под 1.4: исправленный scaling DoT уже учтён, но легендарное оружие и Titan Powers Hecthoor/Underson из 1.5 нет, Savage Pact (Electric) с тех пор ослаблен, а Synchrony усилен и мог бы подойти билдам из одинаковых типов. Актуального гайда 1.5d на Паладина нет, замены нет. Два билда сознательно берут Harbinger of Justice ради статов, без его навыков.",
+        "en": "Written for 1.4: the DoT scaling fix is already in, but 1.5's legendary weapons and the Hecthoor/Underson Titan Powers are missing, Savage Pact (Electric) has since been nerfed and Synchrony buffed, which may suit the same-type builds. There is no current 1.5d Paladin guide to replace it. Two builds deliberately take Harbinger of Justice for its stats only, not its skills."
+      }
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "paladin-bleed-legacy",
+          "name": { "ru": "Кровотечение (Bleed)", "en": "Bleed" },
+          "weapon_id": "DawnbreakersMace",
+          "archetypes": ["dot", "stack"],
+          "core_mechanics": ["Bleed", "Prowess", "Resilience", "Fragility", "Exposed", "Brittle"],
+          "skills": [
+            { "id": "FissureStrike", "role": "support", "obtained": "weapon_primary", "note": { "ru": "Стартовый навык, даёт Prowess и Resilience.", "en": "Starting skill, gives Prowess and Resilience." } },
+            { "id": "StaggeringBlow", "role": "damage", "obtained": "weapon_secondary", "note": { "ru": "Прямой фронтальный урон, Prowess.", "en": "Direct frontal damage, Prowess." } },
+            { "id": "MagicMissiles", "role": "damage", "note": { "ru": "Фронтальный урон и Fragility.", "en": "Frontal damage and Fragility." } },
+            { "id": "Bladestorm", "role": "core", "note": { "ru": "По гайду вешает Bleed на всех врагов издалека; по вики сам Bleed не накладывает (см. claims).", "en": "Per the guide applies Bleed to every enemy from a distance; per the wiki it applies no Bleed itself (see claims)." } },
+            { "id": "LightBeam", "role": "damage", "note": { "ru": "Фронтальный луч и Exposed.", "en": "Frontal beam and Exposed." } },
+            { "id": "ArcaneBeam", "role": "damage", "note": { "ru": "Фронтальный луч и Brittle.", "en": "Frontal beam and Brittle." } }
+          ],
+          "passives": [
+            { "stat": "Critical Chance", "priority": "high", "note": { "ru": "У Паладина мало крита, поднимать рано.", "en": "Paladin lacks crit chance, raise early." } },
+            { "stat": "Movement Speed", "priority": "high", "note": { "ru": "Поднимать рано.", "en": "Raise early." } }
+          ],
+          "runes": {
+            "tenacity": [
+              { "id": "Executioner" },
+              { "id": "ElementalFlow" },
+              { "id": "MisfortunesEmbrace" },
+              { "id": "PulseofAgony" }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Взять Dawnbreaker's Mace ради Prowess и Resilience, три навыка дают прямой урон, Bladestorm вешает Bleed. По боссу целиться курсором. Из пассивок банить Poison, Fire и Doom.",
+            "en": "Take Dawnbreaker's Mace for Prowess and Resilience, three skills give direct damage, Bladestorm applies Bleed. Aim the cursor at bosses. Banish Poison, Fire and Doom passives."
+          },
+          "claims": [
+            {
+              "text": { "ru": "У Паладина мало шанса крита и скорости, их надо поднимать рано.", "en": "Paladin lacks crit chance and movement speed; raise them early." },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: у Паладина -5% шанса крита и -10% скорости передвижения."
+            },
+            {
+              "text": { "ru": "Bladestorm издалека накладывает Bleed на всех врагов.", "en": "Bladestorm applies Bleed to every enemy from a distance." },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: Bladestorm (Swing, Area) бьёт врагов вокруг героя каждые 0,2 с, 20 ударов, кулдаун 10 с; Bleed в описании нет. Bleed на все атаки вешает пассивка Bloodshed (шанс 25%), гайд её не называет."
+            }
+          ],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Bleed)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Bleed нормально масштабируется от модификаторов (в том числе от Prowess); Hemorrhage стал частью Bleed (урон при движении врага).",
+                "en": "Since 1.4 Bleed scales properly with modifiers (including Prowess); Hemorrhage became part of Bleed (damage when enemies move)."
+              }
+            },
+            {
+              "mechanic": "Источник Bleed (Bladestorm)",
+              "impact": "unknown",
+              "note": {
+                "ru": "По текущей вики Bladestorm Bleed не вешает; без пассивки Bloodshed Bleed приходит только случайно от Misfortune's Embrace. Вывод, не из источника.",
+                "en": "Per the current wiki Bladestorm applies no Bleed; without the Bloodshed passive Bleed only comes randomly from Misfortune's Embrace. Inference, not from the source."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "Руна переделана: урон эффекта приходит сразу при наложении вместо ускоренных тиков. Насколько это лучше для билда, неясно.",
+                "en": "Reworked: ailment damage lands on application instead of faster ticks. How this affects the build is unclear."
+              }
+            },
+            {
+              "mechanic": "Misfortune's Embrace",
+              "impact": "weakened",
+              "note": {
+                "ru": "20% шанс случайного Burn, Bleed, Poison или Doom: три четверти срабатываний работают против специализации на Bleed, которую мета 1.5d поощряет.",
+                "en": "20% chance of a random Burn, Bleed, Poison or Doom: three quarters of procs work against the Bleed specialization the 1.5d meta rewards."
+              }
+            },
+            {
+              "mechanic": "Executioner",
+              "impact": "unchanged",
+              "note": {
+                "ru": "+4% урона за каждый тип эффекта на враге, максимум 20%. Билд вешает Bleed, Fragility, Exposed и Brittle, то есть до 16%; выжимка относит Executioner к источникам, от которых DoT теперь получает выгоду.",
+                "en": "+4% damage per negative effect type on the enemy, up to 20%. The build applies Bleed, Fragility, Exposed and Brittle, so up to 16%; the digest lists Executioner among sources DoT now benefits from."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "В 1.2 не учитывались.",
+                "en": "Not considered in 1.2."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2. Bleed с 1.4 стал сильнее, но по текущей вики Bladestorm Bleed не вешает, Elemental Flow переделан, а Misfortune's Embrace мешает специализации на одном Bleed. Актуального Bleed-билда на Паладина нет ни в одном гайде, так что прямой замены тоже нет.",
+        "en": "Written for patch 1.2. Bleed got stronger since 1.4, but per the current wiki Bladestorm applies no Bleed, Elemental Flow was reworked and Misfortune's Embrace undermines pure Bleed. No guide has a current Paladin Bleed build, so there is no direct replacement."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Poison, Fire, Doom application passives",
+        "builds": ["paladin-bleed-legacy"],
+        "reason": {
+          "ru": "Из гайда: чтобы не тратить уровни на них и держать один Bleed.",
+          "en": "From the guide: don't waste levels on them, keep pure Bleed."
+        }
+      },
+      {
+        "target": "Ailment application passives (BloodShed, Venomous...)",
+        "builds": ["paladin-singular-holy-legacy", "paladin-electric-legacy", "paladin-slam-legacy"],
+        "reason": {
+          "ru": "Вывод, не из источника: эти билды на крите или Prowess и статусов не используют, пассивки статусов только засоряют выбор.",
+          "en": "Inference, not from the source: these builds run on crit or Prowess and use no ailments, so ailment passives just clutter the offers."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Во всех билдах cubiccreativity: сначала скорость передвижения (у Паладина -10%) и Magnetic.",
+        "en": "All cubiccreativity builds: movement speed first (Paladin has -10%) and Magnetic."
+      },
+      {
+        "ru": "Singular Holy: набирать 3 Beacon of Light, 3 Templar's Verdict и 1 Lightning Surge; затем крит. шанс, крит. урон, область, частота каста и мультикаст, немного брони против Demonic Pact.",
+        "en": "Singular Holy: collect 3 Beacon of Light, 3 Templar's Verdict and 1 Lightning Surge; then crit chance, crit damage, area, cast frequency and multicast, some armor to offset Demonic Pact."
+      },
+      {
+        "ru": "Electric: крит. шанс и крит. урон как можно выше; High Voltage — главный навык, Lightning Surge обязателен ради Dazed.",
+        "en": "Electric: push crit chance and crit damage as high as possible; High Voltage is the key skill, Lightning Surge is mandatory for Dazed."
+      },
+      {
+        "ru": "Slam: Swift (дополнительный рывок) брать сразу, как выпадет; дальше здоровье, броня, урон и область, крит по остаточному принципу.",
+        "en": "Slam: take Swift (extra dash) as soon as offered; then health, armor, damage and area, crit only if spare."
+      },
+      {
+        "ru": "Старый Bleed-билд: крит и скорость поднимать рано, по боссу целиться курсором фронтальными навыками.",
+        "en": "Old Bleed build: raise crit and speed early, aim frontal skills at the boss with the cursor."
+      }
+    ],
+    "basis": {
+      "ru": "Сведено из гайда cubiccreativity (1.4), Steam-гайда (1.2) и выжимки меты; числа сверены с вики. Бан Poison/Fire/Doom назван автором Steam-гайда, бан пассивок статусов для билдов cubiccreativity — вывод. Правила уровня взяты из текста гайдов.",
+      "en": "Compiled from the cubiccreativity guide (1.4), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. The Poison/Fire/Doom ban comes from the Steam author; the ailment-passive ban for the cubiccreativity builds is an inference. Level-up rules come from the guide texts."
+    }
+  },
+  "gaps": [
+    "Актуального гайда 1.5d на Паладина нет: гайд cubiccreativity написан под версию 1.4 (30.11.2025), плюс старый раздел Steam-гайда (патч 1.2).",
+    "Ни один гайд не рассматривает R5 Golden Lion's Crusher (Electric, +10% шанса крита); легендарное ли это оружие, по справочнику не видно.",
+    "Steam-гайд не разделяет Tenacity/Versatility: все 4 руны положены в tenacity, versatility пуст; пассивок почти нет.",
+    "Steam-билд Bleed не называет источника Bleed, кроме Bladestorm, который по текущей вики Bleed не вешает. Нужен ли Bloodshed, гайд не говорит.",
+    "Divine Inspiration есть в файлах игры, но описания и чисел на вики нет.",
+    "Приоритеты пассивок в гайдах расплывчатые, расставлены по тексту приблизительно.",
+    "Модуль рун на вики старее 1.5d (Savage Pact, Synchrony, Elemental Flow)."
+  ]
+}

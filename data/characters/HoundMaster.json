@@ -1,0 +1,923 @@
+{
+  "schema_version": "0.2",
+  "character_id": "HoundMaster",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Стрелок класса Gunslinger (оружие Gun) с гончими-компаньонами: хрупкий (-20 к макс. здоровью, -10% скорости), но с +15% урона и +25% области. Типы навыков: Blast, Bomb, Fire, Nature, Projectile. Открывается убийством хотя бы одного Лорда Бездны в The Whispering Grove. Гайды строят его на одном ailment (Bleed или Poison) и на стаках Ammunition для мультикаста.",
+    "en": "A Gunslinger (Gun weapon) with hound companions: fragile (-20 max health, -10% movement speed) but with +15% damage and +25% area. Skill types: Blast, Bomb, Fire, Nature, Projectile. Unlocked by eliminating at least one Lord of the Void in The Whispering Grove. Guides build him around a single ailment (Bleed or Poison) and Ammunition stacks for multi-cast."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-houndmaster",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2023/09/23/soulstone-survivors-guide-the-houndmaster/",
+      "title": "Soulstone Survivors Guide: The Hound Master",
+      "game_version": "1.5d",
+      "updated": "2026-06-22",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "houndmaster-bleed",
+          "name": {
+            "ru": "Кровотечение",
+            "en": "Bleed"
+          },
+          "weapon_id": "RustedBlaster",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Bleed",
+            "Ammunition",
+            "Weakness",
+            "Fragility",
+            "Finesse",
+            "Disoriented"
+          ],
+          "skills": [
+            {
+              "id": "MortarShot",
+              "role": "support",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Низкий кулдаун, малая область, вешает Bleed на нескольких врагов.",
+                "en": "Low cooldown, small area, applies Bleed to several enemies."
+              }
+            },
+            {
+              "id": "Bombardment",
+              "role": "optional",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Ускоряет зачистку в начале с руной Weapon Expert; автор считает его слишком случайным.",
+                "en": "Early clearing speed with Weapon Expert; author finds it too random."
+              }
+            },
+            {
+              "id": "RapidBarrage",
+              "role": "support",
+              "note": {
+                "ru": "Копит Ammunition и бьёт много раз, каждый удар шанс Bleed от Bloodshed.",
+                "en": "Stacks Ammunition and hits many times, each hit can proc Bleed via Bloodshed."
+              }
+            },
+            {
+              "id": "ShrapnelShot",
+              "role": "support",
+              "note": {
+                "ru": "Как Rapid Barrage, но больше снарядов и шире область; зачистка волн с Bleed.",
+                "en": "Like Rapid Barrage but more projectiles over a wider area; wave clear with Bleed."
+              }
+            },
+            {
+              "id": "ShrapnelBomb",
+              "role": "damage",
+              "note": {
+                "ru": "Основной урон: растёт от числа стаков Bleed на цели.",
+                "en": "Main damage: scales with Bleed stacks on the target."
+              }
+            },
+            {
+              "id": "GunpowderStrike",
+              "role": "optional",
+              "obtained": "rune",
+              "note": {
+                "ru": "Вешает Bleed и Weakness, усиливающий урон стаков Bleed.",
+                "en": "Applies Bleed and Weakness, which boosts Bleed damage."
+              }
+            },
+            {
+              "id": "FanofBombs",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Широкая область, Bleed и Fragility, даёт стаки Finesse.",
+                "en": "Wide area, Bleed and Fragility, gives Finesse stacks."
+              }
+            },
+            {
+              "id": "WeakeningGrenade",
+              "role": "optional",
+              "note": {
+                "ru": "Вешает Bleed и Disoriented (больше крит. урона по цели) для крит-сборок.",
+                "en": "Applies Bleed and Disoriented (more crit damage against target) for crit setups."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "BloodShed",
+              "priority": "must"
+            },
+            {
+              "power_id": "BrutalStrikes",
+              "priority": "high",
+              "note": {
+                "ru": "В гайде названа описанием («пассивка, вешающая Bleed при крите»); по вики это Brutal Strikes (50% шанс). Хорошо сочетается с Vulnerable Target.",
+                "en": "Described in the guide as 'the passive that applies Bleed on critical hit'; on the wiki this is Brutal Strikes (50% chance). Pairs with Vulnerable Target."
+              }
+            },
+            {
+              "power_id": "Laceration",
+              "priority": "high",
+              "note": {
+                "ru": "Гайд советует брать любые пассивки на урон Bleed, процентные и плоские; Laceration главная из них.",
+                "en": "The guide says to take any Bleed damage passives, percentage and flat; Laceration is the main one."
+              }
+            },
+            {
+              "power_id": "Dismemberment",
+              "priority": "medium"
+            },
+            {
+              "power_id": "PoisonousBlood",
+              "priority": "situational",
+              "note": {
+                "ru": "В гайде названа описанием («шанс наложить Poison при наложении Bleed»); по вики это Poisonous Blood (50% шанс).",
+                "en": "Described in the guide as 'the chance to apply Poison when applying Bleed'; on the wiki this is Poisonous Blood (50% chance)."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high",
+              "note": {
+                "ru": "В гайде «Magnetism»: несколько выборов, опыт быстро окупается.",
+                "en": "Called 'Magnetism' in the guide: a few picks, the experience pays off quickly."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "situational"
+            },
+            {
+              "power_name": "Skill Chain",
+              "priority": "situational",
+              "note": {
+                "ru": "Гайд: «если игра предложит Skill Chain, просто бери» (больше навыков, больше Bleed). Типы цепочки не названы.",
+                "en": "Guide: 'if the game offers a Skill Chain, just take it' (more skills fired, more Bleed). Chain types are not named."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "LordsBane"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "VulnerableTarget"
+              },
+              {
+                "id": "Synchrony"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Bomb"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Завалить цели стаками Bleed множеством попаданий, пока Shrapnel Bomb взрывает их по числу стаков. Персонаж хрупкий: скорость нужна, чтобы выходить из зон урона, а при долгом забеге стоит добавить броню и здоровье.",
+            "en": "Bury targets in Bleed stacks with many hits while Shrapnel Bomb detonates them based on stack count. The class is fragile: movement speed helps dodge, and longer runs need some armor and health."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Disoriented от Weakening Grenade повышает крит. урон по цели на 20%.",
+                "en": "Disoriented from Weakening Grenade raises critical damage against the target by 20%."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Weakening Grenade, Disoriented Critical Damage 20%, кулдаун 5 с; Disoriented даёт +1% получаемого крит. урона за стак, длится 6 с."
+            },
+            {
+              "text": {
+                "ru": "Lord's Bane даёт 25% урона, пока жив Лорд Бездны.",
+                "en": "Lord's Bane gives 25% damage while a Lord of the Void is alive."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +25% урона, пока жив Lord of the Void; 3 очка, Tenacity."
+            },
+            {
+              "text": {
+                "ru": "Vulnerable Target даёт +50% шанса крита.",
+                "en": "Vulnerable Target gives +50% critical hit chance."
+              },
+              "status": "verified",
+              "verified_by": "user",
+              "detail": "Проверено в игре (1.5d): Vulnerable Target даёт +50% шанса крита. На вики устаревшие +25%."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory снижает урон на 15%.",
+                "en": "Improved Repertory lowers damage by 15%."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Rapid Barrage наносит двадцать ударов; Ammunition заставляет обычные навыки стрелять пять раз вместо одного.",
+                "en": "Rapid Barrage hits twenty times; Ammunition makes regular skills fire five times instead of once."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Rapid Barrage 20 ударов, 25% шанс на стак Ammunition за удар, кулдаун 9 с. Ammunition: при 20 стаках навык получает +5 зарядов мультикаста."
+            },
+            {
+              "text": {
+                "ru": "Synchrony добавляет урон за общие типы навыков (Bomb, Area, Frontal, Burst).",
+                "en": "Synchrony adds damage for shared skill types (Bomb, Area, Frontal, Burst)."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (модуль рун старее 1.5d): +0,7% за общий тип, максимум 20%. Выжимка 1.5d: +1,5%, максимум 30%. Для 1.5d верить выжимке; руна сильнее, чем по вики."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "houndmaster-blast",
+          "name": {
+            "ru": "Взрыв (Blast)",
+            "en": "Blast"
+          },
+          "weapon_id": "RiflemensVengeance",
+          "archetypes": [
+            "stack",
+            "multiplier"
+          ],
+          "core_mechanics": [
+            "Ammunition",
+            "Bleed",
+            "Exposed",
+            "Shattered",
+            "Weakness"
+          ],
+          "skills": [
+            {
+              "id": "Buckshot",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Низкий кулдаун, копит Ammunition.",
+                "en": "Low cooldown, stacks Ammunition."
+              }
+            },
+            {
+              "id": "PowerBlast",
+              "role": "damage",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Долгий кулдаун, крупный урон, тоже копит Ammunition.",
+                "en": "Long cooldown, big damage, also stacks Ammunition."
+              }
+            },
+            {
+              "id": "RapidBarrage",
+              "role": "core",
+              "note": {
+                "ru": "Главный источник Ammunition, много ударов.",
+                "en": "Main Ammunition enabler, many hits."
+              }
+            },
+            {
+              "id": "WeakeningShot",
+              "role": "support",
+              "note": {
+                "ru": "Вешает Exposed, повышая общий урон, и копит Ammunition.",
+                "en": "Applies Exposed to raise overall damage and stacks Ammunition."
+              }
+            },
+            {
+              "id": "ExplosiveShot",
+              "role": "support",
+              "note": {
+                "ru": "Shattered снижает броню Лордов; копит Ammunition.",
+                "en": "Shattered lowers Lord armor; stacks Ammunition."
+              }
+            },
+            {
+              "id": "ShrapnelShot",
+              "role": "support",
+              "note": {
+                "ru": "Много снарядов, сам вешает Bleed, копит Ammunition.",
+                "en": "Many projectiles, applies Bleed itself, stacks Ammunition."
+              }
+            },
+            {
+              "id": "NapalmBlast",
+              "role": "support",
+              "note": {
+                "ru": "Как Explosive Shot: Shattered для боссов и Ammunition.",
+                "en": "Like Explosive Shot: Shattered for bosses and Ammunition."
+              }
+            },
+            {
+              "id": "AmmoBox",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Зона, где пассивно копится Ammunition.",
+                "en": "Zone that passively builds Ammunition."
+              }
+            },
+            {
+              "id": "ShrapnelBomb",
+              "role": "damage",
+              "note": {
+                "ru": "Основной урон при уклоне в Bleed.",
+                "en": "Main damage when leaning into Bleed."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "BloodShed",
+              "priority": "must"
+            },
+            {
+              "power_id": "Laceration",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium"
+            },
+            {
+              "power_id": "HoundsFeast",
+              "priority": "medium",
+              "note": {
+                "ru": "Усиливает модификатор урона гончих; на вики нет описания и чисел.",
+                "en": "Raises the hounds' damage modifier; no description or numbers on the wiki."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Synchrony"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "AmplifiedPower"
+              },
+              {
+                "id": "ExtendedMagazines"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Blast"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Не жёсткий билд, а общая идея: набирать Ammunition до максимума ради частых мультикаст-всплесков. Подбор навыков гибкий, при желании добавляется упор на Bleed.",
+            "en": "Not a rigid build but a general idea: stack Ammunition to the cap for frequent multi-cast bursts. Skill choice is flexible and a Bleed focus can be layered on."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory даёт седьмой слот навыка за -15% к модификатору урона.",
+                "en": "Improved Repertory gives a seventh skill slot for -15% damage modifier."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Amplified Power со временем даёт +25% урона.",
+                "en": "Amplified Power eventually gives +25% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,1% урона за каждые 500 Minor Soulstones в инвентаре, максимум 25% (нужно 125 000 камней). «Со временем» значит по мере накопления камней."
+            },
+            {
+              "text": {
+                "ru": "Extended Magazines даёт каждому навыку 10% шанс добавить один стак Ammunition; цель - 20 стаков.",
+                "en": "Extended Magazines gives each skill a 10% chance to add one Ammunition stack; the target is 20 stacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 10% шанс получить 1 стак Ammunition при касте навыка; при 20 стаках навык получает +5 зарядов мультикаста."
+            },
+            {
+              "text": {
+                "ru": "Synchrony повышает урон за счёт общих типов навыков.",
+                "en": "Synchrony raises damage through shared skill types."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (старее 1.5d): +0,7% за общий тип, максимум 20%. Выжимка 1.5d: +1,5%, максимум 30%. Для 1.5d верить выжимке."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "houndmaster-poison",
+          "name": {
+            "ru": "Яд",
+            "en": "Poison"
+          },
+          "weapon_id": "ToxinCannon",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Poison",
+            "Ammunition",
+            "Weakness",
+            "Skill Chain"
+          ],
+          "skills": [
+            {
+              "id": "PesticideBurst",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Не бьёт напрямую, но вешает огромное число стаков Poison в области.",
+                "en": "No direct damage but applies a huge number of Poison stacks in an area."
+              }
+            },
+            {
+              "id": "ThreshingBlast",
+              "role": "damage",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Урон растёт от Poison на цели, долгий кулдаун, копит Ammunition.",
+                "en": "Damage scales with target Poison, long cooldown, stacks Ammunition."
+              }
+            },
+            {
+              "id": "Corrosion",
+              "role": "core",
+              "obtained": "rune",
+              "note": {
+                "ru": "Копит Poison в области и взрывается по числу стаков.",
+                "en": "Stacks Poison in an area and detonates based on stacks."
+              }
+            },
+            {
+              "id": "PutridHounds",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Призыв, урон растёт от Poison на цели.",
+                "en": "Summon whose damage scales with target Poison."
+              }
+            },
+            {
+              "id": "Pestilence",
+              "role": "damage",
+              "note": {
+                "ru": "Вешает Poison и масштабируется от его стаков.",
+                "en": "Applies Poison and scales with its stacks."
+              }
+            },
+            {
+              "id": "FesteringStrike",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Низкий кулдаун, Poison и немного Weakness.",
+                "en": "Low cooldown, Poison and a bit of Weakness."
+              }
+            },
+            {
+              "id": "Contagion",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Бьёт по стакам Poison и снимает их, но стаки набираются быстро.",
+                "en": "Hits for Poison stacks then removes them, but stacks refill quickly."
+              }
+            },
+            {
+              "id": "ChromaticBolt",
+              "role": "optional",
+              "note": {
+                "ru": "Для экспериментов: цепочки Skill Chain с разными типами навыков.",
+                "en": "For experiments: Skill Chains with various skill types."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "Venomous",
+              "priority": "must"
+            },
+            {
+              "power_id": "InfectedWounds",
+              "priority": "high"
+            },
+            {
+              "power_id": "DeathandDecay",
+              "priority": "high"
+            },
+            {
+              "power_id": "Corrosive",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "must"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "situational",
+              "note": {
+                "ru": "Желательно для типа Nature.",
+                "en": "Preferably for the Nature type."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "Synchrony"
+              },
+              {
+                "id": "LordsBane"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Nature"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Залить экран Poison и добивать скалирующимися от стаков навыками. Гончие у персонажа сильные, поэтому часть пассивок при левел-апе можно отдать им.",
+            "en": "Flood the screen with Poison and finish with skills that scale on stacks. The hounds are strong, so some level-up passives can go to them."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Venomous даёт навыкам пассивный шанс наложить Poison.",
+                "en": "Venomous gives skills a passive chance to apply Poison."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: все атаки могут наложить Poison, шанс 25%; нужен хотя бы 1 источник Poison."
+            },
+            {
+              "text": {
+                "ru": "Infected Wounds накладывает Poison при критах.",
+                "en": "Infected Wounds applies Poison on critical hits."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: криты могут наложить Poison, шанс 50%; нужно 2 источника Poison."
+            },
+            {
+              "text": {
+                "ru": "Death and Decay повышает частоту тиков Poison.",
+                "en": "Death and Decay raises Poison tick rate."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Poison тикает чаще, Frequency +30% (Rare)."
+            },
+            {
+              "text": {
+                "ru": "Elemental Flow ускоряет тики Poison.",
+                "en": "Elemental Flow increases the Poison tick rate."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (старее 1.5d): эффекты тикают на 100% чаще, как в гайде. Выжимка 1.5d: руна переделана, урон эффекта приходит сразу при наложении. Для 1.5d верить выжимке; руна, вероятно, всё ещё полезна, но по другой причине."
+            },
+            {
+              "text": {
+                "ru": "Threshing Blast масштабируется от стаков Poison и копит Ammunition.",
+                "en": "Threshing Blast scales with Poison stacks and builds Ammunition."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: базовый урон 360 + 40 за стак Poison, даёт 2 стака Ammunition."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "houndmaster-poison-legacy",
+          "name": {
+            "ru": "Яд (старый, 1.2)",
+            "en": "Poison (legacy, 1.2)"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Poison"
+          ],
+          "skills": [
+            {
+              "id": "Pestilence",
+              "role": "core",
+              "note": {
+                "ru": "Авторы называют его сильнейшим при постоянном Poison.",
+                "en": "Authors call it the key skill with constant Poison."
+              }
+            },
+            {
+              "id": "AcidRain",
+              "role": "support"
+            },
+            {
+              "id": "PesticideBurst",
+              "role": "support"
+            },
+            {
+              "id": "PoisonPuddle",
+              "role": "support"
+            },
+            {
+              "id": "ThreshingBlast",
+              "role": "damage"
+            },
+            {
+              "id": "PoisonCloud",
+              "role": "optional",
+              "note": {
+                "ru": "Авторы позже советуют заменить его на Poison Bolt.",
+                "en": "The authors later suggest swapping it for Poison Bolt."
+              }
+            },
+            {
+              "id": "PoisonBolt",
+              "role": "optional",
+              "note": {
+                "ru": "Замена для Poison Cloud: по словам авторов, «может показать себя лучше» (по вики 5 снарядов, Poison 440, кулдаун 3,5 с).",
+                "en": "Replacement for Poison Cloud: per the authors it 'may perform better' (wiki: 5 projectiles, 440 Poison, 3.5 s cooldown)."
+              }
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Executioner"
+              },
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "MisfortunesEmbrace"
+              },
+              {
+                "id": "Decapitator"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Забить экран постоянным Poison. Банить элементальные пассивки на Bleed, Fire и Doom, чтобы набирать максимум пассивок на Poison.",
+            "en": "Flood the screen with constant Poison. Ban elemental passives that apply Bleed, Fire and Doom to collect as many Poison passives as possible."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Pestilence очень силён при постоянном Poison на экране.",
+                "en": "Pestilence is extremely strong with constant Poison on screen."
+              },
+              "status": "unverified",
+              "detail": "Наблюдение авторов для 1.2. Вики: урон 410 + 25 за стак Poison, 5 прыжков; механика масштабирования от стаков подтверждается."
+            }
+          ],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Poison)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Poison корректно масштабируется от модификаторов урона; яд-билды стали заметно сильнее.",
+                "en": "Since 1.4 Poison scales properly with damage modifiers; Poison builds got noticeably stronger."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Совет банить пассивки Bleed, Fire и Doom ради чистого Poison совпадает с метой 1.5d.",
+                "en": "Banning Bleed, Fire and Doom passives for pure Poison matches the 1.5d meta."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "Руна переделана: урон эффекта приходит сразу при наложении, а не через ускоренные тики. Ценность для билда надо проверить в игре.",
+                "en": "The rune was reworked: effect damage lands instantly on application instead of via faster ticks. Its value for the build needs in-game testing."
+              }
+            },
+            {
+              "mechanic": "Misfortune's Embrace",
+              "impact": "weakened",
+              "note": {
+                "ru": "20% шанс случайно наложить Burn, Bleed, Poison или Doom: три из четырёх эффектов идут против специализации на Poison и против совета самих авторов банить чужие ailment-пассивки.",
+                "en": "20% chance to apply a random Burn, Bleed, Poison or Doom: three of four effects work against Poison specialization and against the authors' own advice to ban other ailment passives."
+              }
+            },
+            {
+              "mechanic": "Executioner",
+              "impact": "unknown",
+              "note": {
+                "ru": "Выжимка называет Executioner среди источников, от которых DoT теперь получает выгоду, но руна растёт от числа разных негативных эффектов (4% за тип, максимум 20%), а билд чистый Poison: бонус держится только за счёт Misfortune's Embrace.",
+                "en": "The digest lists Executioner among sources DoT now benefits from, but the rune scales with distinct negative effects (4% each, max 20%) while the build is pure Poison: the bonus relies on Misfortune's Embrace."
+              }
+            },
+            {
+              "mechanic": "Decapitator",
+              "impact": "unknown",
+              "note": {
+                "ru": "По вики срабатывает только от прямого урона (10% шанс ниже 40% здоровья, у Лордов порог 10%); тики Poison его не вызывают, работают Pestilence и Threshing Blast. Изменений в выжимке нет.",
+                "en": "Per the wiki it triggers only on direct damage (10% chance below 40% health, 10% threshold for Lords); Poison ticks don't trigger it, Pestilence and Threshing Blast do. No change in the digest."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "В 1.2 не учтены. К 1.5d добавились Titan Powers (Faydum, Aynixle, Hecthoor, Underson), их влияние на билд неизвестно.",
+                "en": "Not considered in 1.2. By 1.5d Titan Powers were added (Faydum, Aynixle, Hecthoor, Underson); their effect on the build is unknown."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд для версии 1.2: опора на Elemental Flow как ускоритель тиков и на Misfortune's Embrace устарела. Актуальный гайд содержит Poison-билд на том же Toxin Cannon с Pestilence, Pesticide Burst и Threshing Blast плюс навыки Skill Mastery: Nature и пассивки на Poison; лучше ориентироваться на него.",
+        "en": "Written for 1.2: relying on Elemental Flow as a tick accelerator and on Misfortune's Embrace is outdated. The current guide has a Poison build on the same Toxin Cannon with Pestilence, Pesticide Burst and Threshing Blast plus Skill Mastery: Nature skills and Poison passives; prefer it."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Пассивки наложения Bleed, Burn и Doom",
+        "builds": [
+          "houndmaster-poison-legacy"
+        ],
+        "reason": {
+          "ru": "Из гайда (Steam 1.2): банить элементальные пассивки на Bleed, Fire и Doom, чтобы чаще выпадали пассивки на Poison.",
+          "en": "From the guide (Steam 1.2): ban elemental passives that apply Bleed, Fire and Doom so Poison passives show up more often."
+        }
+      },
+      {
+        "target": "Пассивки наложения Bleed, Burn и Doom (BloodShed и аналоги)",
+        "builds": [
+          "houndmaster-poison"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: актуальный Poison-билд специализирован на одном ailment, тот же совет из старого гайда и мета 1.5d это поддерживают.",
+          "en": "Inference, not from the source: the current Poison build specializes in one ailment; the old guide's advice and the 1.5d meta support this."
+        }
+      },
+      {
+        "target": "Пассивки наложения Burn и Doom",
+        "builds": [
+          "houndmaster-bleed",
+          "houndmaster-blast"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билды строятся на Bleed (Shrapnel Bomb, Bloodshed, Laceration). Poison не банить: гайд ценит Poisonous Blood.",
+          "en": "Inference, not from the source: the builds revolve around Bleed (Shrapnel Bomb, Bloodshed, Laceration). Do not ban Poison: the guide values Poisonous Blood."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Bleed и Blast: первым Bloodshed (Bleed на каждый удар), затем Laceration; в Bleed-билде также Brutal Strikes и Dismemberment.",
+        "en": "Bleed and Blast: Bloodshed first (Bleed on every hit), then Laceration; in the Bleed build also Brutal Strikes and Dismemberment."
+      },
+      {
+        "ru": "Poison: первым Venomous, затем Infected Wounds, Death and Decay и Corrosive.",
+        "en": "Poison: Venomous first, then Infected Wounds, Death and Decay and Corrosive."
+      },
+      {
+        "ru": "Во всех билдах: несколько Magnetic и скорость передвижения: персонаж хрупкий и медленный.",
+        "en": "All builds: a few Magnetic picks and movement speed: the character is fragile and slow."
+      },
+      {
+        "ru": "Дальше модификатор урона, шанс мультикаста (в Poison для типа Nature) и частота кастов; Skill Chain в Bleed-билде брать, если предложат.",
+        "en": "Then damage modifier, multi-cast chance (Nature-type in Poison) and cast frequency; take a Skill Chain in the Bleed build if offered."
+      },
+      {
+        "ru": "Против боссов: Shrapnel Bomb по стакам Bleed; в Blast Explosive Shot и Napalm Blast снижают броню Лордов через Shattered.",
+        "en": "Against bosses: Shrapnel Bomb on Bleed stacks; in Blast, Explosive Shot and Napalm Blast lower Lord armor via Shattered."
+      },
+      {
+        "ru": "Гончие сильные: часть выборов можно отдать им (Hound's Feast); в долгих забегах добавить броню и здоровье.",
+        "en": "The hounds are strong: some picks can go to them (Hound's Feast); in long runs add armor and health."
+      }
+    ],
+    "basis": {
+      "ru": "Составлено по гайду cubiccreativity (1.5d), Steam-гайду (1.2) и выжимке меты; числа сверены с вики. Из гайда только один бан (Steam); остальные баны выведены из специализации билдов. Правила левел-апа взяты из текста cubic-гайда.",
+      "en": "Compiled from the cubiccreativity guide (1.5d), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. Only one ban comes from a guide (Steam); the rest are inferred from build specialization. Level-up rules come from the cubic guide text."
+    }
+  },
+  "gaps": [
+    "Steam-гайд называет оружие «Toxic Cannon», а на вики Toxin Cannon (ToxinCannon): название не совпадает, поэтому weapon_id = null; по навыкам (Pesticide Burst, Threshing Blast) это почти наверняка Toxin Cannon.",
+    "Руны Tenacity/Versatility в Steam-гайде не разделены: все четыре положены в tenacity, versatility пуст. Пассивок в Steam-разделе нет.",
+    "Vulnerable Target: в гайде +50% шанса крита, на вики +25%; проверить в игре.",
+    "Пассивки «Bleed при крите» и «Poison при наложении Bleed» в гайде названы описанием; сопоставлены с Brutal Strikes и Poisonous Blood по описанию на вики.",
+    "Hound's Feast есть в файлах игры, но на вики нет описания и чисел.",
+    "В cubic-гайде нет билда под Dragonfire Scattergun и Vulcan's Howl; Steam-авторы пробовали Aptitude на Dragonfire Scattergun без успеха.",
+    "В cubic-гайде пассивки и приоритеты сформулированы по тону, чёткого порядка нет. Билд Blast автор называет общим советом, а не законченным билдом.",
+    "Extended Magazine в гайде = Extended Magazines (ExtendedMagazines); Magnetism = Magnetic.",
+    "Модуль рун на вики старее 1.5d (Synchrony, Elemental Flow): для 1.5d верить выжимке."
+  ]
+}

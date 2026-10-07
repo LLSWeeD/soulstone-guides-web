@@ -1,0 +1,242 @@
+{
+  "schema_version": "0.2",
+  "character_id": "DemonHunter",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Стрелок с арбалетом (Ranged), типы навыков Chaos, Shadow, Projectile, Bomb, Blast. Бонусы: +15% урона и +10% частоты каста ценой -10 здоровья и -5% области. Открывается ритуалом ненависти (Ritual of Hate) в Unholy Cathedral. Единственный гайд (старый, 1.2) строит игру вокруг Bloodbane Crossbow и дебаффов Disarray и Fragility, заваливая экран стрелами.",
+    "en": "Ranged crossbow user with Chaos, Shadow, Projectile, Bomb and Blast skill types. Bonuses: +15% damage and +10% cast frequency at -10 health and -5% area. Unlocked via the Ritual of Hate in the Unholy Cathedral. The only guide (old, 1.2) builds around the Bloodbane Crossbow and the Disarray and Fragility debuffs, flooding the screen with arrows."
+  },
+  "guides": [
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "demonhunter-bloodbane-legacy",
+          "name": {
+            "ru": "Bloodbane: стрелы и Disarray (старый)",
+            "en": "Bloodbane arrows and Disarray (legacy)"
+          },
+          "weapon_id": "BloodbaneCrossbow",
+          "archetypes": [
+            "stack",
+            "other"
+          ],
+          "core_mechanics": [
+            "Disarray",
+            "Fragility"
+          ],
+          "skills": [
+            {
+              "id": "DemonicBreath",
+              "role": "damage",
+              "note": {
+                "ru": "Главный урон билда, оставляет лужи с Disarray; брать как можно раньше.",
+                "en": "Highest damage skill, leaves Disarray pools; take it as early as possible."
+              }
+            },
+            {
+              "id": "TwinImpact",
+              "role": "support",
+              "note": {
+                "ru": "Накладывает Fragility.",
+                "en": "Applies Fragility."
+              }
+            },
+            {
+              "id": "UncontrolledArrows",
+              "role": "damage",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Один из лучших навыков по урону.",
+                "en": "One of the top damage skills."
+              }
+            },
+            {
+              "id": "MadnessShot",
+              "role": "damage",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Один из лучших навыков по урону.",
+                "en": "One of the top damage skills."
+              }
+            },
+            {
+              "id": "WeakeningShot",
+              "role": "support"
+            },
+            {
+              "id": "ExplosiveShot",
+              "role": "support"
+            },
+            {
+              "id": "StormofArrows",
+              "role": "optional",
+              "note": {
+                "ru": "В тестах дал меньше урона, чем ожидали, но подходит для эффекта потока стрел.",
+                "en": "Tested with less DPS than hoped, but fits the arrow-flood fantasy."
+              }
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "OverwhelmingChaos"
+              },
+              {
+                "id": "ControlledChaos"
+              },
+              {
+                "id": "ExtendedReach"
+              },
+              {
+                "id": "DivineLegacy"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Завалить экран стрелами Bloodbane Crossbow и лужами Demonic Breath, держа на врагах Disarray и Fragility. Из трёх уникальных навыков берутся два (Twin Impact и Demonic Breath).",
+            "en": "Flood the screen with Bloodbane Crossbow arrows and Demonic Breath pools while keeping Disarray and Fragility on enemies. Two of the three unique skills are used (Twin Impact and Demonic Breath)."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Demonic Breath — самый сильный по урону навык билда и оставляет лужи с Disarray.",
+                "en": "Demonic Breath is the build's highest damage skill and leaves Disarray pools."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: урон 1 ↔ 2500 (случайный, тип Chaos), оглушение 2 с, лужа с Disarray, кулдаун 4 с. Это самый высокий потолок урона среди навыков билда (у Uncontrolled Arrows 1 ↔ 310, у Madness Shot 1 ↔ 420)."
+            },
+            {
+              "text": {
+                "ru": "Twin Impact накладывает Fragility.",
+                "en": "Twin Impact applies Fragility."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: две стрелы, урон 700, лужа с Fragility (+2% урона), даёт Aptitude (+16% крит. урона), кулдаун 4 с. Fragility по вики: +1% получаемого урона за стак, 10 с на стак."
+            },
+            {
+              "text": {
+                "ru": "Uncontrolled Arrows и Madness Shot — одни из самых сильных навыков по урону.",
+                "en": "Uncontrolled Arrows and Madness Shot are among the top damage skills."
+              },
+              "status": "unverified",
+              "detail": "Наблюдение авторов под 1.2. Вики: оба навыка Chaos со случайным уроном (1 ↔ 310, две отскакивающие стрелы, кулдаун 1,5 с; 1 ↔ 420, взрыв врагов с Disarray, кулдаун 3 с) и накладывают Disarray; реальный DPS по данным не посчитать."
+            },
+            {
+              "text": {
+                "ru": "Storm of Arrows в тестах дал меньше DPS, чем ожидалось.",
+                "en": "Storm of Arrows tested with less DPS than hoped."
+              },
+              "status": "unverified",
+              "detail": "Наблюдение авторов. Вики: 50 снарядов по 120 урона, кулдаун 8,5 с; Disarray и Fragility сам не накладывает."
+            }
+          ],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "Disarray/Fragility как универсальные дебаффы",
+              "impact": "unknown",
+              "note": {
+                "ru": "Выжимка называет «старый Chaos/debuff-universal подход» среди изменившихся, но без подробностей. Сами дебаффы по вики работают так же (Disarray: случайно -0,5% ↔ +2,5% за стак; Fragility: +1% за стак), а stack-архетип в 1.5d в целом сильнее.",
+                "en": "The digest lists the 'old Chaos/debuff-universal approach' among changed things without details. Per the wiki the debuffs themselves work the same (Disarray: random -0.5% to +2.5% per stack; Fragility: +1% per stack), and the stack archetype is stronger overall in 1.5d."
+              }
+            },
+            {
+              "mechanic": "Linear -> exponential scaling (1.3)",
+              "impact": "unknown",
+              "note": {
+                "ru": "В 1.3 у части навыков сменилась формула роста; затронуты ли навыки этого билда, по источникам не видно.",
+                "en": "In 1.3 some skills switched to exponential scaling; the sources do not say whether this build's skills were affected."
+              }
+            },
+            {
+              "mechanic": "Overwhelming Chaos + Controlled Chaos",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Выжимка изменений не называет. По вики Overwhelming Chaos не трогает навыки, у которых урон уже случайный (все Chaos-навыки билда), а действует на Twin Impact, Weakening Shot и Explosive Shot; Controlled Chaos бросает случайный урон дважды и берёт лучший — это касается всех шести навыков.",
+                "en": "Not mentioned in the digest. Per the wiki Overwhelming Chaos skips skills that already have random damage (all Chaos skills here) and affects Twin Impact, Weakening Shot and Explosive Shot; Controlled Chaos rolls random damage twice and keeps the best, covering all six skills."
+              }
+            },
+            {
+              "mechanic": "Synchrony (Skill Types)",
+              "impact": "unknown",
+              "note": {
+                "ru": "В билде нет Synchrony, но у навыков много общих типов (все Frontal и Physical, три Chaos). В 1.5d руна усилена до +1,5% за тип (максимум 30%): возможная замена, гайд её не рассматривал.",
+                "en": "The build has no Synchrony, but its skills share many types (all Frontal and Physical, three Chaos). In 1.5d the rune is buffed to +1.5% per type (max 30%): a possible swap the guide did not consider."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учитывались в 1.2. Легендарного оружия (R5) у Demon Hunter на вики нет; Titan Powers (Faydum, Aynixle, Hecthoor, Underson) гайд не знает.",
+                "en": "Not considered in 1.2. The wiki lists no legendary (R5) weapon for Demon Hunter; the guide predates Titan Powers (Faydum, Aynixle, Hecthoor, Underson)."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2, актуальной замены нет. Набор навыков и рун по вики работает так же, но билд не учитывает Titan Powers, новые Skill Type-синергии (Synchrony) и изменения формул 1.3; пассивки и руны Versatility не названы. Использовать как отправную точку, а не готовый билд.",
+        "en": "Written for 1.2, no current replacement exists. Per the wiki the skills and runes still work the same, but the build ignores Titan Powers, the newer Skill Type synergies (Synchrony) and the 1.3 formula changes; passives and Versatility runes are not named. Use it as a starting point, not a finished build."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "StormofArrows",
+        "builds": [
+          "demonhunter-bloodbane-legacy"
+        ],
+        "reason": {
+          "ru": "Из гайда (косвенно): в тестах авторов уступил по DPS. Банить, если не нужен сам эффект потока стрел.",
+          "en": "From the guide (indirectly): it lost on DPS in the authors' tests. Ban it unless you want the arrow-flood effect."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Demonic Breath брать как можно раньше: главный урон и лужи с Disarray (из гайда).",
+        "en": "Take Demonic Breath as early as possible: main damage and Disarray pools (from the guide)."
+      },
+      {
+        "ru": "Twin Impact брать ради Fragility; Chaotic Surge гайд не использует (из гайда).",
+        "en": "Take Twin Impact for Fragility; the guide skips Chaotic Surge (from the guide)."
+      },
+      {
+        "ru": "Uncontrolled Arrows и Madness Shot приходят с Bloodbane Crossbow — усиливать их как основной урон (из гайда).",
+        "en": "Uncontrolled Arrows and Madness Shot come with the Bloodbane Crossbow; upgrade them as core damage (from the guide)."
+      },
+      {
+        "ru": "Пассивки, расширяющие Disarray и Fragility на все атаки (Horrific Presence, Mind Fracture, Havoc для критов), брать охотно (вывод по вики, гайд пассивки не называет).",
+        "en": "Take passives that spread Disarray and Fragility to all attacks (Horrific Presence, Mind Fracture, Havoc for crits) (inference from the wiki; the guide names no passives)."
+      }
+    ],
+    "basis": {
+      "ru": "Единственный источник — раздел старого Steam-гайда (1.2) с одним билдом без пассивок и банов. Правила о навыках взяты из гайда; бан Storm of Arrows — прямое следствие теста авторов. Совет по пассивкам — вывод по данным вики (навыки, механики Disarray и Fragility) и выжимке меты 1.5d. Других банов не предложено: пассивки на Disarray/Fragility с условием (например, Hypothermia требует 2 источника Slow) и так не выпадут.",
+      "en": "The only source is an old Steam guide section (1.2) with one build and no passives or bans. Skill rules come from the guide; the Storm of Arrows ban follows the authors' test. The passive advice is an inference from wiki data (skills, Disarray and Fragility mechanics) and the 1.5d meta digest. No other bans are suggested: conditional Disarray/Fragility passives (e.g. Hypothermia needs 2 Slow sources) will not be offered anyway."
+    }
+  },
+  "gaps": [
+    "Нет актуального гайда (1.5d) на Demon Hunter: есть только старый раздел Steam-гайда (патч 1.2) с одним билдом.",
+    "Пассивки и баны в старом гайде не названы; советы по ним в derived — выводы по вики.",
+    "Руны Versatility в старом гайде не названы; 4 руны положены в tenacity (по вики все четыре из секции Tenacity).",
+    "Нет легендарного оружия R5 на вики.",
+    "Гайд не называет билдов под Hellfire Cannon, Demonic Launcher и Bonereaper.",
+    "Demonic Breath и Twin Impact — уникальные навыки персонажа; в схеме нет подходящего значения obtained, поле не заполнено.",
+    "Chaotic Surge (третий уникальный навык: Disarray на все навыки, +35% крит. урона) гайд не берёт без объяснения; стоит проверить в игре.",
+    "Модуль рун на вики старее 1.5d."
+  ]
+}

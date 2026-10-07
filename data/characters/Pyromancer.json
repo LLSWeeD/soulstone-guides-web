@@ -1,0 +1,868 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Pyromancer",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Хрупкая магичка-стекляшка: -20 здоровья и -15 брони, зато +20% крит. урона, +20% урона и +20% области. Типы навыков: Arcane, Chaos, Fire, Electric, Shadow. Пассивка Wrathful Focus копит концентрацию, пока по ней не попадают. Играет через огонь и Burn или через крит-билды на Dazed и Doom, а выживает за счёт скорости и убийства врагов раньше, чем они дойдут.",
+    "en": "A fragile glass-cannon mage: -20 health and -15 armor, but +20% crit damage, +20% damage and +20% area. Skill types: Arcane, Chaos, Fire, Electric, Shadow. Her Wrathful Focus passive builds concentration while she avoids hits. Plays through fire and Burn or crit builds around Dazed and Doom, surviving by speed and killing enemies before they arrive."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-pyromancer",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2023/05/22/soulstone-survivors-guide-the-pyromancer/",
+      "title": "Soulstone Survivors Guide: The Pyromancer",
+      "game_version": "1.5d",
+      "updated": "2026-06-19",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "pyromancer-fire",
+          "name": {
+            "ru": "Огонь (Burn)",
+            "en": "Fire (Burn)"
+          },
+          "weapon_id": "PyromancersFirestarter",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Burn",
+            "Arcane Power",
+            "Multi Cast Chance"
+          ],
+          "skills": [
+            {
+              "id": "FireSlash",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык: бонус к скорости и низкий кулдаун для стаков Burn.",
+                "en": "Starting skill: speed bonus and low cooldown for Burn stacks."
+              }
+            },
+            {
+              "id": "Firestorm",
+              "role": "core",
+              "obtained": "rune",
+              "note": {
+                "ru": "Большая зона с Burn, центр билда.",
+                "en": "Large Burn area, centerpiece of the build."
+              }
+            },
+            {
+              "id": "MeteorShower",
+              "role": "damage",
+              "note": {
+                "ru": "Урон растёт от стаков Burn, скорее удачные попадания.",
+                "en": "Damage scales with Burn stacks, more of a lucky hit."
+              }
+            },
+            {
+              "id": "FieryBlades",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Урон от Burn, активнее добивает врагов.",
+                "en": "Burn-scaled damage, more proactive at killing."
+              }
+            },
+            {
+              "id": "FireWall",
+              "role": "support",
+              "note": {
+                "ru": "Спорный выбор: большие зоны, постоянно копят Burn.",
+                "en": "Debatable pick: big zones that keep stacking Burn."
+              }
+            },
+            {
+              "id": "Combustion",
+              "role": "support",
+              "note": {
+                "ru": "Урона не наносит, но каждые 0.5 с копит Burn.",
+                "en": "Deals no damage but adds Burn every 0.5s."
+              }
+            },
+            {
+              "id": "ArcanePower",
+              "role": "support",
+              "note": {
+                "ru": "Усиливает шанс мультикаста для шести навыков.",
+                "en": "Boosts multi-cast chance for the six skills."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "FieryAmplification",
+              "priority": "must"
+            },
+            {
+              "power_id": "SpontaneousCombustion",
+              "priority": "must"
+            },
+            {
+              "power_id": "IgnitionPoint",
+              "priority": "high"
+            },
+            {
+              "power_id": "Incinerate",
+              "priority": "high"
+            },
+            {
+              "power_id": "IntenseFire",
+              "priority": "medium"
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "situational",
+              "note": {
+                "ru": "Единственная защита: двигаться и уворачиваться.",
+                "en": "The only defense: keep moving and dodging."
+              }
+            },
+            {
+              "power_id": "SkillChain",
+              "variant": "Fire -> Swing",
+              "priority": "situational",
+              "note": {
+                "ru": "Если выпадет: чаще запускает Fiery Blades и Firestorm.",
+                "en": "If it drops: triggers Fiery Blades and Firestorm more often."
+              }
+            },
+            {
+              "power_id": "ThermalShock",
+              "priority": "situational",
+              "note": {
+                "ru": "Может навредить: тянет за собой лишние Slow-пассивки.",
+                "en": "Can hurt the build: pulls in unneeded Slow passives."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "AdaptiveEmpowerment"
+              },
+              {
+                "id": "SearingIntensity"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "Synchrony"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillMastery",
+                "variant": "Fire"
+              },
+              {
+                "id": "SkillAffinity",
+                "variant": "Fire"
+              },
+              {
+                "id": "RerollMastery"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Залить экран огнём: навыков много, все копят Burn, а Burn-пассивки множат урон. Прицел почти не важен, защита в постоянном движении.",
+            "en": "Drench the screen in fire: many skills all stacking Burn, with Burn passives multiplying damage. Aim barely matters, defense is constant movement."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Adaptive Empowerment даёт Arcane Power на 60% больше эффективности.",
+                "en": "Adaptive Empowerment makes Arcane Power 60% more potent."
+              },
+              "status": "unverified",
+              "detail": "Вики: +10% урона навыкам без типа Fire за каждый Fire-навык; при шести Fire-навыках билда это ровно 60%. Но на вики речь об уроне, а Arcane Power урона не наносит: усиливает ли руна сам баф мультикаста, проверить нечем."
+            },
+            {
+              "text": {
+                "ru": "Searing Intensity даёт +25% урона по врагам с большим числом стаков Burn.",
+                "en": "Searing Intensity gives +25% damage against targets with many Burn stacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,5% ко всему урону за стак Burn или Shattered на цели, максимум 25%."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory открывает седьмой слот навыка ценой -15% урона.",
+                "en": "Improved Repertory opens a seventh skill slot at the cost of -15% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Combustion накладывает Burn каждые 0.5 секунды.",
+                "en": "Combustion applies Burn every 0.5 seconds."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: аура накладывает Burn каждые 0,5 с, Burn 375 общего урона, длительность 6 с, кулдаун 7 с."
+            },
+            {
+              "text": {
+                "ru": "Synchrony оправдана множеством общих типов у Fire-навыков.",
+                "en": "Synchrony pays off thanks to many shared types among Fire skills."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (модуль рун, старее 1.5d): +0,7% за общий тип, максимум 20%. Выжимка 1.5d: +1,5%, максимум 30%. Для 1.5d верить выжимке: руна стала сильнее, выбор автора тем более оправдан."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "pyromancer-electric",
+          "name": {
+            "ru": "Электричество (Dazed и крит)",
+            "en": "Electric (Dazed and crit)"
+          },
+          "weapon_id": "Stormcaller",
+          "archetypes": [
+            "multiplier",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Dazed",
+            "Critical Chance",
+            "Critical Damage",
+            "Electrified",
+            "Burn"
+          ],
+          "skills": [
+            {
+              "id": "LightningField",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Хорошая область и Dazed, удобный старт.",
+                "en": "Good area and Dazed, a solid start."
+              }
+            },
+            {
+              "id": "OverchargedBlast",
+              "role": "damage",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Урон растёт от стаков Dazed (берётся с Weapon Expert).",
+                "en": "Damage scales with Dazed stacks (taken via Weapon Expert)."
+              }
+            },
+            {
+              "id": "PowerConductor",
+              "role": "support",
+              "note": {
+                "ru": "Турели у места появления Lords of the Void копят Dazed.",
+                "en": "Turrets at the Lords of the Void spawn area stack Dazed."
+              }
+            },
+            {
+              "id": "ThunderingSlash",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Быстрая версия Overcharged Blast, +30 урона за стак Dazed.",
+                "en": "Faster Overcharged Blast, +30 damage per Dazed stack."
+              }
+            },
+            {
+              "id": "ElectricStrike",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Урон зависит от шанса крита.",
+                "en": "Damage scales with critical chance."
+              }
+            },
+            {
+              "id": "LightningSurge",
+              "role": "support",
+              "note": {
+                "ru": "Скорость движения и Dazed от всех навыков.",
+                "en": "Movement speed and Dazed on all skills."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Critical Chance",
+              "priority": "must",
+              "note": {
+                "ru": "Набирать до 100% базового шанса.",
+                "en": "Stack up to a natural 100%."
+              }
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "must"
+            },
+            {
+              "power_id": "ThermalShock",
+              "priority": "situational",
+              "note": {
+                "ru": "Burn-пассивки как запасной вариант; синергия даёт шанс Slow.",
+                "en": "Burn passives as a fallback; the synergy adds a Slow chance."
+              }
+            },
+            {
+              "power_id": "Incinerate",
+              "priority": "situational",
+              "note": {
+                "ru": "Из Burn-пассивок, когда брать нечего: часть урона Burn приходит сразу, помогает против Lords of the Void.",
+                "en": "Among the filler Burn passives: part of Burn damage lands instantly, helps against Lords of the Void."
+              }
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "situational",
+              "note": {
+                "ru": "Редкие апгрейды здоровья и брони брать для выживания.",
+                "en": "Take rare health/armor upgrades for survivability."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "CriticalMastery"
+              },
+              {
+                "id": "VulnerableTarget"
+              },
+              {
+                "id": "MercilessPrecision"
+              },
+              {
+                "id": "HealingFlow"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Electric"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Копить Dazed на врагах, чтобы криты были гарантированы. Портал Wrathful Focus лучше открывать, когда появились Lords of the Void, и вертеться вплотную к боссу, уворачиваясь.",
+            "en": "Stack Dazed on enemies to guarantee crits. Best to trigger the Wrathful Focus portal once the Lords of the Void have spawned, staying close to the boss while dodging."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Critical Mastery добавляет 25% шанса крита к крит. урону.",
+                "en": "Critical Mastery adds 25% of critical chance to critical damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита добавляется к множителю крит. урона, включая бонус от эффектов на врагах."
+            },
+            {
+              "text": {
+                "ru": "Vulnerable Target повышает шанс крита на 50%.",
+                "en": "Vulnerable Target raises critical chance by 50%."
+              },
+              "status": "verified",
+              "verified_by": "user",
+              "detail": "Проверено в игре (1.5d): Vulnerable Target даёт +50% шанса крита. На вики устаревшие +25%."
+            },
+            {
+              "text": {
+                "ru": "Merciless Precision даёт +100% шанса крита по целям с 30% здоровья или меньше.",
+                "en": "Merciless Precision gives +100% critical chance against targets at 30% health or less."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +100% шанса крита по врагам с менее чем 30% здоровья."
+            },
+            {
+              "text": {
+                "ru": "Thundering Slash наносит 30 дополнительного урона за каждый стак Dazed.",
+                "en": "Thundering Slash deals 30 extra damage per Dazed stack."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Thundering Slash 300 урона +30 за стак Dazed, кулдаун 1,8 с, 1 стак Electrified. Overcharged Blast: 500 +30 за стак, кулдаун 4 с, 2 стака Electrified (как и пишет гайд)."
+            },
+            {
+              "text": {
+                "ru": "Draconic Flame от Wrathful Focus бьёт каждые 0,2 с и накладывает Dazed.",
+                "en": "Draconic Flame from Wrathful Focus fires every 0.2 s and applies Dazed."
+              },
+              "status": "unverified",
+              "detail": "Навыка Draconic Flame нет в справочнике (искал разные написания), Wrathful Focus есть только в файлах игры без описания. Dazed идёт от Lightning Surge."
+            },
+            {
+              "text": {
+                "ru": "Lightning Surge даёт скорость движения и Dazed всем навыкам.",
+                "en": "Lightning Surge gives movement speed and Dazed to all skills."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +45% скорости движения и Dazed (4% шанса крита) на все остальные навыки на 10 с, кулдаун 17 с."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "pyromancer-doom",
+          "name": {
+            "ru": "Тень (Doom и крит)",
+            "en": "Shadow (Doom and crit)"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "multiplier",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Doom",
+            "Aptitude",
+            "Disoriented",
+            "Dazed",
+            "Critical Chance"
+          ],
+          "skills": [
+            {
+              "id": "DarkSwarm",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Хорошая зачистка, слабые Doom и Disoriented, попадает много раз.",
+                "en": "Good clear, weak Doom and Disoriented, hits repeatedly."
+              }
+            },
+            {
+              "id": "GatheringShadows",
+              "role": "support",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Второй стартовый навык через Weapon Expert.",
+                "en": "Second starting skill via Weapon Expert."
+              }
+            },
+            {
+              "id": "ShadowGrasp",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Превращает стаки Doom в мгновенный урон, длинный кулдаун.",
+                "en": "Converts Doom stacks into instant damage, long cooldown."
+              }
+            },
+            {
+              "id": "ShadowStab",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Низкий кулдаун, Doom, область от Ambush и стаки Form.",
+                "en": "Low cooldown, Doom, Ambush area and Form stacks."
+              }
+            },
+            {
+              "id": "LightningSurge",
+              "role": "support",
+              "note": {
+                "ru": "Нужная скорость и Dazed для крит. урона.",
+                "en": "Needed movement speed and Dazed for crit damage."
+              }
+            },
+            {
+              "id": "ShadowBolt",
+              "role": "damage",
+              "note": {
+                "ru": "Медленный снаряд с Doom и около 16% Aptitude.",
+                "en": "Slow projectile with Doom and about 16% Aptitude."
+              }
+            },
+            {
+              "id": "ObscureArrow",
+              "role": "optional",
+              "obtained": "rune",
+              "note": {
+                "ru": "Быстрый вариант Shadow Bolt, отскакивает; слабее по Aptitude.",
+                "en": "Fast Shadow Bolt variant that bounces; weaker Aptitude."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Critical Chance",
+              "priority": "must",
+              "note": {
+                "ru": "Набирать до 100% базового шанса.",
+                "en": "Stack up to a natural 100%."
+              }
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "must"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high",
+              "note": {
+                "ru": "Ориентир 50-70% бонуса вместе с Lightning Surge.",
+                "en": "Aim for about 50-70% bonus, together with Lightning Surge."
+              }
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "situational",
+              "note": {
+                "ru": "Редкие апгрейды здоровья и брони.",
+                "en": "Rare health/armor upgrades."
+              }
+            },
+            {
+              "power_id": "SkillChain",
+              "variant": "Shadow -> Projectile",
+              "priority": "situational",
+              "note": {
+                "ru": "Может появиться благодаря Obscure Arrow.",
+                "en": "Can appear thanks to Obscure Arrow."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "CriticalMastery"
+              },
+              {
+                "id": "VulnerableTarget"
+              },
+              {
+                "id": "MercilessPrecision"
+              },
+              {
+                "id": "HealingFlow"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Shadow"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Автор называет билд запасным: Doom сам по себе слаб, поэтому ставка на крит-бонусы Shadow-навыков (Aptitude, Disoriented) и Dazed от Lightning Surge. Скорость нужна, чтобы уворачиваться.",
+            "en": "The author treats this as a fallback build: Doom alone is weak, so it relies on the crit bonuses of Shadow skills (Aptitude, Disoriented) and Dazed from Lightning Surge. Speed is needed for dodging."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Shadow Bolt даёт около 16% Aptitude.",
+                "en": "Shadow Bolt gives about 16% Aptitude."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Shadow Bolt даёт Aptitude 16% крит. урона; 8 снарядов, Doom 480, кулдаун 7 с. У Obscure Arrow Aptitude 4%."
+            },
+            {
+              "text": {
+                "ru": "Critical Mastery добавляет 50% шанса крита к крит. урону.",
+                "en": "Critical Mastery adds 50% of critical chance to critical damage."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита переносится в крит. урон. В Electric-билде тот же автор пишет 25%, здесь 50%: либо опечатка, либо руну меняли (модуль рун на вики старее 1.5d). Проверить в игре."
+            },
+            {
+              "text": {
+                "ru": "Vulnerable Target повышает шанс крита на 25%.",
+                "en": "Vulnerable Target raises critical chance by 25%."
+              },
+              "status": "conflict",
+              "verified_by": "user",
+              "detail": "В игре (1.5d) Vulnerable Target даёт +50% шанса крита (проверено пользователем); 25% — старое значение, как на вики. Гайд в этом месте устарел."
+            },
+            {
+              "text": {
+                "ru": "Целевой бонус скорости движения 50-70%.",
+                "en": "Target movement speed bonus of 50-70%."
+              },
+              "status": "unverified",
+              "detail": "Ориентир автора. Для справки: Lightning Surge сам даёт +45% скорости на 10 с (вики)."
+            },
+            {
+              "text": {
+                "ru": "Shadow Grasp превращает все стаки Doom в мгновенный урон, кулдаун долгий.",
+                "en": "Shadow Grasp turns all Doom stacks into instant damage, long cooldown."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 300 урона, стаки Doom в области наносят 200% урона мгновенно и снимаются; кулдаун 9 с."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "pyromancer-fire-legacy",
+          "name": {
+            "ru": "Огонь (старый, Steam)",
+            "en": "Fire (legacy, Steam)"
+          },
+          "weapon_id": "PyromancersFirestarter",
+          "archetypes": [
+            "stack"
+          ],
+          "core_mechanics": [
+            "Burn"
+          ],
+          "skills": [
+            {
+              "id": "FireSlash",
+              "role": "core",
+              "obtained": "weapon_primary"
+            },
+            {
+              "id": "MeteorShower",
+              "role": "damage"
+            },
+            {
+              "id": "Conflagrate",
+              "role": "damage"
+            },
+            {
+              "id": "Flamethrower",
+              "role": "damage"
+            },
+            {
+              "id": "Combustion",
+              "role": "support"
+            },
+            {
+              "id": "FireBolt",
+              "role": "support"
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Executioner"
+              },
+              {
+                "id": "MisfortunesEmbrace"
+              },
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "SearingIntensity"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Огненный билд на Pyromancer's Firestarter. Авторы советуют банить пассивки, дающие bleed, poison и doom, чтобы набирать больше огненных пассивок. Damnatus показался им нестабильным по урону.",
+            "en": "Fire build on Pyromancer's Firestarter. The authors advise banishing passives that apply bleed, poison and doom to collect more fire passives. They found Damnatus inconsistent in damage."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Elemental Flow: эффекты наносят урон на 100% чаще.",
+                "en": "Elemental Flow: effects deal damage 100% more often."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Гайд числа не даёт; вики (старее 1.5d): тики на 100% чаще. Выжимка 1.5d: руна переделана, урон эффекта приходит сразу при наложении. Для 1.5d верить выжимке."
+            },
+            {
+              "text": {
+                "ru": "Executioner: +4% урона за каждый разный тип эффекта на цели, максимум 20%.",
+                "en": "Executioner: +4% damage per different negative effect type, up to 20%."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 4% за тип эффекта, максимум 20%. В чисто огненном билде с банами Bleed/Poison/Doom бонус будет небольшим."
+            }
+          ],
+          "confidence": "medium",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Burn)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Burn нормально масштабируется от модификаторов урона, Searing Intensity и Executioner: огненный билд стал сильнее.",
+                "en": "Since 1.4 Burn scales properly with damage modifiers, Searing Intensity and Executioner: the fire build got stronger."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Совет банить пассивки Bleed, Poison и Doom ради одного Burn совпадает с метой 1.5d.",
+                "en": "Banning Bleed, Poison and Doom passives for pure Burn matches the 1.5d meta."
+              }
+            },
+            {
+              "mechanic": "Misfortune's Embrace",
+              "impact": "weakened",
+              "note": {
+                "ru": "Руна случайно вешает Burn, Bleed, Poison или Doom: три из четырёх эффектов чужие для огненной специализации и спорят с собственным советом гайда банить их.",
+                "en": "The rune randomly applies Burn, Bleed, Poison or Doom: three of four are off-specialization and contradict the guide's own banish advice."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "Переделан в 1.5d: урон эффекта приходит сразу при наложении. Для частых стаков Burn может быть и лучше, и хуже старого варианта; проверить в игре.",
+                "en": "Reworked in 1.5d: effect damage lands on application. For frequent Burn stacks it may be better or worse than before; check in game."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учитывались в 1.2. У Pyromancer есть оружие R5 Emberweaver, а Titan Powers (Faydum, Aynixle, Hecthoor, Underson) появились позже.",
+                "en": "Not considered in 1.2. Pyromancer has the R5 Emberweaver, and Titan Powers (Faydum, Aynixle, Hecthoor, Underson) came later."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2: только навыки и четыре руны, без пассивок. Elemental Flow с тех пор переделан, а Misfortune's Embrace разбавляет огненную специализацию чужими эффектами. Актуальный Fire-билд на том же Pyromancer's Firestarter (Firestorm, Fiery Blades, Burn-пассивки, Searing Intensity) предпочтительнее.",
+        "en": "Written for 1.2: skills and four runes only, no passives. Elemental Flow has since been reworked, and Misfortune's Embrace dilutes the fire specialization with other ailments. The current Fire build on the same Pyromancer's Firestarter (Firestorm, Fiery Blades, Burn passives, Searing Intensity) is preferable."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Bleed, Poison, Doom application passives",
+        "builds": [
+          "pyromancer-fire-legacy"
+        ],
+        "reason": {
+          "ru": "Из гайда (Steam 1.2): банить элементальные пассивки на Bleed, Poison и Doom, чтобы чаще выпадали огненные.",
+          "en": "From the guide (Steam 1.2): banish elemental passives applying Bleed, Poison and Doom to see more fire passives."
+        }
+      },
+      {
+        "target": "Bleed, Poison, Doom application passives",
+        "builds": [
+          "pyromancer-fire"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: актуальный Fire-билд держится на одном Burn, тот же совет из старого гайда подходит и ему.",
+          "en": "Inference, not from the source: the current Fire build is pure Burn, so the old guide's advice fits it too."
+        }
+      },
+      {
+        "target": "Slow passives",
+        "builds": [
+          "pyromancer-fire"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: автор пишет, что после Thermal Shock начинают лезть ненужные Slow-пассивки; бан не даст им забивать выбор.",
+          "en": "Inference, not from the source: the author notes Thermal Shock pulls in unneeded Slow passives; banishing keeps them out of the offers."
+        }
+      },
+      {
+        "target": "Bleed and Poison application passives",
+        "builds": [
+          "pyromancer-electric",
+          "pyromancer-doom"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: в крит-билдах запасной вариант автора Burn (и Doom в Shadow-билде), чужие ailment только разбавляют выбор.",
+          "en": "Inference, not from the source: in the crit builds the author's filler is Burn (and Doom in the Shadow build); other ailments only dilute the offers."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Fire: брать как можно больше Fiery Amplification и Spontaneous Combustion, затем Ignition Point, Incinerate и Intense Fire.",
+        "en": "Fire: take as many Fiery Amplification and Spontaneous Combustion as possible, then Ignition Point, Incinerate and Intense Fire."
+      },
+      {
+        "ru": "Fire: из статов предпочитать область и мультикаст обычному урону; защита это скорость движения.",
+        "en": "Fire: prefer area and multi-cast over plain damage; defense is movement speed."
+      },
+      {
+        "ru": "Electric и Doom: шанс крита до 100% базового, затем любой крит. урон независимо от редкости.",
+        "en": "Electric and Doom: crit chance up to a natural 100%, then any crit damage regardless of rarity."
+      },
+      {
+        "ru": "Electric и Doom: брать редкие апгрейды здоровья и брони; если брать нечего, Burn-пассивки (Incinerate полезен против боссов).",
+        "en": "Electric and Doom: take rare health/armor upgrades; when nothing fits, Burn passives (Incinerate helps against bosses)."
+      },
+      {
+        "ru": "Doom: скорость движения примерно до 50-70% вместе с Lightning Surge.",
+        "en": "Doom: movement speed to about 50-70% together with Lightning Surge."
+      },
+      {
+        "ru": "Electric: портал Wrathful Focus придерживать до появления Lords of the Void.",
+        "en": "Electric: hold the Wrathful Focus portal until the Lords of the Void spawn."
+      }
+    ],
+    "basis": {
+      "ru": "Правила повышения уровня взяты из текста гайда cubiccreativity (1.5d). Бан Bleed/Poison/Doom для старого огненного билда назван в Steam-гайде (1.2); остальные баны это выводы по специализации, сам актуальный гайд банов не называет. Числа сверены с вики, руны с учётом выжимки 1.5d.",
+      "en": "Level-up rules come from the cubiccreativity guide text (1.5d). The Bleed/Poison/Doom ban for the old fire build is named in the Steam guide (1.2); other bans are inferences from specialization, the current guide names no bans. Numbers checked against the wiki, runes against the 1.5d digest."
+    }
+  },
+  "gaps": [
+    "Навык Draconic Flame (дополнительный навык от портала Wrathful Focus, Electric-билд) не найден в справочнике ни под каким написанием (Draconic, Dragon, Flame); Wrathful Focus есть только в файлах игры без описания и чисел. В билд не включён.",
+    "Оружие Doom-билда гайд не называет. Weapon Expert даёт Gathering Shadows, а это навык Damnatus, Spire of Shadows, поэтому вероятно Damnatus; weapon_id оставлен null, obtained у Dark Swarm и Gathering Shadows выведен из этого же.",
+    "Adaptive Empowerment по вики усиливает урон не-Fire навыков (+10% за Fire-навык); автор считает, что Arcane Power от этого становится на 60% сильнее. Влияет ли руна на баф мультикаста, проверить в игре.",
+    "Автор противоречит себе в числах крит-рун: Critical Mastery 25% и 50%, Vulnerable Target 50% и 25%. По вики обе руны 25%.",
+    "Приоритеты пассивок в гайдах не расписаны чётко: priority в билдах Electric и Doom это оценка по тону гайда; конкретные Burn-пассивки там названы только описанием.",
+    "Нет билдов под Shard of Chaos (R3) и Emberweaver (R5).",
+    "Steam-гайд (патч 1.2) даёт один билд без пассивок и без versatility-рун.",
+    "Модуль рун на вики старее 1.5d (Synchrony, Elemental Flow)."
+  ]
+}

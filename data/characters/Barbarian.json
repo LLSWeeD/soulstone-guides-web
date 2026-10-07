@@ -1,0 +1,959 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Barbarian",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Ближний боец с топорами и молотами: Electric, Earth, Swing, Thrust и Slam. Хорош по криту и частоте каста, но медленный. Актуальные билды строятся вокруг множества быстрых ударов, стаков Finesse/Bulwark, Colossal, Dazed или статусов.",
+    "en": "Melee fighter with axes and hammers: Electric, Earth, Swing, Thrust and Slam skills. Strong crit and cast frequency but slow. Current builds revolve around many fast hits, Finesse/Bulwark stacks, Colossal, Dazed or ailments."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-barbarian",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2023/03/06/soulstone-survivors-guide-the-barbarian/",
+      "title": "Soulstone Survivors Guide: The Barbarian",
+      "game_version": "1.5d",
+      "updated": "2026-06-12",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "barbarian-swing",
+          "name": {
+            "ru": "Swing (много быстрых ударов)",
+            "en": "Swing"
+          },
+          "weapon_id": "BarbaricCleavers",
+          "archetypes": [
+            "stack",
+            "generalist"
+          ],
+          "core_mechanics": [
+            "Finesse",
+            "Bulwark",
+            "Bleed",
+            "Form",
+            "Exposed"
+          ],
+          "skills": [
+            {
+              "id": "Whirlwind",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Малый кулдаун, даёт Finesse и Bulwark."
+              }
+            },
+            {
+              "id": "ScentofBlood",
+              "role": "support",
+              "note": {
+                "ru": "Баф частоты каста, питается стаками Finesse."
+              }
+            },
+            {
+              "id": "FanofBombs",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Большая зона, Bleed и Fragility, копит Finesse."
+              }
+            },
+            {
+              "id": "Bladestorm",
+              "role": "damage",
+              "note": {
+                "ru": "Много ударов по огромной площади, подпитывает Decapitator."
+              }
+            },
+            {
+              "id": "BloodySaw",
+              "role": "damage",
+              "note": {
+                "ru": "Стационарный аналог Bladestorm с Bleed и Finesse."
+              }
+            },
+            {
+              "id": "OnGuard",
+              "role": "support",
+              "note": {
+                "ru": "Bulwark, Form и Exposed; повод взять Skill Chain Swing-Thrust."
+              }
+            },
+            {
+              "id": "Slash",
+              "role": "optional",
+              "obtained": "rune"
+            },
+            {
+              "id": "Carnage",
+              "role": "optional",
+              "obtained": "rune"
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "BloodShed",
+              "priority": "must",
+              "note": {
+                "ru": "Все удары получают шанс наложить Bleed."
+              }
+            },
+            {
+              "power_id": "Laceration",
+              "priority": "high"
+            },
+            {
+              "power_id": "PoisonousBlood",
+              "priority": "medium"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium",
+              "note": {
+                "ru": "Хотя бы один раз: опыт и радиус подбора."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high",
+              "note": {
+                "ru": "Компенсирует отсутствие Dash Mastery."
+              }
+            },
+            {
+              "power_id": "Venomous",
+              "priority": "situational"
+            },
+            {
+              "power_id": "BattleStance",
+              "priority": "medium",
+              "note": {
+                "ru": "Хороша при упоре на крит и бое вплотную. Описания на вики нет.",
+                "en": "Good with a crit focus and close combat. No wiki description."
+              }
+            },
+            {
+              "power_id": "ShreddingArmor",
+              "priority": "situational",
+              "note": {
+                "ru": "Если выпала, брать: стаки Bulwark начинают давать Aptitude (крит. урон).",
+                "en": "Take it if offered: Bulwark stacks start granting Aptitude (crit damage)."
+              }
+            },
+            {
+              "power_id": "WarExperience",
+              "priority": "situational",
+              "note": {
+                "ru": "Finesse даёт Bulwark: ещё больше блока почти бесплатно.",
+                "en": "Finesse grants Bulwark: even more block almost for free."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "Decapitator"
+              },
+              {
+                "id": "VulnerableTarget"
+              },
+              {
+                "id": "PulseofAgony"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Swing"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Swing"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Бить как можно чаще: множество мелких тиков заставляют Decapitator срабатывать снова и снова, а Bulwark даёт высокий шанс блока.",
+            "en": "Hit as often as possible: many small ticks trigger Decapitator repeatedly, while Bulwark stacks give a high block chance."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Decapitator: 10% шанс убить врага ниже 40% здоровья, у Lords of the Void порог 15%.",
+                "en": "Decapitator: 10% chance to kill enemies below 40% health, 15% threshold for Lords of the Void."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: 10% шанс, порог 40%, но для Lords of the Void порог 10%, а не 15%. Цена 3 руны, совпадает."
+            },
+            {
+              "text": {
+                "ru": "Рекорд автора по блоку: 78,8% атак за счёт Bulwark.",
+                "en": "Author's block record: 78.8% of attacks via Bulwark."
+              },
+              "status": "unverified",
+              "detail": "Наблюдение автора из забега, проверить по данным нельзя."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory даёт седьмой слот навыка ценой -15% урона.",
+                "en": "Improved Repertory gives a 7th skill slot at -15% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "barbarian-earth",
+          "name": {
+            "ru": "Earth (Colossal и зона)",
+            "en": "Earth"
+          },
+          "weapon_id": "Skullbreaker",
+          "archetypes": [
+            "multiplier",
+            "synchrony"
+          ],
+          "core_mechanics": [
+            "Colossal",
+            "Resilience",
+            "Form",
+            "Exposed",
+            "Prowess"
+          ],
+          "skills": [
+            {
+              "id": "Shockwave",
+              "role": "core",
+              "obtained": "weapon_primary"
+            },
+            {
+              "id": "Demolish",
+              "role": "core",
+              "obtained": "weapon_secondary"
+            },
+            {
+              "id": "RollingBoulder",
+              "role": "damage",
+              "note": {
+                "ru": "Урон растёт с площадью."
+              }
+            },
+            {
+              "id": "Bombardment",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Растёт и по размеру, и по урону; сильнее Rolling Boulder."
+              }
+            },
+            {
+              "id": "EarthBolt",
+              "role": "support",
+              "note": {
+                "ru": "Низкий кулдаун, быстро копит Colossal."
+              }
+            },
+            {
+              "id": "SeismicShock",
+              "role": "damage",
+              "note": {
+                "ru": "Улучшенный Savage Strike, даёт Prowess."
+              }
+            },
+            {
+              "id": "OnGuard",
+              "role": "support"
+            },
+            {
+              "id": "SharpSpear",
+              "role": "optional",
+              "note": {
+                "ru": "Альтернатива On Guard: Form и Haste."
+              }
+            },
+            {
+              "id": "EarthShield",
+              "role": "optional",
+              "note": {
+                "ru": "Выживаемость: Resilience и лечение."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "SkillChain",
+              "variant": "Earth -> Thrust",
+              "priority": "must",
+              "note": {
+                "ru": "Главная пассивка билда: больше срабатываний On Guard (Exposed на врагах, Form себе).",
+                "en": "The build's key passive: more On Guard procs (Exposed on enemies, Form for you)."
+              }
+            },
+            {
+              "power_id": "SkillChain",
+              "variant": "Earth -> Bomb",
+              "priority": "high",
+              "note": {
+                "ru": "Больше Bombardment, вместе с ростом области даёт много урона.",
+                "en": "More Bombardments, strong with area increases."
+              }
+            },
+            {
+              "power_id": "SkillChain",
+              "variant": "Earth -> Slam",
+              "priority": "medium",
+              "note": {
+                "ru": "Для экспериментов: например, больше Seismic Shock.",
+                "en": "For experiments: e.g. more Seismic Shock."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high",
+              "note": {
+                "ru": "Skullbreaker даёт -10% скорости, её надо догонять.",
+                "en": "Skullbreaker has -10% speed to make up for."
+              }
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "high",
+              "note": {
+                "ru": "Главная цель билда: область. Rolling Boulder и Bombardment бьют сильнее от неё.",
+                "en": "The build's main goal: area. Rolling Boulder and Bombardment scale with it."
+              }
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium"
+            },
+            {
+              "power_id": "EarthAttunement",
+              "priority": "medium",
+              "note": {
+                "ru": "Усиливает навыки не Earth-типа. Описания на вики нет.",
+                "en": "Boosts non-Earth skills. No wiki description."
+              }
+            },
+            {
+              "power_id": "ArmoredAssault",
+              "priority": "medium",
+              "note": {
+                "ru": "Стаки Resilience дают Form (крит. шанс).",
+                "en": "Resilience stacks grant Form (crit chance)."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "CenterofAttention"
+              },
+              {
+                "id": "LordsBane"
+              },
+              {
+                "id": "VersatileStrength"
+              },
+              {
+                "id": "Synchrony"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Bomb"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Раздувать область атак стаками Colossal: волны чистятся быстрее, а Rolling Boulder и Bombardment сами усиливаются от площади.",
+            "en": "Inflate area with Colossal stacks: waves clear faster and Rolling Boulder and Bombardment scale with area."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Lord's Bane даёт +25% урона, пока жив Lord of the Void.",
+                "en": "Lord's Bane gives +25% damage while a Lord of the Void is alive."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +25% урона, пока жив Lord of the Void."
+            },
+            {
+              "text": {
+                "ru": "Versatile Strength даёт до 24% урона к концу билда.",
+                "en": "Versatile Strength gives up to 24% damage late."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,6% за каждый разный тип пассивки, максимум 24%."
+            },
+            {
+              "text": {
+                "ru": "Synchrony даёт до +20% урона за общие типы навыков.",
+                "en": "Synchrony gives up to +20% damage for shared skill types."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (модуль рун, старее 1.5d): +0,7% за общий тип, максимум 20%, как в гайде. Выжимка 1.5d: +1,5%, максимум 30%. Для 1.5d верить выжимке."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "barbarian-electric",
+          "name": {
+            "ru": "Electric (Dazed и крит)",
+            "en": "Electric"
+          },
+          "weapon_id": "TempestBattleAxes",
+          "archetypes": [
+            "stack",
+            "multiplier"
+          ],
+          "core_mechanics": [
+            "Dazed",
+            "Electrified",
+            "Prowess",
+            "Exposed",
+            "Form",
+            "Bulwark"
+          ],
+          "skills": [
+            {
+              "id": "ThunderingSlash",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Основной урон: растёт от стаков Dazed на цели."
+              }
+            },
+            {
+              "id": "ThunderClap",
+              "role": "support",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Prowess и Electrified."
+              }
+            },
+            {
+              "id": "LightningBeam",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Много мелких тиков, накладывающих Dazed на одну цель."
+              }
+            },
+            {
+              "id": "PowerConductor",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Расширяет Dazed на группу."
+              }
+            },
+            {
+              "id": "OverchargedBlast",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Работает как Thundering Slash, плюс Electrified."
+              }
+            },
+            {
+              "id": "OnGuard",
+              "role": "support"
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Critical Chance",
+              "priority": "must"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "must"
+            },
+            {
+              "power_id": "SkillChain",
+              "variant": "Electric -> Thrust",
+              "priority": "must",
+              "note": {
+                "ru": "Без неё билд перестаёт расти: пять навыков могут вызывать On Guard.",
+                "en": "The build stops scaling without it: five skills can trigger On Guard."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "situational",
+              "note": {
+                "ru": "Только крупные прибавки здоровья (+45).",
+                "en": "Only the big health offers (+45)."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "VulnerableTarget"
+              },
+              {
+                "id": "CriticalMastery"
+              },
+              {
+                "id": "VulnerableExploit"
+              },
+              {
+                "id": "LordsBane"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillMastery",
+                "variant": "Electric"
+              },
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Electric"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Копить Dazed на цели и добивать Thundering Slash критами; подходить вплотную, поэтому нужна скорость.",
+            "en": "Stack Dazed on the target and finish with crit-heavy Thundering Slash; close range needs movement speed."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Vulnerable Target даёт +25% шанса крита.",
+                "en": "Vulnerable Target gives +25% crit chance."
+              },
+              "status": "conflict",
+              "verified_by": "user",
+              "detail": "В игре (1.5d) Vulnerable Target даёт +50% шанса крита (проверено пользователем); 25% — старое значение, как на вики. Гайд в этом месте устарел."
+            },
+            {
+              "text": {
+                "ru": "Critical Mastery добавляет 25% шанса крита к крит. урону.",
+                "en": "Critical Mastery adds 25% of crit chance to crit damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита добавляется к множителю крит. урона, включая бонусы от эффектов на врагах."
+            },
+            {
+              "text": {
+                "ru": "Lord's Bane: +25% урона при живом Lord of the Void.",
+                "en": "Lord's Bane: +25% damage while a Lord of the Void is alive."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +25% урона."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "barbarian-ailment",
+          "name": {
+            "ru": "Ailment (статусы)",
+            "en": "Ailment"
+          },
+          "weapon_id": "BloodgodsLegacy",
+          "archetypes": [
+            "dot",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Bleed",
+            "Poison",
+            "Doom",
+            "Burn",
+            "Finesse",
+            "Radiance"
+          ],
+          "skills": [
+            {
+              "id": "HeavyStrike",
+              "role": "support",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Сам накладывает Bleed."
+              }
+            },
+            {
+              "id": "GroundSlam",
+              "role": "support",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Bleed и лечение для длинных забегов."
+              }
+            },
+            {
+              "id": "Bladestorm",
+              "role": "damage"
+            },
+            {
+              "id": "BloodySaw",
+              "role": "damage"
+            },
+            {
+              "id": "Flurry",
+              "role": "damage",
+              "note": {
+                "ru": "Частые удары с Bleed."
+              }
+            },
+            {
+              "id": "RadiantLight",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Ещё больше ударов и Finesse."
+              }
+            },
+            {
+              "id": "ArcanePower",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Баф мультикаста."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "BloodShed",
+              "priority": "must"
+            },
+            {
+              "power_id": "Laceration",
+              "priority": "high"
+            },
+            {
+              "power_id": "PoisonousBlood",
+              "priority": "high"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "OverwhelmingChaos"
+              },
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "MisfortunesEmbrace"
+              },
+              {
+                "id": "ImprovedRepertory"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Arcane"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Накладывать максимум статусов частыми ударами; приоритет Bleed, затем Poison, Doom, Burn.",
+            "en": "Apply as many ailments as possible with frequent hits; priority Bleed, then Poison, Doom, Burn."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Overwhelming Chaos: урон навыков колеблется от 1% до 220%.",
+                "en": "Overwhelming Chaos: skill damage ranges from 1% to 220%."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: прямой урон навыков от 1 до 220% исходного; на эффекты (DoT) не действует."
+            },
+            {
+              "text": {
+                "ru": "Poison при смерти цели перескакивает на соседа (бывший Rot).",
+                "en": "Poison jumps to a nearby enemy when the target dies (former Rot)."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: оставшиеся стаки Poison при смерти врага переходят на ближайшего."
+            },
+            {
+              "text": {
+                "ru": "Elemental Flow усиливает урон от болезней.",
+                "en": "Elemental Flow boosts ailment damage."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (старее 1.5d): эффекты тикают на 100% чаще. Выжимка 1.5d: руна переделана, урон эффекта приходит сразу при наложении. Суть «больше урона от болезней» сохраняется, механика другая."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "barbarian-legacy-bleed",
+          "name": {
+            "ru": "Bleed со Bladestorm",
+            "en": "Bleed with Bladestorm"
+          },
+          "weapon_id": "BloodgodsLegacy",
+          "archetypes": [
+            "dot"
+          ],
+          "core_mechanics": [
+            "Bleed"
+          ],
+          "skills": [
+            {
+              "id": "Bladestorm",
+              "role": "core",
+              "note": {
+                "ru": "Главный урон: удар каждые 0.1 с, каждый накладывает Bleed."
+              }
+            },
+            {
+              "id": "Flurry",
+              "role": "support"
+            },
+            {
+              "id": "BloodySaw",
+              "role": "support"
+            },
+            {
+              "id": "HeavyStrike",
+              "role": "support",
+              "obtained": "weapon_primary"
+            },
+            {
+              "id": "OnGuard",
+              "role": "support"
+            },
+            {
+              "id": "GroundSlam",
+              "role": "support",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Постоянное лечение."
+              }
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Executioner"
+              },
+              {
+                "id": "GlassCannon"
+              },
+              {
+                "id": "Decapitator"
+              },
+              {
+                "id": "PulseofAgony"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Постоянно накладывать Bleed на весь экран и жить на лечении; медленно, но надёжно.",
+            "en": "Constantly apply Bleed across the screen and sustain through healing; slow but reliable."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Один из немногих билдов, прошедших Red Portal 6.",
+                "en": "One of the few builds to clear Red Portal 6."
+              },
+              "status": "unverified",
+              "detail": "Наблюдение авторов под патч 1.2."
+            },
+            {
+              "text": {
+                "ru": "Bladestorm бьёт каждые 0,1 с.",
+                "en": "Bladestorm hits every 0.1 s."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: удар каждые 0,2 с, 20 ударов, кулдаун 10 с."
+            }
+          ],
+          "confidence": "medium",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Bleed)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Bleed нормально масштабируется от модификаторов, а Hemorrhage стал частью Bleed (урон при движении врага).",
+                "en": "Since 1.4 Bleed scales properly with modifiers, and Hemorrhage became part of Bleed (damage when enemies move)."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Совет банить Fire, Poison и Doom ради одного Bleed совпадает с метой 1.5d.",
+                "en": "Banning Fire, Poison and Doom for pure Bleed matches the 1.5d meta."
+              }
+            },
+            {
+              "mechanic": "Decapitator",
+              "impact": "buffed",
+              "note": {
+                "ru": "По гайду 1.5d руну усилили в обновлении New Beginning; на ней строится актуальный Swing-билд.",
+                "en": "Per the 1.5d guide the rune was buffed in New Beginning; the current Swing build is built on it."
+              }
+            },
+            {
+              "mechanic": "Executioner",
+              "impact": "unknown",
+              "note": {
+                "ru": "Выжимка относит Executioner к источникам, от которых DoT теперь получает выгоду, но руна даёт урон за разные типы эффектов, а билд держит один Bleed: бонус будет небольшим.",
+                "en": "The digest lists Executioner among sources DoT now benefits from, but the rune scales with different ailment types while this build is pure Bleed: the bonus stays small."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учитывались. У Barbarian есть легендарные Blades of Damnation (R5).",
+                "en": "Not considered. Barbarian has the legendary Blades of Damnation (R5)."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2. Bleed-архетип в 1.5d стал сильнее, но в актуальном гайде есть свой «Ailment»-билд на том же Bloodgod's Legacy с похожим набором навыков: он предпочтительнее. Число 0,1 с у Bladestorm устарело.",
+        "en": "Written for 1.2. The Bleed archetype got stronger in 1.5d, but the current guide has its own Ailment build on the same Bloodgod's Legacy with a similar skill set; prefer it. The 0.1 s Bladestorm figure is outdated."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Leviathan",
+        "builds": [
+          "barbarian-swing"
+        ],
+        "reason": {
+          "ru": "Из гайда: автор банит, потому что не хочет терять скорость.",
+          "en": "From the guide: the author bans it to avoid moving slower."
+        }
+      },
+      {
+        "target": "Block and armor passives",
+        "builds": [
+          "barbarian-swing",
+          "barbarian-electric"
+        ],
+        "reason": {
+          "ru": "Из гайда: блока хватает от Bulwark (Swing), в Electric автор в них не вкладывается и банит как можно раньше.",
+          "en": "From the guide: Bulwark gives enough block (Swing); in Electric the author doesn't invest and bans them early."
+        }
+      },
+      {
+        "target": "Magnetic",
+        "builds": [
+          "barbarian-electric"
+        ],
+        "reason": {
+          "ru": "Из гайда: банить, когда взято достаточно.",
+          "en": "From the guide: ban once you have enough."
+        }
+      },
+      {
+        "target": "Fire, Poison, Doom application passives",
+        "builds": [
+          "barbarian-legacy-bleed"
+        ],
+        "reason": {
+          "ru": "Из старого гайда: держать только Bleed.",
+          "en": "From the old guide: keep pure Bleed."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Swing и Ailment: первым брать Bloodshed (Bleed на все атаки), затем Laceration; Poisonous Blood следом.",
+        "en": "Swing and Ailment: take Bloodshed first, then Laceration, then Poisonous Blood."
+      },
+      {
+        "ru": "Ailment: болезни брать в порядке Bleed > Poison > Doom > Burn (так в гайде).",
+        "en": "Ailment: take ailments in the order Bleed > Poison > Doom > Burn (per the guide)."
+      },
+      {
+        "ru": "Earth: главное — Skill Chain с Earth (лучше всего в Thrust), затем рост области и скорость.",
+        "en": "Earth: the key is an Earth Skill Chain (Thrust best), then area and speed."
+      },
+      {
+        "ru": "Electric: крит. шанс и крит. урон обязательны, Skill Chain Electric -> Thrust, усиливать Thundering Slash.",
+        "en": "Electric: crit chance and damage are mandatory, Skill Chain Electric -> Thrust, upgrade Thundering Slash."
+      },
+      {
+        "ru": "Во всех билдах: хотя бы один Magnetic и несколько пассивок на скорость.",
+        "en": "All builds: at least one Magnetic and several speed passives."
+      }
+    ],
+    "basis": {
+      "ru": "Сведено вручную из гайда cubiccreativity (1.5d), Steam-гайда (1.2) и выжимки меты; числа сверены с вики. Все баны здесь названы самими авторами гайдов.",
+      "en": "Compiled from the cubiccreativity guide (1.5d), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. All bans here come from the guide authors themselves."
+    }
+  },
+  "gaps": [
+    "У актуального гайда нет явных приоритетов пассивок кроме общих слов; приоритеты расставлены по тексту приблизительно.",
+    "Legacy-гайд называет только 4 руны Tenacity, Versatility не указаны; конкретных пассивок по id на странице нет.",
+    "Упоминание версии 1.1 в актуальном гайде относится к истории обновлений, билды описаны под 1.5d.",
+    "В актуальном гайде нет билда под легендарные Blades of Damnation (R5).",
+    "Battle Stance и Earth Attunement есть в файлах игры, но описания и чисел на вики нет.",
+    "Модуль рун на вики старее 1.5d (Synchrony, Elemental Flow и др.)."
+  ]
+}

@@ -1,0 +1,763 @@
+{
+  "schema_version": "0.2",
+  "character_id": "DeathKnight",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Ближний боец с мечом без рывка: огромная масса (+50000), +90% скорости движения и +30% области, но -10% частоты каста. Выживает за счёт скорости и блока (War Tank, Bulwark), а урон строит на стаках ailments (Poison, Doom, Burn, Bleed) под Weakness и навыках с большой областью вокруг себя. Уникальные навыки: Contagion, Path of Decay, Shadow Grasp.",
+    "en": "Dashless melee sword user with huge body mass (+50000), +90% movement speed and +30% area, but -10% cast frequency. Survives through speed and block (War Tank, Bulwark), and builds damage on ailment stacks (Poison, Doom, Burn, Bleed) amplified by Weakness, with large around-the-character skills. Unique skills: Contagion, Path of Decay, Shadow Grasp."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-deathknight",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2025/07/19/soulstone-survivors-guide-the-death-knight/",
+      "title": "Soulstone Survivors Guide: The Death Knight",
+      "game_version": "1.5d",
+      "updated": "2026-06-15",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "deathknight-ailment",
+          "name": {
+            "ru": "Все ailments",
+            "en": "Ailment"
+          },
+          "weapon_id": "UnholyClaymore",
+          "archetypes": [
+            "dot",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Doom",
+            "Weakness",
+            "Burn",
+            "Poison",
+            "Bleed",
+            "Bulwark",
+            "Finesse"
+          ],
+          "skills": [
+            {
+              "id": "Obliterate",
+              "role": "optional",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык, автор советует заменить его на Bladestorm.",
+                "en": "Starting skill; the author suggests swapping it for Bladestorm."
+              }
+            },
+            {
+              "id": "RayofDoom",
+              "role": "support",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Со временем и мультикастом чаще всех вешает Doom.",
+                "en": "With multi cast it applies Doom most often."
+              }
+            },
+            {
+              "id": "Bladestorm",
+              "role": "damage",
+              "note": {
+                "ru": "Частые удары, большая область, лучший урон вместо Obliterate.",
+                "en": "Frequent hits, big area, better damage than Obliterate."
+              }
+            },
+            {
+              "id": "FlamingSpiral",
+              "role": "damage",
+              "note": {
+                "ru": "Burn, стаки Weakness, большая область.",
+                "en": "Burn, Weakness stacks, solid area."
+              }
+            },
+            {
+              "id": "EldritchGrasp",
+              "role": "support",
+              "note": {
+                "ru": "Низкий кулдаун, урон вокруг себя, стакает ailments.",
+                "en": "Low cooldown, damage around you, stacks ailments."
+              }
+            },
+            {
+              "id": "FesteringStrike",
+              "role": "support",
+              "note": {
+                "ru": "Poison и Weakness на всех вокруг.",
+                "en": "Applies Poison and Weakness around you."
+              }
+            },
+            {
+              "id": "ShadowGrasp",
+              "role": "core",
+              "note": {
+                "ru": "Скилл-убийца для стаков Doom.",
+                "en": "The Doom kill skill."
+              }
+            },
+            {
+              "id": "Carnage",
+              "role": "support",
+              "note": {
+                "ru": "Снаряды во все стороны, стакает Bulwark и Finesse.",
+                "en": "Projectiles in all directions, stacks Bulwark and Finesse."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "must",
+              "note": {
+                "ru": "Почти единственная защита без рывка.",
+                "en": "Nearly the only defense without a dash."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must"
+            },
+            {
+              "power_id": "FatefulStrikes",
+              "priority": "high",
+              "note": {
+                "ru": "Все атаки получают 25% шанс наложить Doom.",
+                "en": "All attacks get a 25% chance to apply Doom."
+              }
+            },
+            {
+              "power_id": "Calamity",
+              "priority": "high",
+              "note": {
+                "ru": "Урон Doom +30/60%.",
+                "en": "Doom damage +30/60%."
+              }
+            },
+            {
+              "power_id": "Ruin",
+              "priority": "high",
+              "note": {
+                "ru": "40% урона Doom сразу при наложении.",
+                "en": "40% of Doom damage dealt instantly on application."
+              }
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium",
+              "note": {
+                "ru": "Гайд прямо называет «damage modifier upgrades» среди открытых вариантов.",
+                "en": "The guide explicitly lists damage modifier upgrades among open options."
+              }
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "medium",
+              "note": {
+                "ru": "Гайд: «more area of effect» как один из вариантов.",
+                "en": "Guide: more area of effect is one of the options."
+              }
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "MisfortunesEmbrace"
+              },
+              {
+                "id": "WarTank"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Swing"
+              },
+              {
+                "id": "UnconventionalStart"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Кататься по карте и дать навыкам работать без прицеливания: они бьют вокруг и стакают ailments. Брать всё, что усиливает Doom, Bleed, Poison и Burn.",
+            "en": "Ride around and let skills work without aiming: they hit around you and stack ailments. Take everything that boosts Doom, Bleed, Poison and Burn."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory даёт седьмой слот навыка ценой 15% урона.",
+                "en": "Improved Repertory gives a seventh skill slot at the cost of 15% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Misfortune's Embrace даёт всем навыкам 20% шанс наложить один из четырёх урон наносящих ailments.",
+                "en": "Misfortune's Embrace gives all skills a 20% chance to apply one of the four damaging ailments."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 20% шанс наложить Burn, Bleed, Poison или Doom."
+            },
+            {
+              "text": {
+                "ru": "War Tank даёт +50% силы блока (у класса нет рывков).",
+                "en": "War Tank gives +50% block power (the class has no dashes)."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +50% силы блока, -1 заряд рывка; у Death Knight рывков нет, так что минус ничего не стоит."
+            },
+            {
+              "text": {
+                "ru": "Elemental Flow удваивает скорость урона от статус-ailments.",
+                "en": "Elemental Flow doubles the rate at which damaging ailments deal damage."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (модуль рун, старее 1.5d): эффекты тикают на 100% чаще, как в гайде. Выжимка 1.5d: руна переделана, урон эффекта приходит сразу при наложении. Для 1.5d верить выжимке."
+            },
+            {
+              "text": {
+                "ru": "Doom убивает мгновенно, когда накопленный урон закрывает всё здоровье цели.",
+                "en": "Doom kills instantly once its accumulated damage covers the target's whole health bar."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики (Doom): взрыв через 5 с; если накопленный урон больше оставшегося здоровья, цель казнится сразу."
+            },
+            {
+              "text": {
+                "ru": "Weakness усиливает урон Burn, Doom и Poison.",
+                "en": "Weakness increases Burn, Doom and Poison damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики (Weakness): +урон от отрицательных эффектов (Burn, Poison, Bleed, Doom) за стак, софткап +960%. Flaming Spiral даёт 6% за стак, Festering Strike 2%."
+            },
+            {
+              "text": {
+                "ru": "Fateful Strikes даёт каждому навыку возможность накладывать Doom.",
+                "en": "Fateful Strikes lets every skill apply Doom."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: все атаки могут наложить Doom с шансом 25% (фиксированный), не на каждом ударе."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "deathknight-poison",
+          "name": {
+            "ru": "Яд",
+            "en": "Poison"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "dot",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Poison",
+            "Weakness",
+            "Burn",
+            "Haste"
+          ],
+          "skills": [
+            {
+              "id": "FesteringStrike",
+              "role": "core",
+              "note": {
+                "ru": "Малая область, но связывает Poison и Weakness.",
+                "en": "Small area, but pairs Poison with Weakness."
+              }
+            },
+            {
+              "id": "Corrosion",
+              "role": "core",
+              "obtained": "pool",
+              "note": {
+                "ru": "Основной стакер Poison в большой области.",
+                "en": "Main Poison stacker over a large area."
+              }
+            },
+            {
+              "id": "EldritchGrasp",
+              "role": "support",
+              "note": {
+                "ru": "Взят у другого персонажа, низкий кулдаун, бьёт вокруг.",
+                "en": "Taken from another character; low cooldown, hits all around."
+              }
+            },
+            {
+              "id": "Firestorm",
+              "role": "damage",
+              "note": {
+                "ru": "Огромная область, Burn и стаки Haste.",
+                "en": "Huge area, Burn and Haste stacks."
+              }
+            },
+            {
+              "id": "Bladestorm",
+              "role": "damage",
+              "note": {
+                "ru": "Много собственных ударов для пассивок ailments.",
+                "en": "Many hits that feed ailment passives."
+              }
+            },
+            {
+              "id": "Pestilence",
+              "role": "support",
+              "note": {
+                "ru": "Универсал: стаки Poison и зачистка волн.",
+                "en": "Swiss army knife: Poison stacks and wave clear."
+              }
+            },
+            {
+              "id": "Contagion",
+              "role": "core",
+              "note": {
+                "ru": "Главный убийца: забирает стаки Poison и бьёт на их суммарный урон.",
+                "en": "Main killer: consumes Poison stacks and hits for their total damage."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "must"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must"
+            },
+            {
+              "power_id": "Venomous",
+              "priority": "must",
+              "note": {
+                "ru": "Даёт Bladestorm, Firestorm и Eldritch Grasp шанс наложить Poison.",
+                "en": "Lets Bladestorm, Firestorm and Eldritch Grasp apply Poison."
+              }
+            },
+            {
+              "power_id": "FatefulStrikes",
+              "priority": "medium",
+              "note": {
+                "ru": "Гайд называет как вариант для урона; фокус всё равно на Poison.",
+                "en": "Named by the guide as a damage option; the focus stays on Poison."
+              }
+            },
+            {
+              "power_id": "SpontaneousCombustion",
+              "priority": "medium",
+              "note": {
+                "ru": "Гайд называет как вариант для урона; фокус всё равно на Poison.",
+                "en": "Named by the guide as a damage option; the focus stays on Poison."
+              }
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium",
+              "note": {
+                "ru": "Гайд: «damage upgrades» по необходимости.",
+                "en": "Guide: damage upgrades as needed."
+              }
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "situational",
+              "note": {
+                "ru": "Немного защиты: гайд называет max health.",
+                "en": "A bit of defense: the guide names max health."
+              }
+            },
+            {
+              "stat": "Armor Power",
+              "priority": "situational",
+              "note": {
+                "ru": "Гайд: броня и здоровье «pretty solid» для защиты.",
+                "en": "Guide: armor and health are pretty solid for defense."
+              }
+            },
+            {
+              "stat": "Damage Reduction",
+              "priority": "medium",
+              "note": {
+                "ru": "Гайд: плоское снижение урона — «no-brainer».",
+                "en": "Guide: flat damage reduction is a no-brainer."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "DeathTouch"
+              },
+              {
+                "id": "Decapitator"
+              },
+              {
+                "id": "WarTank"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Nature"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Swing"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Игнорировать прицеливание: навыки бьют по всему вокруг, а игрок следит за выживанием и сбором душ. Максимум стаков Poison для Contagion, плюс немного защиты.",
+            "en": "Disregard targeting: skills hit everything around you while you focus on staying alive and collecting souls. Maximize Poison stacks for Contagion, with a bit of defense."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Death Touch даёт врагам 20% шанс взорваться при смерти и наложить Poison.",
+                "en": "Death Touch gives enemies a 20% chance to explode on death, applying Poison."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 20% шанс взрыва убитого врага, урон и Poison по области."
+            },
+            {
+              "text": {
+                "ru": "War Tank даёт +50% силы блока.",
+                "en": "War Tank gives +50% block power."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +50% силы блока, -1 заряд рывка (у Death Knight рывков нет)."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory стоит 15% урона.",
+                "en": "Improved Repertory costs 15% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Contagion забирает все стаки Poison и наносит их полный урон плюс бонус.",
+                "en": "Contagion consumes all Poison stacks and deals their full damage plus a bonus."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: стаки Poison в области сразу наносят 250% своего урона и снимаются; сам взрыв 200 урона, кулдаун 7 с."
+            },
+            {
+              "text": {
+                "ru": "Venomous даёт Bladestorm, Firestorm и Eldritch Grasp шанс наложить Poison.",
+                "en": "Venomous gives Bladestorm, Firestorm and Eldritch Grasp a chance to apply Poison."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: все атаки могут наложить Poison с шансом 25%."
+            },
+            {
+              "text": {
+                "ru": "Swift Execution (альтернатива War Tank) добавляет половину скорости движения к крит. урону.",
+                "en": "Swift Execution (War Tank alternative) adds half of movement speed to crit damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 50% скорости движения добавляется к множителю крит. урона."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "deathknight-poison-legacy",
+          "name": {
+            "ru": "Яд (старый, 1.2)",
+            "en": "Poison (legacy, 1.2)"
+          },
+          "weapon_id": "GreatswordofCorruption",
+          "archetypes": [
+            "dot"
+          ],
+          "core_mechanics": [
+            "Poison",
+            "Weakness"
+          ],
+          "skills": [
+            {
+              "id": "FesteringStrike",
+              "role": "core",
+              "obtained": "weapon_primary"
+            },
+            {
+              "id": "LethalBlade",
+              "role": "support",
+              "obtained": "weapon_secondary"
+            },
+            {
+              "id": "PathofDecay",
+              "role": "support"
+            },
+            {
+              "id": "Contagion",
+              "role": "core",
+              "note": {
+                "ru": "Заменяет Pestilence как лучший убийца.",
+                "en": "Replaces Pestilence as a better damage dealer."
+              }
+            },
+            {
+              "id": "AcidRain",
+              "role": "support"
+            },
+            {
+              "id": "PoisonBolt",
+              "role": "support"
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "must",
+              "note": {
+                "ru": "Остановились около 250%.",
+                "en": "Stopped around 250%."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "OverwhelmingChaos"
+              },
+              {
+                "id": "ControlledChaos"
+              },
+              {
+                "id": "Synchrony"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Яд вместо Doom, потому что Doom не даёт Weakness. Без рывка упор на скорость движения; банить пассивки на Bleed, Fire и Doom.",
+            "en": "Poison over Doom, since Doom does not enable Weakness. No dash, so focus on movement speed; banish passives that apply Bleed, Fire or Doom."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Скорость движения набрана примерно до 250%.",
+                "en": "Movement speed was stacked to about 250%."
+              },
+              "status": "unverified",
+              "detail": "Наблюдение авторов из забега под патч 1.2."
+            },
+            {
+              "text": {
+                "ru": "Прокачка Greatsword of Corruption даёт прибавку к скорости движения.",
+                "en": "Upgrading Greatsword of Corruption grants a movement speed bonus."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: у Greatsword of Corruption +10% скорости движения, +15% области, -15 брони. Рост бонуса с уровнем оружия на вики не описан."
+            },
+            {
+              "text": {
+                "ru": "Doom-оружие не даёт Weakness.",
+                "en": "The Doom weapon does not give Weakness."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Obliterate и Ray of Doom (Unholy Claymore) накладывают только Doom. Weakness дают Festering Strike и Flaming Spiral; актуальный гайд так и сочетает Doom с Weakness."
+            }
+          ],
+          "confidence": "medium",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Poison)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Poison нормально масштабируется от модификаторов урона и множителей; яд-билд стал сильнее.",
+                "en": "Since 1.4 Poison scales properly with damage modifiers and multipliers; the Poison build got stronger."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Совет банить Bleed, Fire и Doom ради одного Poison совпадает с метой 1.5d.",
+                "en": "Banning Bleed, Fire and Doom for pure Poison matches the 1.5d meta."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "Руна переделана: урон эффекта приходит сразу при наложении, а не тикает чаще. Для Contagion, который забирает стаки, эффект в 1.5d надо проверить в игре.",
+                "en": "The rune was reworked: effect damage lands instantly on application instead of ticking faster. Its value with Contagion, which consumes stacks, needs in-game testing."
+              }
+            },
+            {
+              "mechanic": "Synchrony",
+              "impact": "buffed",
+              "note": {
+                "ru": "В 1.5d +1,5% за общий тип, максимум 30% (было 0,7%, 20%). Все навыки билда Nature, так что выгода растёт.",
+                "en": "In 1.5d +1.5% per shared type, up to 30% (was 0.7%, 20%). All the build's skills are Nature, so it benefits."
+              }
+            },
+            {
+              "mechanic": "Overwhelming Chaos + Controlled Chaos",
+              "impact": "unknown",
+              "note": {
+                "ru": "По вики действуют только на прямой урон навыков, не на эффекты. В яд-билде это Contagion, Lethal Blade и т.п.; урон самого Poison не растёт. Выжимка отмечает, что старый Chaos-подход изменился.",
+                "en": "Per the wiki they affect only direct skill damage, not effects: here Contagion, Lethal Blade and similar; Poison itself is unaffected. The digest notes the old Chaos approach changed."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учитывались в 1.2. Легендарное оружие Death Knight добавлено в 1.5, на вики его нет.",
+                "en": "Not considered in 1.2. Death Knight's legendary weapon was added in 1.5 and is not on the wiki."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2: идея чистого Poison с Contagion вместо Pestilence жива и даже усилена (DoT scaling, Synchrony), но Elemental Flow переделан, а легендарное оружие и Titan Powers не учтены. В актуальном гайде есть Poison-билд с Contagion и Corrosion и более полным набором рун; он предпочтительнее.",
+        "en": "Written for 1.2: the pure Poison idea with Contagion instead of Pestilence still works and is even stronger (DoT scaling, Synchrony), but Elemental Flow was reworked and the legendary weapon and Titan Powers are not considered. The current guide has a Poison build with Contagion and Corrosion and a fuller rune setup; prefer it."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "BloodShed",
+        "builds": [
+          "deathknight-poison-legacy",
+          "deathknight-poison"
+        ],
+        "reason": {
+          "ru": "Из гайда (Steam, 1.2): банить пассивки, накладывающие Bleed, ради Poison. Для актуального Poison-билда это вывод, не из источника: cubic называет как допустимые только Burn и Doom, про Bleed молчит.",
+          "en": "From the guide (Steam, 1.2): ban Bleed-applying passives to keep Poison. For the current Poison build this is an inference, not from the source: cubic only allows Burn and Doom passives and says nothing of Bleed."
+        }
+      },
+      {
+        "target": "Fire and Doom application passives (SpontaneousCombustion, FatefulStrikes)",
+        "builds": [
+          "deathknight-poison-legacy"
+        ],
+        "reason": {
+          "ru": "Из гайда (Steam, 1.2): держать чистый Poison. В актуальном Poison-билде cubic их, наоборот, допускает, поэтому там не банить.",
+          "en": "From the guide (Steam, 1.2): keep pure Poison. The current cubic Poison build allows them, so do not ban there."
+        }
+      },
+      {
+        "target": "Critical-only passives (Critical Chance / Critical Damage)",
+        "builds": [
+          "deathknight-poison"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: урон Poison и Contagion идёт через стаки эффекта, крит гайд упоминает только вместе с Swift Execution. Если Swift Execution не взят, крит отнимает слоты у частоты каста и мультикаста.",
+          "en": "Inference, not from the source: Poison and Contagion damage comes from effect stacks; the guide mentions crit only with Swift Execution. Without it, crit takes slots from cast frequency and multicast."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Во всех билдах: скорость движения при каждой возможности (рывка нет) и хотя бы один Magnetic.",
+        "en": "All builds: movement speed whenever offered (no dash) and at least one Magnetic."
+      },
+      {
+        "ru": "Ailment: брать Fateful Strikes, Calamity и Ruin, когда предлагают; затем всё, что усиливает Bleed, Poison и Burn.",
+        "en": "Ailment: take Fateful Strikes, Calamity and Ruin when offered; then anything boosting Bleed, Poison and Burn."
+      },
+      {
+        "ru": "Ailment: Obliterate заменить на Bladestorm (с Unconventional Start сразу); Shadow Grasp — добивание стаков Doom, в том числе на боссах.",
+        "en": "Ailment: replace Obliterate with Bladestorm (right away with Unconventional Start); Shadow Grasp cashes in Doom stacks, bosses included."
+      },
+      {
+        "ru": "Poison: Venomous — ключевая пассивка; всё остальное подчинено стакам Poison для Contagion (главный убийца, в том числе боссов).",
+        "en": "Poison: Venomous is the key passive; everything else serves Poison stacks for Contagion (the main killer, bosses included)."
+      },
+      {
+        "ru": "Poison: после основы немного защиты — снижение урона, броня, здоровье.",
+        "en": "Poison: after the core, some defense — damage reduction, armor, health."
+      }
+    ],
+    "basis": {
+      "ru": "Сведено из гайда cubiccreativity (1.5d, WIP), Steam-гайда (1.2) и выжимки меты; числа сверены с вики. Баны на Bleed/Fire/Doom — из Steam-гайда; перенос бана Bleed на актуальный Poison-билд и бан крита — выводы по специализации. Правила повышения уровня пересказывают тексты гайдов.",
+      "en": "Compiled from the cubiccreativity guide (1.5d, WIP), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. Bleed/Fire/Doom bans come from the Steam guide; extending the Bleed ban to the current Poison build and the crit ban are specialization inferences. Level-up rules paraphrase the guides."
+    }
+  },
+  "gaps": [
+    "Гайд cubiccreativity помечен автором как WIP (в работе); билды могут меняться.",
+    "Легендарного оружия Death Knight (R5, добавлено в 1.5) нет на вики, билдов под него в гайдах нет.",
+    "Poison-билд cubiccreativity не называет оружие: weapon_id null. Догадка: Greatsword of Corruption (Festering Strike — его базовый навык).",
+    "Poison-билд: Swift Execution названа как альтернатива War Tank, схема рун альтернатив не держит; записана только в claims.",
+    "Приоритеты пассивок в гайде расплывчатые («pick them when offered»), priority расставлены по тексту приблизительно.",
+    "Скриншоты билдов в гайде не извлечены: пассивки и точный порядок навыков могут быть неполными.",
+    "Eldritch Grasp: гайд упоминает щупальца, на вики описаны только стаки CursedBuff; щупальца, видимо, улучшение навыка.",
+    "Steam-гайд (1.2): только навыки и 4 руны, пассивок и рун Versatility нет.",
+    "Модуль рун на вики старее 1.5d (Elemental Flow, Synchrony и др.)."
+  ]
+}

@@ -1,0 +1,1955 @@
+[
+ {
+  "id": "ArcaneWeaver",
+  "name_en": "Arcane Weaver",
+  "name_ru": "Ткательница магии",
+  "class": "Mage",
+  "weapon_type": "Staff",
+  "unlock": "Eliminate a total of 50 Lords of the Void",
+  "stats": [
+   {
+    "name": "Max Health",
+    "value": "-20"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-20%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   },
+   {
+    "name": "Experiece",
+    "value": "+15%"
+   }
+  ],
+  "skill_types": [
+   "Arcane",
+   "Chaos",
+   "Ice",
+   "Fire",
+   "Holy"
+  ],
+  "weapons": [
+   "ArcaneStaff",
+   "IgnisGreatstaffofDespair",
+   "BenedictioStaffofDawn",
+   "GlaciesRodofEternalIce",
+   "PandemoniumSpireofChaos"
+  ],
+  "artifact_power": "Mana Beam",
+  "starting_unique_skills": [
+   "Arcane Conjuration",
+   "Arcane Orb",
+   "Arcane Shield"
+  ],
+  "skill_list": [
+   "ArcaneBeam",
+   "ArcaneDisc",
+   "ArcanePower",
+   "ArcaneSparks",
+   "Avalanche",
+   "Blizzard",
+   "Bloodlust",
+   "ChaosBolt",
+   "ChaoticExplosion",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "Combustion",
+   "DeathClaw",
+   "FireBolt",
+   "Flamethrower",
+   "FlameWave",
+   "FrenziedBunnies",
+   "FrostBolt",
+   "FrostTotem",
+   "Glacier",
+   "HolyBeam",
+   "IceVortex",
+   "LightBeam",
+   "LivingWeapons",
+   "MagicMissiles",
+   "Meteor",
+   "Might",
+   "Smite",
+   "ChaosGolem",
+   "SummonHelperElves"
+  ],
+  "tree_runes": [
+   "Efficient Extraction",
+   "Sacrificed Growth",
+   "Divine Legacy"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Arcane_Weaver"
+ },
+ {
+  "id": "Assassin",
+  "name_en": "Assassin",
+  "name_ru": "Убийца",
+  "class": "Melee",
+  "weapon_type": "Daggers",
+  "unlock": "Elimate a total of 100 Lords of the Void",
+  "stats": [
+   {
+    "name": "Cast Frequency",
+    "value": "+15%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+25%"
+   },
+   {
+    "name": "Dash Count",
+    "value": "+1"
+   },
+   {
+    "name": "Area Modifer",
+    "value": "-10%"
+   }
+  ],
+  "skill_types": [
+   "Nature",
+   "Shadow",
+   "Swing",
+   "Thrust",
+   "Bomb"
+  ],
+  "weapons": [
+   "WornDaggers",
+   "CurvedDaggers",
+   "GrenadiersMark",
+   "EdgeofDoom",
+   "WarbladesofOzzinath"
+  ],
+  "artifact_power": "Shadow Dance",
+  "starting_unique_skills": [
+   "Rupture",
+   "Shadow Step",
+   "Smoke Bomb",
+   "Summon Assassin Enclave"
+  ],
+  "skill_list": [
+   "AcidRain",
+   "Bladestorm",
+   "BloodySaw",
+   "BombBarrage",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "DeathVortex",
+   "DoubleSlash",
+   "ExplosiveTrap",
+   "Flurry",
+   "HeartrendingStrike",
+   "MineField",
+   "OnGuard",
+   "Pestilence",
+   "PoisonBolt",
+   "PoisonCloud",
+   "PoisonPuddle",
+   "QuickStrike",
+   "ShadowBolt",
+   "ShadowOrb",
+   "ShadowSpikes",
+   "SharpSpear",
+   "ShrapnelBomb",
+   "SpearTrap",
+   "Subdue",
+   "SuctionBomb",
+   "SugarRush",
+   "SurpriseGift",
+   "TitansCleaver",
+   "Void"
+  ],
+  "tree_runes": [
+   "Glass Cannon",
+   "Light Feet",
+   "All or Nothing"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Assassin"
+ },
+ {
+  "id": "Barbarian",
+  "name_en": "Barbarian",
+  "name_ru": "Варвар",
+  "class": "Melee",
+  "weapon_type": "Axe, Hammer",
+  "unlock": "Default",
+  "stats": [
+   {
+    "name": "Max Health",
+    "value": "+20"
+   },
+   {
+    "name": "Crit Damage Chance",
+    "value": "+15%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+25%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+10%"
+   }
+  ],
+  "skill_types": [
+   "Electric",
+   "Earth",
+   "Swing",
+   "Thrust",
+   "Slam"
+  ],
+  "weapons": [
+   "BarbaricCleavers",
+   "Skullbreaker",
+   "TempestBattleAxes",
+   "BloodgodsLegacy",
+   "BladesofDamnation"
+  ],
+  "artifact_power": "Warcry",
+  "starting_unique_skills": [
+   "Piercing Shout",
+   "Savage Strike",
+   "Scent of Blood"
+  ],
+  "skill_list": [
+   "ArmorShatter",
+   "Bladestorm",
+   "BloodySaw",
+   "BodySlam",
+   "ChainLightning",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "DoubleSlash",
+   "EarthBolt",
+   "Earthquake",
+   "EarthShield",
+   "Flurry",
+   "GroundBreak",
+   "HeartrendingStrike",
+   "LightningBolt",
+   "LightningSurge",
+   "OnGuard",
+   "PowerConductor",
+   "QuickStrike",
+   "ResonantSlam",
+   "RollingBoulder",
+   "SeismicShock",
+   "SharpSpear",
+   "ShockwaveTotem",
+   "SpearTrap",
+   "Subdue",
+   "SugarRush",
+   "ThunderStrike",
+   "TitansCleaver"
+  ],
+  "tree_runes": [
+   "Last Resort",
+   "Adrenaline",
+   "Decapitator"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Barbarian"
+ },
+ {
+  "id": "Beastmaster",
+  "name_en": "Beastmaster",
+  "name_ru": "Зверолов",
+  "class": "Summon",
+  "weapon_type": "Wand",
+  "unlock": "Complete The Whispering Grove with all curses up to tier IV enabled",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+20"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "-10%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   },
+   {
+    "name": "Experience",
+    "value": "-10%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+10%"
+   }
+  ],
+  "skill_types": [
+   "Nature",
+   "Fire",
+   "Swing",
+   "Slam",
+   "Bomb"
+  ],
+  "weapons": [
+   "WildCleaver",
+   "NaturesFury",
+   "Bonecrusher",
+   "WidowsEmbrace",
+   "AncestralFlame"
+  ],
+  "artifact_power": "Watchful Hawk",
+  "starting_unique_skills": [
+   "War Tiger",
+   "Battle Moose",
+   "Bestial Wrath"
+  ],
+  "skill_list": [
+   "AcidRain",
+   "ArmorShatter",
+   "Bladestorm",
+   "BloodySaw",
+   "BodySlam",
+   "BombBarrage",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "Combustion",
+   "DoubleSlash",
+   "ExplosiveTrap",
+   "FireBolt",
+   "Flamethrower",
+   "FlameWave",
+   "GroundBreak",
+   "HeartrendingStrike",
+   "Meteor",
+   "MineField",
+   "Pestilence",
+   "PoisonBolt",
+   "PoisonCloud",
+   "PoisonPuddle",
+   "ResonantSlam",
+   "SeismicShock",
+   "ShrapnelBomb",
+   "Subdue",
+   "SuctionBomb",
+   "SurpriseGift",
+   "TitansCleaver"
+  ],
+  "tree_runes": [
+   "Harmony",
+   "Versatile Strength",
+   "Extra Help"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Beastmaster"
+ },
+ {
+  "id": "Blacksmith",
+  "name_en": "Blacksmith",
+  "name_ru": "Кузница",
+  "class": "Mixed",
+  "weapon_type": "Hammer",
+  "unlock": "Complete the Skill Tree",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+70"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+60%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+75%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+50%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+70%"
+   }
+  ],
+  "skill_types": [],
+  "weapons": [
+   "HephaestusHammer"
+  ],
+  "artifact_power": "Hammerfall",
+  "starting_unique_skills": [],
+  "skill_list": [
+   "ArcaneStaff",
+   "WornDaggers",
+   "BarbaricCleavers",
+   "WildCleaver",
+   "SkullofDraxiz",
+   "UnholyClaymore",
+   "BloodbaneCrossbow",
+   "ScepterofThunder",
+   "AmmoDevourer",
+   "RustedBlaster",
+   "LightSpear",
+   "SoulcoreMKV",
+   "ImmortalsStaff",
+   "SongoftheSirens",
+   "WoodenScythe",
+   "SacredWarhammer",
+   "IronTide",
+   "PyromancersFirestarter",
+   "Veilpiercer",
+   "HuntressBow",
+   "SpinevineWhip",
+   "SilverSpellblade"
+  ],
+  "tree_runes": [],
+  "has_ascension": false,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Blacksmith"
+ },
+ {
+  "id": "Chaoswalker",
+  "name_en": "Chaoswalker",
+  "name_ru": "Воин хаоса",
+  "class": "Mage",
+  "weapon_type": "Wand",
+  "unlock": "Complete Overlord cycle 2",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-20"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+20%"
+   },
+   {
+    "name": "Extra Health Per Crystal",
+    "value": "-10"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+20%"
+   }
+  ],
+  "skill_types": [
+   "Chaos",
+   "Nature",
+   "Fire",
+   "Shadow",
+   "Holy"
+  ],
+  "weapons": [
+   "SkullofDraxiz",
+   "ArtifactofCorruption",
+   "FlamewalkersSpire",
+   "AzramielsBlessing",
+   "VoidwalkersEcho"
+  ],
+  "artifact_power": "Affliction Orbs",
+  "starting_unique_skills": [
+   "Chaos Wave",
+   "Chaos Totem",
+   "Manifestations of Chaos"
+  ],
+  "skill_list": [
+   "AcidRain",
+   "Bloodlust",
+   "ChaosBolt",
+   "ChaoticExplosion",
+   "ChromaticBolt",
+   "Combustion",
+   "DeathClaw",
+   "DeathVortex",
+   "FireBolt",
+   "Flamethrower",
+   "FlameWave",
+   "FrenziedBunnies",
+   "HolyBeam",
+   "LightBeam",
+   "LivingWeapons",
+   "Meteor",
+   "Might",
+   "Pestilence",
+   "PoisonBolt",
+   "PoisonCloud",
+   "PoisonPuddle",
+   "ShadowBolt",
+   "ShadowOrb",
+   "ShadowSpikes",
+   "Smite",
+   "ChaosGolem",
+   "Void"
+  ],
+  "tree_runes": [
+   "Gambler",
+   "Misfortune's Embrace",
+   "Overwhelming Chaos"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Chaoswalker"
+ },
+ {
+  "id": "CursedCaptain",
+  "name_en": "Cursed Captain",
+  "name_ru": "Проклятый капитан",
+  "class": "Mixed",
+  "weapon_type": "Sword & Gun",
+  "unlock": "Complete Ritual of Heresy in Unholy Cathedral",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-10"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+5%"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Experience",
+    "value": "+15%"
+   }
+  ],
+  "skill_types": [
+   "Blast",
+   "Bomb",
+   "Projectile",
+   "Swing",
+   "Thrust"
+  ],
+  "weapons": [
+   "IronTide",
+   "JawsoftheAbyss",
+   "AdmiralsMight",
+   "WrathoftheOldGods"
+  ],
+  "artifact_power": "Ghost Crew",
+  "starting_unique_skills": [
+   "Powder Keg",
+   "Kraken's Rum",
+   "Eldritch Grasp"
+  ],
+  "skill_list": [
+   "BladedChakram",
+   "Bladestorm",
+   "BloodySaw",
+   "BombBarrage",
+   "CamorsArrow",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "DoubleSlash",
+   "EggShooter",
+   "ExplosiveShot",
+   "ExplosiveTrap",
+   "Flurry",
+   "FragShot",
+   "HeartbreakOrbs",
+   "HeartrendingStrike",
+   "MineField",
+   "NapalmBlast",
+   "OnGuard",
+   "QuickStrike",
+   "RapidBarrage",
+   "SharpSpear",
+   "ShrapnelBomb",
+   "ShrapnelShot",
+   "SpearTrap",
+   "SpreadShot",
+   "StormofArrows",
+   "Subdue",
+   "SuctionBomb",
+   "SugarRush",
+   "BuildBallista",
+   "SurpriseGift",
+   "TitansCleaver",
+   "WeakeningShot"
+  ],
+  "tree_runes": [
+   "Pirate's Rum",
+   "Curse of the Depths",
+   "Devastating Blow"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Cursed_Captain"
+ },
+ {
+  "id": "DeathKnight",
+  "name_en": "Death Knight",
+  "name_ru": "Рыцарь смерти",
+  "class": "Melee",
+  "weapon_type": "Sword",
+  "unlock": "Win a match with all curses up to III enabled on The Frozen Wasteland",
+  "stats": [
+   {
+    "name": "Body Mass",
+    "value": "+50000"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "-10%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+90%"
+   },
+   {
+    "name": "Area Modifer",
+    "value": "+30%"
+   }
+  ],
+  "skill_types": [
+   "Ice",
+   "Nature",
+   "Shadow",
+   "Swing",
+   "Slam"
+  ],
+  "weapons": [
+   "UnholyClaymore",
+   "GreatswordofCorruption",
+   "LastSentence",
+   "Wintersorrow"
+  ],
+  "artifact_power": "Dragonflight",
+  "starting_unique_skills": [
+   "Contagion",
+   "Path of Decay",
+   "Shadow Grasp"
+  ],
+  "skill_list": [
+   "AcidRain",
+   "ArmorShatter",
+   "Avalanche",
+   "Bladestorm",
+   "Blizzard",
+   "BloodySaw",
+   "BodySlam",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "DeathVortex",
+   "DoubleSlash",
+   "FrostBolt",
+   "FrostTotem",
+   "Glacier",
+   "GroundBreak",
+   "HeartrendingStrike",
+   "IceVortex",
+   "Pestilence",
+   "PoisonBolt",
+   "PoisonCloud",
+   "PoisonPuddle",
+   "ResonantSlam",
+   "SeismicShock",
+   "ShadowBolt",
+   "ShadowOrb",
+   "ShadowSpikes",
+   "Subdue",
+   "SummonHelperElves",
+   "TitansCleaver",
+   "Void"
+  ],
+  "tree_runes": [
+   "Ready for Battle",
+   "Oscillating Power",
+   "Quality Standards"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Death_Knight"
+ },
+ {
+  "id": "DemonHunter",
+  "name_en": "Demon Hunter",
+  "name_ru": "Охотник на демонов",
+  "class": "Ranged",
+  "weapon_type": "Crossbow",
+  "unlock": "Complete the Ritual of Hate in the Unholy Cathedral",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-10"
+   },
+   {
+    "name": "Damage Modifer",
+    "value": "+15%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "-5%"
+   }
+  ],
+  "skill_types": [
+   "Chaos",
+   "Shadow",
+   "Projectile",
+   "Bomb",
+   "Blast"
+  ],
+  "weapons": [
+   "BloodbaneCrossbow",
+   "HellfireCannon",
+   "DemonicLauncher",
+   "Bonereaper"
+  ],
+  "artifact_power": "Demonic Portal",
+  "starting_unique_skills": [
+   "Chaotic Surge",
+   "Demonic Breath",
+   "Twin Impact"
+  ],
+  "skill_list": [
+   "BladedChakram",
+   "Bloodlust",
+   "BombBarrage",
+   "CamorsArrow",
+   "ChaosBolt",
+   "ChaoticExplosion",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "DeathClaw",
+   "DeathVortex",
+   "EggShooter",
+   "ExplosiveShot",
+   "ExplosiveTrap",
+   "FragShot",
+   "FrenziedBunnies",
+   "HeartbreakOrbs",
+   "MineField",
+   "NapalmBlast",
+   "RapidBarrage",
+   "ShadowBolt",
+   "ShadowOrb",
+   "ShadowSpikes",
+   "ShrapnelBomb",
+   "ShrapnelShot",
+   "SpreadShot",
+   "StormofArrows",
+   "SuctionBomb",
+   "BuildBallista",
+   "ChaosGolem",
+   "SurpriseGift",
+   "Void",
+   "WeakeningShot"
+  ],
+  "tree_runes": [
+   "Fateful Strike",
+   "Demonic Pact",
+   "Chaotic Aptitude"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Demon_Hunter"
+ },
+ {
+  "id": "Elementalist",
+  "name_en": "Elementalist",
+  "name_ru": "Повелитель стихий",
+  "class": "Mage",
+  "weapon_type": "Scepter & Spellbook",
+  "unlock": "Complete a match in under 10 minutes",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-20"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+30%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "-10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+20%"
+   }
+  ],
+  "skill_types": [
+   "Ice",
+   "Nature",
+   "Fire",
+   "Electric",
+   "Earth"
+  ],
+  "weapons": [
+   "ScepterofThunder",
+   "ScepterofFrost",
+   "ScepterofFlame",
+   "ScepterofNature",
+   "ScepterofEarth"
+  ],
+  "artifact_power": "Ball of Lightning",
+  "starting_unique_skills": [
+   "Frozen Warhammer",
+   "Lava Shield",
+   "Tornado"
+  ],
+  "skill_list": [
+   "AcidRain",
+   "Avalanche",
+   "Blizzard",
+   "ChainLightning",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "Combustion",
+   "EarthBolt",
+   "Earthquake",
+   "EarthShield",
+   "FireBolt",
+   "Flamethrower",
+   "FlameWave",
+   "FrostBolt",
+   "FrostTotem",
+   "Glacier",
+   "IceVortex",
+   "LightningBolt",
+   "LightningSurge",
+   "Meteor",
+   "Pestilence",
+   "PoisonBolt",
+   "PoisonCloud",
+   "PoisonPuddle",
+   "PowerConductor",
+   "RollingBoulder",
+   "ShockwaveTotem",
+   "SummonHelperElves",
+   "ThunderStrike"
+  ],
+  "tree_runes": [
+   "Synchrony",
+   "Elemental Flow",
+   "Endless Refill"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Elementalist"
+ },
+ {
+  "id": "Engineer",
+  "name_en": "Engineer",
+  "name_ru": "Инженер",
+  "class": "Summon, Ranged",
+  "weapon_type": "Minigun",
+  "unlock": "Eliminate a total of 700 Lords of the Void",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+15"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Experience Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-10%"
+   }
+  ],
+  "skill_types": [
+   "Blast",
+   "Bomb",
+   "Earth",
+   "Electric",
+   "Projectile"
+  ],
+  "weapons": [
+   "AmmoDevourer",
+   "EZRobotLauncherXT1",
+   "VoltCannon",
+   "BombLauncherQT22"
+  ],
+  "artifact_power": "Plasma Sentry",
+  "starting_unique_skills": [
+   "Heavy Artillery",
+   "Ammo Box",
+   "Portable Nuke"
+  ],
+  "skill_list": [
+   "BladedChakram",
+   "BombBarrage",
+   "CamorsArrow",
+   "ChainLightning",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "EarthBolt",
+   "Earthquake",
+   "EarthShield",
+   "EggShooter",
+   "ExplosiveShot",
+   "ExplosiveTrap",
+   "FragShot",
+   "HeartbreakOrbs",
+   "LightningBolt",
+   "LightningSurge",
+   "MineField",
+   "NapalmBlast",
+   "PowerConductor",
+   "RapidBarrage",
+   "RollingBoulder",
+   "ShockwaveTotem",
+   "ShrapnelBomb",
+   "ShrapnelShot",
+   "SpreadShot",
+   "StormofArrows",
+   "SuctionBomb",
+   "BuildBallista",
+   "SurpriseGift",
+   "ThunderStrike",
+   "WeakeningShot"
+  ],
+  "tree_runes": [
+   "Extended Magazines",
+   "Quick Reload",
+   "Armor-piercing Rounds"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Engineer"
+ },
+ {
+  "id": "HoundMaster",
+  "name_en": "Hound Master",
+  "name_ru": "Псарь",
+  "class": "Gunslinger",
+  "weapon_type": "Gun",
+  "unlock": "Eliminate at least one Lord of the Void in The Whispering Grove",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+25%"
+   },
+   {
+    "name": "Extra Health Per Crystal",
+    "value": "+10"
+   },
+   {
+    "name": "Maximum Health",
+    "value": "-20"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-10%"
+   }
+  ],
+  "skill_types": [
+   "Blast",
+   "Bomb",
+   "Fire",
+   "Nature",
+   "Projectile"
+  ],
+  "weapons": [
+   "RustedBlaster",
+   "RiflemensVengeance",
+   "ToxinCannon",
+   "DragonfireScattergun",
+   "VulcansHowl"
+  ],
+  "artifact_power": "Feral Awakening",
+  "starting_unique_skills": [
+   "Weakening Grenade",
+   "Bear Trap",
+   "Shrapnel Mine"
+  ],
+  "skill_list": [
+   "AcidRain",
+   "BladedChakram",
+   "BombBarrage",
+   "CamorsArrow",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "Combustion",
+   "EggShooter",
+   "ExplosiveShot",
+   "ExplosiveTrap",
+   "FireBolt",
+   "Flamethrower",
+   "FlameWave",
+   "FragShot",
+   "HeartbreakOrbs",
+   "Meteor",
+   "MineField",
+   "NapalmBlast",
+   "Pestilence",
+   "PoisonBolt",
+   "PoisonCloud",
+   "PoisonPuddle",
+   "RapidBarrage",
+   "ShrapnelBomb",
+   "ShrapnelShot",
+   "SpreadShot",
+   "StormofArrows",
+   "SuctionBomb",
+   "BuildBallista",
+   "SurpriseGift",
+   "WeakeningShot"
+  ],
+  "tree_runes": [
+   "Pulse of Agony",
+   "Vulnerable Target",
+   "Amplified Power"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Hound_Master"
+ },
+ {
+  "id": "Legionnaire",
+  "name_en": "Legionnaire",
+  "name_ru": "Легионер",
+  "class": "Melee",
+  "weapon_type": "Spear & Shield",
+  "unlock": "Complete cycle 2 on Endless Mode",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+40"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "-5%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "+30"
+   },
+   {
+    "name": "Damage Reduction",
+    "value": "+2"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "-10%"
+   }
+  ],
+  "skill_types": [
+   "Chaos",
+   "Nature",
+   "Fire",
+   "Electric",
+   "Thrust"
+  ],
+  "weapons": [
+   "LightSpear",
+   "JupitersReach",
+   "FangofVipernus",
+   "VulcansImpaler",
+   "CrimsonBastion"
+  ],
+  "artifact_power": "Summon Catapult",
+  "starting_unique_skills": [
+   "Intimidating Shout",
+   "Shield Wall",
+   "Storm of Spears"
+  ],
+  "skill_list": [
+   "AcidRain",
+   "Bloodlust",
+   "ChainLightning",
+   "ChaosBolt",
+   "ChaoticExplosion",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "Combustion",
+   "DeathClaw",
+   "FireBolt",
+   "Flamethrower",
+   "FlameWave",
+   "Flurry",
+   "FrenziedBunnies",
+   "LightningBolt",
+   "LightningSurge",
+   "Meteor",
+   "OnGuard",
+   "Pestilence",
+   "PoisonBolt",
+   "PoisonCloud",
+   "PoisonPuddle",
+   "PowerConductor",
+   "QuickStrike",
+   "SharpSpear",
+   "SpearTrap",
+   "SugarRush",
+   "ChaosGolem",
+   "ThunderStrike"
+  ],
+  "tree_runes": [
+   "War Tank",
+   "Material Harvest",
+   "Impaler"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Legionnaire"
+ },
+ {
+  "id": "Machinist",
+  "name_en": "Machinist",
+  "name_ru": "Механик",
+  "class": "Ranged",
+  "weapon_type": "Robotic Gun",
+  "unlock": "Complete the Sigil of Vileness in Titan Hunt",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+20"
+   },
+   {
+    "name": "Armor Power",
+    "value": "+15"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-10%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+15%"
+   }
+  ],
+  "skill_types": [
+   "Arcane",
+   "Ice",
+   "Fire",
+   "Electric",
+   "Blast"
+  ],
+  "weapons": [
+   "SoulcoreMKV",
+   "M249HSG504",
+   "CoremelterGTXTi",
+   "ElectrotaserRX"
+  ],
+  "artifact_power": "Force Field",
+  "starting_unique_skills": [
+   "Flame Syphon",
+   "High Voltage",
+   "Ice Resonance"
+  ],
+  "skill_list": [
+   "ArcaneBeam",
+   "ArcaneDisc",
+   "ArcanePower",
+   "ArcaneSparks",
+   "Avalanche",
+   "Blizzard",
+   "ChainLightning",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "Combustion",
+   "ExplosiveShot",
+   "FireBolt",
+   "Flamethrower",
+   "FlameWave",
+   "FrostBolt",
+   "FrostTotem",
+   "Glacier",
+   "IceVortex",
+   "LightningBolt",
+   "LightningSurge",
+   "MagicMissiles",
+   "Meteor",
+   "NapalmBlast",
+   "PowerConductor",
+   "RapidBarrage",
+   "ShrapnelShot",
+   "SummonHelperElves",
+   "ThunderStrike",
+   "WeakeningShot"
+  ],
+  "tree_runes": [
+   "Advanced Tactics",
+   "Efficiency Focus",
+   "Elemental Power"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Machinist"
+ },
+ {
+  "id": "MonkeyKing",
+  "name_en": "Monkey King",
+  "name_ru": "Царь обезьян",
+  "class": "Melee",
+  "weapon_type": "Staff",
+  "unlock": "Complete The Whispering Grove with all curses enabled up to tier VI",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "-10%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+15%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+25%"
+   }
+  ],
+  "skill_types": [
+   "Bomb",
+   "Earth",
+   "Electric",
+   "Holy",
+   "Slam"
+  ],
+  "weapons": [
+   "ImmortalsStaff",
+   "Cloudseeker",
+   "TrickstersBoomstick",
+   "MightoftheMountains"
+  ],
+  "artifact_power": "King's Illusion",
+  "starting_unique_skills": [
+   "Electric Strike",
+   "Whirling Defense",
+   "Expansive Throw"
+  ],
+  "skill_list": [
+   "ArmorShatter",
+   "BodySlam",
+   "BombBarrage",
+   "ChainLightning",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "EarthBolt",
+   "Earthquake",
+   "EarthShield",
+   "ExplosiveTrap",
+   "GroundBreak",
+   "HolyBeam",
+   "LightBeam",
+   "LightningBolt",
+   "LightningSurge",
+   "LivingWeapons",
+   "Might",
+   "MineField",
+   "PowerConductor",
+   "ResonantSlam",
+   "RollingBoulder",
+   "SeismicShock",
+   "ShockwaveTotem",
+   "ShrapnelBomb",
+   "Smite",
+   "SuctionBomb",
+   "SurpriseGift",
+   "ThunderStrike"
+  ],
+  "tree_runes": [
+   "Focused Mind",
+   "Battle Proficiency",
+   "Immortality"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Monkey_King"
+ },
+ {
+  "id": "Myrmidon",
+  "name_en": "Myrmidon",
+  "name_ru": "Прислужница",
+  "class": "Melee",
+  "weapon_type": "Trident",
+  "unlock": "Win a match with all curses up to tier VI enabled in The Frozen Wastelands",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+20"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+15%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "+20"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "-10%"
+   }
+  ],
+  "skill_types": [
+   "Arcane",
+   "Ice",
+   "Holy",
+   "Earth",
+   "Thrust"
+  ],
+  "weapons": [
+   "SongoftheSirens",
+   "ChantoftheClaws",
+   "HymnoftheDepths",
+   "WailoftheReefs"
+  ],
+  "artifact_power": "Gillkin Servants",
+  "starting_unique_skills": [
+   "Jawstorm",
+   "Precision Wave",
+   "Sea Current"
+  ],
+  "skill_list": [
+   "ArcaneBeam",
+   "ArcaneDisc",
+   "ArcanePower",
+   "ArcaneSparks",
+   "Avalanche",
+   "Blizzard",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "EarthBolt",
+   "Earthquake",
+   "EarthShield",
+   "Flurry",
+   "FrostBolt",
+   "FrostTotem",
+   "Glacier",
+   "HolyBeam",
+   "IceVortex",
+   "LightBeam",
+   "LivingWeapons",
+   "MagicMissiles",
+   "Might",
+   "OnGuard",
+   "QuickStrike",
+   "RollingBoulder",
+   "SharpSpear",
+   "ShockwaveTotem",
+   "Smite",
+   "SpearTrap",
+   "SugarRush",
+   "SummonHelperElves"
+  ],
+  "tree_runes": [
+   "Absolute Zero",
+   "Enduring Cold",
+   "Frozen Blood"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Myrmidon"
+ },
+ {
+  "id": "Necromancer",
+  "name_en": "Necromancer",
+  "name_ru": "Некромант",
+  "class": "Summon, Mage",
+  "weapon_type": "Scythe",
+  "unlock": "Win a match with all curses up to tier III enabled on The Dungeon of Despair",
+  "stats": [
+   {
+    "name": "Healing Modifier",
+    "value": "+20%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+15%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+20%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-10%"
+   }
+  ],
+  "skill_types": [
+   "Arcane",
+   "Chaos",
+   "Ice",
+   "Nature",
+   "Shadow"
+  ],
+  "weapons": [
+   "WoodenScythe",
+   "GuardianofSouls",
+   "NoxiousReaper",
+   "GrimtalonsScourge"
+  ],
+  "artifact_power": "Death's Owner",
+  "starting_unique_skills": [
+   "Skeletal Mage",
+   "Skeletal Archers",
+   "Putrid Hounds"
+  ],
+  "skill_list": [
+   "AcidRain",
+   "ArcaneBeam",
+   "ArcaneDisc",
+   "ArcanePower",
+   "ArcaneSparks",
+   "Avalanche",
+   "Blizzard",
+   "Bloodlust",
+   "ChaosBolt",
+   "ChaoticExplosion",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "DeathClaw",
+   "DeathVortex",
+   "FrenziedBunnies",
+   "FrostBolt",
+   "FrostTotem",
+   "Glacier",
+   "IceVortex",
+   "MagicMissiles",
+   "Pestilence",
+   "PoisonBolt",
+   "PoisonCloud",
+   "PoisonPuddle",
+   "ShadowBolt",
+   "ShadowOrb",
+   "ShadowSpikes",
+   "ChaosGolem",
+   "SummonHelperElves",
+   "Void"
+  ],
+  "tree_runes": [
+   "Lord's Bane",
+   "Death Touch",
+   "Improved Repertory"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Necromancer"
+ },
+ {
+  "id": "Paladin",
+  "name_en": "Paladin",
+  "name_ru": "Паладин",
+  "class": "Melee",
+  "weapon_type": "Hammer & Shield",
+  "unlock": "Reach prestige level 50 or higher with at least 5 different characters",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+30"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "-5%"
+   },
+   {
+    "name": "Healing Modifier",
+    "value": "+20%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "+25"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-10%"
+   }
+  ],
+  "skill_types": [
+   "Arcane",
+   "Electric",
+   "Holy",
+   "Swing",
+   "Slam"
+  ],
+  "weapons": [
+   "SacredWarhammer",
+   "HarbingerofJustice",
+   "ArcaneScepterofLight",
+   "DawnbreakersMace",
+   "GoldenLionsCrusher"
+  ],
+  "artifact_power": "Blessed Hammer",
+  "starting_unique_skills": [
+   "Beacon of Light",
+   "Penance",
+   "Templar's Verdict"
+  ],
+  "skill_list": [
+   "ArcaneBeam",
+   "ArcaneDisc",
+   "ArcanePower",
+   "ArcaneSparks",
+   "ArmorShatter",
+   "Bladestorm",
+   "BloodySaw",
+   "BodySlam",
+   "ChainLightning",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "DoubleSlash",
+   "GroundBreak",
+   "HeartrendingStrike",
+   "HolyBeam",
+   "LightBeam",
+   "LightningBolt",
+   "LightningSurge",
+   "LivingWeapons",
+   "MagicMissiles",
+   "Might",
+   "PowerConductor",
+   "ResonantSlam",
+   "SeismicShock",
+   "Smite",
+   "Subdue",
+   "ThunderStrike",
+   "TitansCleaver"
+  ],
+  "tree_runes": [
+   "Vulnerable Exploit",
+   "Unwavering Persistence",
+   "Healing Flow"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Paladin"
+ },
+ {
+  "id": "Pyromancer",
+  "name_en": "Pyromancer",
+  "name_ru": "Пиромантка",
+  "class": "Mage",
+  "weapon_type": "Staff",
+  "unlock": "Eliminate at least one Lord of the Void in The Scorching Valley",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-20"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+20%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-15"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+20%"
+   }
+  ],
+  "skill_types": [
+   "Arcane",
+   "Chaos",
+   "Fire",
+   "Electric",
+   "Shadow"
+  ],
+  "weapons": [
+   "PyromancersFirestarter",
+   "Stormcaller",
+   "ShardofChaos",
+   "DamnatusSpireofShadows",
+   "Emberweaver"
+  ],
+  "artifact_power": "Phoenix Rebirth",
+  "starting_unique_skills": [
+   "Conflagrate",
+   "Fire Wall",
+   "Meteor Shower"
+  ],
+  "skill_list": [
+   "ArcaneBeam",
+   "ArcaneDisc",
+   "ArcanePower",
+   "ArcaneSparks",
+   "Bloodlust",
+   "ChainLightning",
+   "ChaosBolt",
+   "ChaoticExplosion",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "Combustion",
+   "DeathClaw",
+   "DeathVortex",
+   "FireBolt",
+   "Flamethrower",
+   "FlameWave",
+   "FrenziedBunnies",
+   "LightningBolt",
+   "LightningSurge",
+   "MagicMissiles",
+   "Meteor",
+   "PowerConductor",
+   "ShadowBolt",
+   "ShadowOrb",
+   "ShadowSpikes",
+   "ChaosGolem",
+   "ThunderStrike",
+   "Void"
+  ],
+  "tree_runes": [
+   "Merciless Precision",
+   "Searing Intensity",
+   "Adaptive Empowerment"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Pyromancer"
+ },
+ {
+  "id": "Samurai",
+  "name_en": "Samurai",
+  "name_ru": "Самурай",
+  "class": "Melee",
+  "weapon_type": "Katana",
+  "unlock": "Complete the Sigil of Wickedness in Titan Hunt",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-10"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+15%"
+   },
+   {
+    "name": "Dash Count",
+    "value": "+1"
+   }
+  ],
+  "skill_types": [
+   "Chaos",
+   "Fire",
+   "Shadow",
+   "Swing",
+   "Slam"
+  ],
+  "weapons": [
+   "Veilpiercer",
+   "Shadowfang",
+   "ExecutionersBurden",
+   "LastEmber"
+  ],
+  "artifact_power": "Untouchable",
+  "starting_unique_skills": [
+   "Last Stand",
+   "Ruthlessness",
+   "Scorching Katana"
+  ],
+  "skill_list": [
+   "ArmorShatter",
+   "Bladestorm",
+   "Bloodlust",
+   "BloodySaw",
+   "BodySlam",
+   "ChaosBolt",
+   "ChaoticExplosion",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "Combustion",
+   "DeathClaw",
+   "DeathVortex",
+   "DoubleSlash",
+   "FireBolt",
+   "Flamethrower",
+   "FlameWave",
+   "FrenziedBunnies",
+   "GroundBreak",
+   "HeartrendingStrike",
+   "Meteor",
+   "ResonantSlam",
+   "SeismicShock",
+   "ShadowBolt",
+   "ShadowOrb",
+   "ShadowSpikes",
+   "Subdue",
+   "ChaosGolem",
+   "TitansCleaver",
+   "Void"
+  ],
+  "tree_runes": [
+   "Arduous Training",
+   "Enduring Spirit",
+   "Swift Execution"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Samurai"
+ },
+ {
+  "id": "Sentinel",
+  "name_en": "Sentinel",
+  "name_ru": "Охотница",
+  "class": "Ranged",
+  "weapon_type": "Bow",
+  "unlock": "Eliminate a total of 50 elite enemies",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-30"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Body Mass",
+    "value": "-20"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+20%"
+   },
+   {
+    "name": "Dash Count",
+    "value": "+1"
+   }
+  ],
+  "skill_types": [
+   "Ice",
+   "Nature",
+   "Shadow",
+   "Projectile",
+   "Bomb"
+  ],
+  "weapons": [
+   "HuntressBow",
+   "SiegeRecurveBow",
+   "MiserysEnd",
+   "NoxiousLongbow",
+   "Soulfrost"
+  ],
+  "artifact_power": "Arrow Barrage",
+  "starting_unique_skills": [
+   "Split Shot",
+   "Sniper Shot",
+   "Ricochet Shot"
+  ],
+  "skill_list": [
+   "AcidRain",
+   "Avalanche",
+   "BladedChakram",
+   "Blizzard",
+   "BombBarrage",
+   "CamorsArrow",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "DeathVortex",
+   "EggShooter",
+   "ExplosiveTrap",
+   "FragShot",
+   "FrostBolt",
+   "FrostTotem",
+   "Glacier",
+   "HeartbreakOrbs",
+   "IceVortex",
+   "MineField",
+   "Pestilence",
+   "PoisonBolt",
+   "PoisonCloud",
+   "PoisonPuddle",
+   "ShadowBolt",
+   "ShadowOrb",
+   "ShadowSpikes",
+   "ShrapnelBomb",
+   "SpreadShot",
+   "StormofArrows",
+   "SuctionBomb",
+   "BuildBallista",
+   "SummonHelperElves",
+   "SurpriseGift",
+   "Void"
+  ],
+  "tree_runes": [
+   "Unconventional Start",
+   "Extended Reach",
+   "Immovable Object"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Sentinel"
+ },
+ {
+  "id": "Shaman",
+  "name_en": "Shaman",
+  "name_ru": "Шаман",
+  "class": "Melee, Summon",
+  "weapon_type": "Whip",
+  "unlock": "Complete Titan Hunt for the first time",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+15"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+5%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-10%"
+   }
+  ],
+  "skill_types": [
+   "Arcane",
+   "Nature",
+   "Fire",
+   "Holy",
+   "Earth"
+  ],
+  "weapons": [
+   "SpinevineWhip",
+   "StarweaversTail",
+   "MaldrakarsFlamelash",
+   "TharuunsLasher"
+  ],
+  "artifact_power": "Warding Totem",
+  "starting_unique_skills": [
+   "Bull Charge",
+   "Cobra Totem",
+   "Stone Spiral"
+  ],
+  "skill_list": [
+   "AcidRain",
+   "ArcaneBeam",
+   "ArcaneDisc",
+   "ArcanePower",
+   "ArcaneSparks",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "Combustion",
+   "EarthBolt",
+   "Earthquake",
+   "EarthShield",
+   "FireBolt",
+   "Flamethrower",
+   "FlameWave",
+   "HolyBeam",
+   "LightBeam",
+   "LivingWeapons",
+   "MagicMissiles",
+   "Meteor",
+   "Might",
+   "Pestilence",
+   "PoisonBolt",
+   "PoisonCloud",
+   "PoisonPuddle",
+   "RollingBoulder",
+   "ShockwaveTotem",
+   "Smite"
+  ],
+  "tree_runes": [
+   "Prophecy",
+   "Savage Pact",
+   "Sacred Offering"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Shaman"
+ },
+ {
+  "id": "Spellblade",
+  "name_en": "Spellblade",
+  "name_ru": "Заклинатель",
+  "class": "Melee",
+  "weapon_type": "Sword",
+  "unlock": "Eliminate a total of 10,000 enemies",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+30"
+   },
+   {
+    "name": "Armor Power",
+    "value": "+20"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "-10%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+20%"
+   }
+  ],
+  "skill_types": [
+   "Arcane",
+   "Fire",
+   "Ice",
+   "Swing",
+   "Thrust"
+  ],
+  "weapons": [
+   "SilverSpellblade",
+   "ArcaneScimitar",
+   "IcelordsBlade",
+   "ScorchingEdge",
+   "RuneforgedGreatsword"
+  ],
+  "artifact_power": "Ethereal Shadow",
+  "starting_unique_skills": [
+   "Arcane Assault",
+   "Arcane Rift",
+   "Arcane Blade"
+  ],
+  "skill_list": [
+   "ArcaneBeam",
+   "ArcaneDisc",
+   "ArcanePower",
+   "ArcaneSparks",
+   "Avalanche",
+   "Bladestorm",
+   "Blizzard",
+   "BloodySaw",
+   "ChromaticBolt",
+   "ChromaticSlash",
+   "Combustion",
+   "DoubleSlash",
+   "FireBolt",
+   "Flamethrower",
+   "FlameWave",
+   "Flurry",
+   "FrostBolt",
+   "FrostTotem",
+   "Glacier",
+   "HeartrendingStrike",
+   "IceVortex",
+   "MagicMissiles",
+   "Meteor",
+   "OnGuard",
+   "QuickStrike",
+   "SharpSpear",
+   "SpearTrap",
+   "Subdue",
+   "SugarRush",
+   "SummonHelperElves",
+   "TitansCleaver"
+  ],
+  "tree_runes": [
+   "Head Start",
+   "Commoner",
+   "Unexpected Arsenal"
+  ],
+  "has_ascension": true,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Spellblade"
+ }
+]

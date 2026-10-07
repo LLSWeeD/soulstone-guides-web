@@ -1,0 +1,809 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Engineer",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Инженер с миниганом: класс Summon/Ranged, типы навыков Blast, Bomb, Earth, Electric, Projectile; уникальные навыки Heavy Artillery, Ammo Box и Portable Nuke. Актуальные билды: Bleed через Burst of Lead и Shrapnel Bomb, армия турелей на стаках Ammunition или электрические навыки с критами через Dazed. Бонусы: +15 здоровья, +20% крит. урона, +15% опыта, но -10% скорости движения.",
+    "en": "Minigun-wielding Summon/Ranged character with Blast, Bomb, Earth, Electric and Projectile skill types; unique skills Heavy Artillery, Ammo Box and Portable Nuke. Current builds: Bleed via Burst of Lead and Shrapnel Bomb, a turret army fed by Ammunition stacks, or Electric skills with crits via Dazed. Bonuses: +15 health, +20% critical damage, +15% experience, but -10% movement speed."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-engineer",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2024/05/18/soulstone-survivors-guide-the-engineer/",
+      "title": "Soulstone Survivors Guide: The Engineer",
+      "game_version": "1.5d",
+      "updated": "2026-06-16",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "engineer-bleed",
+          "name": {
+            "ru": "Кровотечение",
+            "en": "Bleed"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Bleed",
+            "Dazed",
+            "Aptitude",
+            "Ammunition",
+            "Weakness"
+          ],
+          "skills": [
+            {
+              "id": "BurstofLead",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык: много попаданий, дружит с критами.",
+                "en": "Starting skill: many hits, works well with crits."
+              }
+            },
+            {
+              "id": "Bladestorm",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Добавляется через Skill Mastery: Swing; АОЕ-зачистка и основной источник Bleed.",
+                "en": "Cheated in via Skill Mastery: Swing; AOE clear and a main Bleed source."
+              }
+            },
+            {
+              "id": "Flurry",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Через Skill Mastery: Thrust; быстро бьёт и сам вешает Bleed.",
+                "en": "Via Skill Mastery: Thrust; hits fast and applies Bleed itself."
+              }
+            },
+            {
+              "id": "QTLandSurprise",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Мины с Bleed, через Unexpected Arsenal.",
+                "en": "Bleed-applying mines, via Unexpected Arsenal."
+              }
+            },
+            {
+              "id": "HeavyArtillery",
+              "role": "support",
+              "note": {
+                "ru": "Статичная турель, добавляет Weakness.",
+                "en": "Static turret that also applies Weakness."
+              }
+            },
+            {
+              "id": "EZSentry",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Турель, копит Ammunition; через Unexpected Arsenal.",
+                "en": "Turret stacking Ammunition; via Unexpected Arsenal."
+              }
+            },
+            {
+              "id": "ShrapnelBomb",
+              "role": "damage",
+              "note": {
+                "ru": "Главный урон, сохраняет стаки Bleed.",
+                "en": "Main damage skill, keeps Bleed stacks intact."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "BloodShed",
+              "priority": "must",
+              "note": {
+                "ru": "Минимум одна, чтобы навыки накладывали Bleed.",
+                "en": "At least one so skills apply Bleed."
+              }
+            },
+            {
+              "power_id": "BrutalStrikes",
+              "priority": "must",
+              "note": {
+                "ru": "Минимум одна, чтобы навыки накладывали Bleed.",
+                "en": "At least one so skills apply Bleed."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high",
+              "note": {
+                "ru": "Магнитные пассивки.",
+                "en": "Magnet passives."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high",
+              "note": {
+                "ru": "Около 70-100%, чтобы уворачиваться ходьбой.",
+                "en": "Around 70-100% to dodge by walking."
+              }
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium",
+              "note": {
+                "ru": "Улучшения урона Bladestorm и Shrapnel Bomb.",
+                "en": "Damage upgrades for Bladestorm and Shrapnel Bomb."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "LordsBane"
+              },
+              {
+                "id": "ExtendedMagazines"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "UnexpectedArsenal"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Thrust"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Swing"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Накладывать много стаков Bleed разными навыками и ускорять тики, а добивать Shrapnel Bomb. Скорость движения нужна, чтобы уходить от атак.",
+            "en": "Apply lots of Bleed stacks with several skills and speed up ticks, finishing with Shrapnel Bomb. Keep movement speed high to dodge attacks."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Скорость движения 70-100% достаточна, чтобы уворачиваться ходьбой.",
+                "en": "70-100% movement speed is enough to dodge by walking."
+              },
+              "status": "unverified",
+              "detail": "Наблюдение автора, проверить по данным нельзя."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory даёт седьмой слот навыка ценой -15% урона.",
+                "en": "Improved Repertory gives a seventh skill slot at the cost of -15% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Burst of Lead стакается шесть раз.",
+                "en": "Burst of Lead can be stacked six times."
+              },
+              "status": "unverified",
+              "detail": "На вики у навыка 20 ударов, кулдаун 6 с, числа «шесть» нет. Вероятно, автор имеет в виду 1 каст + 5 зарядов multi cast от Ammunition (вики: 20 стаков дают +5 зарядов), но гайд этого не поясняет."
+            },
+            {
+              "text": {
+                "ru": "Elemental Flow ускоряет тики Bleed, поэтому выгоден при большом числе стаков.",
+                "en": "Elemental Flow speeds up Bleed ticks, so it pays off with many stacks."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (модуль рун, старее 1.5d): эффекты тикают на 100% чаще, как в гайде. Выжимка 1.5d: руна переделана, урон эффекта приходит сразу при наложении. Для 1.5d верить выжимке; руна, скорее всего, остаётся полезной для Bleed, но по другой причине."
+            },
+            {
+              "text": {
+                "ru": "Shrapnel Bomb бьёт сильнее QT Bombuddy 1000 и не снимает стаки Bleed.",
+                "en": "Shrapnel Bomb deals more damage than QT Bombuddy 1000 and leaves Bleed stacks intact."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Shrapnel Bomb наносит урон от числа стаков Bleed на цели (200 + 4 за стак, 15 снарядов); QT Bombuddy 1000 мгновенно наносит 130% урона всех Bleed в зоне и снимает эти эффекты. Что Shrapnel Bomb сильнее в итоге, это оценка автора."
+            },
+            {
+              "text": {
+                "ru": "Extended Magazines: руна за 1 очко, даёт много multi cast через Ammunition.",
+                "en": "Extended Magazines: a one-point rune granting lots of multi cast via Ammunition."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: цена 1, при каждом касте 10% шанс получить 1 стак Ammunition; 20 стаков дают +5 зарядов multi cast."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "engineer-summon",
+          "name": {
+            "ru": "Призыв",
+            "en": "Summon"
+          },
+          "weapon_id": "EZRobotLauncherXT1",
+          "archetypes": [
+            "summon",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Ammunition",
+            "Dazed",
+            "Bleed",
+            "Weakness",
+            "Shattered"
+          ],
+          "skills": [
+            {
+              "id": "EZSentry",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стреляет много, вешает Bleed, копит Ammunition.",
+                "en": "Shoots a lot, applies Bleed, stacks Ammunition."
+              }
+            },
+            {
+              "id": "EZMechanicalSpider",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Боты следуют за игроком, ломают броню через Shattered.",
+                "en": "Bots follow you and break armor via Shattered."
+              }
+            },
+            {
+              "id": "PowerConductor",
+              "role": "support",
+              "note": {
+                "ru": "Копит Dazed, ослабляя врагов для остальных.",
+                "en": "Stacks Dazed, weakening enemies for everything else."
+              }
+            },
+            {
+              "id": "HeavyArtillery",
+              "role": "support",
+              "note": {
+                "ru": "Ещё одна турель с Bleed и Weakness.",
+                "en": "Another turret with Bleed and Weakness."
+              }
+            },
+            {
+              "id": "AmmoBox",
+              "role": "support",
+              "note": {
+                "ru": "Все в зоне копят Ammunition для доп. кастов.",
+                "en": "Everything in range stacks Ammunition for extra casts."
+              }
+            },
+            {
+              "id": "BuildBallista",
+              "role": "damage",
+              "note": {
+                "ru": "Баллисты хорошо сочетаются с турелями и Ammunition.",
+                "en": "Ballistae pair well with turrets and Ammunition."
+              }
+            },
+            {
+              "id": "QTBombuddy1000",
+              "role": "optional",
+              "obtained": "rune",
+              "note": {
+                "ru": "Через Unexpected Arsenal; можно заменить на Shrapnel Bomb.",
+                "en": "Via Unexpected Arsenal; can be swapped for Shrapnel Bomb."
+              }
+            },
+            {
+              "id": "LightningSurge",
+              "role": "support",
+              "note": {
+                "ru": "Копит Dazed и даёт бафф скорости движения.",
+                "en": "Stacks Dazed and grants a movement speed buff."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_name": "Summon limit increase",
+              "priority": "must",
+              "note": {
+                "ru": "Гайд велит в первую очередь брать любые пассивки, повышающие максимум миньонов, без названий; на вики отдельной пассивки с таким статом нет. Остальные уровни автор иногда тратит на защитные пассивки: урона билду нужно меньше.",
+                "en": "The guide says to prioritize any passives that raise the maximum number of minions, without naming them; the wiki has no separate passive with that stat. The author spends some other levels on defensive passives since the build needs less damage."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Harmony"
+              },
+              {
+                "id": "ExtraHelp"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "LordsBane"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "UnexpectedArsenal"
+              },
+              {
+                "id": "MaterialHarvest"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Найти угол карты, где враги идут с двух стен, дождаться турелей, питаемых Ammo Box и Lightning Surge, и собирать топливо для живучести. Сам Инженер почти пассивен.",
+            "en": "Find a map corner where enemies come from two walls, let turrets fueled by Ammo Box and Lightning Surge spawn, and pick up fuel for survivability. The Engineer himself is mostly passive."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory снижает урон на 15%, но даёт больше навыков.",
+                "en": "Improved Repertory lowers damage by 15% but grants more skills."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Extra Help даёт +1 максимум миньонов на каждый навык призыва.",
+                "en": "Extra Help gives +1 maximum minion per summon skill."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: максимум активных юнитов и количество призываемых юнитов у всех навыков +1. Цена 1 руна."
+            },
+            {
+              "text": {
+                "ru": "Weapon Expert даёт EZ Mechanical Spider с начала забега.",
+                "en": "Weapon Expert grants EZ Mechanical Spider from the start."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Weapon Expert даёт в начале игры особый навык выбранного оружия; у EZ Robot Launcher XT-1 это второй навык, EZ Mechanical Spider."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "engineer-electric",
+          "name": {
+            "ru": "Электричество",
+            "en": "Electric"
+          },
+          "weapon_id": "VoltCannon",
+          "archetypes": [
+            "multiplier",
+            "synchrony"
+          ],
+          "core_mechanics": [
+            "Electrified",
+            "Dazed",
+            "Disoriented",
+            "Skill Chain",
+            "Critical Hit"
+          ],
+          "skills": [
+            {
+              "id": "Energizer",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Низкий кулдаун, копит Electrified; лазер остаётся и работает как конус.",
+                "en": "Low cooldown, stacks Electrified; the laser lingers and works like a cone."
+              }
+            },
+            {
+              "id": "ChromaticBolt",
+              "role": "core",
+              "note": {
+                "ru": "Почти любого типа, провоцирует много Skill Chain: Electric.",
+                "en": "Almost every type, triggers many Skill Chain: Electric options."
+              }
+            },
+            {
+              "id": "LightningSurge",
+              "role": "support",
+              "note": {
+                "ru": "Копит Dazed для крупных критов, плюс скорость.",
+                "en": "Stacks Dazed for big crits, plus movement speed."
+              }
+            },
+            {
+              "id": "ChainLightning",
+              "role": "support",
+              "note": {
+                "ru": "Хорошая АОЕ-зачистка.",
+                "en": "Good AOE clear."
+              }
+            },
+            {
+              "id": "ThunderStrike",
+              "role": "support",
+              "note": {
+                "ru": "Копит Electrified и оглушает крупных врагов.",
+                "en": "Stacks Electrified and stuns big enemies."
+              }
+            },
+            {
+              "id": "ThunderingSlash",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Урон растёт от стаков Dazed.",
+                "en": "Damage scales with Dazed stacks."
+              }
+            },
+            {
+              "id": "OverchargedBlast",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Урон растёт от стаков Dazed.",
+                "en": "Damage scales with Dazed stacks."
+              }
+            },
+            {
+              "id": "ElectricStrike",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Масштабируется от шанса крита.",
+                "en": "Scales with critical hit chance."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Critical Damage",
+              "priority": "must",
+              "note": {
+                "ru": "Важнее всего.",
+                "en": "Most important."
+              }
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "high"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium",
+              "note": {
+                "ru": "Обычный урон тоже подходит; пассивки Leviathan избегать ради скорости.",
+                "en": "Plain damage is fine too; avoid Leviathan passives to keep movement speed."
+              }
+            },
+            {
+              "power_name": "Skill Chain",
+              "priority": "high",
+              "note": {
+                "ru": "Гайд: Chromatic Bolt почти всех типов, поэтому при повышении уровня часто выпадают «Skill Chain: Electric > (…)», и в итоге он стреляет непрерывно. Тип цели не назван: Electric -> любой тип Chromatic Bolt.",
+                "en": "Guide: Chromatic Bolt has almost every type, so level-ups often offer 'Skill Chain: Electric > (...)', eventually firing it constantly. Target type not named: Electric -> any Chromatic Bolt type."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "VulnerableTarget"
+              },
+              {
+                "id": "CriticalMastery"
+              },
+              {
+                "id": "LordsBane"
+              },
+              {
+                "id": "ImprovedRepertory"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillMastery",
+                "variant": "Electric"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "MaterialHarvest"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Электрические навыки под криты: Dazed усиливает удары, Lightning Surge даёт скорость. Энергайзером можно водить мышью, как конусом.",
+            "en": "Electric skills built around crits: Dazed amplifies hits, Lightning Surge adds speed. Sweep Energizer with the mouse like a cone."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Vulnerable Target даёт плоские +25% к шансу крита.",
+                "en": "Vulnerable Target gives a flat +25% critical hit chance."
+              },
+              "status": "conflict",
+              "verified_by": "user",
+              "detail": "В игре (1.5d) Vulnerable Target даёт +50% шанса крита (проверено пользователем); 25% — старое значение, как на вики. Гайд в этом месте устарел."
+            },
+            {
+              "text": {
+                "ru": "Critical Mastery добавляет крит. урон, равный четверти шанса крита.",
+                "en": "Critical Mastery adds critical damage equal to a quarter of critical hit chance."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита добавляется к множителю крит. урона, включая бонус шанса от эффектов на врагах (Dazed)."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory даёт седьмой навык при -15% урона.",
+                "en": "Improved Repertory gives a seventh skill at -15% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Lord's Bane: самая простая руна урона.",
+                "en": "Lord's Bane is the easiest damage rune to pick."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +25% урона, пока жив Lord of the Void, цена 3 руны. «Самая простая» — оценка автора."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "engineer-bomb-bleed-legacy",
+          "name": {
+            "ru": "Бомбомёт на Bleed (старый)",
+            "en": "Bomb Launcher Bleed (legacy)"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "dot",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Bleed"
+          ],
+          "skills": [
+            {
+              "id": "ShrapnelBomb",
+              "role": "core",
+              "note": {
+                "ru": "Главный урон, растёт от стаков Bleed.",
+                "en": "Main damage, scales with Bleed stacks."
+              }
+            },
+            {
+              "id": "BombBarrage",
+              "role": "support"
+            },
+            {
+              "id": "HeavyArtillery",
+              "role": "support"
+            },
+            {
+              "id": "ShrapnelShot",
+              "role": "support"
+            },
+            {
+              "id": "ExplosiveTrap",
+              "role": "support"
+            },
+            {
+              "id": "QTLandSurprise",
+              "role": "support"
+            },
+            {
+              "id": "QTBombuddy1000",
+              "role": "optional",
+              "note": {
+                "ru": "В гайде: держать на старте, заменить на навык с Bleed, когда набрано 4 других навыка.",
+                "en": "Per the guide: keep early, swap for a Bleed skill once you have 4 other skills."
+              }
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Executioner"
+              },
+              {
+                "id": "PulseofAgony"
+              },
+              {
+                "id": "MisfortunesEmbrace"
+              },
+              {
+                "id": "WarTank"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Бегать с большой пушкой и стрелять во всё, набирая навыки с Bleed. QT Bombuddy 1000 держать сначала, потом менять на навык с большим Bleed.",
+            "en": "Run around with a big gun shooting everything, taking Bleed-inflicting skills. Keep QT Bombuddy 1000 early, then swap it for more Bleed."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "QT Bombuddy 1000 стоит заменить, когда набрано 4 других навыка.",
+                "en": "Replace QT Bombuddy 1000 once you have 4 other skills."
+              },
+              "status": "unverified",
+              "detail": "Совет авторов под патч 1.2, проверить по данным нельзя."
+            },
+            {
+              "text": {
+                "ru": "Shrapnel Bomb наносит больше урона от стаков Bleed.",
+                "en": "Shrapnel Bomb deals more damage based on Bleed stacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 200 урона + 4 за каждый стак Bleed на цели, 15 снарядов, кулдаун 6 с."
+            }
+          ],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Bleed)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Bleed полноценно масштабируется от модификаторов урона, Executioner и бонусов против элиты; билд целиком на Bleed выигрывает.",
+                "en": "Since 1.4 Bleed fully scales with damage modifiers, Executioner and elite bonuses; a pure Bleed build benefits."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Совет «брать навыки, которые вешают больше Bleed» совпадает с метой 1.5d.",
+                "en": "The advice to take more Bleed-inflicting skills matches the 1.5d meta."
+              }
+            },
+            {
+              "mechanic": "Misfortune's Embrace",
+              "impact": "weakened",
+              "note": {
+                "ru": "Руна вешает случайные Burn, Bleed, Poison или Doom: в 1.5d это размывает специализацию на одном Bleed. Взамен немного растёт бонус Executioner (4% за каждый разный тип эффекта, максимум 20%).",
+                "en": "The rune applies random Burn, Bleed, Poison or Doom, diluting pure-Bleed specialization in 1.5d. In return Executioner gains a bit (4% per different effect type, max 20%)."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учитывались. По выжимке легендарное оружие Engineer добавлено в 1.5, но на вики его нет; Titan Powers (Hecthoor, Underson) тоже не учтены.",
+                "en": "Not considered. Per the digest Engineer got a legendary weapon in 1.5, but it is not on the wiki; Titan Powers (Hecthoor, Underson) are not considered either."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2: Bomb Launcher, Shrapnel Bomb как главный урон и набор навыков с Bleed. Архетип Bleed в 1.5d стал сильнее, но Misfortune's Embrace размывает специализацию, а рун Versatility и пассивок гайд не называет. В актуальном гайде есть свой Bleed-билд с тем же Shrapnel Bomb и полным набором рун: он предпочтительнее.",
+        "en": "Written for 1.2: Bomb Launcher, Shrapnel Bomb as the main damage and a Bleed skill set. The Bleed archetype got stronger in 1.5d, but Misfortune's Embrace dilutes specialization, and the guide names no Versatility runes or passives. The current guide has its own Bleed build with the same Shrapnel Bomb and a full rune set; prefer it."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Leviathan",
+        "builds": [
+          "engineer-electric"
+        ],
+        "reason": {
+          "ru": "Из гайда: автор не берёт пассивки Leviathan, чтобы не терять скорость движения (Leviathan даёт урон, но до -15% скорости).",
+          "en": "From the guide: the author avoids Leviathan passives to keep movement speed high (Leviathan adds damage but up to -15% speed)."
+        }
+      },
+      {
+        "target": "Burn, Poison, Doom application passives",
+        "builds": [
+          "engineer-bleed",
+          "engineer-bomb-bleed-legacy"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билды целиком на Bleed, а мета 1.5d требует специализации на одном ailment; пассивки чужих эффектов отнимают уровни.",
+          "en": "Inference, not from the source: these builds are pure Bleed and the 1.5d meta favours a single ailment; other ailment passives waste level-ups."
+        }
+      },
+      {
+        "target": "Leviathan",
+        "builds": [
+          "engineer-bleed"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: автор держит 70-100% скорости движения, чтобы уворачиваться ходьбой, а у Engineer уже -10% скорости.",
+          "en": "Inference, not from the source: the author keeps 70-100% movement speed to dodge by walking, and Engineer already has -10% speed."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Bleed: первыми брать Bloodshed и Brutal Strikes, хотя бы по одной, чтобы все атаки и криты вешали Bleed.",
+        "en": "Bleed: take Bloodshed and Brutal Strikes first, at least one each, so all attacks and crits apply Bleed."
+      },
+      {
+        "ru": "Bleed: затем Magnetic, скорость движения до 70-100% и усиления урона Bladestorm и Shrapnel Bomb.",
+        "en": "Bleed: then Magnetic, movement speed up to 70-100%, and damage upgrades for Bladestorm and Shrapnel Bomb."
+      },
+      {
+        "ru": "Summon: в приоритете всё, что повышает максимум миньонов; свободные уровни можно отдать защите.",
+        "en": "Summon: prioritize anything raising the maximum number of minions; spare levels can go to defense."
+      },
+      {
+        "ru": "Electric: крит. урон важнее всего, затем шанс крита; обычный урон тоже годится, но не Leviathan.",
+        "en": "Electric: critical damage matters most, then critical chance; plain damage is fine too, but not Leviathan."
+      },
+      {
+        "ru": "Electric: брать Skill Chain с Electric на типы Chromatic Bolt, чтобы он стрелял почти постоянно.",
+        "en": "Electric: take Skill Chains from Electric into Chromatic Bolt's types so it fires almost constantly."
+      },
+      {
+        "ru": "Старый Bleed (1.2): брать навыки, которые вешают Bleed; QT Bombuddy 1000 менять, когда набрано 4 других навыка.",
+        "en": "Old Bleed (1.2): take Bleed-applying skills; swap out QT Bombuddy 1000 once you have 4 other skills."
+      }
+    ],
+    "basis": {
+      "ru": "Сведено из гайда cubiccreativity (1.5d, помечен WIP), Steam-гайда (1.2) и выжимки меты; числа сверены с вики. Бан Leviathan в Electric назван автором; остальные баны — выводы по специализации, помечены отдельно. Правила повышения уровня взяты из текста гайдов.",
+      "en": "Compiled from the cubiccreativity guide (1.5d, marked WIP), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. The Leviathan ban in Electric comes from the author; other bans are specialization inferences, marked as such. Level-up rules come from the guide text."
+    }
+  },
+  "gaps": [
+    "Гайд cubiccreativity помечен автором как WIP (в работе).",
+    "Легендарного оружия Engineer (по выжимке добавлено в 1.5) на вики нет; билдов под него в гайдах нет.",
+    "Билд Summon: гайд не называет пассивки на максимум миньонов, на вики такой пассивки нет; записано как power_name «Summon limit increase». «Защитные пассивки» гайд тоже не уточняет, они перенесены в note.",
+    "Билд Electric: гайд называет «Skill Chain: Electric > (…)» без целевого типа; записано как power_name «Skill Chain».",
+    "В Electric-билде и Bleed-билде приоритеты пассивок расплывчатые, порядок оценочный.",
+    "Оружие билда «Кровотечение» гайд не называет; стартовый навык Burst of Lead — основной навык Ammo Devourer, так что вероятно это оно (в карточке не указано как вывод).",
+    "Steam-гайд (1.2) называет оружие просто «Bomb Launcher» без QT-22; у Engineer это только Bomb Launcher QT-22, но weapon_id оставлен null, т.к. полного названия в тексте нет.",
+    "Steam-гайд называет только 4 руны Tenacity, Versatility и пассивки не указаны.",
+    "Bleed-билд берёт Elemental Flow ради ускорения тиков; в 1.5d руна переделана (урон сразу при наложении), стоит проверить в игре, насколько она по-прежнему полезна.",
+    "«Шесть экземпляров Burst of Lead» в гайде не пояснено; вероятно, это каст плюс 5 зарядов multi cast от Ammunition.",
+    "Страница Ammunition на вики противоречит себе (15 или 20 стаков); описание руны Extended Magazines говорит 20."
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Necromancer",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Некромант: класс Summon/Mage, оружие коса, типы навыков Arcane, Chaos, Ice, Nature и Shadow. Играет армией миньонов, которые бьют вместо игрока, а сам персонаж в основном уворачивается. Бонусы: +15% к частоте каста, +20% к шансу мультикаста и +20% к лечению, но скорость движения -10%. Уникальные навыки: Skeletal Mage, Skeletal Archers, Putrid Hounds.",
+    "en": "Necromancer: a Summon/Mage class with a scythe and Arcane, Chaos, Ice, Nature and Shadow skill types. Plays through an army of minions that do the fighting while the player mostly dodges. Bonuses: +15% cast frequency, +20% multi cast chance and +20% healing, but -10% movement speed. Unique skills: Skeletal Mage, Skeletal Archers, Putrid Hounds."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-necromancer",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2023/12/09/soulstone-survivors-guide-the-necromancer/",
+      "title": "Soulstone Survivors Guide: The Necromancer",
+      "game_version": "1.5d",
+      "updated": "2026-08-11",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "necromancer-summon",
+          "name": {
+            "ru": "Армия призванных",
+            "en": "Summon"
+          },
+          "weapon_id": "WoodenScythe",
+          "archetypes": [
+            "summon"
+          ],
+          "core_mechanics": [
+            "Summon",
+            "Disarray",
+            "Radiance",
+            "Harmony"
+          ],
+          "skills": [
+            {
+              "id": "SkeletalWarriors",
+              "role": "support",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык косы, много слабых скелетов.",
+                "en": "Starting scythe skill, many weak skeletons."
+              }
+            },
+            {
+              "id": "SkeletalMage",
+              "role": "damage",
+              "note": {
+                "ru": "Один из самых сильных источников урона среди держащихся рядом миньонов.",
+                "en": "One of the strongest damage sources among minions that stay close."
+              }
+            },
+            {
+              "id": "SkeletalArchers",
+              "role": "damage",
+              "note": {
+                "ru": "Следуют за игроком, урон удивительно высокий.",
+                "en": "Follow the player, surprisingly high damage."
+              }
+            },
+            {
+              "id": "SummonHelperElves",
+              "role": "support",
+              "note": {
+                "ru": "Третья группа миньонов рядом с игроком, залпы снарядов.",
+                "en": "Third group of minions near the player, projectile volleys."
+              }
+            },
+            {
+              "id": "FrenziedBunnies",
+              "role": "support",
+              "note": {
+                "ru": "Взрываются и вешают Disarray, усиливая остальной урон.",
+                "en": "Explode and apply Disarray, boosting all other damage."
+              }
+            },
+            {
+              "id": "SpectralGuardian",
+              "role": "core",
+              "note": {
+                "ru": "Главный несуммонный урон: кулдаун 0,9 с, +10% урона за каждого миньона, копит Radiance. Улучшения урона Spectral Guardian автор ставит выше всего. Это навык Guardian of Souls: при Wooden Scythe попадает в пул через Unexpected Arsenal.",
+                "en": "Main non-summon damage: 0.9 s cooldown, +10% damage per minion, stacks Radiance. The author prioritises Spectral Guardian damage upgrades above everything. It is a Guardian of Souls skill: with Wooden Scythe it enters the pool via Unexpected Arsenal."
+              }
+            },
+            {
+              "id": "Bloodlust",
+              "role": "support",
+              "note": {
+                "ru": "Баф скорости движения и частоты каста игроку и союзникам рядом, включая миньонов.",
+                "en": "Buff to movement speed and cast frequency for you and nearby allies, minions included."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "must"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must",
+              "note": {
+                "ru": "В гайде «Magnetism»: опыт и радиус подбора.",
+                "en": "Called «Magnetism» in the guide: experience and pick-up radius."
+              }
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "high",
+              "note": {
+                "ru": "Любой бонус урона.",
+                "en": "Any damage bonus."
+              }
+            },
+            {
+              "power_id": "HorrificPresence",
+              "priority": "situational",
+              "note": {
+                "ru": "Гайд советует распространять ailment и предпочитает Disarray; пассивка, дающая всем атакам шанс наложить Disarray, это Horrific Presence (сопоставление при сверке).",
+                "en": "The guide suggests spreading ailments and prefers Disarray; the passive letting all attacks apply Disarray is Horrific Presence (mapped during reconcile)."
+              }
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "situational"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "situational"
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Harmony"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "ExtraHelp"
+              },
+              {
+                "id": "CommandingPresence"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "UnexpectedArsenal"
+              },
+              {
+                "id": "WeaponExpert"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Билд почти играет сам: миньоны бьют, игрок уворачивается и при необходимости пробегает мимо цели, чтобы армия сменила приоритет. Прокачка нетребовательна: подходит любой бонус урона, лимит призыва, ailment или защита.",
+            "en": "The build mostly plays itself: minions fight while the player dodges and can run past a target to make the army retarget. Levelling is forgiving: any damage, summon limit, ailment or defence upgrade works."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Harmony при 30 призванных миньонах даёт около +24% урона.",
+                "en": "Harmony with 30 summoned minions gives about +24% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,8% за каждого активного миньона, максимум 24% (30 x 0,8% = 24%). Цена 3 руны."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory даёт дополнительный слот навыка ценой -15% урона.",
+                "en": "Improved Repertory gives an extra skill slot at the cost of -15% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Commanding Presence: -20% к урону игрока, +30% к урону миньонов.",
+                "en": "Commanding Presence: -20% player damage, +30% minion damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: весь урон игрока -20%, модификатор урона призванных +30%. Гайд называет это недавним усилением руны; вики совпадает."
+            },
+            {
+              "text": {
+                "ru": "Spectral Guardian: очень малый кулдаун и урон растёт от числа миньонов.",
+                "en": "Spectral Guardian: very low cooldown, damage scales with minion count."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: кулдаун 0,9 с, урон 600, +10% за каждого миньона, 1 стак Radiance за каст (12 стаков дают Radiant Beam)."
+            },
+            {
+              "text": {
+                "ru": "Extra Help за 1 очко рун добавляет ещё миньонов.",
+                "en": "Extra Help adds more minions for 1 rune point."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: стоимость 1, +1 к максимуму активных юнитов и к числу юнитов за каст у всех навыков."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "necromancer-poison",
+          "name": {
+            "ru": "Стаки яда",
+            "en": "Poison"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "stack",
+            "dot",
+            "summon"
+          ],
+          "core_mechanics": [
+            "Poison",
+            "Weakness",
+            "Harmony",
+            "Ammunition"
+          ],
+          "skills": [
+            {
+              "id": "PlagueRats",
+              "role": "support",
+              "note": {
+                "ru": "Призыв, стакает Poison и Weakness, даёт цели для Putrefy.",
+                "en": "Summon, stacks Poison and Weakness, provides bodies for Putrefy."
+              }
+            },
+            {
+              "id": "Putrefy",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Взрыв от всех союзников вокруг, вешает Poison; берётся с самого начала руной Weapon Expert (это второй навык Noxious Reaper).",
+                "en": "Explosion from all allies around you, applies Poison; available from the start via Weapon Expert (it is Noxious Reaper's special skill)."
+              }
+            },
+            {
+              "id": "FesteringStrike",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Низкий кулдаун, Poison и Weakness; доступен через Skill Mastery: Nature.",
+                "en": "Low cooldown, Poison and Weakness; available via Skill Mastery: Nature."
+              }
+            },
+            {
+              "id": "ThreshingBlast",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Бьёт по числу стаков Poison, имеет Ammunition.",
+                "en": "Damages by Poison stacks, has Ammunition."
+              }
+            },
+            {
+              "id": "Contagion",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Снимает Poison и мгновенно наносит его сумму с множителем.",
+                "en": "Consumes Poison stacks and deals their total as multiplied instant damage."
+              }
+            },
+            {
+              "id": "Pestilence",
+              "role": "damage",
+              "note": {
+                "ru": "Цепь на 5 прыжков: урон по стакам Poison на цели (+25 за стак) и накладывает новые. Один из двух главных источников урона: улучшения урона Pestilence в приоритете.",
+                "en": "5-jump chain: damage by the target's Poison stacks (+25 per stack) and applies more. One of the two main damage dealers: prioritise Pestilence damage upgrades."
+              }
+            },
+            {
+              "id": "PutridHounds",
+              "role": "damage",
+              "note": {
+                "ru": "Миньоны, чей урон зависит от стаков Poison на цели (+7 за стак). Второй главный источник урона: улучшения урона Putrid Hounds в приоритете.",
+                "en": "Minions whose damage scales with Poison stacks on the target (+7 per stack). The other main damage dealer: prioritise Putrid Hounds damage upgrades."
+              }
+            },
+            {
+              "id": "ChromaticBolt",
+              "role": "optional",
+              "note": {
+                "ru": "Замена одному из слабых навыков: немного Poison и много Skill Chain.",
+                "en": "Optional swap for a minor skill: some Poison and many Skill Chain passives."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "Venomous",
+              "priority": "must",
+              "note": {
+                "ru": "Всем атакам шанс 25% наложить Poison.",
+                "en": "All attacks get a 25% chance to apply Poison."
+              }
+            },
+            {
+              "power_id": "InfectedWounds",
+              "priority": "must",
+              "note": {
+                "ru": "Крит. удары с шансом 50% вешают Poison.",
+                "en": "Critical hits apply Poison with a 50% chance."
+              }
+            },
+            {
+              "power_id": "Corrosive",
+              "priority": "must"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high",
+              "note": {
+                "ru": "В гайде «Magnetism».",
+                "en": "Called «Magnetism» in the guide."
+              }
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "Harmony"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "Synchrony"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Nature"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Всё строится вокруг Poison: наложить много стаков и сбросить их урон Contagion, Pestilence, Putrid Hounds и Threshing Blast. Миньоны держат боссов в зоне досягаемости навыков.",
+            "en": "Everything revolves around Poison: apply many stacks and cash them out with Contagion, Pestilence, Putrid Hounds and Threshing Blast. Minions keep bosses in range of the skills."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory даёт седьмой слот навыка ценой 15% урона.",
+                "en": "Improved Repertory gives a seventh skill slot at the cost of 15% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Elemental Flow заставляет Poison тикать чаще и наносить больше урона.",
+                "en": "Elemental Flow makes Poison tick faster for more damage."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (старый модуль): эффекты тикают на 100% чаще, Poison каждые 0,5 с вместо 1 с. По выжимке 1.5d руна переделана: урон эффекта приходит сразу при наложении. Для 1.5d верить выжимке; описание в гайде устарело."
+            },
+            {
+              "text": {
+                "ru": "Synchrony даёт дополнительный урон, так как многие навыки делят тип.",
+                "en": "Synchrony adds damage since many skills share a type."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,7% за общий тип, максимум 20%. По выжимке 1.5d: +1,5%, максимум 30%. Для 1.5d верить выжимке. Сама идея подтверждается: 7 из 8 навыков билда имеют тип Nature."
+            },
+            {
+              "text": {
+                "ru": "Contagion снимает стаки Poison и мгновенно наносит их урон с множителем.",
+                "en": "Contagion removes Poison stacks and deals their damage instantly, multiplied."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 250% урона стаков Poison в зоне мгновенно, стаки снимаются; кулдаун 7 с."
+            },
+            {
+              "text": {
+                "ru": "Threshing Blast бьёт по числу стаков Poison и получает Ammunition.",
+                "en": "Threshing Blast deals damage per Poison stack and gains Ammunition."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: база 360, +40 за стак Poison, 2 стака Ammunition за каст; при 20 стаках Ammunition следующий навык получает +5 мультикастов."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "necromancer-chaos-physical-legacy",
+          "name": {
+            "ru": "Хаос и физический урон (старый)",
+            "en": "Chaos physical (legacy)"
+          },
+          "weapon_id": "GrimtalonsScourge",
+          "archetypes": [
+            "multiplier",
+            "summon"
+          ],
+          "core_mechanics": [
+            "Chaotic",
+            "Fragility",
+            "Brittle",
+            "Disarray"
+          ],
+          "skills": [
+            {
+              "id": "MurderofCrows",
+              "role": "support",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Берётся с оружием Grimtalon's Scourge. Именно у него трейт Chaotic (66%): при касте может вызвать другой навык, в том числе Magic Missiles и Arcane Beam.",
+                "en": "Comes with Grimtalon's Scourge. This skill carries the Chaotic trait (66%): each cast may trigger another skill, including Magic Missiles and Arcane Beam."
+              }
+            },
+            {
+              "id": "FrenziedBunnies",
+              "role": "support",
+              "note": {
+                "ru": "Вешает Disarray.",
+                "en": "Applies Disarray."
+              }
+            },
+            {
+              "id": "ChaosGolem",
+              "role": "support",
+              "note": {
+                "ru": "Вешает Disarray, провоцирует врагов (Taunt).",
+                "en": "Applies Disarray, taunts enemies."
+              }
+            },
+            {
+              "id": "ArcaneBeam",
+              "role": "core",
+              "note": {
+                "ru": "Основной урон; по вики вешает Brittle (гайд приписывает ему ещё Fragility и Disarray). Кастуется многократно через Chaotic у Murder of Crows.",
+                "en": "Main damage; per the wiki applies Brittle (the guide also credits it with Fragility and Disarray). Cast repeatedly via Murder of Crows' Chaotic."
+              }
+            },
+            {
+              "id": "MagicMissiles",
+              "role": "core",
+              "note": {
+                "ru": "Основной урон вместе с Arcane Beam, вешает Fragility; чаще кастуется через Chaotic у Murder of Crows.",
+                "en": "Main damage with Arcane Beam, applies Fragility; cast more often via Murder of Crows' Chaotic."
+              }
+            },
+            {
+              "id": "SkeletalArchers",
+              "role": "support"
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Critical Chance",
+              "priority": "high",
+              "note": {
+                "ru": "Довести выше 100%.",
+                "en": "Push above 100%."
+              }
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "high"
+            },
+            {
+              "power_name": "Physical Damage",
+              "priority": "high",
+              "note": {
+                "ru": "Пассивки физического урона; конкретной пассивки на вики нет, а Magic Missiles и Arcane Beam по вики магические, не физические.",
+                "en": "Physical damage passives; no such passive on the wiki, and Magic Missiles and Arcane Beam are Magical, not Physical, per the wiki."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Harmony"
+              },
+              {
+                "id": "OverwhelmingChaos"
+              },
+              {
+                "id": "ControlledChaos"
+              },
+              {
+                "id": "ExtendedReach"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Каст Magic Missiles и Arcane Beam как можно чаще через мультикаст и Chaotic, упор на физический урон и крит. Автор советует банить пассивки Poison, Bleed, Fire и Doom.",
+            "en": "Cast Magic Missiles and Arcane Beam as often as possible via multi cast and Chaotic, focusing on physical damage and crit. The author advises banishing Poison, Bleed, Fire and Doom passives."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Шанс крита нужно довести выше 100%.",
+                "en": "Critical chance should be pushed above 100%."
+              },
+              "status": "unverified",
+              "detail": "Рекомендация автора; что даёт шанс крита выше 100%, на вики не описано."
+            },
+            {
+              "text": {
+                "ru": "Magic Missiles и Arcane Beam вешают Fragility, Brittle и Disarray.",
+                "en": "Magic Missiles and Arcane Beam apply Fragility, Brittle and Disarray."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: Magic Missiles вешает Fragility, Arcane Beam вешает Brittle; Disarray в билде дают Frenzied Bunnies и Chaos Golem, а не эти два навыка."
+            },
+            {
+              "text": {
+                "ru": "Magic Missiles и Arcane Beam кастуются чаще благодаря Chaotic.",
+                "en": "Magic Missiles and Arcane Beam are cast more often thanks to Chaotic."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Chaotic есть у Murder of Crows (шанс 66%, кулдаун 3,3 с) и вызывает случайный другой навык из экипированных; бонусные касты не считаются мультикастом. У самих Magic Missiles и Arcane Beam трейта нет."
+            },
+            {
+              "text": {
+                "ru": "Пассивки физического урона напрямую усиливают Magic Missiles и Arcane Beam.",
+                "en": "Physical damage passives directly boost Magic Missiles and Arcane Beam."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: типы Magic Missiles (Arcane, Missile, Frontal, Burst, Magical) и Arcane Beam (Arcane, Lasting, Frontal, Magical) без Physical; бонусы к физическому урону их, вероятно, не задевают."
+            },
+            {
+              "text": {
+                "ru": "Overwhelming Chaos делает урон случайным в диапазоне, Controlled Chaos берёт лучший из двух бросков.",
+                "en": "Overwhelming Chaos randomises damage in a range, Controlled Chaos takes the better of two rolls."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Overwhelming Chaos, прямой урон от 1 до 220% (не для эффектов, не для навыков, у которых уже есть диапазон); Controlled Chaos, бросок дважды, выбирается лучший."
+            }
+          ],
+          "confidence": "medium",
+          "legacy_check": [
+            {
+              "mechanic": "Multi Cast Mastery / multicast",
+              "impact": "weakened",
+              "note": {
+                "ru": "Билд построен на частых кастах; по выжимке Multi Cast Mastery ослаблена с 25% до 17,5%, мультикаст перестал быть универсальным ответом. Сам билд руну не называет, но опирается на ту же идею.",
+                "en": "The build relies on frequent casts; per the digest Multi Cast Mastery dropped from 25% to 17.5% and multicast is no longer a universal answer. The build doesn't name the rune but leans on the same idea."
+              }
+            },
+            {
+              "mechanic": "Crit / multiplier",
+              "impact": "weakened",
+              "note": {
+                "ru": "Крит как архетип жив, но по выжимке стал менее универсальным и требует подбора множителей; Savage Pact ослаблен (в билде не используется).",
+                "en": "Crit is still a viable archetype, but per the digest it is less universal and needs matched multipliers; Savage Pact was nerfed (not used here)."
+              }
+            },
+            {
+              "mechanic": "Old Chaos/debuff-universal approach",
+              "impact": "weakened",
+              "note": {
+                "ru": "Выжимка относит старый универсальный подход Chaos/дебаффы к изменившимся; часть дебаффов гайд к тому же приписывает не тем навыкам.",
+                "en": "The digest lists the old universal Chaos/debuff approach among changed things; the guide also credits some debuffs to the wrong skills."
+              }
+            },
+            {
+              "mechanic": "Summon scaling",
+              "impact": "unknown",
+              "note": {
+                "ru": "Murder of Crows бьёт сильнее от числа миньонов; по актуальному гайду призыв в какой-то момент сильно ослабили, а затем частично вернули (Commanding Presence). Итог для этого билда неясен.",
+                "en": "Murder of Crows scales with minion count; per the current guide summons were heavily nerfed and later partly restored (Commanding Presence). Net effect on this build is unclear."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учтены в 1.2. По выжимке легендарное оружие Necromancer добавлено в 1.5, но на вики его нет.",
+                "en": "Not considered in 1.2. Per the digest Necromancer's legendary weapon arrived in 1.5, but it is missing from the wiki."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под 1.2. Идея с Chaotic у Murder of Crows и рунами Chaos работает по описаниям вики, но упор на физический урон не подходит магическим Magic Missiles и Arcane Beam, а мультикаст и крит с тех пор ослаблены. Актуальный гайд такого билда не даёт; ближе всего по духу его Summon-билд.",
+        "en": "Written for 1.2. The Murder of Crows Chaotic idea and the Chaos runes still work per the wiki, but the physical damage focus doesn't fit the Magical Magic Missiles and Arcane Beam, and multicast and crit have been nerfed since. The current guide has no such build; its Summon build is the closest in spirit."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Poison, Bleed, Fire, Doom application passives",
+        "builds": [
+          "necromancer-chaos-physical-legacy"
+        ],
+        "reason": {
+          "ru": "Из гайда: билд на физическом уроне, чужие ailment не нужны.",
+          "en": "From the guide: physical damage build, other ailments are not needed."
+        }
+      },
+      {
+        "target": "Bleed, Burn, Doom application passives (BloodShed and others)",
+        "builds": [
+          "necromancer-poison"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билд специализирован на Poison, пассивки других ailment размывают пул и не питают Contagion, Pestilence и Putrid Hounds.",
+          "en": "Inference, not from the source: the build specialises in Poison; other ailment passives dilute the pool and don't feed Contagion, Pestilence or Putrid Hounds."
+        }
+      },
+      {
+        "target": "Unwanted skills from the pool",
+        "builds": [
+          "necromancer-summon"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: автор пишет, что в пуле много ненужных вариантов, и берёт Reroll Mastery; бан лишних навыков решает ту же задачу.",
+          "en": "Inference, not from the source: the author says the pool has many unwanted options and takes Reroll Mastery; banning unneeded skills serves the same purpose."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Summon: первым качать урон Spectral Guardian, это главный несуммонный урон.",
+        "en": "Summon: upgrade Spectral Guardian damage first, it is the main non-summon damage."
+      },
+      {
+        "ru": "Summon: брать каждое повышение лимита призыва у навыков типа Summon: больше миньонов, больше урона, Harmony и Spectral Guardian.",
+        "en": "Summon: take every summon limit increase on Summon skills: more minions boost damage, Harmony and Spectral Guardian."
+      },
+      {
+        "ru": "Poison: сначала Venomous, Infected Wounds и Corrosive, затем урон Putrid Hounds и Pestilence.",
+        "en": "Poison: first Venomous, Infected Wounds and Corrosive, then Putrid Hounds and Pestilence damage."
+      },
+      {
+        "ru": "Все билды: скорость движения и хотя бы один Magnetic, затем любой бонус урона, мультикаста или частоты каста.",
+        "en": "All builds: movement speed and at least one Magnetic, then any damage, multi cast or cast frequency bonus."
+      },
+      {
+        "ru": "Summon прощает ошибки: при нехватке защиты можно брать здоровье и броню, при желании крит или Disarray (Horrific Presence).",
+        "en": "Summon is forgiving: take health and armour if you need defence, or crit and Disarray (Horrific Presence) if you prefer."
+      }
+    ],
+    "basis": {
+      "ru": "Собрано по гайду cubiccreativity (1.5d), Steam-гайду (1.2) и выжимке меты; числа сверены с вики. Бан для старого билда из гайда, остальные баны выводы. Правила прокачки по тексту гайдов.",
+      "en": "Compiled from the cubiccreativity guide (1.5d), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. The legacy-build ban is from the guide, the others are inferences. Level-up rules follow the guide text."
+    }
+  },
+  "gaps": [
+    "В cubic_builds.md списки навыков были картинками и пусты; билды собраны по тексту, состав мог быть неполным.",
+    "Билд Poison не называет оружие: по Weapon Expert и Putrefy это, вероятно, Noxious Reaper; weapon_id оставлен null.",
+    "Summon: Spectral Guardian это навык Guardian of Souls; при Wooden Scythe он, видимо, приходит через Unexpected Arsenal. Гайд это прямо не пишет.",
+    "Улучшения урона Spectral Guardian, Putrid Hounds, Pestilence и лимита призыва это апгрейды навыков, а не пассивки; перенесены в note навыков и level_up_rules.",
+    "«Disarray» из гайда сопоставлен с пассивкой Horrific Presence (атаки вешают Disarray); точное название автор не даёт.",
+    "Physical Damage в старом билде: отдельной пассивки на вики нет, а основные навыки билда магические.",
+    "Legacy-билд не делит руны на Tenacity/Versatility; все 4 руны в tenacity.",
+    "На вики нет легендарного оружия R5 для Necromancer, хотя по выжимке оно добавлено в 1.5.",
+    "Нет билдов под Guardian of Souls и Grimtalon's Scourge в актуальном гайде.",
+    "Руны вики старее 1.5d (Synchrony, Elemental Flow); для них верить выжимке."
+  ]
+}

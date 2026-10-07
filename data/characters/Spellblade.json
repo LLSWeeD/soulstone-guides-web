@@ -1,0 +1,1110 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Spellblade",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Ближний боец с мечом, который играет магическими типами навыков: Arcane, Fire, Ice, Swing и Thrust. Бонусы к здоровью (+30), броне (+20) и скорости движения (+20%), но частота каста ниже на 10%. Актуальный гайд предлагает четыре билда под четыре оружия: Arcane на мульти-касте, Swing на Bleed, Ice на Slow и Fire на Burn; под R5 Runeforged Greatsword (Thrust) билда нет.",
+    "en": "A melee sword user who plays with magical skill types: Arcane, Fire, Ice, Swing and Thrust. Gets bonuses to health (+30), armor (+20) and movement speed (+20%) but 10% lower cast frequency. The current guide offers four builds for four weapons: Arcane on multi cast, Swing on Bleed, Ice on Slow and Fire on Burn; there is no build for the R5 Runeforged Greatsword (Thrust)."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-spellblade",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2025/03/29/soulstone-survivors-guide-the-spellblade/",
+      "title": "Soulstone Survivors Guide: The Spellblade",
+      "game_version": "1.5d",
+      "updated": "2026-06-23",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "spellblade-arcane",
+          "name": {
+            "ru": "Arcane (мульти-каст)",
+            "en": "Arcane"
+          },
+          "weapon_id": "SilverSpellblade",
+          "archetypes": [
+            "multiplier",
+            "synchrony"
+          ],
+          "core_mechanics": [
+            "Finesse",
+            "Fragility",
+            "Radiance",
+            "Multi Cast Chance"
+          ],
+          "skills": [
+            {
+              "id": "ArcaneSlash",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Малый кулдаун, копит Finesse и мульти-каст.",
+                "en": "Low cooldown, builds Finesse and multi cast."
+              }
+            },
+            {
+              "id": "ArcaneOverload",
+              "role": "damage",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Урон растёт от шанса мульти-каста.",
+                "en": "Damage scales with multi cast chance."
+              }
+            },
+            {
+              "id": "ArcanePower",
+              "role": "support",
+              "note": {
+                "ru": "Поднимает мульти-каст, все остальные навыки кастуются чаще.",
+                "en": "Raises multi cast so every other skill casts more."
+              }
+            },
+            {
+              "id": "ArcaneRift",
+              "role": "support",
+              "note": {
+                "ru": "След магического огня, копит Fragility.",
+                "en": "Trail of arcane fire that stacks Fragility."
+              }
+            },
+            {
+              "id": "ArcaneAssault",
+              "role": "damage",
+              "note": {
+                "ru": "Главный урон по Lords of the Void, растёт от Fragility.",
+                "en": "Main damage against Lords of the Void, scales with Fragility."
+              }
+            },
+            {
+              "id": "ArcaneBlade",
+              "role": "support",
+              "note": {
+                "ru": "Долгий кулдаун, быстро копит Radiance и Finesse.",
+                "en": "Long cooldown, builds Radiance and Finesse fast."
+              }
+            },
+            {
+              "id": "MagicMissiles",
+              "role": "support",
+              "note": {
+                "ru": "Много снарядов, хорошо вешает Fragility.",
+                "en": "Many projectiles, good at applying Fragility."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "must",
+              "note": {
+                "ru": "Берётся всегда, обычная редкость даёт мало.",
+                "en": "Take whenever possible, normal rarity gives little."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium",
+              "note": {
+                "ru": "В гайде «flat damage increases»; сопоставлено с модификатором урона.",
+                "en": "The guide says \"flat damage increases\"; mapped to damage modifier."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "AmplifiedPower"
+              },
+              {
+                "id": "Synchrony"
+              },
+              {
+                "id": "MultiCastMastery"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Arcane"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Билд целиком на Arcane-навыках и шансе мульти-каста: каждый навык кастуется несколькими копиями. Пассивки, усиливающие все Arcane-навыки, берутся приоритетно.",
+            "en": "The build is all Arcane skills and multi cast chance: every skill is cast as several copies. Passives boosting all Arcane skills are prioritised."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Пассивка мульти-каста обычной редкости даёт всего 4%.",
+                "en": "The normal rarity multi cast passive gives only 4%."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Multi Cast, Common +4%, далее +8/12/16/20% по редкостям."
+            },
+            {
+              "text": {
+                "ru": "Максимум дополнительных кастов равен пяти (автор не уверен).",
+                "en": "The maximum number of additional casts is five (author is not sure)."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (статья Multi Cast): жёсткого предела нет, каждый следующий доп. каст бросается с шансом 0,4 от предыдущего. Ровно 5 доп. кастов даёт только расход стаков Ammunition."
+            },
+            {
+              "text": {
+                "ru": "Synchrony даёт до 20% урона.",
+                "en": "Synchrony gives up to 20% damage."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (модуль рун, старее 1.5d): +0,7% за общий тип, максимум 20%, как в гайде. Выжимка 1.5d: +1,5%, максимум 30%. Для 1.5d верить выжимке."
+            },
+            {
+              "text": {
+                "ru": "Amplified Power со временем превращается в +25% урона без штрафов.",
+                "en": "Amplified Power eventually becomes a 25% damage increase with no drawbacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,1% урона за каждые 500 Minor Soulstones в инвентаре, максимум 25%."
+            },
+            {
+              "text": {
+                "ru": "Arcane Power поднимает шанс мульти-каста.",
+                "en": "Arcane Power raises multi cast chance."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +50% шанса мульти-каста на 10 с, кулдаун 30 с."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "spellblade-swing-bleed",
+          "name": {
+            "ru": "Swing (Bleed)",
+            "en": "Swing (Bleed)"
+          },
+          "weapon_id": "ArcaneScimitar",
+          "archetypes": [
+            "dot",
+            "synchrony"
+          ],
+          "core_mechanics": [
+            "Bleed",
+            "Finesse",
+            "Bulwark",
+            "Fragility",
+            "Bloodshed"
+          ],
+          "skills": [
+            {
+              "id": "Slash",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Малый кулдаун, даёт Finesse и Bulwark.",
+                "en": "Low cooldown, gives Finesse and Bulwark."
+              }
+            },
+            {
+              "id": "FanofBombs",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Зачистка толп, вешает Bleed и Fragility.",
+                "en": "Horde clear, applies Bleed and Fragility."
+              }
+            },
+            {
+              "id": "ArcanePower",
+              "role": "support",
+              "note": {
+                "ru": "Обязателен для спам-билда, копии навыков ставят больше Bleed.",
+                "en": "A must for a spam build, copies apply more Bleed."
+              }
+            },
+            {
+              "id": "ShrapnelBomb",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Главный убийца боссов при большом числе стаков Bleed.",
+                "en": "Main boss killer with lots of Bleed stacks."
+              }
+            },
+            {
+              "id": "Bladestorm",
+              "role": "core",
+              "note": {
+                "ru": "Частые удары, много Bleed и зачистка толп.",
+                "en": "High hit frequency, lots of Bleed and horde clear."
+              }
+            },
+            {
+              "id": "BloodySaw",
+              "role": "support",
+              "note": {
+                "ru": "Вариант Bladestorm, сам ставит Bleed.",
+                "en": "A Bladestorm variant that applies Bleed itself."
+              }
+            },
+            {
+              "id": "Flurry",
+              "role": "core",
+              "note": {
+                "ru": "Частые удары и собственные стаки Bleed.",
+                "en": "High hit frequency and its own Bleed stacks."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "BloodShed",
+              "priority": "must",
+              "note": {
+                "ru": "Абсолютно необходима: все атаки получают шанс 25% наложить Bleed.",
+                "en": "Absolutely crucial: all attacks get a 25% chance to apply Bleed."
+              }
+            },
+            {
+              "power_id": "BrutalStrikes",
+              "priority": "high"
+            },
+            {
+              "power_id": "Laceration",
+              "priority": "high"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Synchrony"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "AmplifiedPower"
+              },
+              {
+                "id": "PulseofAgony"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillMastery",
+                "variant": "Swing"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Bomb"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Bomb"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Много мелких быстрых ударов Swing-навыками, чтобы навесить максимум Bleed, а Shrapnel Bomb добивает боссов. Берите всё, что усиливает Bleed.",
+            "en": "Many small fast Swing hits to stack as much Bleed as possible, with Shrapnel Bomb finishing bosses. Take everything that boosts Bleed."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Amplified Power со временем превращается в +25% урона без штрафов.",
+                "en": "Amplified Power eventually becomes a 25% damage increase with no drawbacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,1% урона за каждые 500 Minor Soulstones в инвентаре, максимум 25%."
+            },
+            {
+              "text": {
+                "ru": "Два и более навыка, наносящих Bleed, открывают пассивки на Bleed.",
+                "en": "Two or more Bleed-applying skills unlock the Bleed passives."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: верно лишь отчасти. Blood Shed требует хотя бы 1 источник Bleed, Brutal Strikes — хотя бы 2."
+            },
+            {
+              "text": {
+                "ru": "Obliterate теперь накладывает Doom вместо Weakness, поэтому в Bleed-билде не нужен.",
+                "en": "Obliterate now applies Doom instead of Weakness, so the Bleed build no longer needs it."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Obliterate (Shadow, Swing) наносит урон и накладывает Doom, Weakness в описании нет."
+            },
+            {
+              "text": {
+                "ru": "Pulse of Agony добавляет частоту каста при наложении Bleed.",
+                "en": "Pulse of Agony adds cast frequency when applying Bleed."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: при наложении Bleed шанс 10% получить +0,5% частоты каста на 10 с, до 20 стаков (до +10%)."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "spellblade-ice-slow",
+          "name": {
+            "ru": "Ice (Slow)",
+            "en": "Ice (Slow)"
+          },
+          "weapon_id": "IcelordsBlade",
+          "archetypes": [
+            "stack",
+            "multiplier"
+          ],
+          "core_mechanics": [
+            "Slow",
+            "Icy Veins",
+            "Disoriented",
+            "Devastating",
+            "Disarray",
+            "Finesse"
+          ],
+          "skills": [
+            {
+              "id": "ArcticAssault",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Даёт Icy Veins и Disoriented, крит бьёт сильнее.",
+                "en": "Gives Icy Veins and Disoriented, crits hit harder."
+              }
+            },
+            {
+              "id": "FrozenBlade",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Копит Icy Veins, имеет Devastating для критов.",
+                "en": "Stacks Icy Veins, has Devastating for crits."
+              }
+            },
+            {
+              "id": "GlacialTrident",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Малый кулдаун, Icy Veins вам и Slow врагам.",
+                "en": "Low cooldown, Icy Veins for you and Slow for enemies."
+              }
+            },
+            {
+              "id": "GlacialAffinity",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Превращает много Slow в прибавку урона.",
+                "en": "Turns many Slow stacks into a damage bonus."
+              }
+            },
+            {
+              "id": "FrostBolt",
+              "role": "support",
+              "note": {
+                "ru": "Очень малый кулдаун, хороший урон и Slow.",
+                "en": "Very low cooldown, decent damage and Slow."
+              }
+            },
+            {
+              "id": "IceVortex",
+              "role": "damage",
+              "note": {
+                "ru": "Первый убийца: урон растёт от Slow на враге.",
+                "en": "Kill skill number one: damage scales with Slow on the enemy."
+              }
+            },
+            {
+              "id": "FrozenWarhammer",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Второй убийца: копит Icy Veins и Finesse, растёт от Slow.",
+                "en": "Kill skill number two: stacks Icy Veins and Finesse, scales with Slow."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "Magnetic",
+              "priority": "must"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "must",
+              "note": {
+                "ru": "Icelord's Blade даёт -15% скорости.",
+                "en": "Icelord's Blade has -15% movement speed."
+              }
+            },
+            {
+              "power_id": "TouchofIce",
+              "priority": "high"
+            },
+            {
+              "power_id": "Hypothermia",
+              "priority": "high",
+              "note": {
+                "ru": "Открывает Disarray при наложении Slow.",
+                "en": "Gives a chance of Disarray when Slow is applied."
+              }
+            },
+            {
+              "power_id": "HorrificPresence",
+              "priority": "high",
+              "note": {
+                "ru": "Открывается через Hypothermia, Disarray от любого навыка.",
+                "en": "Unlocked via Hypothermia, Disarray from any skill."
+              }
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "high",
+              "note": {
+                "ru": "До 100% и выше.",
+                "en": "At least 100%."
+              }
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "medium"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "situational"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "situational"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "situational"
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "AbsoluteZero"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "FatefulStrike"
+              },
+              {
+                "id": "VulnerableTarget"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Ice"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Ice"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Максимально копить Slow на врагах, а урон превращать через Disarray, Glacial Affinity и криты. Только Ice-навыки, лишнюю защиту берите по самочувствию.",
+            "en": "Stack as much Slow as possible and turn it into damage through Disarray, Glacial Affinity and crits. Ice skills only, take defence as you feel necessary."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory стоит 15% урона ради седьмого слота навыка.",
+                "en": "Improved Repertory costs 15% damage for a seventh skill slot."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Vulnerable Target даёт +50% шанса крита.",
+                "en": "Vulnerable Target gives +50% critical hit chance."
+              },
+              "status": "verified",
+              "verified_by": "user",
+              "detail": "Проверено в игре (1.5d): Vulnerable Target даёт +50% шанса крита. На вики устаревшие +25%."
+            },
+            {
+              "text": {
+                "ru": "Шанс крита желательно поднять минимум до 100%.",
+                "en": "Critical chance should be raised to at least 100%."
+              },
+              "status": "unverified",
+              "detail": "Совет автора, не число механики. Из оружия Icelord's Blade +10% и руны Vulnerable Target +25%; остальное из пассивок."
+            },
+            {
+              "text": {
+                "ru": "Hypothermia даёт шанс наложить Disarray при наложении Slow и открывает Horrific Presence.",
+                "en": "Hypothermia gives a chance to apply Disarray when applying Slow and unlocks Horrific Presence."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Hypothermia — шанс 50%, требует 2 источника Slow. Horrific Presence — 10% шанс Disarray на любой атаке, требует 1 источник Disarray."
+            },
+            {
+              "text": {
+                "ru": "Fateful Strike снижает общий урон, но сильно поднимает урон критов.",
+                "en": "Fateful Strike lowers overall damage but greatly increases critical damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +60% крит. урона, -20% урона."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "spellblade-fire-burn",
+          "name": {
+            "ru": "Fire (Burn)",
+            "en": "Fire (Burn)"
+          },
+          "weapon_id": "ScorchingEdge",
+          "archetypes": [
+            "dot",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Burn",
+            "Haste",
+            "Slow",
+            "Bleed"
+          ],
+          "skills": [
+            {
+              "id": "Firestorm",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Копит Burn на врагах и Haste на вас.",
+                "en": "Stacks Burn on enemies and Haste on you."
+              }
+            },
+            {
+              "id": "FieryBlades",
+              "role": "damage",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Мечи сами охотятся, урон растёт от Burn.",
+                "en": "Swords hunt on their own, damage scales with Burn."
+              }
+            },
+            {
+              "id": "OrbsofDestruction",
+              "role": "optional",
+              "obtained": "rune",
+              "note": {
+                "ru": "Урон от Burn, лучше с мульти-кастом.",
+                "en": "Damage from Burn, better with multi cast."
+              }
+            },
+            {
+              "id": "Flurry",
+              "role": "support",
+              "note": {
+                "ru": "Со Spontaneous Combustion копит Burn; Bleed-пассивки блокировать.",
+                "en": "Stacks Burn with Spontaneous Combustion; block Bleed passives."
+              }
+            },
+            {
+              "id": "BloodySaw",
+              "role": "optional",
+              "note": {
+                "ru": "Наименее рекомендуемый: тянет Bleed-пассивки и стоит на месте.",
+                "en": "Least recommended: brings Bleed passives and stays in place."
+              }
+            },
+            {
+              "id": "Flamethrower",
+              "role": "core",
+              "note": {
+                "ru": "Много ударов, основной урон через Burn.",
+                "en": "Many hits, most damage through Burn."
+              }
+            },
+            {
+              "id": "Bladestorm",
+              "role": "damage",
+              "note": {
+                "ru": "Часто самый высокий урон, растёт от области действия.",
+                "en": "Often the highest damage, grows with area."
+              }
+            },
+            {
+              "id": "RayofFire",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Сильнее при наложении многих кастов.",
+                "en": "Stronger as more casts overlap."
+              }
+            },
+            {
+              "id": "ArcanePower",
+              "role": "support",
+              "note": {
+                "ru": "Больше мульти-каста для слабых многоударных навыков.",
+                "en": "More multi cast for weak multi-hit skills."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "SpontaneousCombustion",
+              "priority": "must",
+              "note": {
+                "ru": "Взять как можно раньше: все атаки получают шанс 25% наложить Burn.",
+                "en": "Take as early as possible: all attacks get a 25% chance to apply Burn."
+              }
+            },
+            {
+              "power_id": "FieryAmplification",
+              "priority": "high"
+            },
+            {
+              "power_id": "Incinerate",
+              "priority": "high"
+            },
+            {
+              "power_id": "IntenseFire",
+              "priority": "high"
+            },
+            {
+              "power_id": "ThermalShock",
+              "priority": "situational",
+              "note": {
+                "ru": "Slow при наложении Burn; по гайду забавно, но не обязательно.",
+                "en": "Slow when applying Burn; fun per the guide but hardly necessary."
+              }
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "high",
+              "note": {
+                "ru": "В гайде «flat damage is really good»; сопоставлено с модификатором урона.",
+                "en": "The guide says \"flat damage is really good\"; mapped to damage modifier."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "medium"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "SearingIntensity"
+              },
+              {
+                "id": "AdaptiveEmpowerment"
+              },
+              {
+                "id": "Synchrony"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Fire"
+              },
+              {
+                "id": "RerollMastery"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Навешивать много Burn мульти-ударными навыками; Spontaneous Combustion делает пользу даже из навыков без собственного Burn. Bleed-пассивки лучше блокировать.",
+            "en": "Apply lots of Burn with multi-hit skills; Spontaneous Combustion makes even skills without their own Burn useful. Block Bleed passives."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Incinerate наносит сразу 40% урона от стаков Burn.",
+                "en": "Incinerate deals 40% of Burn stack damage immediately."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: при наложении Burn часть общего урона приходит сразу, Epic +40%."
+            },
+            {
+              "text": {
+                "ru": "Adaptive Empowerment даёт +15% урона не-Fire навыкам за каждый Fire-навык.",
+                "en": "Adaptive Empowerment gives +15% damage to non-Fire skills per Fire skill."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: +10% (а не 15%) урона навыкам без типа Fire за каждый Fire-навык. Модуль рун на вики старее 1.5d, но в выжимке изменений этой руны нет."
+            },
+            {
+              "text": {
+                "ru": "Searing Intensity даёт +25% урона при большом числе стаков Burn.",
+                "en": "Searing Intensity gives +25% damage with many Burn stacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,5% всего урона за стак Burn или Shattered на цели, максимум 25% (50 стаков)."
+            },
+            {
+              "text": {
+                "ru": "Ray of Fire без мульти-каста — около четырёх огненных столбов вокруг персонажа.",
+                "en": "Without multi cast, Ray of Fire is around four fire pillars circling the character."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: Quantity 2 (два вращающихся луча), 6 с, Burn 200. Возможно, автор считает концы лучей или уже с бонусами."
+            },
+            {
+              "text": {
+                "ru": "Thermal Shock накладывает Slow при наложении Burn.",
+                "en": "Thermal Shock applies Slow when Burn is applied."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: шанс 50% наложить Slow при наложении Burn, требует 2 источника Burn."
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "spellblade-fire-legacy",
+          "name": {
+            "ru": "Fire (старый, Steam)",
+            "en": "Fire (legacy, Steam)"
+          },
+          "weapon_id": "ScorchingEdge",
+          "archetypes": [
+            "dot"
+          ],
+          "core_mechanics": [
+            "Burn",
+            "Slow"
+          ],
+          "skills": [
+            {
+              "id": "Bladestorm",
+              "role": "core",
+              "note": {
+                "ru": "Единственный не-огненный навык, расширяет Burn на врагов за экраном.",
+                "en": "The only non-fire skill, spreads Burn to enemies off screen."
+              }
+            },
+            {
+              "id": "FieryBlades",
+              "role": "damage"
+            },
+            {
+              "id": "Firestorm",
+              "role": "core"
+            },
+            {
+              "id": "Flamethrower",
+              "role": "damage"
+            },
+            {
+              "id": "FireBolt",
+              "role": "support"
+            },
+            {
+              "id": "FlameWave",
+              "role": "support"
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "ThermalShock",
+              "priority": "high",
+              "note": {
+                "ru": "Гайд не называет имя, описывает пассивку «Slow при наложении Burn»; по вики это Thermal Shock.",
+                "en": "The guide gives no name, only \"Slow when you apply Burn\"; per the wiki this is Thermal Shock."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "SearingIntensity"
+              },
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "Executioner"
+              },
+              {
+                "id": "MisfortunesEmbrace"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Брать почти только огненные навыки. Банить пассивки Poison, Bleed и Doom при первом появлении, а пассивку Slow при Burn взять и открыть через неё пассивки Slow при ударе.",
+            "en": "Take almost only fire skills. Ban the Poison, Bleed and Doom passives the first time they appear, and take the Slow-on-Burn passive to unlock Slow-on-hit passives."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Пассивка «Slow при Burn» открывает пассивки «Slow при ударе».",
+                "en": "The Slow-on-Burn passive unlocks Slow-on-hit passives."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Thermal Shock (50% Slow при Burn) даёт источник Slow, а Touch of Ice (Slow на всех атаках, 40%) требует хотя бы 1 источник Slow."
+            },
+            {
+              "text": {
+                "ru": "Elemental Flow ускоряет тики урона от эффектов.",
+                "en": "Elemental Flow makes damaging effects tick faster."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (старее 1.5d): эффекты наносят урон на 100% чаще. Выжимка 1.5d: руна переделана, урон эффекта приходит сразу при наложении. Для 1.5d верить выжимке."
+            }
+          ],
+          "confidence": "medium",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Burn)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Burn нормально масштабируется от модификаторов урона, Searing Intensity и Executioner; билд целиком на Burn от этого выигрывает.",
+                "en": "Since 1.4 Burn scales properly with damage modifiers, Searing Intensity and Executioner; a pure Burn build benefits."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Совет банить Poison, Bleed и Doom ради одного Burn совпадает с метой 1.5d.",
+                "en": "Banning Poison, Bleed and Doom for pure Burn matches the 1.5d meta."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "Руна переделана: вместо ускорения тиков урон Burn приходит сразу при наложении. Для Burn-билда, скорее всего, полезна и сейчас, но расчёт гайда 1.2 не подходит.",
+                "en": "Reworked: Burn damage now lands on application instead of faster ticks. Likely still useful for Burn, but the 1.2 reasoning no longer applies."
+              }
+            },
+            {
+              "mechanic": "Misfortune's Embrace",
+              "impact": "weakened",
+              "note": {
+                "ru": "20% шанс наложить случайный Burn, Bleed, Poison или Doom: три из четырёх эффектов — чужие для Burn-билда и тянут пассивки, которые гайд же советует банить. Против специализации меты 1.5d.",
+                "en": "20% chance to apply a random Burn, Bleed, Poison or Doom: three of four are off-plan for a Burn build and pull in the passives the guide says to ban. Goes against 1.5d specialization."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учитывались в 1.2. Оружие R5 Runeforged Greatsword и Titan Powers (Hecthoor, Underson и др.) в гайде не рассмотрены.",
+                "en": "Not considered in 1.2. The R5 Runeforged Greatsword and Titan Powers (Hecthoor, Underson etc.) are not covered."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2. Идея чистого Burn на Scorching Edge жива и даже усилилась, но Elemental Flow переделан, а Misfortune's Embrace противоречит специализации. В актуальном гайде есть свой Fire (Burn)-билд на том же оружии со Spontaneous Combustion, Incinerate и Intense Fire: он предпочтительнее.",
+        "en": "Written for 1.2. The pure Burn idea on Scorching Edge still works and got stronger, but Elemental Flow was reworked and Misfortune's Embrace goes against specialization. The current guide has its own Fire (Burn) build on the same weapon with Spontaneous Combustion, Incinerate and Intense Fire; prefer it."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Bleed passives (BloodShed, BrutalStrikes, Laceration)",
+        "builds": [
+          "spellblade-fire-burn"
+        ],
+        "reason": {
+          "ru": "Из гайда: Flurry и Bloody Saw тянут Bleed-пассивки, их надо блокировать, чтобы удары шли в Burn через Spontaneous Combustion.",
+          "en": "From the guide: Flurry and Bloody Saw pull in Bleed passives; block them so hits feed Burn via Spontaneous Combustion."
+        }
+      },
+      {
+        "target": "Poison, Bleed, Doom application passives",
+        "builds": [
+          "spellblade-fire-legacy"
+        ],
+        "reason": {
+          "ru": "Из старого гайда: банить при первом появлении, держать только Burn.",
+          "en": "From the old guide: ban on first sight, keep pure Burn."
+        }
+      },
+      {
+        "target": "Obliterate",
+        "builds": [
+          "spellblade-swing-bleed"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: гайд пишет, что после смены Weakness на Doom Obliterate в билде больше не нужен, а Skill Mastery: Swing добавляет его в пул.",
+          "en": "Inference, not from the source: the guide says Obliterate is no longer needed since it applies Doom instead of Weakness, and Skill Mastery: Swing adds it to the pool."
+        }
+      },
+      {
+        "target": "Burn, Poison, Doom application passives",
+        "builds": [
+          "spellblade-swing-bleed"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билд специализирован на Bleed, чужие ailment-пассивки размывают выбор при повышении уровня.",
+          "en": "Inference, not from the source: the build specializes in Bleed; other ailment passives dilute level-up choices."
+        }
+      },
+      {
+        "target": "Bleed, Burn, Poison, Doom application passives",
+        "builds": [
+          "spellblade-ice-slow"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билд строится на Slow, Disarray и критах, а DoT-пассивки не усиливают ни Ice Vortex, ни Frozen Warhammer.",
+          "en": "Inference, not from the source: the build relies on Slow, Disarray and crits; DoT passives boost neither Ice Vortex nor Frozen Warhammer."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Arcane: брать Multi Cast при любой возможности (обычная даёт лишь +4%) и пассивки, усиливающие все Arcane-навыки.",
+        "en": "Arcane: take Multi Cast whenever offered (normal gives only +4%) and passives boosting all Arcane skills."
+      },
+      {
+        "ru": "Swing: Bloodshed первым, как только есть источник Bleed, затем Brutal Strikes и Laceration; Shrapnel Bomb — главный навык против Lords of the Void.",
+        "en": "Swing: Bloodshed first as soon as you have a Bleed source, then Brutal Strikes and Laceration; Shrapnel Bomb is the main tool against Lords of the Void."
+      },
+      {
+        "ru": "Ice: Touch of Ice, затем Hypothermia и через неё Horrific Presence; крит поднимать до 100%; убийцы — Ice Vortex и Frozen Warhammer.",
+        "en": "Ice: Touch of Ice, then Hypothermia and through it Horrific Presence; raise crit to 100%; kill skills are Ice Vortex and Frozen Warhammer."
+      },
+      {
+        "ru": "Fire: Spontaneous Combustion как можно раньше, затем Fiery Amplification, Incinerate и Intense Fire; Thermal Shock необязателен.",
+        "en": "Fire: Spontaneous Combustion as early as possible, then Fiery Amplification, Incinerate and Intense Fire; Thermal Shock is optional."
+      },
+      {
+        "ru": "Во всех билдах: Magnetic и скорость движения до комфортного уровня, затем частота каста и мульти-каст.",
+        "en": "All builds: Magnetic and movement speed until comfortable, then cast frequency and multi cast."
+      }
+    ],
+    "basis": {
+      "ru": "Сведено из гайда cubiccreativity (1.5d), Steam-гайда (1.2) и выжимки меты; числа сверены с вики. Баны Bleed-пассивок в Fire-билде и Poison/Bleed/Doom в старом гайде названы авторами; бан Obliterate и чужих ailment-пассивок в Swing и Ice — наши выводы из специализации.",
+      "en": "Compiled from the cubiccreativity guide (1.5d), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. Banning Bleed passives in Fire and Poison/Bleed/Doom in the old guide comes from the authors; banning Obliterate and off-plan ailment passives in Swing and Ice is our inference from specialization."
+    }
+  },
+  "gaps": [
+    "Пассивки, усиливающие все Arcane-навыки (Arcane-билд), в гайде без имён, не внесены. В файлах игры есть Arcane Insight без описания на вики; возможно, это она, но не подтверждено.",
+    "«Flat damage» в Arcane- и Fire-билдах сопоставлен со статом Damage Modifier; точный тип пассивки гайд не называет.",
+    "Savage Strike и Obliterate в Swing-билде гайд не советует: Savage Strike упомянут только как навык из Skill Mastery: Swing, Obliterate автор прямо исключил. Uppercut (второй навык Arcane Scimitar) в гайде не упомянут.",
+    "Steam-гайд не называет пассивку «Slow при Burn»; по описанию вики это Thermal Shock. Под «Apply Slow on hit» вероятно Touch of Ice, в карточку не внесено.",
+    "Steam-раздел не называет руны Versatility и не разделяет Tenacity/Versatility; руны положены в tenacity.",
+    "Опечатки гайда: Arctic Assault назван стартовым навыком «Frozen Blade» (на деле Icelord's Blade); в описании Flamethrower упомянут Flurry вместо самого Flamethrower.",
+    "Приоритеты пассивок в гайдах расплывчатые, priority проставлен по тону текста.",
+    "Нет билда под R5 Runeforged Greatsword (Thrust) ни в одном гайде.",
+    "Модуль рун на вики старее 1.5d (Synchrony, Elemental Flow и др.); Adaptive Empowerment 10% на вики против 15% в гайде проверить в игре."
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Chaoswalker",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Маг с жезлом (Wand), открывается за 2-й цикл Overlord. Типы навыков: Chaos, Nature, Fire, Shadow, Holy; уникальные навыки Chaos Wave, Chaos Totem и Manifestations of Chaos. Бонусы: +10% шанса крита, +20% урона и области, но -20 здоровья и -10 здоровья за кристалл. Актуальный гайд (WIP) предлагает три направления: призыв кроликов с Disarray, стаки Poison и стаки Burn.",
+    "en": "A Wand mage unlocked by completing Overlord cycle 2. Skill types: Chaos, Nature, Fire, Shadow, Holy; unique skills Chaos Wave, Chaos Totem and Manifestations of Chaos. Bonuses: +10% critical chance, +20% damage and area, but -20 maximum health and -10 health per crystal. The current guide (WIP) offers three directions: Disarray bunny summons, Poison stacking and Burn stacking."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-chaoswalker",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2023/03/27/soulstone-survivors-guide-the-chaoswalker/",
+      "title": "Soulstone Survivors Guide: The Chaoswalker",
+      "game_version": "1.5d",
+      "updated": "2026-06-13",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "chaoswalker-singular-bunny",
+          "name": {
+            "ru": "Единственный кролик",
+            "en": "Singular Bunny"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "summon",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Disarray",
+            "Chaotic"
+          ],
+          "skills": [
+            {
+              "id": "FrenziedBunnies",
+              "role": "core",
+              "obtained": "pool",
+              "note": {
+                "ru": "Единственный навык билда: взрывающиеся кролики стакают Disarray.",
+                "en": "The only skill of the build: exploding bunnies that stack Disarray."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "HorrificPresence",
+              "priority": "high",
+              "note": {
+                "ru": "Каждое попадание может наложить Disarray.",
+                "en": "Every hit may apply Disarray."
+              }
+            },
+            {
+              "power_id": "Havoc",
+              "priority": "high",
+              "note": {
+                "ru": "Крит накладывает Disarray.",
+                "en": "Crits apply Disarray."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "power_name": "Summon group upgrades",
+              "priority": "medium",
+              "note": {
+                "ru": "Групповые улучшения Summon, Chaos и Seasonal (урон, область, мультикаст). На вики у Frenzied Bunnies типы Chaos, Summon, Magical, Physical, Secret; тип Seasonal гайд упоминает из-за пасхального события.",
+                "en": "Summon, Chaos and Seasonal group upgrades (damage, area, multi cast). The wiki lists Frenzied Bunnies as Chaos, Summon, Magical, Physical, Secret; the guide mentions Seasonal because of the Easter event."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "SingularFocus"
+              },
+              {
+                "id": "ControlledChaos"
+              },
+              {
+                "id": "DemonicPact"
+              },
+              {
+                "id": "ImprovedRepertory"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "UnconventionalStart"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Chaos"
+              },
+              {
+                "id": "SkillAffinity",
+                "variant": "Chaos"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Все десять банов уходят на лишние Chaos-навыки, чтобы пул сузился до Frenzied Bunnies. Урон держится на массе кроликов и росте Disarray; броню, потерянную из-за Demonic Pact, надо добирать защитой.",
+            "en": "Spend all ten banishes on other Chaos skills so the pool narrows down to Frenzied Bunnies. Damage comes from the number of bunnies and Disarray growth; armor lost to Demonic Pact must be recovered with defensive picks."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Demonic Pact даёт +2 очка рун, но снижает силу брони на 30%.",
+                "en": "Demonic Pact gives +2 rune points but reduces armor power by 30%."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +2 рунической силы, броня -30%."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory даёт дополнительный слот навыка (ещё один экземпляр Frenzied Bunnies) ценой -15% урона.",
+                "en": "Improved Repertory gives an extra skill slot (one more Frenzied Bunnies) at -15% damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%, цена 3."
+            },
+            {
+              "text": {
+                "ru": "Havoc даёт криту шанс наложить Disarray.",
+                "en": "Havoc gives crits a chance to apply Disarray."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: криты накладывают Disarray с шансом 50% (фиксировано на всех редкостях)."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "chaoswalker-poison",
+          "name": {
+            "ru": "Яд",
+            "en": "Poison"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Poison",
+            "Weakness",
+            "Disarray",
+            "Ammunition"
+          ],
+          "skills": [
+            {
+              "id": "Corrosion",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Растёт в большую область и быстро стакает Poison; берётся руной Weapon Expert.",
+                "en": "Grows into a large AOE and stacks Poison fast; picked via Weapon Expert."
+              }
+            },
+            {
+              "id": "Pestilence",
+              "role": "damage",
+              "note": {
+                "ru": "Прыгает между врагами, урон растёт от стаков Poison.",
+                "en": "Hops between enemies, damage scales with Poison stacks."
+              }
+            },
+            {
+              "id": "ThreshingBlast",
+              "role": "damage",
+              "note": {
+                "ru": "Урон от Poison и пики от стаков Ammunition.",
+                "en": "Damage from Poison and spikes from Ammunition stacks."
+              }
+            },
+            {
+              "id": "Outbreak",
+              "role": "support",
+              "note": {
+                "ru": "Накладывает больше Poison.",
+                "en": "Applies more Poison."
+              }
+            },
+            {
+              "id": "FesteringStrike",
+              "role": "support",
+              "note": {
+                "ru": "Накладывает Poison и Weakness.",
+                "en": "Applies Poison and Weakness."
+              }
+            },
+            {
+              "id": "PoisonBolt",
+              "role": "support",
+              "note": {
+                "ru": "Низкий кулдаун, область, быстро стакает Poison.",
+                "en": "Low cooldown AOE that stacks Poison quickly."
+              }
+            },
+            {
+              "id": "Bloodlust",
+              "role": "support",
+              "note": {
+                "ru": "Скорость движения и частота каста.",
+                "en": "Movement speed and cast frequency."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "must"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must"
+            },
+            {
+              "power_id": "Venomous",
+              "priority": "must",
+              "note": {
+                "ru": "Брать как можно раньше и чаще.",
+                "en": "Take as early and as often as possible."
+              }
+            },
+            {
+              "power_id": "Corrosive",
+              "priority": "must",
+              "note": {
+                "ru": "Брать как можно раньше и чаще.",
+                "en": "Take as early and as often as possible."
+              }
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "high"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "high"
+            },
+            {
+              "power_id": "HorrificPresence",
+              "priority": "high"
+            },
+            {
+              "power_id": "Havoc",
+              "priority": "high"
+            },
+            {
+              "power_id": "InfectedWounds",
+              "priority": "medium"
+            },
+            {
+              "power_id": "DeathandDecay",
+              "priority": "medium"
+            },
+            {
+              "power_id": "Rotting",
+              "priority": "medium"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "FatefulStrike"
+              },
+              {
+                "id": "VulnerableTarget"
+              },
+              {
+                "id": "CriticalMastery"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "UnconventionalStart"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Nature"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Начало: баны уходят на почти все не-Nature навыки. Билд хорошо чистит мобов широкой областью и распространением Poison; для Lords of the Void можно активировать алтари пассивки персонажа.",
+            "en": "Start by banishing almost all non-Nature skills. The build clears mobs with wide AOE and spreading Poison; for the Lords of the Void, use the altars from the character's passive."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Havoc даёт криту 50% шанс наложить Disarray.",
+                "en": "Havoc gives crits a 50% chance to apply Disarray."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: шанс 50% на всех редкостях."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory: -15% урона за дополнительный слот навыка; Fateful Strike: -15% базового урона и +55% крит. урона.",
+                "en": "Improved Repertory: -15% damage for an extra skill slot; Fateful Strike: -15% base damage and +55% critical damage."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Improved Repertory совпадает (-15%). Fateful Strike на вики: +60% крит. урона и -20% урона, а не +55%/-15%. Модуль рун на вики может быть старее 1.5d; проверить в игре."
+            },
+            {
+              "text": {
+                "ru": "Vulnerable Target даёт 50% шанса крита за 2 очка рун, вместе с персонажем в сумме 100% шанса крита.",
+                "en": "Vulnerable Target gives 50% crit chance for two rune points, which with the character adds up to 100% crit chance."
+              },
+              "status": "verified",
+              "verified_by": "user",
+              "detail": "Проверено в игре (1.5d): Vulnerable Target даёт +50% шанса крита. На вики устаревшие +25%."
+            },
+            {
+              "text": {
+                "ru": "Critical Mastery добавляет четверть шанса крита к крит. урону.",
+                "en": "Critical Mastery adds one fourth of critical chance to critical damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита добавляется к множителю крит. урона, включая бонусный шанс от негативных эффектов."
+            },
+            {
+              "text": {
+                "ru": "Death and Decay ускоряет тики Poison, Rotting наносит часть общего урона Poison сразу.",
+                "en": "Death and Decay makes Poison tick faster, Rotting deals part of total Poison damage instantly."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Death and Decay частота +30% (Rare), Rotting +40% мгновенно (Epic)."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "chaoswalker-burn",
+          "name": {
+            "ru": "Горение",
+            "en": "Burn"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Burn",
+            "Haste",
+            "Slow"
+          ],
+          "skills": [
+            {
+              "id": "OrbsofDestruction",
+              "role": "core",
+              "obtained": "weapon_primary"
+            },
+            {
+              "id": "FieryBlades",
+              "role": "damage"
+            },
+            {
+              "id": "MoltenFang",
+              "role": "damage"
+            },
+            {
+              "id": "LavaHowl",
+              "role": "damage"
+            },
+            {
+              "id": "ScorchingKatana",
+              "role": "damage"
+            },
+            {
+              "id": "Firestorm",
+              "role": "damage"
+            },
+            {
+              "id": "Bloodlust",
+              "role": "support",
+              "note": {
+                "ru": "Либо Bloodlust, либо Might.",
+                "en": "Either Bloodlust or Might."
+              }
+            },
+            {
+              "id": "Might",
+              "role": "optional",
+              "note": {
+                "ru": "Альтернатива Bloodlust.",
+                "en": "Alternative to Bloodlust."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "SpontaneousCombustion",
+              "priority": "must",
+              "note": {
+                "ru": "Каждая атака может наложить Burn.",
+                "en": "Every attack may apply Burn."
+              }
+            },
+            {
+              "power_id": "IgnitionPoint",
+              "priority": "high",
+              "note": {
+                "ru": "Крит накладывает дополнительный Burn.",
+                "en": "Crits apply extra Burn."
+              }
+            },
+            {
+              "power_id": "IntenseFire",
+              "priority": "high",
+              "note": {
+                "ru": "Ускоряет тики Burn.",
+                "en": "Speeds up Burn ticks."
+              }
+            },
+            {
+              "power_id": "FieryAmplification",
+              "priority": "high",
+              "note": {
+                "ru": "Повышает урон стаков Burn.",
+                "en": "Increases Burn stack damage."
+              }
+            },
+            {
+              "power_id": "ThermalShock",
+              "priority": "situational",
+              "note": {
+                "ru": "Вешает Slow вместе с Burn.",
+                "en": "Applies Slow along with Burn."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Классический билд на стаки ailment: цель в том, чтобы накладывать Burn везде и усиливать его. Slow от Thermal Shock облегчает уклонение, Haste от навыков добавляет скорости.",
+            "en": "A classic ailment stacking build: apply Burn everywhere and boost it. Slow from Thermal Shock makes dodging easier, skills add Haste on top."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Spontaneous Combustion: любая атака может наложить Burn; Ignition Point: криты накладывают Burn.",
+                "en": "Spontaneous Combustion: any attack may apply Burn; Ignition Point: crits apply Burn."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Spontaneous Combustion шанс 25%, Ignition Point 50% на крит (нужно 2 источника Burn)."
+            },
+            {
+              "text": {
+                "ru": "Thermal Shock вешает Slow вместе с Burn; Haste дают сами навыки.",
+                "en": "Thermal Shock applies Slow along with Burn; skills themselves give Haste."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Thermal Shock 50% шанс Slow при наложении Burn; Haste дают Molten Fang и Firestorm."
+            }
+          ],
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "chaoswalker-disarray-legacy",
+          "name": {
+            "ru": "Disarray и Chaotic (старый)",
+            "en": "Disarray and Chaotic (legacy)"
+          },
+          "weapon_id": "SkullofDraxiz",
+          "archetypes": [
+            "stack",
+            "other"
+          ],
+          "core_mechanics": [
+            "Disarray",
+            "Chaotic"
+          ],
+          "skills": [
+            {
+              "id": "ManifestationsofChaos",
+              "role": "core",
+              "note": {
+                "ru": "Урон зависит от стаков Disarray.",
+                "en": "Damage depends on Disarray stacks."
+              }
+            },
+            {
+              "id": "LightBeam",
+              "role": "support"
+            },
+            {
+              "id": "ChaosTotem",
+              "role": "support"
+            },
+            {
+              "id": "ShadowOrb",
+              "role": "support"
+            },
+            {
+              "id": "UnchainedChaos",
+              "role": "support",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Второй (особый) навык Skull of Draxiz; Chaotic 80%, вешает Disarray.",
+                "en": "The second (special) skill of Skull of Draxiz; Chaotic 80%, applies Disarray."
+              }
+            },
+            {
+              "id": "Bloodlust",
+              "role": "support"
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "Executioner"
+              },
+              {
+                "id": "MisfortunesEmbrace"
+              },
+              {
+                "id": "Synergetic"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Брать навыки, которые вешают Disarray и имеют Chaotic (шанс сразу скастовать другой навык). Подбирать как можно больше пассивок вида «накладывай элемент при наложении элемента»; чем больше дебаффов, тем лучше. Chaos Golem опасен: враги скапливаются вокруг миньонов.",
+            "en": "Take skills that apply Disarray and have Chaotic (a chance to cast another skill). Grab as many 'apply element when you apply element' passives as possible; more debuffs is better. Chaos Golem is risky: enemies huddle around the minions."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Manifestations of Chaos наносит урон в зависимости от стаков Disarray и имеет Chaotic.",
+                "en": "Manifestations of Chaos deals damage based on Disarray stacks and has Chaotic."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: урон 1-1300 + 15 за стак Disarray, Chaotic 130%."
+            },
+            {
+              "text": {
+                "ru": "Chaos Golem опасен: враги и боссы скапливаются вокруг миньонов на поздних раундах.",
+                "en": "Chaos Golem is risky: enemies and bosses huddle around the minions in later rounds."
+              },
+              "status": "unverified",
+              "detail": "Наблюдение авторов из тестов, проверить по данным нельзя."
+            }
+          ],
+          "confidence": "medium",
+          "legacy_check": [
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "Руна переделана: урон эффекта приходит сразу при наложении вместо ускорения тиков. Билд держится на Disarray, а не на DoT, так что польза от неё в 1.5d неясна.",
+                "en": "The rune was reworked: effect damage lands instantly on application instead of faster ticks. The build relies on Disarray, not DoT, so its value in 1.5d is unclear."
+              }
+            },
+            {
+              "mechanic": "Misfortune's Embrace",
+              "impact": "weakened",
+              "note": {
+                "ru": "Случайные Burn/Bleed/Poison/Doom (20%) работают против меты 1.5d со специализацией на одном ailment; здесь их цель только в количестве разных дебаффов для Executioner.",
+                "en": "Random Burn/Bleed/Poison/Doom (20%) goes against the 1.5d single-ailment specialization meta; here they only serve to raise debuff variety for Executioner."
+              }
+            },
+            {
+              "mechanic": "Chaos/debuff-universal подход",
+              "impact": "weakened",
+              "note": {
+                "ru": "Выжимка относит старый универсальный Chaos/debuff-подход к изменившимся: сильнее теперь специализация и синергии типов навыков.",
+                "en": "The digest lists the old universal Chaos/debuff approach as changed: specialization and skill type synergy are stronger now."
+              }
+            },
+            {
+              "mechanic": "Executioner",
+              "impact": "unchanged",
+              "note": {
+                "ru": "4% за каждый разный тип негативного эффекта, максимум 20%; билд с множеством дебаффов набирает максимум. DoT теперь тоже получает выгоду от руны.",
+                "en": "4% per different negative effect type, up to 20%; a many-debuff build reaches the cap. DoT now benefits from the rune as well."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учитывались в 1.2. У Chaoswalker есть оружие R5 Voidwalker's Echo (Shadow), Titan Powers гайд не знает.",
+                "en": "Not considered in 1.2. Chaoswalker has the R5 Voidwalker's Echo (Shadow); the guide predates Titan Powers."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2: Disarray-билд вокруг Manifestations of Chaos на Skull of Draxiz с рунами на разнообразие дебаффов. Elemental Flow переделан, а смешивание ailment через Misfortune's Embrace противоречит мете специализации. Актуальный гайд заменяет Chaos-направление на «Singular Bunny» (одни Frenzied Bunnies с Disarray), но Manifestations of Chaos в нём нет, так что прямой замены нет.",
+        "en": "Written for 1.2: a Disarray build around Manifestations of Chaos on Skull of Draxiz with debuff-variety runes. Elemental Flow was reworked, and mixing ailments via Misfortune's Embrace goes against the specialization meta. The current guide's Chaos option is Singular Bunny (Frenzied Bunnies only, with Disarray); it doesn't use Manifestations of Chaos, so there is no direct replacement."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Chaos skills other than Frenzied Bunnies",
+        "builds": [
+          "chaoswalker-singular-bunny"
+        ],
+        "reason": {
+          "ru": "Из гайда: все десять банов на Chaos-навыки, чтобы в пуле остались Frenzied Bunnies.",
+          "en": "From the guide: all ten banishes go to Chaos skills so Frenzied Bunnies stays in the pool."
+        }
+      },
+      {
+        "target": "Non-Nature skills",
+        "builds": [
+          "chaoswalker-poison"
+        ],
+        "reason": {
+          "ru": "Из гайда: в начале забега банить (почти) все не-Nature навыки.",
+          "en": "From the guide: at the start banish (almost) all non-Nature skills."
+        }
+      },
+      {
+        "target": "Chaos Golem",
+        "builds": [
+          "chaoswalker-disarray-legacy"
+        ],
+        "reason": {
+          "ru": "Из старого гайда: с Chaos Golem легче умереть, враги скапливаются вокруг миньонов.",
+          "en": "From the old guide: Chaos Golem makes deaths likelier as enemies huddle around the minions."
+        }
+      },
+      {
+        "target": "Burn, Bleed and Doom application passives",
+        "builds": [
+          "chaoswalker-poison"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билд специализирован на Poison, пассивки чужих ailment размывают выбор.",
+          "en": "Inference, not from the source: the build specializes in Poison; other ailment passives dilute the picks."
+        }
+      },
+      {
+        "target": "Poison, Bleed and Doom application passives",
+        "builds": [
+          "chaoswalker-burn"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билд специализирован на Burn.",
+          "en": "Inference, not from the source: the build specializes in Burn."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Во всех билдах: Magnetic и скорость движения берутся рано, они ускоряют разгон.",
+        "en": "All builds: take Magnetic and movement speed early, they speed up the ramp."
+      },
+      {
+        "ru": "Singular Bunny: брать только Frenzied Bunnies (нужна руна Singular Focus), затем Horrific Presence, Havoc и групповые улучшения Summon/Chaos; добирать защиту из-за Demonic Pact.",
+        "en": "Singular Bunny: take only Frenzied Bunnies (needs Singular Focus), then Horrific Presence, Havoc and Summon/Chaos group upgrades; add defense because of Demonic Pact."
+      },
+      {
+        "ru": "Poison: Venomous и Corrosive брать как можно раньше и чаще; затем частота каста и мультикаст, Infected Wounds, Death and Decay, Rotting.",
+        "en": "Poison: take Venomous and Corrosive as early and often as possible; then cast frequency, multi cast, Infected Wounds, Death and Decay, Rotting."
+      },
+      {
+        "ru": "Poison: Horrific Presence и Havoc тоже хороши, добавляют Disarray.",
+        "en": "Poison: Horrific Presence and Havoc are good too, they add Disarray."
+      },
+      {
+        "ru": "Burn: ключевые пассивки Spontaneous Combustion, Ignition Point (на вики нужно 2 источника Burn), Intense Fire, Fiery Amplification; Thermal Shock по желанию.",
+        "en": "Burn: key passives are Spontaneous Combustion, Ignition Point (wiki: needs 2 Burn sources), Intense Fire, Fiery Amplification; Thermal Shock optional."
+      },
+      {
+        "ru": "Против Lords of the Void (Poison): активировать алтари пассивки персонажа ради четырёх дополнительных навыков.",
+        "en": "Against Lords of the Void (Poison): activate the altars from the character passive for four extra skills."
+      }
+    ],
+    "basis": {
+      "ru": "Сведено из гайда cubiccreativity (1.5d, WIP), Steam-гайда (1.2) и выжимки меты; числа сверены с вики. Три бана названы авторами, два бана по специализации на ailment — вывод. Пассивки Burn взяты из обрезанного текста гайда без порядка.",
+      "en": "Compiled from the cubiccreativity guide (1.5d, WIP), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. Three bans come from the authors, two ailment-specialization bans are inferences. Burn passives come from the truncated guide text, without an order."
+    }
+  },
+  "gaps": [
+    "Актуальный гайд помечен автором как WIP (в работе).",
+    "Билд Burn в гайде обрезан: список навыков между «(…)», рун нет, оружие не названо. Orbs of Destruction — навык Flamewalker's Spire, так что оружие, вероятно, оно (в карточке weapon_id null). Порядок пассивок взят по тексту, приоритеты приблизительные.",
+    "Ни в одном билде актуального гайда оружие не названо (weapon_id null). Poison по навыкам Corrosion/Infected Shot — вероятно Artifact of Corruption; Singular Bunny — не ясно.",
+    "Frenzied Bunnies — навык из пасхального события; групповые улучшения Summon/Chaos/Seasonal записаны одним power_name. На вики тип Seasonal у навыка не указан (Secret).",
+    "Fateful Strike и Vulnerable Target: числа гайда (55%/-15% и 50%) расходятся с вики (60%/-20% и 25%); модуль рун на вики старее 1.5d, проверить в игре.",
+    "Titan Powers и легендарное оружие ни один гайд не называет.",
+    "В Steam-гайде (1.2) нет пассивок и рун Versatility; опечатка «Misforune's Embrace» исправлена на Misfortune's Embrace."
+  ]
+}

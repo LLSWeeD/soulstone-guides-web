@@ -1,0 +1,760 @@
+{
+  "schema_version": "0.2",
+  "character_id": "ArcaneWeaver",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Хрупкий маг (класс Mage, посохи): Arcane, Chaos, Ice, Fire и Holy. Получает +10% Damage Modifier, +10% Cast Frequency и +15% опыта, но -20 к здоровью и -20% Armor Power. Актуальный гайд предлагает три пути: Arcane-лучи с Brittle, Fire с Burn и Holy-лучи с Exposed.",
+    "en": "A fragile Mage wielding staves: Arcane, Chaos, Ice, Fire and Holy skills. Gets +10% Damage Modifier, +10% Cast Frequency and +15% experience, but -20 health and -20% Armor Power. The current guide offers three paths: Arcane beams with Brittle, Fire with Burn and Holy beams with Exposed."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-arcaneweaver",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2025/04/19/soulstone-survivors-guide-the-arcane-weaver/",
+      "title": "Soulstone Survivors Guide: The Arcane Weaver",
+      "game_version": "1.5d",
+      "updated": "2026-06-25",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "arcaneweaver-singular-arcane",
+          "name": {
+            "ru": "Одиночный Arcane",
+            "en": "Singular Arcane"
+          },
+          "weapon_id": "ArcaneStaff",
+          "archetypes": [
+            "stack",
+            "synchrony"
+          ],
+          "core_mechanics": [
+            "Brittle",
+            "Exposed"
+          ],
+          "skills": [
+            {
+              "id": "ArcaneBeam",
+              "role": "core",
+              "note": {
+                "ru": "Один сфокусированный луч, копии накладываются и копят Brittle.",
+                "en": "One focused beam; copies overlap and stack Brittle."
+              }
+            },
+            {
+              "id": "ArcaneExplosion",
+              "role": "damage",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Особый навык Arcane Staff, берётся через Weapon Expert. Использует стаки Brittle и даёт AOE-зачистку.",
+                "en": "Arcane Staff special skill, taken via Weapon Expert. Uses Brittle stacks and provides AOE clear."
+              }
+            },
+            {
+              "id": "ArcanePower",
+              "role": "support",
+              "note": {
+                "ru": "Усиливает накопление Brittle и мультикаст.",
+                "en": "Boosts Brittle stacking and multicasting."
+              }
+            },
+            {
+              "id": "LightBeam",
+              "role": "optional",
+              "note": {
+                "ru": "Замена Arcane Beam, если копий не хватает; Exposed усиливает урон.",
+                "en": "Substitute if Arcane Beam copies are lacking; Exposed boosts damage."
+              }
+            },
+            {
+              "id": "ArcaneConjuration",
+              "role": "optional",
+              "note": {
+                "ru": "Крупная AOE-зачистка с Brittle.",
+                "en": "Big AOE clear that also applies Brittle."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Damage Modifier",
+              "priority": "must",
+              "note": {
+                "ru": "Первый по важности: растёт и прямой урон, и плоская прибавка Brittle.",
+                "en": "Top priority: raises direct damage and Brittle's flat bonus."
+              }
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "must",
+              "note": {
+                "ru": "Больше наложенных друг на друга лучей, быстрее стаки Brittle.",
+                "en": "More overlapping beams, faster Brittle stacking."
+              }
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high",
+              "note": {
+                "ru": "Нужно держаться рядом с Lords of the Void.",
+                "en": "Needed to stay near Lords of the Void."
+              }
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "situational"
+            },
+            {
+              "stat": "Armor Power",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "SingularFocus"
+              },
+              {
+                "id": "Synchrony"
+              },
+              {
+                "id": "ImprovedRepertory"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillInclination",
+                "variant": "Arcane"
+              },
+              {
+                "id": "UnconventionalStart"
+              },
+              {
+                "id": "WeaponExpert"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Держать один луч на Lords of the Void как можно дольше, быстро переключаясь на мелких врагов. Защитные пассивки брать без стеснения.",
+            "en": "Keep one beam locked on Lords of the Void as long as possible, switching quickly for small enemies. Do not shy away from defensive passives."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory снижает урон на 15%, но даёт седьмой слот навыка.",
+                "en": "Improved Repertory lowers damage by 15% but gives a seventh skill slot."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%, цена 3 очка."
+            },
+            {
+              "text": {
+                "ru": "Damage Modifier увеличивает и плоскую прибавку от стаков Brittle.",
+                "en": "Damage Modifier also raises the flat bonus from Brittle stacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики (статья Brittle): Damage Modifier напрямую влияет на плоский урон Brittle; крит его не умножает. Arcane Beam: 15 ударов, Brittle 4 за удар, каждые 0,4 с."
+            },
+            {
+              "text": {
+                "ru": "Synchrony — двухочковая руна с бонусом урона за общие типы навыков.",
+                "en": "Synchrony is a two-point rune giving damage for shared skill types."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: цена 2 очка, совпадает. Числа гайд не даёт; вики (старее 1.5d): +0,7% за общий тип, максимум 20%, по выжимке 1.5d: +1,5%, максимум 30%."
+            },
+            {
+              "text": {
+                "ru": "Arcane Explosion наносит урон по числу стаков Brittle на цели.",
+                "en": "Arcane Explosion deals damage based on Brittle stacks on the target."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 300 урона + 40 за стак Brittle, кулдаун 6 с, даёт 3 стака Radiance."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "arcaneweaver-burn",
+          "name": {
+            "ru": "Burn (Ignis)",
+            "en": "Burn"
+          },
+          "weapon_id": "IgnisGreatstaffofDespair",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Burn",
+            "Weakness"
+          ],
+          "skills": [
+            {
+              "id": "FirePillar",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Накладывает Burn и Weakness; берётся через Weapon Expert.",
+                "en": "Applies Burn and Weakness; obtained via Weapon Expert."
+              }
+            },
+            {
+              "id": "FireBolt",
+              "role": "support",
+              "note": {
+                "ru": "Малая версия Pillar с меньшим кулдауном.",
+                "en": "Smaller Pillar with a lower cooldown."
+              }
+            },
+            {
+              "id": "OrbsofDestruction",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Урон растёт от стаков Burn.",
+                "en": "Damage scales with Burn stacks."
+              }
+            },
+            {
+              "id": "MeteorShower",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Большая площадь, скейлится от Burn, бьёт случайно.",
+                "en": "Large area, scales with Burn, hits randomly."
+              }
+            },
+            {
+              "id": "Firestorm",
+              "role": "core",
+              "obtained": "rune",
+              "note": {
+                "ru": "Много попаданий для ailment и зачистка орды.",
+                "en": "Many hits for ailments and horde clear."
+              }
+            },
+            {
+              "id": "RayofFire",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Лучи при мультикасте идут плотно, чаще накладывают Burn.",
+                "en": "Rays pack tightly on multicast and apply Burn more often."
+              }
+            },
+            {
+              "id": "ArcanePower",
+              "role": "support",
+              "note": {
+                "ru": "Основной бафф: мультикаст даёт больше Burn.",
+                "en": "Go-to buff: multicast means more Burn."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "SpontaneousCombustion",
+              "priority": "must",
+              "note": {
+                "ru": "В гайде «шанс Burn для всех навыков»: на вики это Spontaneous Combustion (все атаки могут наложить Burn, 25%). Брать как можно раньше.",
+                "en": "The guide's \"Burn chance for all skills\": on the wiki this is Spontaneous Combustion (all attacks may apply Burn, 25%). Take as early as possible."
+              }
+            },
+            {
+              "power_id": "FieryAmplification",
+              "priority": "high",
+              "note": {
+                "ru": "Урон каждого Burn +30% / +60%.",
+                "en": "Burn damage +30% / +60%."
+              }
+            },
+            {
+              "power_id": "IntenseFire",
+              "priority": "high",
+              "note": {
+                "ru": "В гайде «пассивка на частоту тиков»: Burn тикает на 30% чаще.",
+                "en": "The guide's \"tick rate passive\": Burn ticks 30% more often."
+              }
+            },
+            {
+              "power_id": "IgnitionPoint",
+              "priority": "high",
+              "note": {
+                "ru": "В гайде «Burn при крите»: криты накладывают Burn с шансом 50%.",
+                "en": "The guide's \"Burn on critical hit\": crits apply Burn at 50% chance."
+              }
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "high"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "medium"
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "SearingIntensity"
+              },
+              {
+                "id": "Synchrony"
+              },
+              {
+                "id": "ElementalFlow"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillMastery",
+                "variant": "Fire"
+              },
+              {
+                "id": "UnconventionalStart"
+              },
+              {
+                "id": "WeaponExpert"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Классический стак ailment: спамить огненные навыки и копить Burn, остальное усиливать каст и мультикаст.",
+            "en": "Classic ailment stacking: spam fire skills and pile on Burn, and improve casting and multicast on top."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Searing Intensity даёт 25% бонус к урону по целям с большим числом стаков Burn.",
+                "en": "Searing Intensity gives a 25% damage bonus against targets with many Burn stacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,5% урона за стак Burn или Shattered на цели, максимум 25% (с 50 стаков), цена 3 очка."
+            },
+            {
+              "text": {
+                "ru": "Elemental Flow ускоряет тики Burn.",
+                "en": "Elemental Flow makes Burn tick faster."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (модуль рун, старее 1.5d): эффекты тикают на 100% чаще, как в гайде. Выжимка 1.5d: руна переделана, урон эффекта приходит сразу при наложении. Для 1.5d верить выжимке; руна по-прежнему усиливает Burn, но иначе."
+            },
+            {
+              "text": {
+                "ru": "Fire Bolt — малая версия Fire Pillar: тоже Burn и Weakness, но кулдаун меньше.",
+                "en": "Fire Bolt is a small Fire Pillar: also Burn and Weakness, but a lower cooldown."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Fire Bolt кулдаун 2 с, Burn 280; Fire Pillar кулдаун 7 с, Burn 1200; оба накладывают Weakness 12%."
+            },
+            {
+              "text": {
+                "ru": "Skill Mastery: Fire добавляет в пул Firestorm, Meteor Shower, Orbs of Destruction и Ray of Fire.",
+                "en": "Skill Mastery: Fire adds Firestorm, Meteor Shower, Orbs of Destruction and Ray of Fire to the pool."
+              },
+              "status": "unverified",
+              "detail": "У семейства Skill Mastery на вики нет списка навыков по вариантам. Все четыре навыка имеют тип Fire."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "arcaneweaver-singular-holy",
+          "name": {
+            "ru": "Одиночный Holy",
+            "en": "Singular Holy"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "stack",
+            "multiplier"
+          ],
+          "core_mechanics": [
+            "Exposed",
+            "Lasting"
+          ],
+          "skills": [
+            {
+              "id": "LightBeam",
+              "role": "core",
+              "note": {
+                "ru": "Основной навык: пять копий, быстро копит Exposed.",
+                "en": "Main skill: five copies, stacks Exposed quickly."
+              }
+            },
+            {
+              "id": "CelestialRetribution",
+              "role": "damage",
+              "note": {
+                "ru": "Одна копия, синергия с Exposed, против боссов может убить мгновенно.",
+                "en": "One copy, synergizes with Exposed and can nearly one-shot Lords of the Void."
+              }
+            },
+            {
+              "id": "ArcanePower",
+              "role": "support",
+              "note": {
+                "ru": "Больше кастов для стака Light Beam.",
+                "en": "More casts for stacking Light Beam."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "must"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "high"
+            },
+            {
+              "power_name": "Celestial Retribution Damage",
+              "priority": "medium",
+              "note": {
+                "ru": "Улучшения урона самого навыка Celestial Retribution, когда выпадают (это улучшение навыка, не пассивка из справочника).",
+                "en": "Damage upgrades for the Celestial Retribution skill when offered (a skill upgrade, not a passive from the reference)."
+              }
+            },
+            {
+              "power_id": "Lasting",
+              "priority": "medium",
+              "note": {
+                "ru": "Урон для навыков типа Lasting (в билде их шесть). Сопоставлено по названию типа; описания на вики нет.",
+                "en": "Damage for Lasting-type skills (six in the build). Matched by type name; no wiki description."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "medium"
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "situational"
+            },
+            {
+              "stat": "Armor Power",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "SingularFocus"
+              },
+              {
+                "id": "ReadyforBattle"
+              },
+              {
+                "id": "Surefooted"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "UnconventionalStart"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Holy"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Банить все Holy-навыки, кроме Light Beam и одной копии Celestial Retribution, чтобы быстро собрать пять копий луча. Затем держать луч на цели.",
+            "en": "Banish every Holy skill except Light Beam and one Celestial Retribution to assemble five beam copies fast, then keep the beam on the target."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Нужно пять копий Light Beam для билда.",
+                "en": "The build wants five copies of Light Beam."
+              },
+              "status": "unverified",
+              "detail": "Выбор автора, а не лимит игры: семь слотов (с Improved Repertory) = 5 Light Beam + Celestial Retribution + Arcane Power. Повторный выбор навыка открывает Singular Focus (вики)."
+            },
+            {
+              "text": {
+                "ru": "Даже 30% прибавки к урону Celestial Retribution заметно усиливают билд при стаках Exposed.",
+                "en": "Even a 30% damage boost to Celestial Retribution goes a long way with Exposed stacks."
+              },
+              "status": "unverified",
+              "detail": "Улучшений урона конкретных навыков на вики нет. Сам навык: 16 комет по 200 + 15 за стак Exposed (вики)."
+            },
+            {
+              "text": {
+                "ru": "Шесть навыков билда имеют тип Lasting.",
+                "en": "Six of the build's skills are Lasting-type."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Light Beam (5 копий) и Arcane Power имеют тип Lasting, Celestial Retribution нет. 5 + 1 = 6."
+            },
+            {
+              "text": {
+                "ru": "Exposed даёт процентную прибавку урона, а Brittle — плоскую, поэтому Holy-вариант сильнее Arcane.",
+                "en": "Exposed adds percentage damage while Brittle adds flat damage, so the Holy version beats Arcane."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: стак Exposed +4% к прямому урону (полностью только для ударов с базой от 1050, мягкий кап +3200%), у Light Beam указано 8% за наложение; Brittle +1 плоского урона за стак без капа. Сравнение сил — оценка автора."
+            },
+            {
+              "text": {
+                "ru": "Celestial Retribution наносит урон по числу стаков Exposed на цели.",
+                "en": "Celestial Retribution scales with Exposed stacks on the target."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 16 комет, урон 200 + 15 за стак Exposed, кулдаун 6 с, даёт 2 стака Purity."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "arcaneweaver-arcane-staff-legacy",
+          "name": {
+            "ru": "Arcane Staff, ailment-доты (legacy)",
+            "en": "Arcane Staff ailment stacking (legacy)"
+          },
+          "weapon_id": "ArcaneStaff",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Brittle",
+            "Radiance",
+            "Doom",
+            "Burn",
+            "Poison",
+            "Bleed"
+          ],
+          "skills": [
+            {
+              "id": "ArcaneOrb",
+              "role": "core"
+            },
+            {
+              "id": "ArcaneMissiles",
+              "role": "core"
+            },
+            {
+              "id": "ArcaneBeam",
+              "role": "core"
+            },
+            {
+              "id": "ArcaneSparks",
+              "role": "core"
+            },
+            {
+              "id": "ArcaneDisc",
+              "role": "core"
+            },
+            {
+              "id": "MagicMissiles",
+              "role": "core"
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "SearingIntensity"
+              },
+              {
+                "id": "Decapitator"
+              },
+              {
+                "id": "Executioner"
+              },
+              {
+                "id": "MisfortunesEmbrace"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Брать только Arcane-навыки ради Brittle и Radiance, а ailment накладывать как можно больше, в порядке Doom, Bleed, Poison, Burn. Враги умирают от накопленных стаков.",
+            "en": "Take only Arcane skills for Brittle and Radiance, and apply as many ailments as possible, in the order Doom, Bleed, Poison, Burn. Enemies die from accumulated stacks."
+          },
+          "claims": [],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Doom, Bleed, Poison, Burn)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 все четыре ailment нормально масштабируются от модификаторов урона и рун вроде Executioner и Searing Intensity.",
+                "en": "Since 1.4 all four ailments scale properly with damage modifiers and runes such as Executioner and Searing Intensity."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "weakened",
+              "note": {
+                "ru": "Билд смешивает четыре ailment, а мета 1.5d требует усиливать один. Каждый из них получает меньше вложений, чем в специализированном билде.",
+                "en": "The build mixes four ailments while the 1.5d meta favours one. Each gets less investment than in a specialized build."
+              }
+            },
+            {
+              "mechanic": "Misfortune's Embrace",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Руна не менялась (20% шанс Burn, Bleed, Poison или Doom) и подходит идее смешанных ailment, но противоречит специализации 1.5d.",
+                "en": "The rune is unchanged (20% chance of Burn, Bleed, Poison or Doom) and fits the mixed-ailment idea, but works against 1.5d specialization."
+              }
+            },
+            {
+              "mechanic": "Executioner",
+              "impact": "buffed",
+              "note": {
+                "ru": "Выжимка относит Executioner к источникам, от которых DoT теперь получает выгоду; руна даёт 4% за каждый разный эффект (до 20%), а этот билд вешает много разных.",
+                "en": "The digest lists Executioner among sources DoT now benefits from; the rune gives 4% per distinct effect (up to 20%), and this build applies many."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учитывались в 1.2.",
+                "en": "Not considered in 1.2."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2. Смесь четырёх ailment без специализации расходится с метой 1.5d, а Searing Intensity почти не работает без своих источников Burn. Для того же Arcane Staff в актуальном гайде есть «Одиночный Arcane» на Brittle, а для ailment-стака — Burn-билд на Ignis: они предпочтительнее.",
+        "en": "Written for 1.2. Mixing four ailments without specialization runs against the 1.5d meta, and Searing Intensity does little without its own Burn sources. For the same Arcane Staff the current guide has Singular Arcane (Brittle), and for ailment stacking the Burn build on Ignis; prefer those."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Holy-навыки, кроме Light Beam и Celestial Retribution",
+        "builds": [
+          "arcaneweaver-singular-holy"
+        ],
+        "reason": {
+          "ru": "Из гайда: так быстрее выпадают все пять копий Light Beam; Celestial Retribution нужна одна.",
+          "en": "From the guide: this gets all five Light Beam copies sooner; only one Celestial Retribution is needed."
+        }
+      },
+      {
+        "target": "Arcane-навыки, кроме Arcane Beam и нужных Arcane Power / Arcane Conjuration",
+        "builds": [
+          "arcaneweaver-singular-arcane"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билд устроен так же, как Holy (копии одного луча через Singular Focus), значит работает тот же приём.",
+          "en": "Inference, not from the source: the build works like the Holy one (copies of one beam via Singular Focus), so the same trick applies."
+        }
+      },
+      {
+        "target": "Пассивки наложения Bleed, Poison и Doom",
+        "builds": [
+          "arcaneweaver-burn"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билд специализирован на Burn, чужие ailment отнимают выборы у пассивок Burn.",
+          "en": "Inference, not from the source: the build specializes in Burn; other ailments take picks away from Burn passives."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Singular Arcane: собирать копии Arcane Beam; пассивки в порядке Damage Modifier > Multi Cast Chance > Cast Frequency.",
+        "en": "Singular Arcane: collect Arcane Beam copies; passives in the order Damage Modifier > Multi Cast Chance > Cast Frequency."
+      },
+      {
+        "ru": "Burn: первой как можно раньше Spontaneous Combustion (Burn на все атаки), затем Fiery Amplification, Intense Fire и Ignition Point; дальше Cast Frequency и Multi Cast Chance.",
+        "en": "Burn: Spontaneous Combustion (Burn on all attacks) as early as possible, then Fiery Amplification, Intense Fire and Ignition Point; then Cast Frequency and Multi Cast Chance."
+      },
+      {
+        "ru": "Singular Holy: рано собрать пять Light Beam (баны и Reroll Mastery); Multi Cast Chance в приоритете, улучшения Celestial Retribution и Lasting брать, когда выпадают.",
+        "en": "Singular Holy: get five Light Beams early (banishes and Reroll Mastery); Multi Cast Chance first, take Celestial Retribution and Lasting upgrades when offered."
+      },
+      {
+        "ru": "Против Lords of the Void держать луч на боссе; в Holy добивать Celestial Retribution по стакам Exposed.",
+        "en": "Against Lords of the Void keep the beam on the boss; in Holy finish with Celestial Retribution on Exposed stacks."
+      },
+      {
+        "ru": "Во всех билдах: Magnetic и Movement Speed; здоровье и броню брать без стеснения, персонаж очень хрупкий.",
+        "en": "All builds: Magnetic and Movement Speed; take health and armor freely, the character is very fragile."
+      }
+    ],
+    "basis": {
+      "ru": "Сведено из гайда cubiccreativity (1.5d), Steam-гайда (1.2) и выжимки меты; числа сверены с вики. Бан Holy-навыков и правила повышения уровня взяты из гайда; баны для Arcane и Burn — выводы по аналогии и по специализации. Описательные названия пассивок Burn сопоставлены с вики по описанию.",
+      "en": "Compiled from the cubiccreativity guide (1.5d), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. The Holy skill ban and level-up rules come from the guide; the Arcane and Burn bans are inferences by analogy and specialization. Descriptive Burn passive names were matched to the wiki by description."
+    }
+  },
+  "gaps": [
+    "Списки навыков в актуальном гайде были картинками; составы билдов собраны по тексту, все названные в тексте навыки, руны и пассивки в карточке есть.",
+    "Пассивки Burn гайд называет описательно; сопоставлены по описанию вики: «Burn chance для всех навыков» = Spontaneous Combustion, «tick rate» = Intense Fire, «Burn при крите» = Ignition Point. Проверить названия в игре.",
+    "«Lasting damage» записано как power_id Lasting (сопоставлено по имени типа навыка, на вики нет описания). «Celestial Retribution Damage» — улучшение навыка, не пассивка, оставлено power_name.",
+    "Armor Power записан как stat: в справочнике пассивок не найден.",
+    "«Fiery Pillar» и «Magic Missile» из гайдов сопоставлены с FirePillar и MagicMissiles (варианты написания).",
+    "Оружие билда «Одиночный Holy» гайд не называет (weapon_id: null). Вероятно Benedictio, Staff of Dawn: автор убирает руной Unconventional Start навык Sacred Orb, а это базовый навык Benedictio; второй навык этого посоха — Celestial Retribution. Это вывод, не текст гайда.",
+    "Во всех трёх актуальных билдах руны Tenacity на 9 очков (Arcane: 4+2+3; Burn: 3+3+2+1; Holy: 3+4+1+1), так что в Arcane-билде ничего не потеряно.",
+    "В Burn-билде автор берёт Elemental Flow ради ускорения тиков; в 1.5d руна переделана (урон сразу при наложении), стоит проверить, по-прежнему ли она выгодна.",
+    "Exposed в механиках Singular Arcane появляется только через запасной Light Beam.",
+    "Приоритеты пассивок у гайда расплывчатые (кроме порядка damage modifier, multi-cast, cast frequency в Arcane).",
+    "Steam-гайд: нет пассивок и рун Versatility, в билде 6 навыков без ролей; навыков, накладывающих Doom, Bleed или Poison, среди перечисленных Arcane-навыков нет, их источник в гайде не объяснён (вероятно, Misfortune's Embrace)."
+  ]
+}

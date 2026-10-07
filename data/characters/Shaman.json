@@ -1,0 +1,1036 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Shaman",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Шаман: ближний боец-призыватель с кнутом (типы Arcane, Nature, Fire, Holy, Earth), у которого много урона идёт от тотемов (Ancestry) и миньонов ритуала. Медлительный (-10% Movement Speed), зато +15 к здоровью, +10% шанса крита и +5% урона. Актуальный гайд предлагает билды на яде с критами, тотемах с Radiance, огне с критами и Quicksand.",
+    "en": "Shaman: a melee whip summoner (Arcane, Nature, Fire, Holy, Earth skills) whose damage largely comes from totems (Ancestry) and ritual minions. Slow (-10% Movement Speed) but with +15 health, +10% critical chance and +5% damage. The current guide offers crit poison, Radiance totem, crit fire and Quicksand builds."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-shaman",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2025/05/03/soulstone-survivors-guide-the-shaman/",
+      "title": "Soulstone Survivors Guide: The Shaman",
+      "game_version": "1.5d",
+      "updated": "2026-06-15",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "shaman-electric-poison",
+          "name": {
+            "ru": "Электрический яд",
+            "en": "Electric Poison"
+          },
+          "weapon_id": "SpinevineWhip",
+          "archetypes": [
+            "stack",
+            "multiplier"
+          ],
+          "core_mechanics": [
+            "Poison",
+            "Ancestry",
+            "Dazed",
+            "Critical Chance"
+          ],
+          "skills": [
+            {
+              "id": "VineWhip",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык с малым кулдауном, вешает Poison и копит Ancestry.",
+                "en": "Low-cooldown starter that applies Poison and stacks Ancestry."
+              }
+            },
+            {
+              "id": "Pestilence",
+              "role": "damage",
+              "note": {
+                "ru": "Вешает Poison и бьёт сильнее по целям с большим числом стаков.",
+                "en": "Applies Poison and hits harder on heavily stacked targets."
+              }
+            },
+            {
+              "id": "PurgingSlam",
+              "role": "damage",
+              "note": {
+                "ru": "Превращает стаки Poison в прямой урон, главный убийца боссов.",
+                "en": "Converts Poison stacks into direct damage; the boss killer."
+              },
+              "obtained": "rune"
+            },
+            {
+              "id": "Corrosion",
+              "role": "support",
+              "note": {
+                "ru": "Аура, быстро копящая Poison.",
+                "en": "Aura that stacks Poison quickly."
+              },
+              "obtained": "rune"
+            },
+            {
+              "id": "LightningField",
+              "role": "support",
+              "note": {
+                "ru": "Аура, копит Dazed ради критов.",
+                "en": "Aura that stacks Dazed to raise crit chance."
+              },
+              "obtained": "rune"
+            },
+            {
+              "id": "LightningSurge",
+              "role": "support",
+              "note": {
+                "ru": "Даёт всем навыкам вешать Dazed, помогает с подвижностью.",
+                "en": "Lets all skills apply Dazed and helps with mobility."
+              },
+              "obtained": "rune"
+            },
+            {
+              "id": "ArcanePower",
+              "role": "support",
+              "note": {
+                "ru": "Повышает шанс мультикаста для спама стаками.",
+                "en": "Raises multi-cast chance to spam stacks."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "InfectedWounds",
+              "priority": "must",
+              "note": {
+                "ru": "Главный выбор при повышении уровня: криты с шансом 50% вешают Poison.",
+                "en": "Top level-up pick: critical hits have a 50% chance to apply Poison."
+              }
+            },
+            {
+              "power_id": "Venomous",
+              "priority": "high",
+              "note": {
+                "ru": "Брать сколько получится.",
+                "en": "Take as many as possible."
+              }
+            },
+            {
+              "power_id": "Corrosive",
+              "priority": "high"
+            },
+            {
+              "power_id": "Rotting",
+              "priority": "medium",
+              "note": {
+                "ru": "Мощный, но редко выпадает.",
+                "en": "Powerful but drops rarely."
+              }
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "medium"
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "high",
+              "note": {
+                "ru": "Нужен для аур Corrosion и Lightning Field.",
+                "en": "Needed for the Corrosion and Lightning Field auras."
+              }
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "medium"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "situational"
+            },
+            {
+              "power_id": "PolarityShift",
+              "priority": "situational"
+            },
+            {
+              "power_name": "Skill Chain",
+              "priority": "situational",
+              "note": {
+                "ru": "Гайд упоминает, что Nature- и Electric-навыки приносят Skill Chain; типы цепочек не названы.",
+                "en": "The guide notes Nature and Electric skills bring Skill Chain offers; chain types are not named."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "SavagePact"
+              },
+              {
+                "id": "CriticalMastery"
+              },
+              {
+                "id": "FatefulStrike"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Electric"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Nature"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Спамить навыками, чтобы копить Poison, а критами и Purging Slam превращать стаки в урон. Тотемы из Ancestry и миньоны ритуала добавляют урон сами.",
+            "en": "Spam skills to stack Poison, then turn the stacks into damage with crits and Purging Slam. Ancestry totems and ritual minions add damage on their own."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Infected Wounds даёт 50% шанс наложить Poison при крите.",
+                "en": "Infected Wounds gives a 50% chance to apply Poison on critical hits."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: критические удары накладывают Poison с фиксированным шансом 50% на всех редкостях; нужно минимум 2 источника Poison."
+            },
+            {
+              "text": {
+                "ru": "Critical Mastery даёт крит. урон, равный 25% шанса крита.",
+                "en": "Critical Mastery gives critical damage equal to 25% of critical chance."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита (включая бонус от негативных эффектов) добавляется к множителю крит. урона."
+            },
+            {
+              "text": {
+                "ru": "Fateful Strike: +55% крит. урона и -15% общего урона.",
+                "en": "Fateful Strike: +55% critical damage and -15% overall damage."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: +60% крит. урона и -20% урона, а не 55% / -15%."
+            },
+            {
+              "text": {
+                "ru": "Savage Pact даёт крит. урон от максимального здоровья.",
+                "en": "Savage Pact gives critical damage based on maximum health."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (модуль рун, старее 1.5d): до 40% крит. урона. Выжимка 1.5d: максимум 30%, порог здоровья 700 вместо 500. Для 1.5d верить выжимке. На вики руна в дереве Shaman, имя в модуле «Prophecy»."
+            },
+            {
+              "text": {
+                "ru": "Rotting наносит часть урона Poison сразу при наложении.",
+                "en": "Rotting deals part of the Poison damage instantly on application."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: при наложении Poison 40% общего урона наносится мгновенно (Epic)."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "shaman-totem",
+          "name": {
+            "ru": "Тотемы",
+            "en": "Totem"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "summon",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Radiance",
+            "Ancestry",
+            "Fragility",
+            "Brittle",
+            "Colossal",
+            "Dazed"
+          ],
+          "skills": [
+            {
+              "id": "ArcaneReaping",
+              "role": "core",
+              "note": {
+                "ru": "Стартовый навык с малым кулдауном: Radiance, Ancestry, Fragility.",
+                "en": "Low-cooldown starter: Radiance, Ancestry, Fragility."
+              }
+            },
+            {
+              "id": "SpectralGuardian",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Урон растёт от числа призывов.",
+                "en": "Damage scales with number of summons."
+              }
+            },
+            {
+              "id": "AncestralEmpowerment",
+              "role": "core",
+              "note": {
+                "ru": "Основа билда: тотемы копят Radiance и превращаются в лазерные турели. Weapon Expert даёт его со старта (это навык Starweaver's Tail).",
+                "en": "Bread and butter: totems stack Radiance and become laser turrets. Weapon Expert grants it from the start (it is Starweaver's Tail's skill)."
+              }
+            },
+            {
+              "id": "Quicksand",
+              "role": "support",
+              "note": {
+                "ru": "Вешает Brittle; в пул попадает через Unexpected Arsenal.",
+                "en": "Applies Brittle; enters the pool via Unexpected Arsenal."
+              },
+              "obtained": "rune"
+            },
+            {
+              "id": "StoneSpiral",
+              "role": "damage",
+              "note": {
+                "ru": "Урон, дополнительные тела и стаки Colossal.",
+                "en": "Damage, extra bodies and Colossal stacks."
+              }
+            },
+            {
+              "id": "CobraTotem",
+              "role": "damage"
+            },
+            {
+              "id": "ShockwaveTotem",
+              "role": "support",
+              "note": {
+                "ru": "Вешает Dazed ради критов.",
+                "en": "Applies Dazed for more crits."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "medium",
+              "note": {
+                "ru": "Быстрее завершать ритуал.",
+                "en": "Completes the ritual faster."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium"
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "medium"
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "situational"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Harmony"
+              },
+              {
+                "id": "ExtraHelp"
+              },
+              {
+                "id": "CurseoftheDepths"
+              },
+              {
+                "id": "ImprovedRepertory"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "UnexpectedArsenal"
+              },
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Arcane"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Занять безопасный угол, дать тотемам заспавниться и позволить им расстреливать врагов лазерами. Персонаж вторичен, пассивки почти любые, лучше те, что повышают максимум тотемов.",
+            "en": "Find a safe corner, let totems spawn and let them laser the enemies down. The character is secondary and passives are flexible; max-totem boosts are best."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory даёт седьмой слот навыка ценой -15% Damage Modifier.",
+                "en": "Improved Repertory gives a seventh skill slot at the cost of -15% Damage Modifier."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Extra Help увеличивает максимум призывов каждого навыка на один.",
+                "en": "Extra Help raises the maximum summons of every skill by one."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: максимум активных юнитов и число призываемых юнитов всех навыков +1."
+            },
+            {
+              "text": {
+                "ru": "Spectral Guardian растёт от числа призывов.",
+                "en": "Spectral Guardian scales with the number of summons."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 600 урона, +10% за каждый призванный юнит, кулдаун 0,9 с."
+            },
+            {
+              "text": {
+                "ru": "Тотемы Ancestral Empowerment копят Radiance на тебе и союзниках.",
+                "en": "Ancestral Empowerment totems stack Radiance on you and allies."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 1 стак Radiance каждые 0,5 с тебе и союзникам рядом, длительность 30 с, максимум 1 тотем."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "shaman-critical-fire",
+          "name": {
+            "ru": "Критический огонь",
+            "en": "Critical Fire"
+          },
+          "weapon_id": "MaldrakarsFlamelash",
+          "archetypes": [
+            "stack",
+            "multiplier"
+          ],
+          "core_mechanics": [
+            "Burn",
+            "Weakness",
+            "Purity",
+            "Dazed",
+            "Critical Chance"
+          ],
+          "skills": [
+            {
+              "id": "FlamingSpiral",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Зачистка волн и стаки Burn.",
+                "en": "Wave clear and Burn stacking."
+              }
+            },
+            {
+              "id": "FireBolt",
+              "role": "core",
+              "note": {
+                "ru": "Малый кулдаун, Burn и Weakness.",
+                "en": "Low cooldown, Burn and Weakness."
+              }
+            },
+            {
+              "id": "HolyFrenzy",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Копит Purity и Dazed.",
+                "en": "Stacks Purity and Dazed."
+              }
+            },
+            {
+              "id": "Combustion",
+              "role": "support",
+              "note": {
+                "ru": "Зона со стаками Burn вокруг.",
+                "en": "Zone that stacks Burn around you."
+              }
+            },
+            {
+              "id": "HeatExplosion",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Превращает стаки в мгновенный урон, убийца боссов.",
+                "en": "Converts stacks into instant damage; boss killer."
+              }
+            },
+            {
+              "id": "BullCharge",
+              "role": "support",
+              "note": {
+                "ru": "Малый кулдаун, копит Purity.",
+                "en": "Low cooldown, stacks Purity."
+              }
+            },
+            {
+              "id": "ArcanePower",
+              "role": "support",
+              "note": {
+                "ru": "Резкий рост шанса мультикаста.",
+                "en": "Big multi-cast chance boost."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "SpontaneousCombustion",
+              "priority": "must",
+              "note": {
+                "ru": "Можно брать сколько угодно.",
+                "en": "Take as many as you want."
+              }
+            },
+            {
+              "power_id": "FieryAmplification",
+              "priority": "must",
+              "note": {
+                "ru": "Единственная, которую берут с повышенным приоритетом.",
+                "en": "The one to prioritise when offered."
+              }
+            },
+            {
+              "power_id": "IntenseFire",
+              "priority": "medium"
+            },
+            {
+              "power_id": "EmpoweringFire",
+              "priority": "medium"
+            },
+            {
+              "power_id": "IgnitionPoint",
+              "priority": "high",
+              "note": {
+                "ru": "Гайд называет её описанием: «пассивка, вешающая Burn при крите», особенно полезна.",
+                "en": "The guide describes it as the passive that applies Burn on critical hits; especially helpful."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "medium"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "high"
+            },
+            {
+              "power_name": "Skill Chain",
+              "priority": "situational",
+              "note": {
+                "ru": "Билд часто приносит Skill Chain с типами Fire, Holy, Swing и Arcane; конкретные цепочки гайд не советует.",
+                "en": "The build often offers Skill Chain with Fire, Holy, Swing and Arcane types; the guide recommends no specific chain."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "AdaptiveEmpowerment"
+              },
+              {
+                "id": "SavagePact"
+              },
+              {
+                "id": "FatefulStrike"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillMastery",
+                "variant": "Holy"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Fire"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Спамить навыками для стаков Burn, поднять шанс крита, чтобы много мелких ударов стали тяжёлыми, а боссов добивать Heat Explosion.",
+            "en": "Spam skills for Burn stacks, raise crit chance so many small hits become heavy ones, and finish bosses with Heat Explosion."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory (седьмой слот) стоит -15% Damage Modifier.",
+                "en": "Improved Repertory (seventh slot) costs -15% Damage Modifier."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Fateful Strike усиливает крит. урон ценой общего урона.",
+                "en": "Fateful Strike raises critical damage at the cost of overall damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +60% крит. урона, -20% урона (в билде Electric Poison гайд даёт неверные 55% / -15%)."
+            },
+            {
+              "text": {
+                "ru": "Savage Pact даёт крит. урон от максимального здоровья.",
+                "en": "Savage Pact gives critical damage based on maximum health."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (старее 1.5d): до 40%. Выжимка 1.5d: максимум 30%, порог 700 здоровья вместо 500. Для 1.5d верить выжимке."
+            },
+            {
+              "text": {
+                "ru": "Adaptive Empowerment усиливает не-Fire навыки за каждый Fire-навык.",
+                "en": "Adaptive Empowerment boosts non-Fire skills per Fire skill owned."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +10% урона навыкам без типа Fire за каждый навык типа Fire."
+            },
+            {
+              "text": {
+                "ru": "Heat Explosion превращает стаки Burn в мгновенный урон.",
+                "en": "Heat Explosion turns Burn stacks into instant damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: стаки Burn в зоне мгновенно наносят 200% своего урона и снимаются, кулдаун 7 с."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "shaman-singular-earth",
+          "name": {
+            "ru": "Одна земля",
+            "en": "Singular Earth"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "summon",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Brittle",
+            "Fortitude"
+          ],
+          "skills": [
+            {
+              "id": "Quicksand",
+              "role": "core",
+              "note": {
+                "ru": "Основа билда: копит Brittle, урон растёт от стаков. Weapon Expert даёт его со старта (навык Tharuun's Lasher).",
+                "en": "Bread and butter: stacks Brittle, damage scales with stacks. Weapon Expert grants it from the start (Tharuun's Lasher's skill)."
+              }
+            },
+            {
+              "id": "Earthquake",
+              "role": "support",
+              "note": {
+                "ru": "Компромисс по производительности вместо лишних Quicksand, тоже копит Brittle.",
+                "en": "Performance compromise instead of too many Quicksand; also stacks Brittle."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Maximum Health",
+              "priority": "high",
+              "note": {
+                "ru": "Гайд: тотемы Quicksand растут от здоровья через Fortitude. По выжимке 1.5d эту связь убрали в 1.3, проверить в игре.",
+                "en": "Guide: Quicksand totems scale with health via Fortitude. Per the 1.5d digest this link was removed in 1.3; verify in game."
+              }
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "situational"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "SingularFocus"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "ExtraHelp"
+              },
+              {
+                "id": "ReadyforBattle"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Earth"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Дождаться спавна тотемов Quicksand и двигаться, лишь уходя от красных кругов. Брать здоровье и всё, что усиливает навыки типа Earth.",
+            "en": "Wait for Quicksand totems to spawn and only move to dodge red circles. Take health and anything boosting Earth skills."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Extra Help увеличивает максимум тотемов Quicksand на один на навык.",
+                "en": "Extra Help raises max Quicksand totems by one per skill."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: максимум активных юнитов и число призываемых юнитов всех навыков +1. У Quicksand максимум 6 тотемов на экземпляр."
+            },
+            {
+              "text": {
+                "ru": "Тотемы Quicksand масштабируются от максимального здоровья через Fortitude.",
+                "en": "Quicksand totems scale with maximum health via Fortitude."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики всё ещё указывает у Quicksand трейт Fortitude (урон x (1 + (HP-100) x 0,03)), но выжимка 1.5d: в 1.3 у Quicksand убрали взаимодействие с Fortitude. Для 1.5d верить выжимке; у Stone Spiral и Cobra Totem Fortitude на вики остаётся."
+            },
+            {
+              "text": {
+                "ru": "Quicksand копит Brittle, а урон растёт от числа стаков.",
+                "en": "Quicksand stacks Brittle and its damage scales with the stack count."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Brittle каждые 0,5 с, затем взрыв: 50 базового урона +3 за стак Brittle, до 6 тотемов, 20 с, кулдаун 8 с."
+            },
+            {
+              "text": {
+                "ru": "Singular Focus позволяет брать навык несколько раз.",
+                "en": "Singular Focus lets you pick a skill multiple times."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: навыки можно брать многократно, улучшения навыка уходят случайному экземпляру; легендарная, 4 очка."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "legacy_note": {
+        "ru": "Гайд под 1.2: Quicksand с хаос-рунами и Elemental Flow. Связь Quicksand с Fortitude убрана в 1.3, Elemental Flow переделан, хаос-руны вне меты. Лучшая замена: билд Singular Earth из актуального гайда (Singular Focus, Extra Help, Skill Inclination: Earth).",
+        "en": "Written for 1.2: Quicksand with chaos runes and Elemental Flow. Quicksand's Fortitude link was removed in 1.3, Elemental Flow was reworked and the chaos runes are off-meta. Better replacement: the current guide's Singular Earth build (Singular Focus, Extra Help, Skill Inclination: Earth)."
+      },
+      "builds": [
+        {
+          "id": "shaman-quicksand-legacy",
+          "name": {
+            "ru": "Зыбучие пески (старый)",
+            "en": "Quicksand (legacy)"
+          },
+          "weapon_id": "TharuunsLasher",
+          "archetypes": [
+            "summon",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Brittle",
+            "Colossal"
+          ],
+          "skills": [
+            {
+              "id": "Quicksand",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Взрывается раз в 0,5 с, урон от стаков Brittle.",
+                "en": "Explodes every 0.5s, damage scales with Brittle stacks."
+              }
+            },
+            {
+              "id": "StoneSpiral",
+              "role": "damage",
+              "note": {
+                "ru": "Выигрывает от Colossal.",
+                "en": "Benefits from Colossal."
+              }
+            },
+            {
+              "id": "LightBeam",
+              "role": "support",
+              "note": {
+                "ru": "Накладывает дебаффы.",
+                "en": "Applies debuffs."
+              }
+            },
+            {
+              "id": "MagicMissiles",
+              "role": "support",
+              "note": {
+                "ru": "Накладывает дебаффы.",
+                "en": "Applies debuffs."
+              }
+            },
+            {
+              "id": "ArcaneSparks",
+              "role": "support",
+              "note": {
+                "ru": "Накладывает дебаффы.",
+                "en": "Applies debuffs."
+              }
+            },
+            {
+              "id": "Earthbreaker",
+              "role": "optional",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Автор считает, что его можно заменить.",
+                "en": "Author suggests it can be swapped out."
+              }
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "OverwhelmingChaos"
+              },
+              {
+                "id": "ControlledChaos"
+              },
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "ExtendedReach"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Ставить Quicksand и пусть тотем взрывается по стакам Brittle. Пассивку Lethality можно сразу банить, если довести Tharuun's Lasher до +10 (100% шанс крита на старте).",
+            "en": "Place Quicksand and let it explode on Brittle stacks. Banish Lethality right away if Tharuun's Lasher reaches +10 (100% crit chance at start)."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Quicksand взрывается каждые 0,5 секунды.",
+                "en": "Quicksand explodes every 0.5 seconds."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: тотем каждые 0,5 с накладывает Brittle, а затем взрывается с уроном от числа стаков (50 +3 за стак); раз в 0,5 с идёт Brittle, а не взрыв."
+            },
+            {
+              "text": {
+                "ru": "Tharuun's Lasher на +10 даёт 100% шанса крита на старте забега.",
+                "en": "Tharuun's Lasher at +10 gives 100% critical chance at run start."
+              },
+              "status": "unverified",
+              "detail": "Вики: у оружия +15% шанса крита, у Shaman +10%, итого 25% до улучшений; бонусы заточки на вики не описаны."
+            },
+            {
+              "text": {
+                "ru": "Elemental Flow заставляет эффекты тикать чаще.",
+                "en": "Elemental Flow makes effects tick more often."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (старее 1.5d): урон негативных эффектов на 100% чаще. Выжимка 1.5d: руна переделана, урон эффекта приходит сразу при наложении. Для 1.5d верить выжимке."
+            }
+          ],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "Quicksand + Fortitude",
+              "impact": "weakened",
+              "note": {
+                "ru": "В 1.3 у Quicksand убрали связь с Fortitude: здоровье больше не усиливает главный источник урона. Мысль автора «больше здоровья — больше множитель» для Stone Spiral по вики относится к Fortitude, а не к Colossal.",
+                "en": "In 1.3 Quicksand lost its Fortitude link: health no longer boosts the main damage source. The author's 'more health, bigger multiplier' for Stone Spiral is Fortitude per the wiki, not Colossal."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "Руна переделана (урон эффекта сразу при наложении). Brittle не наносит урон, так что пользы в этом билде и раньше было мало.",
+                "en": "The rune was reworked (effect damage on application). Brittle deals no damage, so the build gained little from it anyway."
+              }
+            },
+            {
+              "mechanic": "Overwhelming Chaos / Controlled Chaos",
+              "impact": "weakened",
+              "note": {
+                "ru": "Выжимка относит старый Chaos-подход к устаревшим; в 1.5d важнее специализация и множители.",
+                "en": "The digest lists the old Chaos approach as outdated; 1.5d favours specialisation and multipliers."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учтены в 1.2. Легендарного оружия Shaman на вики нет; Titan Powers не рассмотрены.",
+                "en": "Not considered in 1.2. The wiki lists no legendary Shaman weapon; Titan Powers are not covered."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Lethality",
+        "builds": [
+          "shaman-quicksand-legacy"
+        ],
+        "reason": {
+          "ru": "Из гайда: с Tharuun's Lasher +10 крит уже 100%, пассивка не нужна.",
+          "en": "From the guide: with Tharuun's Lasher +10 crit is already 100%, so the passive is useless."
+        }
+      },
+      {
+        "target": "Burn, Bleed and Doom application passives",
+        "builds": [
+          "shaman-electric-poison"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: чистая специализация на Poison по мете 1.5d.",
+          "en": "Inference, not from the source: pure Poison specialisation per the 1.5d meta."
+        }
+      },
+      {
+        "target": "Poison, Bleed and Doom application passives",
+        "builds": [
+          "shaman-critical-fire"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: чистая специализация на Burn по мете 1.5d.",
+          "en": "Inference, not from the source: pure Burn specialisation per the 1.5d meta."
+        }
+      },
+      {
+        "target": "Non-Earth active skills",
+        "builds": [
+          "shaman-singular-earth"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: гайду нужны только Quicksand и Earthquake, лишние навыки занимают слоты копий Quicksand.",
+          "en": "Inference, not from the source: the guide needs only Quicksand and Earthquake; other skills take slots from Quicksand copies."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Electric Poison: Infected Wounds брать сразу, как выпадет; Venomous сколько получится, затем Corrosive; Rotting при случае.",
+        "en": "Electric Poison: take Infected Wounds as soon as offered; Venomous as often as possible, then Corrosive; Rotting when it shows up."
+      },
+      {
+        "ru": "Critical Fire: Fiery Amplification в приоритете, Spontaneous Combustion без ограничений, Ignition Point (Burn при крите), плюс шанс крита.",
+        "en": "Critical Fire: prioritise Fiery Amplification, take Spontaneous Combustion freely, Ignition Point (Burn on crit), plus crit chance."
+      },
+      {
+        "ru": "Спам-билды: Area Modifier для аур, Multi-cast и Cast Frequency; против боссов держать Purging Slam или Heat Explosion.",
+        "en": "Spam builds: Area Modifier for auras, Multi-cast and Cast Frequency; keep Purging Slam or Heat Explosion for bosses."
+      },
+      {
+        "ru": "Totem: пассивки почти любые; Movement Speed для ритуала, Magnetic, увеличение максимума тотемов (кроме Ancestral Empowerment).",
+        "en": "Totem: passives are flexible; Movement Speed for the ritual, Magnetic, max-totem increases (except Ancestral Empowerment)."
+      },
+      {
+        "ru": "Singular Earth: брать копии Quicksand, усиления Earth и область; здоровье по гайду, но связь с Fortitude под вопросом.",
+        "en": "Singular Earth: take Quicksand copies, Earth boosts and area; health per the guide, though the Fortitude link is doubtful."
+      }
+    ],
+    "basis": {
+      "ru": "Билды и правила по гайду cubiccreativity (1.5d) и Steam-гайду (1.2); числа сверены с вики и выжимкой 1.5d. Бан Lethality из Steam-гайда; баны чужих ailment и не-Earth навыков — выводы по специализации.",
+      "en": "Builds and rules from the cubiccreativity guide (1.5d) and the Steam guide (1.2); numbers checked against the wiki and the 1.5d digest. The Lethality ban comes from the Steam guide; the off-ailment and non-Earth bans are specialisation inferences."
+    }
+  },
+  "gaps": [
+    "В вики нет легендарного оружия R5 для Shaman.",
+    "Списки навыков по билдам в cubiccreativity были картинками (пустые), поэтому навыки взяты только из текста; возможны неназванные навыки.",
+    "Оружие не названо в тексте билдов Totem и Singular Earth. По Weapon Expert вероятно Starweaver's Tail (Ancestral Empowerment) и Tharuun's Lasher (Quicksand); weapon_id оставлен null.",
+    "Skill Chain внесён как power_name без типов: в Electric Poison типы не названы, в Critical Fire названы лишь Fire, Holy, Swing, Arcane без конкретных цепочек.",
+    "Пассивка «Burn при крите» в Critical Fire сопоставлена с Ignition Point по описанию вики.",
+    "Singular Earth опирается на Quicksand + Fortitude (здоровье = урон), а выжимка 1.5d говорит, что связь убрана в 1.3, хотя вики и гайд от 15.06.2026 её указывают. Проверить в игре.",
+    "Fateful Strike: гайд пишет +55% / -15%, вики +60% / -20%.",
+    "Polarity Shift и Empowering Fire есть в файлах игры, но без описания на вики.",
+    "Приоритеты пассивок в гайдах нестрогие, priority выставлен по тону текста.",
+    "Steam-раздел: пассивок нет, версия руны Versatility не разделена (все 4 в tenacity)."
+  ]
+}

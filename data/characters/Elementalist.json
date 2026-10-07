@@ -1,0 +1,893 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Elementalist",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Маг со скипетром и книгой заклинаний (Scepter & Spellbook), типы навыков: лёд, природа, огонь, электричество, земля. Бонусы: +30% урона и +20% площади, но -20 к здоровью и -10% к частоте каста. Получает элементальные сферы и пассивки всех стихий независимо от своих навыков, поэтому в пуле много ailment-пассивок. Актуальный гайд строит его на накоплении ailment: Poison, Burn или смесь всех статусов.",
+    "en": "A mage with a Scepter & Spellbook whose skill types are Ice, Nature, Fire, Electric and Earth. Bonuses: +30% damage and +20% area, but -20 maximum health and -10% cast frequency. He picks up elemental orbs and passives of every element regardless of his skills, so the pool is full of ailment passives. The current guide builds him around stacking ailments: Poison, Burn, or a mix of every status."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-elementalist",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2025/06/28/soulstone-survivors-guide-the-elementalist/",
+      "title": "Soulstone Survivors Guide: The Elementalist",
+      "game_version": "1.5d",
+      "updated": "2026-06-15",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "elementalist-element",
+          "name": {
+            "ru": "Все стихии (ailment-микс)",
+            "en": "The Element build"
+          },
+          "weapon_id": "ScepterofThunder",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Dazed",
+            "Exposed",
+            "Brittle",
+            "Burn",
+            "Weakness",
+            "Poison",
+            "Skill Chain"
+          ],
+          "skills": [
+            {
+              "id": "LightningBeam",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Постоянный урон и стаки Dazed (больше критов).",
+                "en": "Constant damage and Dazed stacks (more crits)."
+              }
+            },
+            {
+              "id": "LightBeam",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Стакает Exposed, добавляется руной Skill Mastery: Holy.",
+                "en": "Stacks Exposed, added by Skill Mastery: Holy."
+              }
+            },
+            {
+              "id": "ArcaneBeam",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Стакает Brittle, добавляется руной Skill Mastery: Arcane.",
+                "en": "Stacks Brittle, added by Skill Mastery: Arcane."
+              }
+            },
+            {
+              "id": "FireBolt",
+              "role": "support",
+              "note": {
+                "ru": "Burn и Weakness.",
+                "en": "Applies Burn and Weakness."
+              }
+            },
+            {
+              "id": "PoisonBolt",
+              "role": "support",
+              "note": {
+                "ru": "Залп снарядов с Poison, синергия с Weakness.",
+                "en": "Volley of Poison projectiles, synergy with Weakness."
+              }
+            },
+            {
+              "id": "ChromaticBolt",
+              "role": "core",
+              "note": {
+                "ru": "Накладывает любые ailment и открывает пассивки Skill Chain.",
+                "en": "Applies any ailment and unlocks Skill Chain passives."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "situational",
+              "note": {
+                "ru": "Полезна, но выпадает реже других пассивок."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "situational"
+            },
+            {
+              "power_id": "BloodShed",
+              "priority": "must",
+              "note": {
+                "ru": "Все атаки получают шанс 25% наложить Bleed (одна из пассивок «шанс наложить статус»).",
+                "en": "All attacks get a 25% chance to apply Bleed (one of the 'chance to apply a status' passives)."
+              }
+            },
+            {
+              "power_id": "Venomous",
+              "priority": "must"
+            },
+            {
+              "power_id": "FatefulStrikes",
+              "priority": "must"
+            },
+            {
+              "power_id": "TouchofIce",
+              "priority": "must"
+            },
+            {
+              "power_id": "HorrificPresence",
+              "priority": "must"
+            },
+            {
+              "power_id": "Hypothermia",
+              "priority": "high",
+              "note": {
+                "ru": "Синергийная пассивка, больше стаков."
+              }
+            },
+            {
+              "power_id": "ThermalShock",
+              "priority": "high"
+            },
+            {
+              "power_id": "PoisonousBlood",
+              "priority": "high"
+            },
+            {
+              "power_name": "Skill Chain",
+              "priority": "situational",
+              "note": {
+                "ru": "Chromatic Bolt почти всех типов открывает много вариантов Skill Chain; конкретные типы гайд не называет.",
+                "en": "Chromatic Bolt has almost every type and unlocks many Skill Chain variants; the guide names no specific types."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Synergetic"
+              },
+              {
+                "id": "MisfortunesEmbrace"
+              },
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "Executioner"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillMastery",
+                "variant": "Arcane"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Holy"
+              },
+              {
+                "id": "RerollMastery"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Навести разноцветный луч на цель и дать ей накопить десятки статусов, затем переключиться на другую цель. Берите все пассивки с шансом наложить ailment, прямой урон вторичен.",
+            "en": "Point the multi-coloured beam at a target and let it pile up many statuses, then switch to another target. Take every passive that gives a chance to apply an ailment; direct damage is secondary."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Elemental Flow ускоряет тики урона ailment на 100%.",
+                "en": "Elemental Flow increases ailment damage tick rate by 100%."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: урон от damaging-эффектов тикает на 100% чаще (совпадает с гайдом). Но по выжимке 1.5d руна переделана: урон Burn/Bleed/Poison/Doom приходит сразу при наложении. Для 1.5d верить выжимке."
+            },
+            {
+              "text": {
+                "ru": "Misfortune's Embrace даёт всем навыкам 20% шанс наложить один из четырёх урон-ailment.",
+                "en": "Misfortune's Embrace gives all skills a 20% chance to apply one of the four damaging ailments."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 20% шанс наложить Burn, Bleed, Poison или Doom всеми навыками."
+            },
+            {
+              "text": {
+                "ru": "Executioner даёт +20% урона, пока на цели 5 статусов.",
+                "en": "Executioner gives +20% damage while the target has five statuses."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +4% урона за каждый разный тип негативного эффекта на цели, максимум 20% (то есть с 5 типов)."
+            },
+            {
+              "text": {
+                "ru": "Пассивки «шанс наложить статус»: Bloodshed, Venomous, Fateful Strikes по 25%, Touch of Ice 40%, Horrific Presence 10%.",
+                "en": "Status-chance passives: Bloodshed, Venomous, Fateful Strikes 25% each, Touch of Ice 40%, Horrific Presence 10%."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Числа взяты с вики (в гайде шансы не указаны): Bleed/Poison/Doom 25%, Slow 40%, Disarray 10%."
+            },
+            {
+              "text": {
+                "ru": "Synergetic даёт больше синергийных пассивок и повышает их шанс.",
+                "en": "Synergetic offers more synergy passives and raises their chance."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: чаще предлагает синергии (эффект вызывает другой эффект) и повышает их шанс срабатывания на 50%. Hypothermia, Thermal Shock, Poisonous Blood помечены «Affected by Synergetic» (базовый шанс 50%)."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "elementalist-fire",
+          "name": {
+            "ru": "Огонь (Burn)",
+            "en": "The Fire build"
+          },
+          "weapon_id": "ScepterofFlame",
+          "archetypes": [
+            "stack",
+            "dot",
+            "synchrony"
+          ],
+          "core_mechanics": [
+            "Burn",
+            "Slow",
+            "Disarray",
+            "Shattered",
+            "Skill Chain"
+          ],
+          "skills": [
+            {
+              "id": "RayofFire",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Медленный старт, потом машина стаков Burn.",
+                "en": "Slow start, then a Burn stacking machine."
+              }
+            },
+            {
+              "id": "HeatExplosion",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Добивающий навык: снимает Burn и бьёт на 200% суммы.",
+                "en": "Kill skill: consumes Burn and deals 200% of the total."
+              }
+            },
+            {
+              "id": "Bladestorm",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Со Spontaneous Combustion стакает ailment любым навыком.",
+                "en": "With Spontaneous Combustion it stacks ailments from any skill."
+              }
+            },
+            {
+              "id": "FieryBlades",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Призыв, урон растёт от Burn на целях.",
+                "en": "Summon whose damage scales with Burn on targets."
+              }
+            },
+            {
+              "id": "Flamethrower",
+              "role": "support",
+              "note": {
+                "ru": "Часто бьёт и накладывает много Burn.",
+                "en": "Hits often and applies lots of Burn."
+              }
+            },
+            {
+              "id": "Firestorm",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Как Bladestorm, но сам стакает Burn.",
+                "en": "Like Bladestorm but stacks Burn by itself."
+              }
+            },
+            {
+              "id": "LavaShield",
+              "role": "optional",
+              "note": {
+                "ru": "Burn и Shattered, снимает броню Lords of the Void.",
+                "en": "Burn plus Shattered, strips Lord of the Void armor."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "medium"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium"
+            },
+            {
+              "power_id": "SpontaneousCombustion",
+              "priority": "must",
+              "note": {
+                "ru": "Можно брать несколько копий."
+              }
+            },
+            {
+              "power_id": "FieryAmplification",
+              "priority": "must"
+            },
+            {
+              "power_id": "ThermalShock",
+              "priority": "high"
+            },
+            {
+              "power_id": "Hypothermia",
+              "priority": "high"
+            },
+            {
+              "power_id": "HorrificPresence",
+              "priority": "high"
+            },
+            {
+              "power_id": "SkillChain",
+              "variant": "Fire -> Swing",
+              "priority": "high",
+              "note": {
+                "ru": "Больше Bladestorm и Firestorm."
+              }
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "AdaptiveEmpowerment"
+              },
+              {
+                "id": "Synchrony"
+              },
+              {
+                "id": "SearingIntensity"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillMastery",
+                "variant": "Swing"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "WeaponExpert"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Стакать Burn всеми навыками и усиливать его пассивками, затем Heat Explosion по целям с большим числом стаков. Седьмой слот навыка важнее потери 15% урона.",
+            "en": "Stack Burn with every skill and amplify it with passives, then Heat Explosion on heavily stacked targets. The seventh skill slot outweighs the 15% damage loss."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Heat Explosion снимает Burn и наносит 200% суммарного урона стаков.",
+                "en": "Heat Explosion removes Burn and deals 200% of the total stack damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Instant Damage Done 200%, эффекты Burn снимаются, КД 7 с."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory (седьмой слот) стоит -15% Damage Modifier.",
+                "en": "Improved Repertory (seventh slot) costs 15% damage modifier."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Synchrony даёт около +20% урона.",
+                "en": "Synchrony gives about +20% damage."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,7% за общий тип, максимум 20% (совпадает с гайдом). По выжимке 1.5d: +1,5% за общий тип, максимум 30%. Для 1.5d верить выжимке."
+            },
+            {
+              "text": {
+                "ru": "Searing Intensity даёт до +25% урона при максимуме Burn.",
+                "en": "Searing Intensity gives up to +25% damage at max Burn."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,5% урона за стак Burn или Shattered на цели, максимум 25% (50 стаков)."
+            },
+            {
+              "text": {
+                "ru": "Adaptive Empowerment усиливает не-Fire навыки (Bladestorm) за каждый Fire-навык.",
+                "en": "Adaptive Empowerment boosts non-Fire skills (Bladestorm) per Fire skill owned."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +10% урона навыкам без типа Fire за каждый Fire-навык. Fiery Blades и Firestorm сами Fire и бонуса не получают."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "elementalist-poison",
+          "name": {
+            "ru": "Яд (Poison)",
+            "en": "The Poison build"
+          },
+          "weapon_id": "ScepterofNature",
+          "archetypes": [
+            "stack",
+            "dot",
+            "synchrony"
+          ],
+          "core_mechanics": [
+            "Poison",
+            "Weakness",
+            "Finesse"
+          ],
+          "skills": [
+            {
+              "id": "ContaminatedCut",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Добивающий навык: снимает Poison и бьёт на сумму стаков.",
+                "en": "Kill skill: consumes Poison and deals the total stack damage."
+              }
+            },
+            {
+              "id": "Outbreak",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Возвращающиеся снаряды, хороший клир волн.",
+                "en": "Returning projectiles, good wave clear."
+              }
+            },
+            {
+              "id": "VenomousStrike",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Низкий КД, стакает Finesse (Multi Cast).",
+                "en": "Low cooldown, stacks Finesse (multi cast)."
+              }
+            },
+            {
+              "id": "Pestilence",
+              "role": "damage",
+              "note": {
+                "ru": "Цепь между врагами, урон растёт от Poison.",
+                "en": "Chain between enemies, damage scales with Poison."
+              }
+            },
+            {
+              "id": "FesteringStrike",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Низкий КД, вешает Weakness.",
+                "en": "Low cooldown, applies Weakness."
+              }
+            },
+            {
+              "id": "PoisonBolt",
+              "role": "support",
+              "note": {
+                "ru": "Как Outbreak, но меньше площадь и КД.",
+                "en": "Like Outbreak but smaller area and lower cooldown."
+              }
+            },
+            {
+              "id": "Bladestorm",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Одна копия Venomous делает его инструментом Poison.",
+                "en": "A single Venomous turns it into a Poison tool."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high"
+            },
+            {
+              "power_id": "Venomous",
+              "priority": "must",
+              "note": {
+                "ru": "Обязательна, брать много копий."
+              }
+            },
+            {
+              "power_id": "Corrosive",
+              "priority": "must"
+            },
+            {
+              "power_id": "DeathandDecay",
+              "priority": "high"
+            },
+            {
+              "power_id": "InfectedWounds",
+              "priority": "high"
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "DeathTouch"
+              },
+              {
+                "id": "LordsBane"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "Synchrony"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Swing"
+              },
+              {
+                "id": "RerollMastery"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Спамить навыками: урон навыка вторичен, врагов убивает Poison. Contaminated Cut наводить на Lords of the Void с большим числом стаков.",
+            "en": "Spam skills: skill damage is secondary, Poison does the killing. Aim Contaminated Cut at Lords of the Void with many stacks."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Death Touch: враги взрываются при смерти с шансом 20%, накладывая Poison.",
+                "en": "Death Touch: enemies explode on death with a 20% chance, applying Poison."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 20% шанс взрыва при убийстве, урон и Poison по площади."
+            },
+            {
+              "text": {
+                "ru": "Contaminated Cut снимает Poison и мгновенно наносит его урон «с бонусом».",
+                "en": "Contaminated Cut consumes Poison and instantly deals its damage 'with a bonus'."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Instant Damage Done 150% от урона стаков Poison, КД 4 с."
+            },
+            {
+              "text": {
+                "ru": "Lord's Bane даёт бонус урона, пока жив Lord of the Void.",
+                "en": "Lord's Bane gives a damage bonus while a Lord of the Void is alive."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +25% урона, пока жив Lord of the Void."
+            },
+            {
+              "text": {
+                "ru": "Death and Decay ускоряет тики Poison.",
+                "en": "Death and Decay increases Poison tick rate."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Poison тикает чаще, Frequency +30% (Rare)."
+            },
+            {
+              "text": {
+                "ru": "Synchrony даёт прибавку урона за общие типы навыков.",
+                "en": "Synchrony gives a damage bonus for shared skill types."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,7% за общий тип, максимум 20%. По выжимке 1.5d: +1,5%, максимум 30%. Для 1.5d верить выжимке."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "elementalist-poison-legacy",
+          "name": {
+            "ru": "Яд со Scepter of Nature (старый)",
+            "en": "Poison with Scepter of Nature (legacy)"
+          },
+          "weapon_id": "ScepterofNature",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Poison"
+          ],
+          "skills": [
+            {
+              "id": "ContaminatedCut",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Мгновенно реализует все стаки Poison и позволяет стакать больше.",
+                "en": "Instantly deals all Poison stack damage and allows stacking more."
+              }
+            },
+            {
+              "id": "Pestilence",
+              "role": "damage"
+            },
+            {
+              "id": "AcidRain",
+              "role": "support"
+            },
+            {
+              "id": "Outbreak",
+              "role": "support",
+              "obtained": "weapon_secondary"
+            },
+            {
+              "id": "PoisonBolt",
+              "role": "support"
+            },
+            {
+              "id": "PoisonCloud",
+              "role": "support"
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Critical Chance",
+              "priority": "high",
+              "note": {
+                "ru": "Гайд советует поднять шанс крита рано: у Scepter of Nature штраф к нему.",
+                "en": "The guide says to raise crit chance early: Scepter of Nature has a penalty to it."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "Executioner"
+              },
+              {
+                "id": "MisfortunesEmbrace"
+              },
+              {
+                "id": "Decapitator"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Играть на Poison со Scepter of Nature, рано поднять шанс крита (у скипетра штраф к нему). Банить пассивки других типов урона, так как Элементалист получает пассивки всех стихий.",
+            "en": "Play Poison with Scepter of Nature and raise crit chance early (the scepter has a penalty to it). Banish passives of other damage types, since the Elementalist is offered passives of every element."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Scepter of Nature даёт штраф к шансу крита.",
+                "en": "Scepter of Nature gives a critical chance penalty."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Critical Chance -10%, Damage Modifier +15%, Cast Frequency +20%, Multi Cast Chance +5%."
+            },
+            {
+              "text": {
+                "ru": "Contaminated Cut мгновенно реализует все стаки Poison.",
+                "en": "Contaminated Cut instantly deals all Poison stack damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 150% урона стаков Poison сразу, стаки снимаются."
+            },
+            {
+              "text": {
+                "ru": "Elemental Flow (в билде) ускоряет тики ailment.",
+                "en": "Elemental Flow (in the build) speeds up ailment ticks."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: тики на 100% чаще. По выжимке 1.5d руна переделана: урон эффекта приходит сразу при наложении. Для 1.5d верить выжимке."
+            }
+          ],
+          "confidence": "medium",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Poison)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Poison полноценно масштабируется от модификаторов урона и Executioner; яд-билд стал сильнее.",
+                "en": "Since 1.4 Poison scales properly with damage modifiers and Executioner; the Poison build got stronger."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Совет банить пассивки других стихий ради чистого Poison совпадает с метой 1.5d.",
+                "en": "Banishing other elements' passives for pure Poison matches the 1.5d meta."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "Руна переделана: урон эффекта приходит сразу, а не тикает чаще. Как это работает с Contaminated Cut (снимает стаки), не проверено.",
+                "en": "The rune was reworked: effect damage lands at once instead of ticking faster. How this interacts with Contaminated Cut (consumes stacks) is unverified."
+              }
+            },
+            {
+              "mechanic": "Misfortune's Embrace",
+              "impact": "weakened",
+              "note": {
+                "ru": "Случайные Burn, Bleed и Doom размывают специализацию на Poison, которую мета 1.5d ценит; зато добавляют типы для Executioner.",
+                "en": "Random Burn, Bleed and Doom dilute the Poison specialization the 1.5d meta favors, though they add types for Executioner."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учтены в 1.2. У Elementalist есть R5 Scepter of Earth; Titan Powers (Faydum, Aynixle, Hecthoor, Underson) в гайде нет.",
+                "en": "Not considered in 1.2. Elementalist has the R5 Scepter of Earth; Titan Powers (Faydum, Aynixle, Hecthoor, Underson) are absent."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под 1.2. Яд со Scepter of Nature в 1.5d стал только сильнее, но Elemental Flow переделан, а Misfortune's Embrace мешает чистой специализации. В актуальном гайде есть Poison-билд на том же скипетре с теми же Contaminated Cut, Outbreak, Pestilence и Poison Bolt плюс Swing-навыки: лучше брать его. Вывод автора, что билды «все стихии» и Fire слабые, актуальный гайд опровергает.",
+        "en": "Written for 1.2. Poison with Scepter of Nature only got stronger in 1.5d, but Elemental Flow was reworked and Misfortune's Embrace works against pure specialization. The current guide has a Poison build on the same scepter with the same Contaminated Cut, Outbreak, Pestilence and Poison Bolt plus Swing skills: prefer it. The author's claim that all-elements and Fire builds are weak is contradicted by the current guide."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Fire, Bleed, Doom application passives (SpontaneousCombustion, BloodShed, FatefulStrikes)",
+        "builds": [
+          "elementalist-poison-legacy"
+        ],
+        "reason": {
+          "ru": "Из гайда (Steam 1.2): Элементалисту предлагают пассивки всех стихий, баны тратить на чужие типы урона.",
+          "en": "From the guide (Steam 1.2): the Elementalist is offered every element's passives, spend banishes on other damage types."
+        }
+      },
+      {
+        "target": "Burn, Bleed, Doom passives (SpontaneousCombustion, FieryAmplification, BloodShed, FatefulStrikes)",
+        "builds": [
+          "elementalist-poison"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: в чистом Poison-билде пассивки других ailment отнимают слоты у Venomous и Corrosive.",
+          "en": "Inference, not from the source: in a pure Poison build other ailments' passives crowd out Venomous and Corrosive."
+        }
+      },
+      {
+        "target": "Poison, Bleed, Doom passives (Venomous, Corrosive, BloodShed, PoisonousBlood, FatefulStrikes)",
+        "builds": [
+          "elementalist-fire"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билд держится на Burn и цепочке Thermal Shock -> Hypothermia -> Horrific Presence; другие урон-ailment его размывают.",
+          "en": "Inference, not from the source: the build relies on Burn and the Thermal Shock -> Hypothermia -> Horrific Presence chain; other damaging ailments dilute it."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Все билды: скорость передвижения и Magnetic полезны, но ailment-пассивки важнее, и тех будет выпадать меньше.",
+        "en": "All builds: movement speed and Magnetic help, but ailment passives matter more and those will show up less."
+      },
+      {
+        "ru": "Element: брать все пассивки «шанс наложить статус» (Bloodshed, Venomous, Fateful Strikes, Touch of Ice, Horrific Presence) и синергии (Hypothermia, Thermal Shock, Poisonous Blood); потом повторные копии, урон и частоту тиков.",
+        "en": "Element: take every status-chance passive (Bloodshed, Venomous, Fateful Strikes, Touch of Ice, Horrific Presence) and synergies (Hypothermia, Thermal Shock, Poisonous Blood); then repeat copies, damage and tick rate."
+      },
+      {
+        "ru": "Fire: первыми Spontaneous Combustion (несколько копий) и Fiery Amplification; затем цепочка Thermal Shock -> Hypothermia -> Horrific Presence и Skill Chain: Fire -> Swing.",
+        "en": "Fire: first Spontaneous Combustion (several copies) and Fiery Amplification; then the Thermal Shock -> Hypothermia -> Horrific Presence chain and Skill Chain: Fire -> Swing."
+      },
+      {
+        "ru": "Poison: Venomous (много копий) и Corrosive обязательны, затем Death and Decay и Infected Wounds; немного шанса крита (у Scepter of Nature -10%).",
+        "en": "Poison: Venomous (many copies) and Corrosive are mandatory, then Death and Decay and Infected Wounds; some crit chance (Scepter of Nature has -10%)."
+      },
+      {
+        "ru": "Против Lords of the Void: дать стакам накопиться и снять их Heat Explosion (Fire) или прицельным Contaminated Cut (Poison); в Element держать луч на боссе.",
+        "en": "Against Lords of the Void: let stacks build, then cash them in with Heat Explosion (Fire) or an aimed Contaminated Cut (Poison); in Element keep the beam on the boss."
+      }
+    ],
+    "basis": {
+      "ru": "Собрано из гайда cubiccreativity (1.5d, WIP), Steam-гайда (1.2) и выжимки меты; числа сверены с вики. Из гайдов только один бан (Steam, чужие стихии в Poison); остальные баны — вывод по специализации. Правила уровня по тексту гайдов, числа шансов с вики.",
+      "en": "Compiled from the cubiccreativity guide (1.5d, WIP), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. Only one ban comes from the guides (Steam, other elements in Poison); the others are inferred from specialization. Level-up rules follow the guides' text, chance numbers come from the wiki."
+    }
+  },
+  "gaps": [
+    "Гайд cubiccreativity помечен автором как WIP (в работе).",
+    "Гайд cubiccreativity не даёт явных приоритетов пассивок: priority проставлен по тону текста.",
+    "Билд Fire упоминает пассивки Burn без названий (доп. Burn при крите, часть урона Burn сразу, ускорение тиков Burn): id не определены, в карточку не внесены.",
+    "Билд Element: Skill Chain упомянут без конкретных типов; Elemental Flow описан по старой механике (тики), в 1.5d руна переделана.",
+    "Steam-автор (1.2) считал билды «все стихии» и Fire слабыми, актуальный гайд утверждает обратное: стоит проверить в игре.",
+    "Билдов для Scepter of Frost (R2) и Scepter of Earth (R5) в гайдах нет; Titan Powers ни в одном билде не учтены.",
+    "В Steam-гайде нет Versatility-рун и пассивок, кроме совета поднять шанс крита."
+  ]
+}

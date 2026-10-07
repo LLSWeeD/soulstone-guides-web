@@ -1,0 +1,221 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Samurai",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Ближний боец с катаной: хрупкий (-10 здоровья), зато с бонусом к крит. шансу и урону и лишним рывком. Играет типами Chaos, Fire, Shadow, Swing и Slam. Уникальное вознесение Cursed Shrine временно призывает Rage Spirit с мощными бонусами.",
+    "en": "A melee katana user: fragile (-10 health) but with bonus crit chance and crit damage and an extra dash. Uses Chaos, Fire, Shadow, Swing and Slam skills. His ascension Cursed Shrine temporarily summons the Rage Spirit with strong bonuses."
+  },
+  "guides": [
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "samurai-shadowfang-doom",
+          "name": {
+            "ru": "Doom на Shadowfang",
+            "en": "Shadowfang Doom"
+          },
+          "weapon_id": "Shadowfang",
+          "archetypes": [
+            "dot",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Doom",
+            "Aptitude",
+            "Disoriented"
+          ],
+          "skills": [
+            {
+              "id": "Nightfang",
+              "role": "core",
+              "obtained": "weapon_secondary"
+            },
+            {
+              "id": "ShadowSlice",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Гайд (1.2) пишет, что навык переносит половину скорости в крит. урон; по вики 1.5d он умножает урон Doom от скорости передвижения. Скорость важна в обоих случаях.",
+                "en": "The 1.2 guide says it adds half of movement speed to crit damage; per the 1.5d wiki it scales Doom damage with movement speed. Speed matters either way."
+              }
+            },
+            {
+              "id": "LastStand",
+              "role": "support"
+            },
+            {
+              "id": "Ruthlessness",
+              "role": "support"
+            },
+            {
+              "id": "ShadowBolt",
+              "role": "support",
+              "note": {
+                "ru": "Накладывает Aptitude."
+              }
+            },
+            {
+              "id": "ShadowOrb",
+              "role": "support",
+              "note": {
+                "ru": "Накладывает Disoriented."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "high",
+              "note": {
+                "ru": "Скорость усиливает крит. урон через Shadow Slice."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "OverwhelmingChaos"
+              },
+              {
+                "id": "ControlledChaos"
+              },
+              {
+                "id": "AdvancedTactics"
+              },
+              {
+                "id": "SwiftExecution"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Билд на Doom вместо огненного: автор сначала пробовал огонь, но Doom оказался сильнее. Копить скорость передвижения ради крит. урона.",
+            "en": "A Doom build rather than a fire one: the author tried fire first but found Doom stronger. Build up movement speed for crit damage."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Shadow Slice переносит 50% скорости передвижения в крит. урон.",
+                "en": "Shadow Slice adds 50% of movement speed to crit damage."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики 1.5d: Shadow Slice накладывает Doom и Condemned, урон Doom умножается от скорости передвижения. 50% скорости в крит. множитель даёт руна Swift Execution, а не навык."
+            },
+            {
+              "text": {
+                "ru": "Swift Execution добавляет 50% скорости передвижения в крит. множитель.",
+                "en": "Swift Execution adds 50% of movement speed to the crit multiplier."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Описание руны на вики: 50.0% скорости передвижения добавляется к множителю критического урона."
+            }
+          ],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Doom)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 урон Doom нормально масштабируется от модификаторов: Doom-архетип стал сильнее.",
+                "en": "Since 1.4 Doom damage scales properly with modifiers: the Doom archetype got stronger."
+              }
+            },
+            {
+              "mechanic": "Shadow Slice",
+              "impact": "unknown",
+              "note": {
+                "ru": "Гайд описывает перенос скорости в крит. урон; по вики 1.5d навык умножает урон Doom от скорости. Ставка на скорость остаётся верной, но по другой причине.",
+                "en": "The guide describes speed-to-crit; per the 1.5d wiki the skill scales Doom damage with speed. Stacking speed is still right, for a different reason."
+              }
+            },
+            {
+              "mechanic": "Overwhelming Chaos",
+              "impact": "unknown",
+              "note": {
+                "ru": "По вики руна влияет только на прямой урон навыков, не на эффекты: на урон Doom она не действует.",
+                "en": "Per the wiki the rune only affects direct skill damage, not ailments: it does not touch Doom damage."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "По выжимке легендарное оружие Samurai добавлено в 1.5; в гайде и на вики его нет. Titan Powers в билде нет.",
+                "en": "Per the digest Samurai's legendary weapon was added in 1.5; it is neither in the guide nor on the wiki. No Titan Powers."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд обновлён 20.08.2025, сразу после патча 1.2d1 (19.08.2025), то есть описывает 1.2. Samurai открывается через Titan Hunt, поэтому раздел про него написан уже в 1.2. Doom-архетип в 1.5d усилен, но механика Shadow Slice поменялась, а легендарное оружие не учтено. Актуального гайда нет, это единственный источник билда.",
+        "en": "Updated 2025-08-20, right after patch 1.2d1 (2025-08-19), so it describes 1.2. Samurai is unlocked via Titan Hunt, so his section was already written in 1.2. The Doom archetype is stronger in 1.5d, but Shadow Slice changed and the legendary weapon is missing. No current guide exists; this is the only build source."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "BloodShed",
+        "builds": [
+          "samurai-shadowfang-doom"
+        ],
+        "reason": {
+          "ru": "Специализация на одном Doom: чужие болезни отнимают предложения. Вывод, не из источника.",
+          "en": "Pure Doom specialization: other ailments dilute offers. Inference."
+        }
+      },
+      {
+        "target": "Venomous",
+        "builds": [
+          "samurai-shadowfang-doom"
+        ],
+        "reason": {
+          "ru": "Тот же принцип. Вывод, не из источника.",
+          "en": "Same principle. Inference."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Сначала пассивка, которая вешает Doom: Fateful Strikes (все атаки) или Grim Precision (криты; у Samurai бонус к криту).",
+        "en": "First a Doom application passive: Fateful Strikes (all attacks) or Grim Precision (crits; Samurai has crit bonuses)."
+      },
+      {
+        "ru": "Затем урон Doom: Calamity; Ruin и Fangs of Doom дают мгновенную часть урона, это хорошо ложится на модель DoT в 1.5d.",
+        "en": "Then Doom damage: Calamity; Ruin and Fangs of Doom deal an instant portion, fitting the 1.5d DoT model."
+      },
+      {
+        "ru": "Скорость передвижения в приоритете: от неё растут урон Doom у Shadow Slice и крит. множитель у руны Swift Execution.",
+        "en": "Prioritise movement speed: it scales Shadow Slice's Doom damage and Swift Execution's crit multiplier."
+      },
+      {
+        "ru": "Против боссов: Nightfang бьёт от числа стаков Doom на цели.",
+        "en": "Against bosses: Nightfang scales with Doom stacks on the target."
+      }
+    ],
+    "basis": {
+      "ru": "Актуального гайда нет. Выводы сделаны вручную по старому Steam-гайду, данным вики (навыки, пассивки Doom) и выжимке меты 1.2 -> 1.5d. Ни баны, ни порядок пассивок в источнике не указаны: всё это вывод.",
+      "en": "No current guide. Inferred from the old Steam guide, wiki data (skills, Doom powers) and the 1.2 -> 1.5d meta digest. Neither bans nor passive order appear in the source: all of this is inference."
+    }
+  },
+  "gaps": [
+    "Нет актуального гайда (1.5d) на Samurai: cubiccreativity его не покрывает; есть только старый раздел Steam-гайда (патч 1.2).",
+    "На вики нет легендарного оружия (R5) Samurai: только 4 оружия R1-R4.",
+    "В старом гайде нет приоритета пассивок: указан только стат скорости передвижения неявно (через Shadow Slice); конкретные пассивки (Powers) не названы.",
+    "В старом гайде нет Versatility-рун: перечислены только 4 Tenacity-руны; нет данных о Titan Powers.",
+    "Старый гайд не разделяет билды: описан один Doom-билд, огненный вариант упомянут лишь как отвергнутый.",
+    "Из шести навыков гайд не указывает роли, кроме Shadow Slice, Shadow Bolt и Shadow Orb; роли остальных выставлены по порядку перечисления и неточны."
+  ]
+}

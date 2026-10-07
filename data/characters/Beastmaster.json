@@ -1,0 +1,977 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Beastmaster",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Зверолов (класс Summon; типы навыков Nature, Fire, Swing, Slam, Bomb) играет через призванных существ: урон растёт от числа миньонов (Wild Strike, руна Harmony). Бонусы: +20 здоровья, +10% частоты каста и шанса мультикаста, но -10% урона и -10% опыта, поэтому нужен Magnetic. Оружие задаёт направление: яд (Wild Cleaver), чистый призыв (Nature's Fury), здоровье и тотемы (Bonecrusher), кровотечение и пауки (Widow's Embrace); легендарное Ancestral Flame (R5) призывает огненных существ.",
+    "en": "The Beastmaster (Summon class; Nature, Fire, Swing, Slam, Bomb skills) plays through summoned units: damage grows with minion count (Wild Strike, the Harmony rune). Bonuses: +20 health, +10% cast frequency and multi cast chance, but -10% damage and -10% experience, so Magnetic is key. The weapon sets the direction: poison (Wild Cleaver), pure summons (Nature's Fury), health and totems (Bonecrusher), bleed and spiders (Widow's Embrace); the legendary Ancestral Flame (R5) summons fire creatures."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-beastmaster",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2023/10/28/soulstone-survivors-guide-the-beastmaster/",
+      "title": "Soulstone Survivors Guide: The Beastmaster",
+      "game_version": "1.5d",
+      "updated": "2026-08-25",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "beastmaster-poison",
+          "name": {
+            "ru": "Яд и призыв",
+            "en": "Poison"
+          },
+          "weapon_id": "WildCleaver",
+          "archetypes": [
+            "stack",
+            "summon"
+          ],
+          "core_mechanics": [
+            "Poison",
+            "Finesse",
+            "Weakness",
+            "Fragility"
+          ],
+          "skills": [
+            {
+              "id": "VenomousStrike",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Низкий кулдаун, большая зона, вешает Poison и копит Finesse.",
+                "en": "Low cooldown, wide area, applies Poison and stacks Finesse."
+              }
+            },
+            {
+              "id": "PlagueViper",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Пробивающие снаряды с Poison и Weakness; берётся руной Weapon Expert.",
+                "en": "Piercing projectiles with Poison and Weakness; taken via Weapon Expert."
+              }
+            },
+            {
+              "id": "PutridHounds",
+              "role": "damage",
+              "note": {
+                "ru": "Призыв, урон растёт от стаков Poison на цели.",
+                "en": "Summon whose damage scales with Poison stacks on the target."
+              },
+              "obtained": "rune"
+            },
+            {
+              "id": "WildStrike",
+              "role": "support",
+              "note": {
+                "ru": "Усиливается от числа миньонов.",
+                "en": "Scales with the number of minions."
+              },
+              "obtained": "rune"
+            },
+            {
+              "id": "PlagueRats",
+              "role": "support",
+              "note": {
+                "ru": "Много юнитов (для Harmony), вешают Poison и Weakness.",
+                "en": "Many units (for Harmony), apply Poison and Weakness."
+              },
+              "obtained": "rune"
+            },
+            {
+              "id": "Pestilence",
+              "role": "damage",
+              "note": {
+                "ru": "Раздаёт Poison многим врагам и бьёт сильнее от его стаков.",
+                "en": "Spreads Poison to many enemies and hits harder with its stacks."
+              }
+            },
+            {
+              "id": "SwampBoar",
+              "role": "support",
+              "note": {
+                "ru": "Вешает Fragility, работает с Harmony.",
+                "en": "Applies Fragility, works with Harmony."
+              },
+              "obtained": "rune"
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "Venomous",
+              "priority": "must",
+              "note": {
+                "ru": "Все атаки (и миньонов) получают 25% шанс наложить Poison.",
+                "en": "All attacks (including minions) get a 25% chance to apply Poison."
+              }
+            },
+            {
+              "power_id": "InfectedWounds",
+              "priority": "high",
+              "note": {
+                "ru": "Криты накладывают Poison с шансом 50%.",
+                "en": "Crits apply Poison with a 50% chance."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must",
+              "note": {
+                "ru": "Компенсирует штраф к опыту.",
+                "en": "Offsets the experience penalty."
+              }
+            },
+            {
+              "power_id": "DeathandDecay",
+              "priority": "medium"
+            },
+            {
+              "power_id": "Corrosive",
+              "priority": "medium"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "Harmony"
+              },
+              {
+                "id": "SacredOffering"
+              },
+              {
+                "id": "ExtraHelp"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillInclination",
+                "variant": "Nature"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Nature"
+              },
+              {
+                "id": "WeaponExpert"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Накопить как можно больше стаков Poison, а миньоны (гончие, крысы, вепрь) добавляют урон. Остальные улучшения выбираются свободно.",
+            "en": "Stack as much Poison as possible while minions (hounds, rats, boar) add damage. The remaining upgrades are flexible."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Harmony даёт +0,8% урона за каждого призванного юнита, максимум +24% при 30 юнитах.",
+                "en": "Harmony gives +0.8% damage per summoned unit, up to +24% at 30 units."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,8% урона персонажу и всем призванным за активного юнита, максимум 24%."
+            },
+            {
+              "text": {
+                "ru": "Sacred Offering повышает урон призванных на 30%, но снижает их максимальное число на 1.",
+                "en": "Sacred Offering raises summoned units' damage by 30% but lowers their maximum count by 1."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: -1 к максимуму и количеству призываемых юнитов, +30% урона призванных. Extra Help: +1, то есть компенсирует штраф."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "beastmaster-full-summon",
+          "name": {
+            "ru": "Полный призыв",
+            "en": "Full Summon"
+          },
+          "weapon_id": "NaturesFury",
+          "archetypes": [
+            "summon"
+          ],
+          "core_mechanics": [
+            "Fragility",
+            "Bleed",
+            "Weakness",
+            "Poison",
+            "Taunt"
+          ],
+          "skills": [
+            {
+              "id": "WildStrike",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Единственный навык самого персонажа, растёт с числом миньонов (+20% за миньона).",
+                "en": "The character's only own skill, grows with minion count (+20% per minion)."
+              }
+            },
+            {
+              "id": "SwampBoar",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Вешает Fragility; берётся руной Weapon Expert.",
+                "en": "Applies Fragility; taken via Weapon Expert."
+              }
+            },
+            {
+              "id": "SpiderQueen",
+              "role": "damage",
+              "note": {
+                "ru": "Bleed и Weakness, бьёт приоритетные цели (Cunning). Попадает в пул через Unexpected Arsenal.",
+                "en": "Bleed and Weakness, targets priority enemies (Cunning). Enters the pool via Unexpected Arsenal."
+              },
+              "obtained": "rune"
+            },
+            {
+              "id": "SpiderCocoon",
+              "role": "support",
+              "note": {
+                "ru": "Мины, из которых вылупляются пауки с Bleed и Weakness. Попадает в пул через Unexpected Arsenal.",
+                "en": "Mines that hatch spiders applying Bleed and Weakness. Enters the pool via Unexpected Arsenal."
+              },
+              "obtained": "rune"
+            },
+            {
+              "id": "PlagueViper",
+              "role": "damage",
+              "note": {
+                "ru": "Дальняя атака с Poison и Weakness, Cunning. Попадает в пул через Unexpected Arsenal.",
+                "en": "Ranged attack with Poison and Weakness, Cunning. Enters the pool via Unexpected Arsenal."
+              },
+              "obtained": "rune"
+            },
+            {
+              "id": "WarTiger",
+              "role": "damage",
+              "note": {
+                "ru": "Урон и Bleed, Cunning.",
+                "en": "Damage and Bleed, Cunning."
+              }
+            },
+            {
+              "id": "BattleMoose",
+              "role": "support",
+              "note": {
+                "ru": "Оглушает и тянет агро (Taunt), позволяя бить боссов безопасно.",
+                "en": "Stuns and draws aggro (Taunt), allowing safe boss damage."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_name": "Summon quantity increases",
+              "priority": "must",
+              "note": {
+                "ru": "Любые пассивки на число миньонов, в первую очередь. Конкретного id на вики нет (в файлах игры есть Increased Quantity без описания).",
+                "en": "Any minion-count passives, first priority. No specific wiki id (the game files contain Increased Quantity without a description)."
+              }
+            },
+            {
+              "power_name": "Summon damage upgrades",
+              "priority": "high",
+              "note": {
+                "ru": "Усиления Summon-навыков и конкретных миньонов.",
+                "en": "Upgrades for Summon skills or specific minions."
+              }
+            },
+            {
+              "power_id": "BloodShed",
+              "priority": "medium"
+            },
+            {
+              "power_id": "Venomous",
+              "priority": "medium"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must",
+              "note": {
+                "ru": "Компенсирует штраф к опыту.",
+                "en": "Offsets the experience penalty."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "Harmony"
+              },
+              {
+                "id": "ExtraHelp"
+              },
+              {
+                "id": "SacredOffering"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "UnexpectedArsenal"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Призвать как можно больше миньонов и дать им делать основную работу; персонаж только отбивается Wild Strike. Иногда стоит намеренно получить урон ради пассивки Primal Instinct из дерева.",
+            "en": "Summon as many minions as possible and let them do the work; the character only fends off enemies with Wild Strike. Occasionally take damage on purpose to trigger the Primal Instinct skill tree passive."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Wild Strike получает +20% урона за каждого призванного миньона.",
+                "en": "Wild Strike gains +20% damage per summoned minion."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: урон 230, +20% за каждого подконтрольного юнита, кулдаун 1,5 с."
+            },
+            {
+              "text": {
+                "ru": "Лимиты: до 6 Swamp Boar, 5 Spider Queen, 6 War Tiger, 8 Battle Moose, 6 Plague Viper.",
+                "en": "Caps: up to 6 Swamp Boar, 5 Spider Queen, 6 War Tiger, 8 Battle Moose, 6 Plague Viper."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: максимум юнитов Swamp Boar 6, Spider Queen 5, War Tiger 6, Battle Moose 8, Plague Viper 6. Без учёта Extra Help/Sacred Offering."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory снижает урон на 15%, но даёт ещё один навык призыва.",
+                "en": "Improved Repertory costs 15% damage but gives one more summon skill."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь наносимый урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Ещё 3 волка даёт узел дерева навыков и 7 велоцирапторов пассивка персонажа.",
+                "en": "A skill tree node adds 3 wolves and the character passive adds 7 velociraptors."
+              },
+              "status": "unverified",
+              "detail": "Дерево навыков и пассивка персонажа в справочнике вики не описаны."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "beastmaster-max-health",
+          "name": {
+            "ru": "Максимальное здоровье",
+            "en": "Max Health"
+          },
+          "weapon_id": "Bonecrusher",
+          "archetypes": [
+            "multiplier",
+            "other"
+          ],
+          "core_mechanics": [
+            "Maximum Health",
+            "Brittle",
+            "Ancestry",
+            "Colossal",
+            "Dazed",
+            "Taunt"
+          ],
+          "skills": [
+            {
+              "id": "BrutalSlam",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Урон зависит от максимального здоровья, годится и на поздней игре.",
+                "en": "Damage scales with maximum health, viable into the late game."
+              }
+            },
+            {
+              "id": "CaveBear",
+              "role": "support",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Танк с Taunt, даёт бафф здоровья и атаки.",
+                "en": "Taunt tank, grants health and attack buff."
+              }
+            },
+            {
+              "id": "Quicksand",
+              "role": "core",
+              "obtained": "rune",
+              "note": {
+                "ru": "Копит Brittle (каждые 0,5 с), урон от стаков Brittle и здоровья (Fortitude), даёт Ancestry. Берётся через Skill Mastery: Earth.",
+                "en": "Stacks Brittle (every 0.5 s), damage from Brittle stacks and health (Fortitude), grants Ancestry. Taken via Skill Mastery: Earth."
+              }
+            },
+            {
+              "id": "StoneSpiral",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Тотем с камнями, урон от здоровья, даёт Ancestry и Colossal. Берётся через Skill Mastery: Earth.",
+                "en": "Totem with orbiting rocks, health-scaled, grants Ancestry and Colossal. Taken via Skill Mastery: Earth."
+              }
+            },
+            {
+              "id": "BullCharge",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Низкий кулдаун, урон от здоровья, вешает Dazed. Берётся через Skill Mastery: Holy.",
+                "en": "Low cooldown, health-scaled, applies Dazed. Taken via Skill Mastery: Holy."
+              }
+            },
+            {
+              "id": "LivingWeapons",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Много миньонов и Dazed, хорошо с Harmony. Берётся через Skill Mastery: Holy.",
+                "en": "Many minions and Dazed, pairs with Harmony. Taken via Skill Mastery: Holy."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Maximum Health",
+              "priority": "must",
+              "note": {
+                "ru": "Брать любые прибавки здоровья любой редкости.",
+                "en": "Take any health upgrade of any rarity."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high"
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "high"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "high"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "FatefulStrike"
+              },
+              {
+                "id": "SavagePact"
+              },
+              {
+                "id": "CriticalMastery"
+              },
+              {
+                "id": "Harmony"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Earth"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Holy"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Наращивать здоровье, которое превращается в урон тотемов, и держаться одной зоны арены, подготовив её до появления Lords of the Void.",
+            "en": "Pump health, which turns into totem damage, and stay in one arena area, preparing it before the Lords of the Void spawn."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "При 385 здоровья оба тотема получают множитель урона 9,7.",
+                "en": "At 385 health both totems gain a 9.7 damage multiplier."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (трейт Fortitude у Quicksand и Stone Spiral): множитель 1 + (HP - 100) x 0,03, при 385 HP это 9,55, а не 9,7. Кроме того, выжимка 1.5d говорит, что связь Quicksand с Fortitude убрали в 1.3; вики и гайд её всё ещё показывают. Проверить в игре."
+            },
+            {
+              "text": {
+                "ru": "Bonecrusher даёт +40 здоровья на уровне оружия 0.",
+                "en": "Bonecrusher gives +40 health at weapon level 0."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Bonecrusher +40 к максимальному здоровью, -5% шанса крита, +5% области."
+            },
+            {
+              "text": {
+                "ru": "Fateful Strike: +60% крит. урона, -20% общего урона.",
+                "en": "Fateful Strike: +60% critical damage, -20% overall damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +60% критического урона, -20% урона."
+            },
+            {
+              "text": {
+                "ru": "Savage Pact: до +40% крит. урона в зависимости от максимального здоровья.",
+                "en": "Savage Pact: up to +40% critical damage based on maximum health."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: максимум 40% (статья руны на вики подписана как Prophecy). По выжимке 1.5d ослаблен до 30%, порог здоровья поднят с 500 до 700; для 1.5d верить выжимке."
+            },
+            {
+              "text": {
+                "ru": "Critical Mastery: 25% шанса крита добавляется к множителю крит. урона.",
+                "en": "Critical Mastery: 25% of crit chance is added to the critical damage multiplier."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита (включая бонус от негативных эффектов) добавляется к множителю крит. урона."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "beastmaster-laser-spider",
+          "name": {
+            "ru": "Лазерные пауки",
+            "en": "Laser Spider"
+          },
+          "weapon_id": "WidowsEmbrace",
+          "archetypes": [
+            "summon",
+            "other"
+          ],
+          "core_mechanics": [
+            "Radiance",
+            "Bleed",
+            "Weakness",
+            "Fragility",
+            "Shattered"
+          ],
+          "skills": [
+            {
+              "id": "SpiderCocoon",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Вешает Bleed и Weakness.",
+                "en": "Applies Bleed and Weakness."
+              }
+            },
+            {
+              "id": "SpiderQueen",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Миньоны с Bleed, Weakness и Cunning; берётся руной Weapon Expert.",
+                "en": "Minions with Bleed, Weakness and Cunning; taken via Weapon Expert."
+              }
+            },
+            {
+              "id": "EZMechanicalSpider",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Вешает Shattered, Cunning. Через Skill Mastery: Blast.",
+                "en": "Applies Shattered, Cunning. Via Skill Mastery: Blast."
+              }
+            },
+            {
+              "id": "EZSentry",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Неподвижный, добавляет Bleed, Cunning. Через Skill Mastery: Blast.",
+                "en": "Stationary, adds Bleed, Cunning. Via Skill Mastery: Blast."
+              }
+            },
+            {
+              "id": "WarTiger",
+              "role": "damage",
+              "note": {
+                "ru": "Ещё один источник Bleed.",
+                "en": "Another Bleed source."
+              }
+            },
+            {
+              "id": "AncestralEmpowerment",
+              "role": "core",
+              "obtained": "rune",
+              "note": {
+                "ru": "Тотем: юниты в радиусе копят Radiance и стреляют лазерами. Через Skill Mastery: Arcane.",
+                "en": "Totem: units in its radius stack Radiance and fire lasers. Via Skill Mastery: Arcane."
+              }
+            },
+            {
+              "id": "SpectralGuardian",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Копит Radiance на персонаже, лазеры вешают Fragility. Через Skill Mastery: Arcane.",
+                "en": "Stacks Radiance on the character, lasers apply Fragility. Via Skill Mastery: Arcane."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_name": "Summon quantity increases",
+              "priority": "must",
+              "note": {
+                "ru": "Больше миньонов, в первую очередь. Конкретного id на вики нет.",
+                "en": "More minions, first priority. No specific wiki id."
+              }
+            },
+            {
+              "power_name": "Summon damage upgrades",
+              "priority": "high"
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "high",
+              "note": {
+                "ru": "Зона Ancestral Empowerment должна покрыть экран.",
+                "en": "Ancestral Empowerment's area should cover the screen."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "Harmony"
+              },
+              {
+                "id": "SacredOffering"
+              },
+              {
+                "id": "ExtraHelp"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillMastery",
+                "variant": "Blast"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Arcane"
+              },
+              {
+                "id": "WeaponExpert"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Пять призывов и тотем усиления: миньоны копят Radiance в его зоне и постоянно стреляют лазерами. Чем больше область действия, тем лучше.",
+            "en": "Five summons plus an empowerment totem: minions stack Radiance in its zone and constantly fire lasers. The larger the area, the better."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory поднимает число слотов навыков до семи.",
+                "en": "Improved Repertory raises skill slots to seven."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка (с 6 до 7), весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Harmony даёт до +24% урона персонажа и призывов.",
+                "en": "Harmony gives up to +24% damage to the character and summons."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,8% за активного юнита, максимум 24%."
+            },
+            {
+              "text": {
+                "ru": "Sacred Offering даёт +30% урона призывам ценой одного юнита, Extra Help возвращает юнит.",
+                "en": "Sacred Offering gives +30% damage to summons at the cost of one unit; Extra Help gives the unit back."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Sacred Offering -1 юнит и +30% урона призванных; Extra Help +1 к максимуму и количеству."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "beastmaster-bleed-legacy",
+          "name": {
+            "ru": "Кровотечение (старый)",
+            "en": "Bleed (legacy)"
+          },
+          "weapon_id": "WidowsEmbrace",
+          "archetypes": [
+            "stack",
+            "summon"
+          ],
+          "core_mechanics": [
+            "Bleed"
+          ],
+          "skills": [
+            {
+              "id": "SpiderCocoon",
+              "role": "core",
+              "obtained": "weapon_primary"
+            },
+            {
+              "id": "SpiderQueen",
+              "role": "core",
+              "obtained": "weapon_secondary"
+            },
+            {
+              "id": "WarTiger",
+              "role": "support"
+            },
+            {
+              "id": "Bladestorm",
+              "role": "damage",
+              "note": {
+                "ru": "Бьёт по всему экрану, миньоны вешают Bleed.",
+                "en": "Hits the whole screen, minions apply Bleed."
+              }
+            },
+            {
+              "id": "ShrapnelBomb",
+              "role": "damage",
+              "note": {
+                "ru": "Основной урон по боссам.",
+                "en": "Main boss damage."
+              }
+            },
+            {
+              "id": "BattleMoose",
+              "role": "support"
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "Dismemberment",
+              "priority": "high",
+              "note": {
+                "ru": "Пассивки на Bleed работают и на миньонах.",
+                "en": "Bleed passives also apply to minions."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Harmony"
+              },
+              {
+                "id": "PulseofAgony"
+              },
+              {
+                "id": "Executioner"
+              },
+              {
+                "id": "ElementalFlow"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Миньоны отвлекают врагов, пока игрок уклоняется. Любые пассивки действуют и на призванных. Советуют банить пассивки на Fire, Poison и Doom.",
+            "en": "Minions draw enemy attention while the player dodges. Every passive also applies to summons. The guide advises banishing Fire, Poison and Doom passives."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Bladestorm бьёт по всему экрану.",
+                "en": "Bladestorm hits the whole screen."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: бьёт врагов вокруг персонажа, 20 ударов каждые 0,2 с, кулдаун 10 с; про весь экран не сказано."
+            }
+          ],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Bleed)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Bleed нормально масштабируется от модификаторов урона; Bleed с миньонов (пауки, тигр) тоже выигрывает.",
+                "en": "Since 1.4 Bleed scales properly with damage modifiers; Bleed from minions (spiders, tiger) benefits too."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Совет банить Fire, Poison и Doom ради одного Bleed совпадает с метой 1.5d.",
+                "en": "Banning Fire, Poison and Doom for pure Bleed matches the 1.5d meta."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "В 1.5d переделан: урон эффекта приходит сразу при наложении вместо ускорения тиков. Вместе с Dismemberment может дублировать мгновенный урон; польза не ясна.",
+                "en": "Reworked in 1.5d: ailment damage lands instantly on application instead of faster ticks. Overlaps with Dismemberment's instant damage; value unclear."
+              }
+            },
+            {
+              "mechanic": "Executioner",
+              "impact": "unknown",
+              "note": {
+                "ru": "Руна даёт +4% за каждый разный тип эффекта (максимум 20%); билд держит Bleed, Weakness и Stun, так что бонус частичный.",
+                "en": "The rune gives +4% per different ailment type (max 20%); the build keeps Bleed, Weakness and Stun, so the bonus is partial."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учитывались. У Beastmaster есть легендарное Ancestral Flame (R5) с огненными призывами.",
+                "en": "Not considered. Beastmaster has the legendary Ancestral Flame (R5) with fire summons."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2: короткий список навыков и рун без Versatility. Bleed в 1.5d стал сильнее, но Elemental Flow переделан. Отдельного Bleed-билда в актуальном гайде нет; ближайшая замена — «Laser Spider» на том же Widow's Embrace (Spider Cocoon, Spider Queen, War Tiger) или «Full Summon».",
+        "en": "Written for 1.2: a short skill and rune list without Versatility. Bleed got stronger in 1.5d, but Elemental Flow was reworked. The current guide has no dedicated Bleed build; the closest replacement is Laser Spider on the same Widow's Embrace (Spider Cocoon, Spider Queen, War Tiger) or Full Summon."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Fire, Poison, Doom application passives",
+        "builds": [
+          "beastmaster-bleed-legacy"
+        ],
+        "reason": {
+          "ru": "Из гайда (старого): держать только Bleed.",
+          "en": "From the (old) guide: keep pure Bleed."
+        }
+      },
+      {
+        "target": "Bleed, Burn, Doom application passives (BloodShed и др.)",
+        "builds": [
+          "beastmaster-poison"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билд целиком на Poison, чужие ailment размывают пул пассивок.",
+          "en": "Inference, not from the source: the build is all-in on Poison; other ailments dilute the passive pool."
+        }
+      },
+      {
+        "target": "Ailment application passives (Venomous, BloodShed)",
+        "builds": [
+          "beastmaster-max-health"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: урон билда идёт от здоровья, Brittle и крита, ailment-пассивки ему не нужны.",
+          "en": "Inference, not from the source: the build's damage comes from health, Brittle and crits; ailment passives add little."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Во всех билдах: Magnetic как можно раньше, у Зверолова -10% опыта.",
+        "en": "All builds: Magnetic as early as possible; the Beastmaster has -10% experience."
+      },
+      {
+        "ru": "Full Summon и Laser Spider: сначала пассивки на число миньонов, затем усиления Summon-навыков; в Laser Spider также область действия.",
+        "en": "Full Summon and Laser Spider: minion-count passives first, then Summon upgrades; in Laser Spider also area."
+      },
+      {
+        "ru": "Poison: Venomous первым, затем Infected Wounds; Death and Decay и Corrosive следом.",
+        "en": "Poison: Venomous first, then Infected Wounds; Death and Decay and Corrosive after."
+      },
+      {
+        "ru": "Max Health: брать любое максимальное здоровье любой редкости, затем крит. шанс и крит. урон.",
+        "en": "Max Health: take any maximum health of any rarity, then crit chance and crit damage."
+      },
+      {
+        "ru": "Ailment-пассивки (Bloodshed, Venomous) действуют и на миньонов, поэтому в призыве их можно брать без полного вложения.",
+        "en": "Ailment passives (Bloodshed, Venomous) also apply to minions, so summon builds can take them without full investment."
+      },
+      {
+        "ru": "Скорость передвижения ценна во всех актуальных билдах.",
+        "en": "Movement speed is valuable in every current build."
+      }
+    ],
+    "basis": {
+      "ru": "Правила уровня взяты из текста гайда cubiccreativity (1.5d). Сам актуальный гайд банов не называет: бан Fire/Poison/Doom взят из Steam-гайда (1.2), остальные баны — вывод по специализации билдов. Числа сверены с вики и выжимкой меты 1.5d.",
+      "en": "Level-up rules come from the cubiccreativity guide text (1.5d). The current guide names no bans: the Fire/Poison/Doom ban comes from the Steam guide (1.2), the others are inferred from build specialization. Numbers checked against the wiki and the 1.5d meta digest."
+    }
+  },
+  "gaps": [
+    "В гайде cubiccreativity нет билдов под легендарное Ancestral Flame (R5); все четыре билда на оружии R1-R4.",
+    "Пассивки «число миньонов» и «усиление Summon-навыков» записаны как power_name-группы: на вики нет пассивок с такими описаниями. В файлах игры есть Increased Quantity без описания; возможно, это она, но подтвердить нечем.",
+    "Max Health билд опирается на Fortitude у Quicksand/Stone Spiral (урон от здоровья). Выжимка 1.5d говорит, что связь Quicksand с Fortitude убрали в 1.3, а вики и гайд 1.5d её показывают; число 9,7 при 385 HP не совпадает с формулой вики (9,55). Нужна проверка в игре.",
+    "Savage Pact на вики подписан как Prophecy и указан максимум 40%; по выжимке 1.5d максимум 30% при пороге 700 здоровья.",
+    "Пассивка персонажа (велоцирапторы), узел дерева с волками и Primal Instinct на вики не описаны.",
+    "Билд Laser Spider автор называет шуточным экспериментом, confidence medium.",
+    "Старый Steam-гайд (1.2): один билд, только 4 руны Tenacity без Versatility, из пассивок назван лишь Dismemberment.",
+    "Модуль рун на вики старее 1.5d (Elemental Flow, Savage Pact и др.)."
+  ]
+}

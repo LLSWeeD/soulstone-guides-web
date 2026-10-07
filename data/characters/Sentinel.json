@@ -1,0 +1,813 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Sentinel",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Охотница: хрупкий и очень подвижный стрелок из лука (класс Ranged) с бонусом к скорости, криту и лишним рывком. Играет массой снарядов, которые копят стаки и вешают болезни (кровотечение, яд). Открывается за 50 убитых элитных врагов.",
+    "en": "Fragile but very mobile bow user (Ranged) with bonus speed, crit and an extra dash. Plays through masses of projectiles that build stacks and apply ailments (bleed, poison). Unlocked by killing 50 elite enemies."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-sentinel",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2025/05/17/soulstone-survivors-guide-the-sentinel/",
+      "title": "Soulstone Survivors Guide: The Sentinel",
+      "game_version": "1.5d",
+      "updated": "2026-08-28",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "sentinel-projectile",
+          "name": {
+            "ru": "Снаряды",
+            "en": "Projectile"
+          },
+          "weapon_id": "HuntressBow",
+          "archetypes": [
+            "stack",
+            "multiplier"
+          ],
+          "core_mechanics": [
+            "Aptitude",
+            "Ammunition",
+            "Dazed"
+          ],
+          "skills": [
+            {
+              "id": "Shoot",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Низкий кулдаун, копит Aptitude.",
+                "en": "Very low cooldown, stacks Aptitude."
+              }
+            },
+            {
+              "id": "RainofArrows",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Берётся с руной Weapon Expert, урон растёт от стаков Aptitude.",
+                "en": "Comes via Weapon Expert; damage scales with Aptitude stacks."
+              }
+            },
+            {
+              "id": "BoltBarrage",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Добавляется в пул руной Skill Mastery: Projectile, копит Aptitude.",
+                "en": "Added to the pool by Skill Mastery: Projectile, stacks Aptitude."
+              }
+            },
+            {
+              "id": "RicochetShot",
+              "role": "support",
+              "note": {
+                "ru": "Много попаданий, копит Aptitude.",
+                "en": "Multiple hits, stacks Aptitude."
+              }
+            },
+            {
+              "id": "SniperShot",
+              "role": "damage",
+              "note": {
+                "ru": "Главный урон, особенно по боссам (Lords of the Void).",
+                "en": "Main damage dealer, esp. against Lords of the Void."
+              }
+            },
+            {
+              "id": "SplitShot",
+              "role": "support",
+              "note": {
+                "ru": "Копит Aptitude и вешает Dazed.",
+                "en": "Stacks Aptitude and applies Dazed."
+              }
+            },
+            {
+              "id": "FragShot",
+              "role": "support",
+              "note": {
+                "ru": "Похож на Split Shot: Aptitude и Dazed.",
+                "en": "Similar to Split Shot: Aptitude and Dazed."
+              }
+            },
+            {
+              "id": "SpreadShot",
+              "role": "support",
+              "note": {
+                "ru": "Много снарядов, Aptitude и Dazed.",
+                "en": "Many projectiles, Aptitude and Dazed."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "must"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must"
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "high"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "high"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "high"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium",
+              "note": {
+                "ru": "Стаки Ammunition и так дают максимум, но всё равно полезно.",
+                "en": "Ammunition stacks already push it high, still helpful."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ArmorpiercingRounds"
+              },
+              {
+                "id": "ExtendedMagazines"
+              },
+              {
+                "id": "CriticalMastery"
+              },
+              {
+                "id": "ImprovedRepertory"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Projectile"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Засыпать врагов снарядами: урон идёт от массы попаданий и стаков Aptitude и Dazed, а не от одного сильного навыка.",
+            "en": "Flood enemies with projectiles: damage comes from volume and Aptitude/Dazed stacks rather than one big skill."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Стаки Aptitude поднимают крит. урон выше 1000%.",
+                "en": "Aptitude stacks push critical damage above 1000%."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: Aptitude +2% крит. урона за стак, мягкий потолок +800%, жёсткий +1000%. «Выше 1000%» от одних стаков невозможно; вероятно, автор считает итоговый крит. урон вместе с базой и другими бонусами."
+            },
+            {
+              "text": {
+                "ru": "Руны построены на стаках Ammunition: выстрелы постоянно идут с мультикастом.",
+                "en": "Runes revolve around Ammunition: casts constantly get multicast."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: при 20+ стаках Ammunition каст тратит 20 стаков и получает +5 зарядов мультикаста; Extended Magazines даёт 10% шанс получить стак при касте; Armor-piercing Rounds даёт +15% модификатора урона на 5 с при расходе стаков."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "sentinel-bleed",
+          "name": {
+            "ru": "Кровотечение",
+            "en": "Bleed"
+          },
+          "weapon_id": "SiegeRecurveBow",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Bleed",
+            "Aptitude"
+          ],
+          "skills": [
+            {
+              "id": "ExplosiveArrows",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык: большая область, вешает Bleed, крит от Devastating.",
+                "en": "Starting skill: large area, applies Bleed, crits via Devastating."
+              }
+            },
+            {
+              "id": "RicochetShot",
+              "role": "support",
+              "note": {
+                "ru": "Много целей и попаданий для стаков Bleed.",
+                "en": "Multi-target hits to stack Bleed."
+              }
+            },
+            {
+              "id": "ShrapnelBomb",
+              "role": "damage",
+              "note": {
+                "ru": "Убийственный навык билда: урон растёт от стаков Bleed на цели, хорош против боссов.",
+                "en": "Kill skill: damage scales with Bleed stacks, good vs Lords of the Void."
+              }
+            },
+            {
+              "id": "StormofArrows",
+              "role": "support",
+              "note": {
+                "ru": "Куча снарядов с шансом повесить Bleed.",
+                "en": "Lots of projectiles that can apply Bleed."
+              }
+            },
+            {
+              "id": "StormofSpears",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Почти копия Storm of Arrows, открывается через Skill Mastery: Thrust.",
+                "en": "Near-copy of Storm of Arrows, via Skill Mastery: Thrust."
+              }
+            },
+            {
+              "id": "SpreadShot",
+              "role": "support",
+              "note": {
+                "ru": "Много попаданий для стаков Bleed.",
+                "en": "Many hits to stack Bleed."
+              }
+            },
+            {
+              "id": "Flurry",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Много ударов, сам накладывает Bleed.",
+                "en": "Many hits, applies Bleed by itself."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "BloodShed",
+              "priority": "must",
+              "note": {
+                "ru": "В гайде названа Hemorrhage. Вероятно, это старое имя: по вики и по гайду Barbarian того же автора Hemorrhage теперь свойство самого Bleed, а вешает Bleed на все атаки пассивка Bloodshed.",
+                "en": "The guide calls it Hemorrhage, likely an old name: per the wiki and the same author's Barbarian guide, Hemorrhage is now a property of Bleed itself, and Bloodshed is the passive that lets all attacks apply Bleed."
+              }
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "high"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "high"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "must"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must"
+            },
+            {
+              "power_id": "Laceration",
+              "priority": "high",
+              "note": {
+                "ru": "Усиливает Bleed.",
+                "en": "Boosts Bleed."
+              }
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "situational",
+              "note": {
+                "ru": "Если сложно выживать.",
+                "en": "If survival is hard."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "MultiCastMastery"
+              },
+              {
+                "id": "Synchrony"
+              },
+              {
+                "id": "SacrificedGrowth"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Thrust"
+              },
+              {
+                "id": "SkillAffinity",
+                "variant": "Projectile"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Накладывать как можно больше Bleed на всё подряд; мелочь убивается массой снарядов, боссов фокусить до срабатывания Shrapnel Bomb.",
+            "en": "Apply as much Bleed as possible to everything; small fry die to projectile mass, focus fire on bosses until Shrapnel Bomb triggers."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Одной пассивки Hemorrhage достаточно, чтобы снарядные навыки начали стакать Bleed.",
+                "en": "One Hemorrhage is enough for projectile skills to start stacking Bleed."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: Hemorrhage был отдельным улучшенным Bleed, теперь слит с ним (урон при движении врага). Гайд Barbarian того же автора (1.5d) говорит то же и называет Bleed-на-атаки пассивкой Bloodshed (шанс 25%). Строка Hemorrhage в файлах игры, видимо, остаток. В карточке пассивка заменена на Bloodshed."
+            },
+            {
+              "text": {
+                "ru": "Sacrificed Growth даёт урон за счёт слабого начала забега.",
+                "en": "Sacrificed Growth trades a weak early game for damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1% урона за уровень, максимум 25%, но -10% опыта. Урон растёт с уровнем, поэтому начало слабее."
+            },
+            {
+              "text": {
+                "ru": "Synchrony усиливает урон за счёт общих типов навыков.",
+                "en": "Synchrony boosts damage through shared skill types."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (модуль рун, старее 1.5d): +0,7% за общий тип, максимум 20%. Выжимка 1.5d: +1,5%, максимум 30%. Для 1.5d верить выжимке, вики отстаёт."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "sentinel-poison",
+          "name": {
+            "ru": "Яд",
+            "en": "Poison"
+          },
+          "weapon_id": "NoxiousLongbow",
+          "archetypes": [
+            "stack",
+            "dot",
+            "synchrony"
+          ],
+          "core_mechanics": [
+            "Poison",
+            "Weakness",
+            "Aptitude"
+          ],
+          "skills": [
+            {
+              "id": "NoxiousShot",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык Noxious Longbow: низкий кулдаун, Poison и Aptitude.",
+                "en": "Noxious Longbow starter: low cooldown, Poison and Aptitude."
+              }
+            },
+            {
+              "id": "VenomousVolley",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Низкий кулдаун, большая область, Poison и Weakness.",
+                "en": "Low cooldown, large area, Poison and Weakness."
+              }
+            },
+            {
+              "id": "StormofArrows",
+              "role": "support",
+              "note": {
+                "ru": "Много снарядов для стаков Poison при пассивке Venomous.",
+                "en": "Many projectiles for Poison stacking with Venomous."
+              }
+            },
+            {
+              "id": "Pestilence",
+              "role": "damage",
+              "note": {
+                "ru": "Урон растёт от стаков Poison на целях.",
+                "en": "Damage scales with Poison stacks on targets."
+              }
+            },
+            {
+              "id": "RicochetShot",
+              "role": "support",
+              "note": {
+                "ru": "Много попаданий для Venomous, плюс Aptitude.",
+                "en": "Many hits for Venomous, plus Aptitude."
+              }
+            },
+            {
+              "id": "PoisonBolt",
+              "role": "support",
+              "note": {
+                "ru": "Быстрый способ вешать Poison.",
+                "en": "Fast-firing Poison applier."
+              }
+            },
+            {
+              "id": "AcidRain",
+              "role": "support",
+              "note": {
+                "ru": "Низкий кулдаун, больше Poison.",
+                "en": "Low cooldown, more Poison."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "Venomous",
+              "priority": "must",
+              "note": {
+                "ru": "Брать каждую копию.",
+                "en": "Take every copy."
+              }
+            },
+            {
+              "power_id": "Corrosive",
+              "priority": "must",
+              "note": {
+                "ru": "Берутся все копии, усиливает урон Poison.",
+                "en": "Take every copy; boosts Poison damage."
+              }
+            },
+            {
+              "power_id": "InfectedWounds",
+              "priority": "high",
+              "note": {
+                "ru": "Криты накладывают Poison; стоит довести шанс крита до 100%.",
+                "en": "Crits apply Poison; worth pushing crit chance to 100%."
+              }
+            },
+            {
+              "power_id": "DeathandDecay",
+              "priority": "medium"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high",
+              "note": {
+                "ru": "Быстрее уровни.",
+                "en": "Faster levelling."
+              }
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "high"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "high"
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "situational",
+              "note": {
+                "ru": "Тройной рывок и Noxious Longbow обычно компенсируют.",
+                "en": "Triple dash and Noxious Longbow usually compensate."
+              }
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium",
+              "note": {
+                "ru": "Плоский урон усиливает и навыки, и яд.",
+                "en": "Flat damage boosts both skills and Poison."
+              }
+            },
+            {
+              "power_name": "Skill Chain: Poison -> Projectile",
+              "priority": "situational",
+              "note": {
+                "ru": "Так назван в гайде. Poison не тип навыка, цепочки бывают «тип -> тип»; возможно, имеется в виду Nature -> Projectile. Проверить в игре.",
+                "en": "Named so in the guide. Poison is not a skill type; maybe Nature -> Projectile was meant. Check in game."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "DeathTouch"
+              },
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "SacrificedGrowth"
+              },
+              {
+                "id": "Synchrony"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Nature"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Стать в углу карты (спавн с двух сторон), опираться на скорость и тройной рывок, закидывать врагов ядом; боссы появляются кучно, яд и взрывы Death Touch перекидываются на соседей.",
+            "en": "Stand in a map corner (spawns from two sides), rely on speed and triple dash, flood enemies with poison; bosses spawn clustered so Poison and Death Touch explosions spread."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Infected Wounds даёт критам 50% шанс наложить Poison.",
+                "en": "Infected Wounds gives crits a 50% chance to apply Poison."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: шанс 50% (фиксированный) на всех редкостях."
+            },
+            {
+              "text": {
+                "ru": "Noxious Longbow компенсирует штраф персонажа к здоровью.",
+                "en": "Noxious Longbow offsets the character's health penalty."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Sentinel -30 к макс. здоровью, Noxious Longbow +30."
+            },
+            {
+              "text": {
+                "ru": "С этим луком у Охотницы тройной рывок.",
+                "en": "With this bow the Sentinel has a triple dash."
+              },
+              "status": "unverified",
+              "detail": "Вики: у Sentinel +1 к рывкам, у Noxious Longbow бонуса к рывкам нет; базовое число рывков на вики не указано."
+            },
+            {
+              "text": {
+                "ru": "Руна Death Touch взрывает врагов и разносит яд.",
+                "en": "Death Touch makes enemies explode and spread Poison."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 20% шанс, что убитый враг взорвётся, нанося урон и накладывая Poison по области."
+            },
+            {
+              "text": {
+                "ru": "Synchrony усиливает урон за счёт общих типов навыков.",
+                "en": "Synchrony boosts damage through shared skill types."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (модуль рун, старее 1.5d): +0,7% за общий тип, максимум 20%. Выжимка 1.5d: +1,5%, максимум 30%. Для 1.5d верить выжимке, вики отстаёт."
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "sentinel-legacy-poison",
+          "name": {
+            "ru": "Яд (старый гайд)",
+            "en": "Poison (legacy guide)"
+          },
+          "weapon_id": "NoxiousLongbow",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Poison"
+          ],
+          "skills": [
+            {
+              "id": "NoxiousShot",
+              "role": "core"
+            },
+            {
+              "id": "AcidRain",
+              "role": "support"
+            },
+            {
+              "id": "VenomousVolley",
+              "role": "core"
+            },
+            {
+              "id": "Pestilence",
+              "role": "damage",
+              "note": {
+                "ru": "Основной урон: растёт от стаков Poison на каждом враге.",
+                "en": "Main damage: scales with Poison stacks on each enemy."
+              }
+            },
+            {
+              "id": "PoisonCloud",
+              "role": "support"
+            },
+            {
+              "id": "PoisonPuddle",
+              "role": "support"
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "Executioner"
+              },
+              {
+                "id": "MisfortunesEmbrace"
+              },
+              {
+                "id": "Synergetic"
+              },
+              {
+                "id": "ElementalFlow"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Брать Noxious Longbow и травить всё на экране; банить элементальные пассивки на кровь, огонь и Doom, чтобы набирать только яд.",
+            "en": "Take Noxious Longbow and poison everything on screen; ban elemental passives for bleed, fire and doom to focus on poison."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Основной урон даёт Pestilence: он растёт от стаков Poison на враге.",
+                "en": "Pestilence is the main damage: it scales with Poison stacks on the enemy."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: урон Pestilence зависит от числа стаков Poison на цели, навык перескакивает на соседей."
+            }
+          ],
+          "confidence": "medium",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Poison)",
+              "impact": "buffed",
+              "note": {
+                "ru": "В 1.4 урон от Poison/Bleed/Burn/Doom начал нормально масштабироваться от модификаторов: ядовитый билд стал сильнее.",
+                "en": "Since 1.4 DoT damage scales properly with modifiers: the poison build got stronger."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Совет банить всё, кроме яда, совпадает с метой 1.5d: специализация на одном ailment.",
+                "en": "Banning everything but Poison matches the 1.5d meta of single-ailment specialization."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "Руна переделана в 1.5d: урон эффекта приходит сразу при наложении, а не чаще тиками. Ценность для билда надо перепроверить.",
+                "en": "Reworked in 1.5d: ailment damage lands on application instead of faster ticks. Re-check its value."
+              }
+            },
+            {
+              "mechanic": "Misfortune's Embrace",
+              "impact": "weakened",
+              "note": {
+                "ru": "Даёт случайный из 4 эффектов, что спорит с собственным советом гайда держаться только яда; в мете 1.5d специализация важнее.",
+                "en": "Applies a random one of 4 ailments, at odds with the guide's own poison-only advice; 1.5d favours specialization."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "В 1.2 не учитывались. У Sentinel есть легендарный Soulfrost (R5), Titan Powers в билде нет.",
+                "en": "Not considered in 1.2. Sentinel has the legendary Soulfrost (R5); no Titan Powers in the build."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2. Сам ядовитый архетип в 1.5d стал сильнее (DoT scaling), но руны Elemental Flow и Misfortune's Embrace работают иначе или хуже вписываются в мету; легендарное оружие и Titan Powers не учтены. Актуальный ядовитый билд из гайда 1.5d выше предпочтительнее.",
+        "en": "Written for 1.2. The poison archetype got stronger in 1.5d (DoT scaling), but Elemental Flow and Misfortune's Embrace changed or fit the meta worse; legendary weapons and Titan Powers are missing. Prefer the current 1.5d poison build above."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "BloodShed",
+        "builds": [
+          "sentinel-poison",
+          "sentinel-legacy-poison"
+        ],
+        "reason": {
+          "ru": "Яд-билд: убирает чужой ailment из предложений. Прямой совет старого гайда (банить пассивки Bleed, Burn, Doom).",
+          "en": "Poison build: removes a competing ailment from offers. Direct advice of the old guide (ban Bleed/Burn/Doom passives)."
+        }
+      },
+      {
+        "target": "Venomous",
+        "builds": [
+          "sentinel-bleed"
+        ],
+        "reason": {
+          "ru": "Bleed-билд: тот же принцип специализации, только наоборот. Вывод, не из источника.",
+          "en": "Bleed build: same specialization principle in reverse. Inference, not from the source."
+        }
+      },
+      {
+        "target": "Ailment application powers (BloodShed, Venomous...)",
+        "builds": [
+          "sentinel-projectile"
+        ],
+        "reason": {
+          "ru": "Билд на снаряды и крит: пассивки болезней отнимают слоты у крита, частоты каста и мультикаста. Вывод, не из источника.",
+          "en": "Projectile/crit build: ailment powers take slots from crit, cast frequency and multicast. Inference."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Первые пассивки во всех билдах: скорость передвижения и Magnetic (так делает автор гайда во всех трёх билдах).",
+        "en": "First passives in every build: Movement Speed and Magnetic (the guide does this in all three builds)."
+      },
+      {
+        "ru": "Bleed и Poison: сначала пассивка, которая вешает эффект (Bloodshed / Venomous), потом усилители урона эффекта (Laceration / Corrosive).",
+        "en": "Bleed/Poison: first the application passive (Bloodshed / Venomous), then damage amps (Laceration / Corrosive)."
+      },
+      {
+        "ru": "Poison: если выпал Infected Wounds, брать и вкладываться в шанс крита.",
+        "en": "Poison: if Infected Wounds shows up, take it and invest in crit chance."
+      },
+      {
+        "ru": "Projectile: крит. шанс и крит. урон, затем частота каста и мультикаст.",
+        "en": "Projectile: crit chance and crit damage, then cast frequency and multicast."
+      },
+      {
+        "ru": "Против боссов держать навык-«убийцу» билда: Sniper Shot (Projectile), Shrapnel Bomb (Bleed), Pestilence (Poison).",
+        "en": "Against bosses keep the build's killer skill: Sniper Shot, Shrapnel Bomb, Pestilence."
+      }
+    ],
+    "basis": {
+      "ru": "Сведено вручную из гайда cubiccreativity (1.5d), Steam-гайда (1.2) и выжимки меты 1.2 -> 1.5d; числа сверены с вики. Баны, кроме бана Bloodshed в яд-билде, выведены по принципу специализации и в источниках не указаны.",
+      "en": "Compiled from the cubiccreativity guide (1.5d), the Steam guide (1.2) and the 1.2 -> 1.5d meta digest; numbers checked against the wiki. Bans other than Bloodshed in the poison build are inferred from the specialization principle."
+    }
+  },
+  "gaps": [
+    "Старый гайд: типы рун (Tenacity/Versatility) и приоритет пассивок не указаны; все 4 руны записаны в tenacity, versatility пуст, пассивок нет.",
+    "Старый гайд: пример забега только скриншотом, текста нет.",
+    "В актуальном гайде нет билдов под Misery's End (R3) и легендарный Soulfrost (R5).",
+    "Приоритеты пассивок в билдах Bleed и Poison выставлены по формулировкам гайда, чёткого порядка там нет.",
+    "Модуль рун на вики старее 1.5d (Synchrony, Elemental Flow, Generalist, Savage Pact расходятся с выжимкой).",
+    "Гайд называет ключевую Bleed-пассивку Hemorrhage; в карточке заменена на Bloodshed (см. claims билда Bleed). Проверить в игре."
+  ]
+}

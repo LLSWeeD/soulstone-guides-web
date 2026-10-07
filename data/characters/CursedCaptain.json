@@ -1,0 +1,1068 @@
+{
+  "schema_version": "0.2",
+  "character_id": "CursedCaptain",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Смешанный класс с мечом и пистолетом (Blast, Bomb, Projectile, Swing, Thrust). Копит статус Cursed: каждые 20 стаков призывают призрачное щупальце. По гайду, пассивно призывает корабль-призрак; сила артефакта — Ghost Crew. Бонусы: +5% к шансу крита, +20% к крит. урону, +15% к опыту, -10 к макс. здоровью.",
+    "en": "Mixed-class sword and gun user (Blast, Bomb, Projectile, Swing, Thrust). Stacks the Cursed status: every 20 stacks summon a ghost tentacle. Per the guide, a ghost ship is summoned passively; the artifact power is Ghost Crew. Bonuses: +5% critical chance, +20% critical damage, +15% experience, -10 maximum health."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-cursedcaptain",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2025/03/15/soulstone-survivors-guide-the-cursed-captain/",
+      "title": "Soulstone Survivors Guide: The Cursed Captain",
+      "game_version": "1.5d",
+      "updated": "2026-06-16",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "cursedcaptain-ammunition",
+          "name": {
+            "ru": "Боеприпасы",
+            "en": "Ammunition"
+          },
+          "weapon_id": "IronTide",
+          "archetypes": [
+            "stack"
+          ],
+          "core_mechanics": [
+            "Ammunition",
+            "Cursed",
+            "Shattered",
+            "Fragility"
+          ],
+          "skills": [
+            {
+              "id": "PlunderShot",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык, копит Ammunition и Cursed.",
+                "en": "Starting skill, stacks Ammunition and Cursed."
+              }
+            },
+            {
+              "id": "GunpowderBurst",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Главный навык билда: без кулдауна, срабатывает при накоплении Ammunition.",
+                "en": "The star of the build: no cooldown, fires once Ammunition is accrued."
+              }
+            },
+            {
+              "id": "ExplosiveShot",
+              "role": "support",
+              "note": {
+                "ru": "Копит Ammunition и вешает Shattered, несмотря на долгий кулдаун.",
+                "en": "Builds Ammunition and applies Shattered despite a long cooldown."
+              }
+            },
+            {
+              "id": "Quickblast",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Быстрый способ копить Ammunition.",
+                "en": "Fast Ammunition builder."
+              }
+            },
+            {
+              "id": "Buckshot",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Быстрый способ копить Ammunition.",
+                "en": "Fast Ammunition builder."
+              }
+            },
+            {
+              "id": "RapidBarrage",
+              "role": "support",
+              "note": {
+                "ru": "Долгий кулдаун, но один из лучших источников Ammunition.",
+                "en": "Long cooldown but one of the best Ammunition sources."
+              }
+            },
+            {
+              "id": "KrakensRum",
+              "role": "support",
+              "note": {
+                "ru": "Бафф урона и стаки Fragility на врагах.",
+                "en": "Damage buff and Fragility stacks on enemies."
+              }
+            },
+            {
+              "id": "AmmoBox",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Поддерживает накопление Ammunition.",
+                "en": "Supports Ammunition build-up."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Area Modifier",
+              "priority": "high",
+              "note": {
+                "ru": "Больше врагов в зоне и атака боссов издалека.",
+                "en": "Hits more enemies and reaches bosses from range."
+              }
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "high"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium",
+              "note": {
+                "ru": "Gunpowder Burst от него не выигрывает: он всегда кастуется с зарядами Ammunition.",
+                "en": "Gunpowder Burst does not benefit from it: it always casts with Ammunition charges."
+              }
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium",
+              "note": {
+                "ru": "Плоский урон для убийства боссов.",
+                "en": "Flat damage to kill bosses."
+              }
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "situational"
+            },
+            {
+              "stat": "Armor Power",
+              "priority": "situational",
+              "note": {
+                "ru": "Гайд: «иногда» немного брони для защиты.",
+                "en": "Guide: \"occasionally\" a bit of armor for defense."
+              }
+            },
+            {
+              "power_id": "SkillChain",
+              "variant": "Blast -> Projectile",
+              "priority": "situational",
+              "note": {
+                "ru": "Выпадала автору из-за Kraken's Rum типа Projectile.",
+                "en": "Author got it because Kraken's Rum is Projectile-type."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "ExtendedMagazines"
+              },
+              {
+                "id": "CurseoftheDepths"
+              },
+              {
+                "id": "AmplifiedPower"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Blast"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Все навыки копят Ammunition, чтобы чаще запускать Gunpowder Burst. Старт слабый, пока не появятся щупальца от Cursed, дальше билд набирает силу.",
+            "en": "Every skill feeds Ammunition to trigger Gunpowder Burst more often. The start is weak until Cursed tentacles appear, then the build snowballs."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Gunpowder Burst срабатывает при накоплении двадцати Ammunition.",
+                "en": "Gunpowder Burst fires when twenty Ammunition is accrued."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Gunpowder Burst требует Ammunition; Ammunition расходуется по 20 стаков (+5 зарядов мультикаста). В разделе Trivia статьи Ammunition сказано «15 сейчас», это противоречит основному тексту и описанию рун."
+            },
+            {
+              "text": {
+                "ru": "Rapid Barrage наносит двадцать ударов, каждый с шансом 25% дать Ammunition.",
+                "en": "Rapid Barrage hits twenty times, each with a 25% chance to build Ammunition."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 20 ударов каждые 0,2 с, шанс Ammunition 25%, кулдаун 9 с."
+            },
+            {
+              "text": {
+                "ru": "Skill Chain Blast -> Projectile даёт 6% шанс повторить бафф Kraken's Rum.",
+                "en": "Skill Chain Blast -> Projectile gives a 6% chance to trigger another Kraken's Rum buff."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Skill Chain редкая +6% (эпическая +8%, легендарная +10%); Kraken's Rum действительно типа Projectile."
+            },
+            {
+              "text": {
+                "ru": "Extended Magazines ускоряет накопление Ammunition.",
+                "en": "Extended Magazines speeds up Ammunition build-up."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 10% шанс получить 1 стак Ammunition при каждом касте, цена 1 руна."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "cursedcaptain-crit",
+          "name": {
+            "ru": "Крит",
+            "en": "Crit"
+          },
+          "weapon_id": "JawsoftheAbyss",
+          "archetypes": [
+            "multiplier"
+          ],
+          "core_mechanics": [
+            "Form",
+            "Haste",
+            "Cursed",
+            "Fragility",
+            "Precise",
+            "Devastating"
+          ],
+          "skills": [
+            {
+              "id": "Sharktooth",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Низкий кулдаун, копит Form и Cursed.",
+                "en": "Low cooldown, stacks Form and Cursed."
+              }
+            },
+            {
+              "id": "QuickStrike",
+              "role": "support",
+              "note": {
+                "ru": "Даёт Form и Haste, масштабируется от скорости движения.",
+                "en": "Gives Form and Haste, scales with movement speed."
+              }
+            },
+            {
+              "id": "IncisiveStrike",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Урон растёт от шанса крита.",
+                "en": "Damage scales with critical chance."
+              }
+            },
+            {
+              "id": "SniperShot",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Основной инструмент против боссов.",
+                "en": "Main boss-killing tool."
+              }
+            },
+            {
+              "id": "PrecisionWave",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Бафф шанса крита.",
+                "en": "Critical chance buff."
+              }
+            },
+            {
+              "id": "KrakensRum",
+              "role": "support",
+              "note": {
+                "ru": "Дополнительный урон и Fragility.",
+                "en": "Extra damage and Fragility."
+              }
+            },
+            {
+              "id": "SharpSpear",
+              "role": "optional",
+              "note": {
+                "ru": "Седьмой слот: больше Form и Haste.",
+                "en": "Seventh slot: more Form and Haste."
+              }
+            },
+            {
+              "id": "EldritchGrasp",
+              "role": "optional",
+              "note": {
+                "ru": "Седьмой слот: использует стаки Cursed, даёт зачистку.",
+                "en": "Seventh slot: uses Cursed stacks, gives clear."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Critical Damage",
+              "priority": "must",
+              "note": {
+                "ru": "Предпочтительнее плоского урона.",
+                "en": "Preferred over flat damage."
+              }
+            },
+            {
+              "power_id": "ViciousStrikes",
+              "priority": "high",
+              "note": {
+                "ru": "Гарантированный крит по врагам с полным здоровьем.",
+                "en": "Guaranteed crit on full-health enemies."
+              }
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "high",
+              "note": {
+                "ru": "Для мульти-критов, Critical Mastery и Incisive Strike.",
+                "en": "For multi-crits, Critical Mastery and Incisive Strike."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high",
+              "note": {
+                "ru": "Защита и урон от Quick Strike.",
+                "en": "Defense and Quick Strike damage."
+              }
+            },
+            {
+              "power_name": "Skill Chain",
+              "priority": "high",
+              "note": {
+                "ru": "Гайд: связки между Thrust и Projectile «очень помогают», направление не названо.",
+                "en": "Guide: chains between Thrust and Projectile are \"massively helpful\"; direction not named."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium",
+              "note": {
+                "ru": "В гайде «Magnetism»: брать, пока не хватит опыта.",
+                "en": "Called \"Magnetism\" in the guide: take until experience is sufficient."
+              }
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "FatefulStrike"
+              },
+              {
+                "id": "CriticalMastery"
+              },
+              {
+                "id": "VulnerableTarget"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Thrust"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Projectile"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Смесь Thrust и Projectile: почти каждый навык криты, а Sniper Shot добивает боссов. Зона узкая, нужно целиться мышью.",
+            "en": "A Thrust and Projectile mix: nearly every skill crits and Sniper Shot finishes bosses. The area is narrow, so aim with the mouse."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Руны дают около 35% меньше урона на старте, это компенсируют криты.",
+                "en": "Runes leave about 35% less damage at the start, offset by crits."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Improved Repertory -15% урона, Fateful Strike -20% урона (+60% крит. урона); сумма 35% (если штрафы перемножаются, около 32%)."
+            },
+            {
+              "text": {
+                "ru": "Зелёная пассивка повышает крит. урон Sniper Shot на 72%.",
+                "en": "A green-rarity passive raises Sniper Shot critical damage by 72%."
+              },
+              "status": "unverified",
+              "detail": "Улучшения конкретных навыков в справочнике вики нет; наблюдение автора."
+            },
+            {
+              "text": {
+                "ru": "Vulnerable Target даёт плоскую прибавку шанса крита.",
+                "en": "Vulnerable Target gives a flat critical chance increase."
+              },
+              "status": "conflict",
+              "verified_by": "user",
+              "detail": "В игре (1.5d) Vulnerable Target даёт +50% шанса крита (проверено пользователем); 25% — старое значение, как на вики. Гайд в этом месте устарел."
+            },
+            {
+              "text": {
+                "ru": "Critical Mastery переводит шанс крита в крит. урон.",
+                "en": "Critical Mastery converts critical chance into critical damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита добавляется к множителю крит. урона."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "cursedcaptain-bleed",
+          "name": {
+            "ru": "Кровотечение",
+            "en": "Bleed"
+          },
+          "weapon_id": "AdmiralsMight",
+          "archetypes": [
+            "dot",
+            "stack"
+          ],
+          "core_mechanics": [
+            "Bleed",
+            "Cursed",
+            "Fragility",
+            "Prowess"
+          ],
+          "skills": [
+            {
+              "id": "CannonBarrage",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Тип Bomb, низкий кулдаун, копит Bleed и Cursed.",
+                "en": "Bomb-type, low cooldown, stacks Bleed and Cursed."
+              }
+            },
+            {
+              "id": "FleetStrike",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Старший брат Cannon Barrage, бьёт случайных врагов.",
+                "en": "Big brother of Cannon Barrage, hits random enemies."
+              }
+            },
+            {
+              "id": "BloodySaw",
+              "role": "support",
+              "note": {
+                "ru": "Накладывает Bleed без доп. пассивок.",
+                "en": "Applies Bleed without extra passives."
+              }
+            },
+            {
+              "id": "Bladestorm",
+              "role": "support",
+              "note": {
+                "ru": "Зачистка по площади с массой Bleed (своего Bleed у навыка нет, нужна пассивка шанса Bleed).",
+                "en": "AOE clear that stacks lots of Bleed (no native Bleed, needs a Bleed-chance passive)."
+              }
+            },
+            {
+              "id": "Flurry",
+              "role": "support",
+              "note": {
+                "ru": "Добавляет Bleed на боссов.",
+                "en": "Adds Bleed against bosses."
+              }
+            },
+            {
+              "id": "ShrapnelBomb",
+              "role": "damage",
+              "note": {
+                "ru": "Превращает стаки Bleed в залповый урон по боссам.",
+                "en": "Turns Bleed stacks into burst damage on bosses."
+              }
+            },
+            {
+              "id": "KrakensRum",
+              "role": "support",
+              "note": {
+                "ru": "Бафф урона и Fragility.",
+                "en": "Damage buff and Fragility."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Cast Frequency",
+              "priority": "high"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "high"
+            },
+            {
+              "power_id": "Dismemberment",
+              "priority": "high",
+              "note": {
+                "ru": "Часть урона Bleed приходит сразу (+40%).",
+                "en": "Part of Bleed damage is dealt instantly (+40%)."
+              }
+            },
+            {
+              "power_id": "BrutalStrikes",
+              "priority": "high",
+              "note": {
+                "ru": "Криты вешают Bleed (50%); автор советует довести шанс крита до 100%.",
+                "en": "Crits apply Bleed (50%); the author suggests pushing crit chance to 100%."
+              }
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "medium"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium",
+              "note": {
+                "ru": "В гайде «Magnetism».",
+                "en": "Called \"Magnetism\" in the guide."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "SacrificedGrowth"
+              },
+              {
+                "id": "AmplifiedPower"
+              },
+              {
+                "id": "BattleProficiency"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Bomb"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Как можно раньше получить пассивный шанс Bleed на всех навыках и набрать стаки, затем сбросить Shrapnel Bomb на боссов. Урон Bleed важнее урона самих навыков.",
+            "en": "Get a passive Bleed chance on all skills early and stack it, then drop Shrapnel Bomb on bosses. Bleed damage matters more than the skills' own damage."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory даёт седьмой слот навыка ценой -15% к урону.",
+                "en": "Improved Repertory gives a seventh skill slot at -15% damage modifier."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%, цена 3."
+            },
+            {
+              "text": {
+                "ru": "Sacrificed Growth даёт +35% к урону в поздней игре.",
+                "en": "Sacrificed Growth gives +35% damage modifier in the late game."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики: +1% урона за уровень, максимум 25%, опыт -10%. Число 35% в гайде с вики не совпадает (возможно, изменено в 1.5d, проверить в игре)."
+            },
+            {
+              "text": {
+                "ru": "Amplified Power добавляет +25% урона при достаточном числе Minor Soulstones.",
+                "en": "Amplified Power adds +25% damage with enough Minor Soulstones."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,1% за каждые 500 Minor Soulstones в инвентаре, максимум 25% (нужно 125 000)."
+            },
+            {
+              "text": {
+                "ru": "Battle Proficiency даёт стаки Prowess для урона.",
+                "en": "Battle Proficiency grants Prowess stacks for damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 10% шанс при касте получить Prowess (+3% к модификатору урона на 6 с), цена 1."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "cursedcaptain-daze",
+          "name": {
+            "ru": "Оглушение",
+            "en": "Daze"
+          },
+          "weapon_id": "WrathoftheOldGods",
+          "archetypes": [
+            "stack",
+            "multiplier"
+          ],
+          "core_mechanics": [
+            "Dazed",
+            "Cursed",
+            "Aptitude",
+            "Electrified",
+            "Fragility"
+          ],
+          "skills": [
+            {
+              "id": "CursedShot",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Вешает Dazed, даёт Cursed и Aptitude.",
+                "en": "Applies Dazed, gives Cursed and Aptitude."
+              }
+            },
+            {
+              "id": "GhostlyBurst",
+              "role": "support",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Урон зависит от Dazed, даёт много Cursed и Aptitude.",
+                "en": "Damage scales with Dazed, gives lots of Cursed and Aptitude."
+              }
+            },
+            {
+              "id": "OverchargedBlast",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Средний кулдаун, большая область, масштаб от Dazed.",
+                "en": "Medium cooldown, big area, scales with Dazed."
+              }
+            },
+            {
+              "id": "ThunderingSlash",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Приоритет для усилений урона, малая область.",
+                "en": "Priority for damage boosts, small area."
+              }
+            },
+            {
+              "id": "LightningSurge",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Бафф скорости и шанса Dazed.",
+                "en": "Speed buff and Dazed chance."
+              }
+            },
+            {
+              "id": "SpreadShot",
+              "role": "support",
+              "note": {
+                "ru": "Низкий кулдаун, вешает Dazed, ещё один Projectile.",
+                "en": "Low cooldown, applies Dazed, another Projectile skill."
+              }
+            },
+            {
+              "id": "KrakensRum",
+              "role": "support",
+              "note": {
+                "ru": "Бафф урона и Fragility.",
+                "en": "Damage buff and Fragility."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Cast Frequency",
+              "priority": "high",
+              "note": {
+                "ru": "Dazed можно копить только навыками.",
+                "en": "Dazed can only be stacked by skills."
+              }
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "high"
+            },
+            {
+              "power_id": "SkillChain",
+              "variant": "Electric -> Projectile",
+              "priority": "high",
+              "note": {
+                "ru": "Гайд прямо называет Electric -> Projectile (26% за раунд); упоминает также связки с Thrust.",
+                "en": "The guide names Electric -> Projectile directly (26% in one round); also mentions chains with Thrust."
+              }
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "medium"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "medium",
+              "note": {
+                "ru": "Нужно меньше, чем в других билдах: Lightning Surge даёт скорость.",
+                "en": "Needed less than in other builds: Lightning Surge gives speed."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium",
+              "note": {
+                "ru": "В гайде «Magnetism».",
+                "en": "Called \"Magnetism\" in the guide."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "FatefulStrike"
+              },
+              {
+                "id": "VulnerableExploit"
+              },
+              {
+                "id": "ReadyforBattle"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Electric"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Electric"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Гибрид крита и Dazed: навыки копят Dazed на врагах, а урон и шанс крита растут от его стаков. Дополнительный урон дают корабль-призрак, команда и щупальца.",
+            "en": "A crit and Dazed hybrid: skills stack Dazed on enemies and damage and crit chance scale with those stacks. The ghost ship, crew and tentacles add extra damage."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory стоит 15% урона, но даёт больше навыков.",
+                "en": "Improved Repertory costs 15% damage but gives more skills."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Skill Chain Electric -> Projectile выпала автору на 26% в первом раунде.",
+                "en": "Skill Chain Electric -> Projectile reached 26% for the author in the first round."
+              },
+              "status": "unverified",
+              "detail": "Наблюдение автора. Вики: одна Skill Chain даёт +6/8/10% (редкая/эпическая/легендарная), 26% — сумма нескольких выборов."
+            },
+            {
+              "text": {
+                "ru": "Thundering Slash бьёт втрое сильнее Ghostly Burst.",
+                "en": "Thundering Slash deals triple the damage of Ghostly Burst."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Thundering Slash 300 + 30 за стак Dazed, Ghostly Burst 100 + 10 за стак (за снаряд, снарядов 5); втрое за удар."
+            },
+            {
+              "text": {
+                "ru": "Vulnerable Exploit повышает крит. урон от стаков Dazed.",
+                "en": "Vulnerable Exploit raises critical damage from Dazed stacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,5% крит. урона за стак Dazed или Disoriented на цели, максимум 25%."
+            },
+            {
+              "text": {
+                "ru": "Ready for Battle позволяет собрать все навыки меньше чем за минуту.",
+                "en": "Ready for Battle lets you have all skills in under a minute."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: первые 5 уровней предлагают только активные навыки; «меньше минуты» — оценка автора."
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "cursedcaptain-tentacles-legacy",
+          "name": {
+            "ru": "Щупальца и Bleed (старый)",
+            "en": "Tentacles and Bleed (legacy)"
+          },
+          "weapon_id": "AdmiralsMight",
+          "archetypes": [
+            "dot",
+            "summon"
+          ],
+          "core_mechanics": [
+            "Cursed",
+            "Bleed"
+          ],
+          "skills": [
+            {
+              "id": "CannonBarrage",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Помогает копить Bleed и спавнить щупальца.",
+                "en": "Helps apply Bleed and spawn tentacles."
+              }
+            },
+            {
+              "id": "FleetStrike",
+              "role": "core",
+              "obtained": "weapon_secondary"
+            },
+            {
+              "id": "WeakeningShot",
+              "role": "support"
+            },
+            {
+              "id": "EldritchGrasp",
+              "role": "support"
+            },
+            {
+              "id": "SuctionBomb",
+              "role": "support"
+            },
+            {
+              "id": "ShrapnelBomb",
+              "role": "damage",
+              "note": {
+                "ru": "Главный источник урона.",
+                "en": "Biggest damage source."
+              }
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "OverwhelmingChaos"
+              },
+              {
+                "id": "ControlledChaos"
+              },
+              {
+                "id": "CurseoftheDepths"
+              },
+              {
+                "id": "ElementalFlow"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Cursed порождает призрачных щупалец, которые постоянно наносят урон; максимум урона вкладывать в Shrapnel Bomb. Пассивку Poisonous Blood нужно банить: яд вместе с Bleed вредит билду в поздней игре.",
+            "en": "Cursed spawns ghost tentacles for constant damage; put as much damage as possible into Shrapnel Bomb. Banish the Poisonous Blood passive: adding Poison to Bleed hurt the build in the late game."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Щупальца от Cursed, по наблюдению автора, тоже накладывают Bleed.",
+                "en": "Cursed tentacles also seem to apply Bleed, per the author."
+              },
+              "status": "unverified",
+              "detail": "Автор пишет «насколько я вижу»; на вики (Curse of the Depths) щупальца описаны без Bleed."
+            }
+          ],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Bleed)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Bleed нормально масштабируется от модификаторов урона; Shrapnel Bomb, считающая урон от стаков Bleed, от этого только выигрывает.",
+                "en": "Since 1.4 Bleed scales properly with damage modifiers; Shrapnel Bomb, which scales with Bleed stacks, only benefits."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Совет банить Poisonous Blood и держать чистый Bleed совпадает с метой 1.5d.",
+                "en": "Banning Poisonous Blood to stay pure Bleed matches the 1.5d meta."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "Руна переделана: урон Bleed приходит сразу при наложении вместо ускоренных тиков. Для билда на стаках Bleed эффект не проверен.",
+                "en": "The rune was reworked: Bleed damage lands on application instead of faster ticks. Untested for a Bleed-stack build."
+              }
+            },
+            {
+              "mechanic": "Overwhelming Chaos / Controlled Chaos",
+              "impact": "unknown",
+              "note": {
+                "ru": "По вики Overwhelming Chaos не действует на эффекты, то есть усиливает только прямой урон (Shrapnel Bomb), а не Bleed. Выжимка относит старый Chaos-подход к изменённым, но без чисел.",
+                "en": "Per the wiki Overwhelming Chaos does not affect negative effects, so it boosts only direct damage (Shrapnel Bomb), not Bleed. The digest lists the old Chaos approach as changed, without numbers."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учитывались в 1.2. Легендарного оружия Cursed Captain на вики нет; Titan Powers (Hecthoor, Underson и др.) не рассмотрены.",
+                "en": "Not considered in 1.2. The wiki lists no legendary weapon for Cursed Captain; Titan Powers (Hecthoor, Underson, etc.) are not covered."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2: только 6 навыков и 4 руны, без пассивок и Versatility. Идея Bleed + Shrapnel Bomb на Admiral's Might сохранилась и усилилась, но в актуальном гайде есть полноценный Bleed-билд на том же оружии с пассивками и рунами под 1.5d: он предпочтительнее. Elemental Flow и Chaos-руны устарели или под вопросом.",
+        "en": "Written for 1.2: only 6 skills and 4 runes, no passives or Versatility. The Bleed + Shrapnel Bomb idea on Admiral's Might survives and got stronger, but the current guide has a full Bleed build on the same weapon with 1.5d passives and runes; prefer it. Elemental Flow and the Chaos runes are outdated or questionable."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "PoisonousBlood",
+        "builds": [
+          "cursedcaptain-tentacles-legacy",
+          "cursedcaptain-bleed"
+        ],
+        "reason": {
+          "ru": "Из гайда (Steam): яд вместе с Bleed вредит билду в поздней игре. Для актуального Bleed-билда — вывод, не из источника: держать чистый Bleed.",
+          "en": "From the guide (Steam): Poison on top of Bleed hurt the late game. For the current Bleed build this is an inference, not from the source: stay pure Bleed."
+        }
+      },
+      {
+        "target": "Passives of other ailments (Poison, Burn, Doom application, e.g. FatefulStrikes)",
+        "builds": [
+          "cursedcaptain-bleed",
+          "cursedcaptain-tentacles-legacy"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: в 1.5d выгоднее специализироваться на одном ailment, а билд держится на стаках Bleed для Shrapnel Bomb.",
+          "en": "Inference, not from the source: 1.5d favors specializing in one ailment, and the build relies on Bleed stacks for Shrapnel Bomb."
+        }
+      },
+      {
+        "target": "Magnetic",
+        "builds": [
+          "cursedcaptain-crit",
+          "cursedcaptain-bleed",
+          "cursedcaptain-daze"
+        ],
+        "reason": {
+          "ru": "Вывод на основе гайда: автор берёт Magnetism, пока опыта не станет достаточно; после этого пассивку можно банить, чтобы не занимала предложения.",
+          "en": "Inference from the guide: the author takes Magnetism until experience is sufficient; after that it can be banished to free up offers."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Ammunition: первым копить Ammunition (Quickblast, Buckshot, Ammo Box, Rapid Barrage), затем область и частота каста; Multi Cast Chance не помогает Gunpowder Burst.",
+        "en": "Ammunition: build Ammunition first (Quickblast, Buckshot, Ammo Box, Rapid Barrage), then area and cast frequency; Multi Cast Chance does not help Gunpowder Burst."
+      },
+      {
+        "ru": "Crit: крит. урон всегда важнее плоского урона; брать Vicious Strikes и шанс крита; усиливать крит. урон Sniper Shot — это оружие против боссов.",
+        "en": "Crit: crit damage always beats flat damage; take Vicious Strikes and crit chance; boost Sniper Shot crit damage, it's the boss killer."
+      },
+      {
+        "ru": "Bleed: как можно раньше пассивный шанс Bleed на все навыки (гайд не называет пассивку; вероятно Blood Shed), затем урон Bleed, Dismemberment и Brutal Strikes; урон вкладывать в Shrapnel Bomb.",
+        "en": "Bleed: get a passive Bleed chance on all skills ASAP (the guide doesn't name it; likely Blood Shed), then Bleed damage, Dismemberment and Brutal Strikes; put damage into Shrapnel Bomb."
+      },
+      {
+        "ru": "Daze: частота каста и мультикаст (Dazed копится только навыками), Skill Chain Electric -> Projectile, усиления урона в Thundering Slash.",
+        "en": "Daze: cast frequency and multicast (Dazed only stacks from skills), Skill Chain Electric -> Projectile, damage upgrades on Thundering Slash."
+      },
+      {
+        "ru": "Во всех билдах: Kraken's Rum почти обязателен, скорость движения и Magnetic — пока не хватит опыта.",
+        "en": "All builds: Kraken's Rum is near-mandatory; movement speed and Magnetic until experience is sufficient."
+      }
+    ],
+    "basis": {
+      "ru": "Сведено из гайда cubiccreativity (1.5d), Steam-гайда (1.2) и выжимки меты; числа сверены с вики. Из гайдов только бан Poisonous Blood (Steam); бан чужих ailment и Magnetic — выводы. Правила уровня взяты из текста актуального гайда, кроме догадки про Blood Shed.",
+      "en": "Compiled from the cubiccreativity guide (1.5d), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. Only the Poisonous Blood ban comes from a guide (Steam); the other-ailment and Magnetic bans are inferences. Level-up rules follow the current guide's text, except the Blood Shed guess."
+    }
+  },
+  "gaps": [
+    "Легендарного оружия R5 у Cursed Captain на вики нет, в гайдах тоже.",
+    "«Magnetism» в гайде = пассивка Magnetic (RU «Магнетизм», опыт и радиус подбора). «Fateful Strikes» в разделе рун билда Daze = руна Fateful Strike (+60% крит. урона, -20% урона, как описывает автор), а не пассивка Fateful Strikes (Doom).",
+    "Билд Bleed: гайд просит «пассивный шанс Bleed на все навыки», но не называет пассивку (вероятно Blood Shed); в карточку не добавлена.",
+    "Билд Crit: гайд хвалит Skill Chain между Thrust и Projectile без направления, записано как power_name.",
+    "Билд Daze: гайд упоминает связки Electric, Thrust и Projectile, хотя Thrust-навыков в билде нет; явно названа только Electric -> Projectile.",
+    "Sacrificed Growth: гайд пишет +35%, вики — максимум 25%; проверить в игре 1.5d.",
+    "Статья вики Ammunition противоречива (20 стаков в тексте, 15 в Trivia); руны и навыки на вики используют 20.",
+    "Приоритеты пассивок в гайде не ранжированы, priority выставлен по тону текста.",
+    "Steam-гайд: нет пассивок и Versatility-рун, только 6 навыков и 4 руны (патч 1.2)."
+  ]
+}

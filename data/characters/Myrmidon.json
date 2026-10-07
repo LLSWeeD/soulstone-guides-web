@@ -1,0 +1,686 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Myrmidon",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Ближний боец с трезубцем (Прислужница): выдерживает урон, лечится и играет через статус-эффекты или крит. Типы навыков Arcane, Ice, Holy, Earth, Thrust; бонусы к здоровью (+20), броне (+20) и шансу крита (+15%), но частота каста -10%. Гайд показывает два пути: стаки Slow на Ice и крит на Thrust/Holy.",
+    "en": "Melee trident user that can take hits and heal back, playing through ailment stacking or critical hits. Skill types Arcane, Ice, Holy, Earth, Thrust; bonuses to health (+20), armor (+20) and crit chance (+15%), but -10% cast frequency. The guide shows two paths: Slow stacking on Ice and crit on Thrust/Holy."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-myrmidon",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2025/07/12/soulstone-survivors-guide-the-myrmidon/",
+      "title": "Soulstone Survivors Guide: The Myrmidon",
+      "game_version": "1.5d",
+      "updated": "2026-08-17",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "myrmidon-ice",
+          "name": {
+            "ru": "Лёд (стаки Slow)",
+            "en": "Ice (Slow stacking)"
+          },
+          "weapon_id": null,
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Slow",
+            "Icy Veins",
+            "Disarray",
+            "Bleed",
+            "Fragility"
+          ],
+          "skills": [
+            {
+              "id": "FrozenWarhammer",
+              "role": "core",
+              "note": {
+                "ru": "Главный убийца, растёт от стаков Slow.",
+                "en": "Main kill skill, scales with Slow stacks."
+              }
+            },
+            {
+              "id": "FrozenShard",
+              "role": "damage",
+              "note": {
+                "ru": "Средний урон (растёт от Icy Veins) и зона со Slow.",
+                "en": "Decent damage (scales with Icy Veins) and a Slow zone."
+              }
+            },
+            {
+              "id": "FrostBolt",
+              "role": "support",
+              "note": {
+                "ru": "Малый кулдаун, быстро копит Icy Veins.",
+                "en": "Low cooldown, stacks Icy Veins fast."
+              }
+            },
+            {
+              "id": "Jawstorm",
+              "role": "support",
+              "note": {
+                "ru": "Урон по области, Fragility и много Icy Veins.",
+                "en": "Area damage, Fragility and many Icy Veins."
+              }
+            },
+            {
+              "id": "Flurry",
+              "role": "support",
+              "note": {
+                "ru": "Сначала филлер, потом сильно стакает Slow и открывает пассивки на Bleed.",
+                "en": "Filler at first, later stacks Slow and unlocks Bleed passives."
+              }
+            },
+            {
+              "id": "ArcanePower",
+              "role": "support",
+              "note": {
+                "ru": "Увеличивает число запускаемых навыков.",
+                "en": "Increases the number of skills fired."
+              }
+            },
+            {
+              "id": "PrecisionWave",
+              "role": "support",
+              "note": {
+                "ru": "Поднимает шанс крита выше 100%.",
+                "en": "Pushes crit chance above 100%."
+              }
+            },
+            {
+              "id": "GlacialAffinity",
+              "role": "optional",
+              "note": {
+                "ru": "Альтернатива связке Arcane Power и Precision Wave.",
+                "en": "Alternative to Arcane Power plus Precision Wave."
+              }
+            },
+            {
+              "id": "IceVortex",
+              "role": "optional",
+              "note": {
+                "ru": "Можно вместо Frozen Warhammer как убийца.",
+                "en": "Can replace Frozen Warhammer as the kill skill."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "Hypothermia",
+              "priority": "must",
+              "note": {
+                "ru": "Каждый Slow может повесить Disarray.",
+                "en": "Each Slow can apply Disarray."
+              }
+            },
+            {
+              "power_id": "HorrificPresence",
+              "priority": "high",
+              "note": {
+                "ru": "Открывается после Hypothermia: все атаки могут вешать Disarray.",
+                "en": "Unlocked after Hypothermia: all attacks may apply Disarray."
+              }
+            },
+            {
+              "power_id": "BrutalStrikes",
+              "priority": "high",
+              "note": {
+                "ru": "Криты вешают Bleed; при крите выше 100% срабатывает часто.",
+                "en": "Crits apply Bleed; frequent with crit above 100%."
+              }
+            },
+            {
+              "power_id": "Immobilize",
+              "priority": "high",
+              "note": {
+                "ru": "Криты вешают Slow.",
+                "en": "Crits apply Slow."
+              }
+            },
+            {
+              "power_id": "BloodShed",
+              "priority": "medium",
+              "note": {
+                "ru": "Появляется благодаря Flurry (источник Bleed).",
+                "en": "Offered thanks to Flurry (a Bleed source)."
+              }
+            },
+            {
+              "power_id": "Agony",
+              "priority": "medium",
+              "note": {
+                "ru": "Замыкает круг: Disarray вешает Bleed.",
+                "en": "Closes the loop: Disarray applies Bleed."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high",
+              "note": {
+                "ru": "Компенсирует штраф опыта от Sacrificed Growth.",
+                "en": "Offsets the experience penalty of Sacrificed Growth."
+              }
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "medium"
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Maximum Health",
+              "priority": "situational"
+            },
+            {
+              "stat": "Armor Power",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "Synchrony"
+              },
+              {
+                "id": "SacrificedGrowth"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "UnconventionalStart"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Ice"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Держаться рядом с врагами, пока миньоны и навыки копят Slow, и добивать Frozen Warhammer. Крит выше 100% и Disarray поднимают урон; по словам автора, артефакт даёт миньона, который лечит.",
+            "en": "Stay near enemies while minions and skills stack Slow, then finish with Frozen Warhammer. Crit above 100% and Disarray raise damage; per the author, the artifact spawns a healing minion."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "С Precision Wave шанс крита постоянно выше 100%.",
+                "en": "With Precision Wave crit chance stays above 100%."
+              },
+              "status": "unverified",
+              "detail": "Вики: Precision Wave даёт +50% шанса крита на 10 с при кулдауне 25 с, у персонажа +15%. Выше 100% «всё время» зависит от выпавших пассивок и частоты каста; проверить нечем."
+            },
+            {
+              "text": {
+                "ru": "Руна «Icy Veins»: порядка двадцати стаков Icy Veins расходуется раз в полторы секунды, что даёт заметный доп. урон.",
+                "en": "\"Icy Veins\" rune: about twenty Icy Veins stacks are consumed every 1.5 seconds, adding noticeable damage."
+              },
+              "status": "unverified",
+              "detail": "Руны с таким названием в справочнике нет; Icy Veins на вики — стак/способность. Подходят руны дерева Myrmidon: Absolute Zero (+15% крит. урона на 5 с при расходе стаков), Enduring Cold (20% шанс не потратить стаки), Frozen Blood (5% шанс получить стак при Form). По тексту ближе всего Absolute Zero, но однозначно не определить. Число стаков: описания рун говорят «расходует 20 стаков» (как в гайде), статья вики — 12 стаков (20 было до 1.0)."
+            },
+            {
+              "text": {
+                "ru": "Improved Repertory даёт седьмой слот навыка ценой небольшой потери урона.",
+                "en": "Improved Repertory gives a 7th skill slot at a small damage cost."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Hypothermia даёт каждому стаку Slow шанс повесить Disarray.",
+                "en": "Hypothermia gives each Slow application a chance to apply Disarray."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: при наложении Slow 50% шанс наложить Disarray; нужно минимум 2 источника Slow."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "myrmidon-crit",
+          "name": {
+            "ru": "Крит",
+            "en": "Crit"
+          },
+          "weapon_id": "ChantoftheClaws",
+          "archetypes": [
+            "multiplier"
+          ],
+          "core_mechanics": [
+            "Critical Chance",
+            "Critical Damage",
+            "Dazed"
+          ],
+          "skills": [
+            {
+              "id": "TidalThrust",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Оружейный навык, даёт крит. шанс.",
+                "en": "Weapon skill, gives extra crit chance."
+              }
+            },
+            {
+              "id": "IncisiveStrike",
+              "role": "damage",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Берётся руной Weapon Expert, растёт от крит. шанса.",
+                "en": "Obtained via Weapon Expert, scales with crit chance."
+              }
+            },
+            {
+              "id": "SanctifiedThrow",
+              "role": "core",
+              "obtained": "rune",
+              "note": {
+                "ru": "Главный урон: крит утраивается.",
+                "en": "Main damage: crits are tripled."
+              }
+            },
+            {
+              "id": "HolyFrenzy",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Стакает Dazed, после инвестиций в область становится основным против миньонов.",
+                "en": "Stacks Dazed, becomes the minion-clearer with some area investment."
+              }
+            },
+            {
+              "id": "PrecisionWave",
+              "role": "support",
+              "note": {
+                "ru": "Повышает шанс крита персонажа.",
+                "en": "Raises character crit chance."
+              }
+            },
+            {
+              "id": "ArcanePower",
+              "role": "support",
+              "note": {
+                "ru": "Повышает шанс мультикаста.",
+                "en": "Raises multi cast chance."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Critical Chance",
+              "priority": "must"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "must"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium",
+              "note": {
+                "ru": "Работает, но крит. вариант прибавки выгоднее.",
+                "en": "Works, but the crit version of the offer is better."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high"
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "situational"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "VulnerableTarget"
+              },
+              {
+                "id": "CriticalMastery"
+              },
+              {
+                "id": "MercilessPrecision"
+              },
+              {
+                "id": "FatefulStrike"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "RerollMastery"
+              },
+              {
+                "id": "UnexpectedArsenal"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Всё ради крита: поднимать шанс и крит. урон при каждой возможности, остальные статы выбирать по ситуации. Область нужна, чтобы Holy Frenzy чистил миньонов.",
+            "en": "Everything serves crits: raise crit chance and crit damage whenever offered, pick other stats as needed. Area is needed so Holy Frenzy clears minions."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Vulnerable Target даёт +25% шанса крита.",
+                "en": "Vulnerable Target gives +25% crit chance."
+              },
+              "status": "conflict",
+              "verified_by": "user",
+              "detail": "В игре (1.5d) Vulnerable Target даёт +50% шанса крита (проверено пользователем); 25% — старое значение, как на вики. Гайд в этом месте устарел."
+            },
+            {
+              "text": {
+                "ru": "Critical Mastery добавляет 25% шанса крита к крит. урону.",
+                "en": "Critical Mastery adds 25% of crit chance to crit damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита добавляется к множителю крит. урона, включая бонусы от эффектов на врагах."
+            },
+            {
+              "text": {
+                "ru": "Merciless Precision: +100% шанса крита по целям с 30% здоровья или меньше.",
+                "en": "Merciless Precision: +100% crit chance against targets at 30% health or less."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +100% шанса крита по врагам ниже 30% здоровья."
+            },
+            {
+              "text": {
+                "ru": "Fateful Strike: +60% крит. урона ценой -20% общего урона.",
+                "en": "Fateful Strike: +60% crit damage at the cost of -20% overall damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +60% крит. урона, урон -20%."
+            },
+            {
+              "text": {
+                "ru": "Крит Sanctified Throw утраивается.",
+                "en": "Sanctified Throw crits are tripled."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: у Sanctified Throw свойство Devastating — прямой урон при крите x3 (на DoT не действует)."
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "myrmidon-legacy-disarray",
+          "name": {
+            "ru": "Disarray через Slow (старый)",
+            "en": "Disarray via Slow (legacy)"
+          },
+          "weapon_id": "SongoftheSirens",
+          "archetypes": [
+            "stack"
+          ],
+          "core_mechanics": [
+            "Slow",
+            "Disarray"
+          ],
+          "skills": [
+            {
+              "id": "LightBeam",
+              "role": "damage"
+            },
+            {
+              "id": "MagicMissiles",
+              "role": "damage"
+            },
+            {
+              "id": "ArcaneBeam",
+              "role": "damage"
+            },
+            {
+              "id": "GlacialTrident",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Навык Song of the Sirens, источник Slow.",
+                "en": "Song of the Sirens skill, source of Slow."
+              }
+            },
+            {
+              "id": "ArcaneSparks",
+              "role": "support",
+              "note": {
+                "ru": "Лучше Earthquake чистит мелких врагов.",
+                "en": "Cleans small enemies better than Earthquake."
+              }
+            },
+            {
+              "id": "Might",
+              "role": "support",
+              "note": {
+                "ru": "Большой прирост урона.",
+                "en": "Big damage boost."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "Hypothermia",
+              "priority": "must",
+              "note": {
+                "ru": "Slow может вызвать Disarray.",
+                "en": "Slow can cause Disarray."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "OverwhelmingChaos"
+              },
+              {
+                "id": "ControlledChaos"
+              },
+              {
+                "id": "ExtendedReach"
+              },
+              {
+                "id": "DivineLegacy"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Добиваться, чтобы атаки вешали Slow, и копить стаки Disarray, добавляя урон лучами и снарядами. Авторы советуют брать пассивки на Slow (обычно их избегают), если есть Hypothermia.",
+            "en": "Make attacks apply Slow and build Disarray stacks, adding beam and missile damage on top. Authors advise taking Slow passives (normally avoided) when Hypothermia is available."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Даже на уровне 0 без улучшений оружия можно дойти до Red Portal +6.",
+                "en": "Even at level 0 with no weapon upgrades you can reach Red Portal +6."
+              },
+              "status": "unverified",
+              "detail": "Наблюдение авторов под патч 1.2, проверить по данным нельзя."
+            },
+            {
+              "text": {
+                "ru": "Overwhelming Chaos разбрасывает урон навыков, Controlled Chaos берёт лучший из двух бросков.",
+                "en": "Overwhelming Chaos randomizes skill damage, Controlled Chaos keeps the better of two rolls."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Overwhelming Chaos — прямой урон от 1 до 220% (на эффекты не действует); Controlled Chaos — случайный урон бросается дважды, берётся лучший."
+            }
+          ],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "Stack (Slow -> Disarray через Hypothermia)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Hypothermia на вики та же (50% шанс Disarray при Slow), а актуальный Ice-билд строится на той же связке. Stack-архетип по выжимке в 1.5d сильнее.",
+                "en": "Hypothermia is unchanged on the wiki (50% Disarray chance on Slow) and the current Ice build uses the same link. Stack builds are stronger in 1.5d per the digest."
+              }
+            },
+            {
+              "mechanic": "Chaos-руны (Overwhelming/Controlled Chaos)",
+              "impact": "unknown",
+              "note": {
+                "ru": "Выжимка называет старый Chaos/debuff-универсальный подход изменившимся, без чисел. Руны на вики описаны так же, но модуль рун старее 1.5d.",
+                "en": "The digest lists the old Chaos/universal-debuff approach as changed, without numbers. The wiki describes the runes the same, but the rune module predates 1.5d."
+              }
+            },
+            {
+              "mechanic": "Linear stat scaling",
+              "impact": "unknown",
+              "note": {
+                "ru": "С 1.3 скейлинг части навыков стал экспоненциальным; урон лучей и Might под 1.2 напрямую не переносится.",
+                "en": "Since 1.3 some skills scale exponentially; the 1.2 beam and Might damage does not carry over directly."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учитывались в 1.2. Легендарного оружия R5 для Myrmidon на вики нет; Titan Powers (Hecthoor, Underson и др.) в билде нет.",
+                "en": "Not considered in 1.2. The wiki lists no R5 legendary weapon for Myrmidon; the build has no Titan Powers."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2. Идея Slow -> Disarray через Hypothermia жива, но актуальный Ice-билд развивает её дальше (Frozen Warhammer, Icy Veins, Bleed через Agony и крит выше 100%): он предпочтительнее. Результаты по Red Portal относятся к 1.2.",
+        "en": "Written for 1.2. The Slow -> Disarray idea via Hypothermia still works, but the current Ice build takes it further (Frozen Warhammer, Icy Veins, Bleed via Agony, crit above 100%); prefer it. The Red Portal results are from 1.2."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Burn, Poison, Doom application passives",
+        "builds": [
+          "myrmidon-ice",
+          "myrmidon-legacy-disarray"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билд держит цепочку Slow -> Disarray -> Bleed, чужие ailment размывают выбор при повышении уровня.",
+          "en": "Inference, not from the source: the build runs a Slow -> Disarray -> Bleed chain; other ailments dilute level-up offers."
+        }
+      },
+      {
+        "target": "Ailment application passives (Burn, Poison, Bleed, Doom, Slow)",
+        "builds": [
+          "myrmidon-crit"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: билд чисто на крит, гайд велит брать крит. шанс и крит. урон при каждой возможности; пассивки на ailment не нужны.",
+          "en": "Inference, not from the source: a pure crit build; the guide says to take crit chance and damage whenever offered, ailment passives are not needed."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Ice: первой брать Hypothermia (нужно 2 источника Slow), затем Horrific Presence; с Flurry брать Bloodshed и Agony.",
+        "en": "Ice: take Hypothermia first (needs 2 Slow sources), then Horrific Presence; with Flurry take Bloodshed and Agony."
+      },
+      {
+        "ru": "Ice: держать крит выше 100% (Precision Wave) и брать Brutal Strikes и Immobilize.",
+        "en": "Ice: keep crit above 100% (Precision Wave) and take Brutal Strikes and Immobilize."
+      },
+      {
+        "ru": "Ice: Frozen Warhammer — убийца боссов, усиливать в первую очередь; Ice Vortex — запасной вариант.",
+        "en": "Ice: Frozen Warhammer is the boss killer, upgrade it first; Ice Vortex is the fallback."
+      },
+      {
+        "ru": "Crit: крит. шанс и крит. урон брать при каждой возможности, крит. вариант прибавки урона лучше обычного.",
+        "en": "Crit: take crit chance and crit damage whenever offered; the crit damage offer beats plain damage."
+      },
+      {
+        "ru": "Crit: несколько прибавок области, чтобы Holy Frenzy чистил миньонов.",
+        "en": "Crit: a few area upgrades so Holy Frenzy clears minions."
+      },
+      {
+        "ru": "Во всех билдах: скорость и Magnetic (в Ice они ещё и закрывают -10% опыта от Sacrificed Growth).",
+        "en": "All builds: movement speed and Magnetic (in Ice they also offset the -10% XP from Sacrificed Growth)."
+      }
+    ],
+    "basis": {
+      "ru": "Сведено из гайда cubiccreativity (1.5d), Steam-гайда (1.2) и выжимки меты; числа сверены с вики. Ни один гайд не называет банов: оба бана — выводы по специализации. Правила повышения уровня взяты из текста гайда, требование 2 источников Slow для Hypothermia — с вики.",
+      "en": "Compiled from the cubiccreativity guide (1.5d), the Steam guide (1.2) and the meta digest; numbers checked against the wiki. Neither guide names bans: both bans are specialization inferences. Level-up rules come from the guide text; the 2-Slow-source requirement for Hypothermia is from the wiki."
+    }
+  },
+  "gaps": [
+    "Билд myrmidon-ice: гайд называет руну Tenacity «Icy Veins», но такой руны нет (Icy Veins — стак). Кандидаты из дерева Myrmidon: Absolute Zero (+15% крит. урона при расходе стаков, по тексту «дополнительный урон» ближе всего), Enduring Cold, Frozen Blood. Однозначно не определить: в билде 3 руны Tenacity из 4.",
+    "Билд myrmidon-ice: оружие в гайде не названо. Почти наверняка Song of the Sirens: Unconventional Start взят, потому что «не нужен Glacial Trident» (его базовый навык), а Frozen Shard — его второй навык. Но названия в тексте нет, поэтому weapon_id = null.",
+    "Число стаков Icy Veins на вики расходится: описания рун — 20 стаков, статья — 12 (20 было до 1.0).",
+    "Гайд пишет, что артефакт регулярно призывает лечащего миньона; на вики Gillkin Servants наносят урон и вешают Slow/Bleed/Dazed, про лечение нет.",
+    "В билде myrmidon-ice нет явных приоритетов пассивок, порядок и priority оценочные.",
+    "В обоих билдах cubiccreativity списки навыков и рун на картинках пустые, билды собраны только по тексту.",
+    "Билд myrmidon-crit: Sanctified Throw и Holy Frenzy помечены obtained=rune по тексту про Unexpected Arsenal (оружие Hymn of the Depths не экипировано).",
+    "Steam-билд: нет рун Versatility, пассивок кроме Hypothermia нет, титановых сил нет.",
+    "Icy Veins Multiplier есть в файлах игры, но описания на вики нет.",
+    "Легендарного оружия R5 на вики нет; билдов под Wail of the Reefs и отдельно под Hymn of the Depths нет."
+  ]
+}

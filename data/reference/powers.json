@@ -1,0 +1,4673 @@
+[
+ {
+  "id": "Agony",
+  "name_en": "Agony",
+  "description": "Whenever you apply Disarray you may now apply Bleed as well.",
+  "note": "At least 2 sources of Disarray. Achieved through leveling up. Affected by Synergetic.",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "50% (fixed)",
+     "Uncommon": "50% (fixed)",
+     "Rare": "50% (fixed)",
+     "Epic": "50% (fixed)",
+     "Legendary": "50% (fixed)"
+    }
+   },
+   {
+    "name": "Bleed | Total Damage",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+360(+3)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "pages": [
+   "Bleed"
+  ],
+  "name_ru": "Агония",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "BloodShed",
+  "name_en": "Blood Shed",
+  "description": "All your attacks may now apply Bleed.",
+  "note": "At least 1 source of Bleed. Achieved through leveling up.",
+  "rarities": [
+   "Common",
+   "Uncommon"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "25% (fixed)",
+     "Uncommon": "25% (fixed)",
+     "Rare": "25% (fixed)",
+     "Epic": "25% (fixed)",
+     "Legendary": "25% (fixed)"
+    }
+   },
+   {
+    "name": "Bleed | Total Damage",
+    "values": {
+     "Common": "+120(+2)",
+     "Uncommon": "+240(+4)",
+     "Rare": "",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "name_ru": "Кровопролитие",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "BrutalStrikes",
+  "name_en": "Brutal Strikes",
+  "description": "Your critical strikes may now apply Bleed.",
+  "note": "At least 2 sources of Bleed. Achieved through leveling up.",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "50% (fixed)",
+     "Uncommon": "50% (fixed)",
+     "Rare": "50% (fixed)",
+     "Epic": "50% (fixed)",
+     "Legendary": "50% (fixed)"
+    }
+   },
+   {
+    "name": "Bleed | Total Damage",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+280(+2)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "pages": [
+   "Bleed"
+  ],
+  "name_ru": "Жестокие удары",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "CrushingPincer",
+  "name_en": "Crushing Pincer",
+  "description": "All your attacks may now apply Exposed.",
+  "note": "At least 1 source of Exposed. Achieved after defeating Mhyzahet.",
+  "rarities": [
+   "Special",
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Titanic": "25%"
+    }
+   }
+  ],
+  "source": "module",
+  "pages": [
+   "Exposed"
+  ],
+  "name_ru": "Крушащая клешня",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DebilitatingPlague",
+  "name_en": "Debilitating Plague",
+  "description": "Whenever you apply Poison you may now apply Doom as well.",
+  "note": "At least 2 sources of Poison. Achieved through leveling up. Affected by Synergetic.",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "50% (fixed)",
+     "Uncommon": "50% (fixed)",
+     "Rare": "50% (fixed)",
+     "Epic": "50% (fixed)",
+     "Legendary": "50% (fixed)"
+    }
+   },
+   {
+    "name": "Doom | Total Damage",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+300(+3)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "pages": [
+   "Doom",
+   "Poison"
+  ],
+  "name_ru": "Изнурительная чума",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FatefulStrikes",
+  "name_en": "Fateful Strikes",
+  "description": "All your attacks may now apply Doom.",
+  "note": "At least 1 source of Doom. Achieved through leveling up.",
+  "rarities": [
+   "Common",
+   "Uncommon"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "25% (fixed)",
+     "Uncommon": "25% (fixed)",
+     "Rare": "25% (fixed)",
+     "Epic": "25% (fixed)",
+     "Legendary": "25% (fixed)"
+    }
+   },
+   {
+    "name": "Doom | Total Damage",
+    "values": {
+     "Common": "+120(+2)",
+     "Uncommon": "+240(+4)",
+     "Rare": "",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "name_ru": "Судьбоносные удары",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "GrimPrecision",
+  "name_en": "Grim Precision",
+  "description": "Your critical strikes may now apply Doom.",
+  "note": "At least 2 sources of Doom. Achieved through leveling up.",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "50% (fixed)",
+     "Uncommon": "50% (fixed)",
+     "Rare": "50% (fixed)",
+     "Epic": "50% (fixed)",
+     "Legendary": "50% (fixed)"
+    }
+   },
+   {
+    "name": "Doom | Total Damage",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+240(+2)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "pages": [
+   "Doom"
+  ],
+  "name_ru": "Неотвратимая точность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "HorrificPresence",
+  "name_en": "Horrific Presence",
+  "description": "All your attacks may now apply Disarray.",
+  "note": "At least 1 source of Disarray. Achieved through leveling up.",
+  "rarities": [
+   "Common",
+   "Uncommon"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "10% (fixed)",
+     "Uncommon": "10% (fixed)",
+     "Rare": "10% (fixed)",
+     "Epic": "10% (fixed)",
+     "Legendary": "10% (fixed)"
+    }
+   },
+   {
+    "name": "Disarray | Extra Damage",
+    "values": {
+     "Common": "-0.5% ↔ 2.5%(+1)",
+     "Uncommon": "-1.0% ↔ 5.0%(+2)",
+     "Rare": "",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "name_ru": "Ужасающее присутствие",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Hypothermia",
+  "name_en": "Hypothermia",
+  "description": "Whenever you apply Slow you may now apply Disarray as well.",
+  "note": "At least 2 sources of Slow. Achieved through leveling up. Affected by Synergetic.",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "50% (fixed)",
+     "Uncommon": "50% (fixed)",
+     "Rare": "50% (fixed)",
+     "Epic": "50% (fixed)",
+     "Legendary": "50% (fixed)"
+    }
+   }
+  ],
+  "source": "module",
+  "name_ru": "Гипотермия",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IgnitionPoint",
+  "name_en": "Ignition Point",
+  "description": "Your critical strikes may now apply Burn.",
+  "note": "At least 2 sources of Burn. Achieved through leveling up.",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "50% (fixed)",
+     "Uncommon": "50% (fixed)",
+     "Rare": "50% (fixed)",
+     "Epic": "50% (fixed)",
+     "Legendary": "50% (fixed)"
+    }
+   },
+   {
+    "name": "Burn | Total Damage",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+360(+2)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "pages": [
+   "Burn"
+  ],
+  "name_ru": "Точка воспламенения",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ImpendingDoom",
+  "name_en": "Impending Doom",
+  "description": "Whenever you apply Doom you may now apply Burn as well.",
+  "note": "At least 2 sources of Doom. Achieved through leveling up. Affected by Synergetic.",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "50% (fixed)",
+     "Uncommon": "50% (fixed)",
+     "Rare": "50% (fixed)",
+     "Epic": "50% (fixed)",
+     "Legendary": "50% (fixed)"
+    }
+   },
+   {
+    "name": "Burn | Total Damage",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+450(+3)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "pages": [
+   "Burn",
+   "Doom"
+  ],
+  "name_ru": "Неизбежный рок",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "InfectedWounds",
+  "name_en": "Infected Wounds",
+  "description": "Your critical strikes may now apply Poison.",
+  "note": "At least 2 sources of Poison. Achieved through leveling up.",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "50% (fixed)",
+     "Uncommon": "50% (fixed)",
+     "Rare": "50% (fixed)",
+     "Epic": "50% (fixed)",
+     "Legendary": "50% (fixed)"
+    }
+   },
+   {
+    "name": "Poison | Total Damage",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+240(+2)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "pages": [
+   "Poison"
+  ],
+  "name_ru": "Зараженные раны",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "MindFracture",
+  "name_en": "Mind Fracture",
+  "description": "All your attacks may now apply Fragility.",
+  "note": "At least 1 source of Fragility. Achieved after defeating the Void King.",
+  "rarities": [
+   "Special"
+  ],
+  "stats": [],
+  "source": "module",
+  "name_ru": "Раскол разума",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PoisonousBlood",
+  "name_en": "Poisonous Blood",
+  "description": "Whenever you apply Bleed you may now apply Poison as well.",
+  "note": "At least 2 sources of Bleed. Achieved through leveling up. Affected by Synergetic.",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "50% (fixed)",
+     "Uncommon": "50% (fixed)",
+     "Rare": "50% (fixed)",
+     "Epic": "50% (fixed)",
+     "Legendary": "50% (fixed)"
+    }
+   },
+   {
+    "name": "Poison | Total Damage",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+300(+3)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "pages": [
+   "Poison"
+  ],
+  "name_ru": "Ядовитая кровь",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SpontaneousCombustion",
+  "name_en": "Spontaneous Combustion",
+  "description": "All your attacks may now apply Burn.",
+  "note": "At least 1 source of Burn. Achieved through leveling up.",
+  "rarities": [
+   "Common",
+   "Uncommon"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "25% (fixed)",
+     "Uncommon": "25% (fixed)",
+     "Rare": "25% (fixed)",
+     "Epic": "25% (fixed)",
+     "Legendary": "25% (fixed)"
+    }
+   },
+   {
+    "name": "Burn | Total Damage",
+    "values": {
+     "Common": "+180(+2)",
+     "Uncommon": "+360(+4)",
+     "Rare": "",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "name_ru": "Случайное возгорание",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ThermalShock",
+  "name_en": "Thermal Shock",
+  "description": "Whenever you apply Burn you may now apply Slow as well.",
+  "note": "At least 2 sources of Burn. Achieved through leveling up. Affected by Synergetic.",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "50% (fixed)",
+     "Uncommon": "50% (fixed)",
+     "Rare": "50% (fixed)",
+     "Epic": "50% (fixed)",
+     "Legendary": "50% (fixed)"
+    }
+   },
+   {
+    "name": "Slow | Intensity",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+2%(+2)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "pages": [
+   "Burn"
+  ],
+  "name_ru": "Тепловой удар",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofIce",
+  "name_en": "Touch of Ice",
+  "description": "All your attacks may now apply Slow.",
+  "note": "At least 1 source of Slow. Achieved through leveling up.",
+  "rarities": [
+   "Common",
+   "Uncommon"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "40% (fixed)",
+     "Uncommon": "40% (fixed)",
+     "Rare": "40% (fixed)",
+     "Epic": "40% (fixed)",
+     "Legendary": "40% (fixed)"
+    }
+   },
+   {
+    "name": "Slow | Intensity",
+    "values": {
+     "Common": "+2%(+2)",
+     "Uncommon": "+4%(+4)",
+     "Rare": "",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "name_ru": "Прикосновение льда",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Venomous",
+  "name_en": "Venomous",
+  "description": "All your attacks may now apply Poison.",
+  "note": "At least 1 source of Poison. Achieved through leveling up.",
+  "rarities": [
+   "Common",
+   "Uncommon"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "25% (fixed)",
+     "Uncommon": "25% (fixed)",
+     "Rare": "25% (fixed)",
+     "Epic": "25% (fixed)",
+     "Legendary": "25% (fixed)"
+    }
+   },
+   {
+    "name": "Poison | Total Damage",
+    "values": {
+     "Common": "+120(+2)",
+     "Uncommon": "+240(+4)",
+     "Rare": "",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "module",
+  "name_ru": "Ядовитость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "VoidMadness",
+  "name_en": "Void Madness",
+  "description": "All your attacks may now apply Disoriented.",
+  "note": "At least 1 source of Disoriented. Achieved after defeating the Void King.",
+  "rarities": [
+   "Special",
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Titanic": "25%"
+    }
+   }
+  ],
+  "source": "module",
+  "pages": [
+   "Disoriented"
+  ],
+  "name_ru": "Безумие бездны",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PowerfulStrikes",
+  "name_en": "Powerful Strikes",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "values": {
+     "Common": "+5%",
+     "Uncommon": "+10%",
+     "Rare": "+15%",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "You cause more damage.",
+  "name_ru": "Мощные удары",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Leviathan",
+  "name_en": "Leviathan",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "values": {
+     "Common": "+10%",
+     "Uncommon": "+20%",
+     "Rare": "+30%",
+     "Epic": "",
+     "Legendary": ""
+    }
+   },
+   {
+    "name": "Movement Speed",
+    "values": {
+     "Common": "-5%",
+     "Uncommon": "-10%",
+     "Rare": "-15%",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "You cause more damage but move slower.",
+  "name_ru": "Левиафан",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Relentless",
+  "name_en": "Relentless",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare",
+   "Epic"
+  ],
+  "stats": [
+   {
+    "name": "Cast Frequency",
+    "values": {
+     "Common": "+5%",
+     "Uncommon": "+10%",
+     "Rare": "+15%",
+     "Epic": "+20%",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "You use skills more frequently.",
+  "name_ru": "Неумолимость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Expansive",
+  "name_en": "Expansive",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare",
+   "Epic"
+  ],
+  "stats": [
+   {
+    "name": "Area Modifier",
+    "values": {
+     "Common": "+5%",
+     "Uncommon": "+10%",
+     "Rare": "+15%",
+     "Epic": "+20%",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Your attacks have greater area of effect and bigger projectiles.",
+  "name_ru": "Экспансивность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "MultiCast",
+  "name_en": "Multi Cast",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare",
+   "Epic",
+   "Legendary"
+  ],
+  "stats": [
+   {
+    "name": "Multi Cast Chance",
+    "values": {
+     "Common": "+4%",
+     "Uncommon": "+8%",
+     "Rare": "+12%",
+     "Epic": "+16%",
+     "Legendary": "+20%"
+    }
+   }
+  ],
+  "source": "table",
+  "description": "You may now activate your skills multiple times at once.",
+  "name_ru": "Мультикаст",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Lethality",
+  "name_en": "Lethality",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "values": {
+     "Common": "+4%",
+     "Uncommon": "+8%",
+     "Rare": "+12%",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Your chance to cause critical damage is increased.",
+  "name_ru": "Летальность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Merciless",
+  "name_en": "Merciless",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "values": {
+     "Common": "+12%",
+     "Uncommon": "+24%",
+     "Rare": "+36%",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Your critical strikes cause additional damage.",
+  "name_ru": "Безжалостность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Behemoth",
+  "name_en": "Behemoth",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Max Health",
+    "values": {
+     "Common": "+15",
+     "Uncommon": "+30",
+     "Rare": "+45",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "You have more health.",
+  "name_ru": "Бегемот",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Resilient",
+  "name_en": "Resilient",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Armor Power",
+    "values": {
+     "Common": "+8",
+     "Uncommon": "+16",
+     "Rare": "+24",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "You armor is improved.",
+  "name_ru": "Устойчивость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Indomitable",
+  "name_en": "Indomitable",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Block Power",
+    "values": {
+     "Common": "+4",
+     "Uncommon": "+8",
+     "Rare": "+12",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "You chance of blocking attacks is increased.",
+  "name_ru": "Неукротимость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Agile",
+  "name_en": "Agile",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Movement Speed",
+    "values": {
+     "Common": "+10%",
+     "Uncommon": "+20%",
+     "Rare": "+30%",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "You move faster.",
+  "name_ru": "Проворность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Magnetic",
+  "name_en": "Magnetic",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Experience",
+    "values": {
+     "Common": "+10%",
+     "Uncommon": "+20%",
+     "Rare": "+30%",
+     "Epic": "",
+     "Legendary": ""
+    }
+   },
+   {
+    "name": "Pick Up Area",
+    "values": {
+     "Common": "+50%",
+     "Uncommon": "+100%",
+     "Rare": "+150%",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "You gain more experience, and can collect experience crystals from a greater distance.",
+  "name_ru": "Магнетизм",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Unbreakable",
+  "name_en": "Unbreakable",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Damage Reduction",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "-2",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "All damage received is reduced by a flat amount.",
+  "name_ru": "Крепость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ViciousStrikes",
+  "name_en": "Vicious Strikes",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "You have 100% chance to deal a critical strike on enemies with full health.",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "You have 100% chance to deal a critical strike on enemies with full health.",
+  "name_ru": "Кровожадные удары",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Swift",
+  "name_en": "Swift",
+  "rarities": [
+   "Epic"
+  ],
+  "stats": [
+   {
+    "name": "You can dash multiple times.",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "",
+     "Epic": "+1",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "You can dash multiple times.",
+  "name_ru": "Молниеносность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Laceration",
+  "name_en": "Laceration",
+  "rarities": [
+   "Common",
+   "Uncommon"
+  ],
+  "stats": [
+   {
+    "name": "Damage",
+    "values": {
+     "Common": "+30%",
+     "Uncommon": "+60%",
+     "Rare": "",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Increases the damage of every Bleed you apply.",
+  "pages": [
+   "Bleed"
+  ],
+  "name_ru": "Рваные раны",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Dismemberment",
+  "name_en": "Dismemberment",
+  "rarities": [
+   "Epic"
+  ],
+  "stats": [
+   {
+    "name": "Amount",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "",
+     "Epic": "+40%",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Whenever you apply Bleed, a portion of the total damage is caused instantly, in addition to the normal effect.",
+  "pages": [
+   "Bleed"
+  ],
+  "name_ru": "Расчленение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DeepWounds",
+  "name_en": "Deep Wounds",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Frequency",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+30%",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Bleed now causes damage more frequently.",
+  "pages": [
+   "Bleed"
+  ],
+  "name_ru": "Глубокие раны",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Corrosive",
+  "name_en": "Corrosive",
+  "rarities": [
+   "Common",
+   "Uncommon"
+  ],
+  "stats": [
+   {
+    "name": "Damage",
+    "values": {
+     "Common": "+30%",
+     "Uncommon": "+60%",
+     "Rare": "",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Increases the damage of every Poison you apply.",
+  "pages": [
+   "Poison"
+  ],
+  "name_ru": "Коррозия",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Rotting",
+  "name_en": "Rotting",
+  "rarities": [
+   "Epic"
+  ],
+  "stats": [
+   {
+    "name": "Amount",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "",
+     "Epic": "+40%",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Whenever you apply Poison, a portion of the total damage is caused instantly, in addition to the normal effect.",
+  "pages": [
+   "Poison"
+  ],
+  "name_ru": "Гниение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DeathandDecay",
+  "name_en": "Death and Decay",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Frequency",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+30%",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Poison now causes damage more frequently.",
+  "pages": [
+   "Poison"
+  ],
+  "name_ru": "Смерть и увядание",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Calamity",
+  "name_en": "Calamity",
+  "rarities": [
+   "Common",
+   "Uncommon"
+  ],
+  "stats": [
+   {
+    "name": "Damage",
+    "values": {
+     "Common": "+30%",
+     "Uncommon": "+60%",
+     "Rare": "",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Increases the damage of every Doom you apply.",
+  "pages": [
+   "Doom"
+  ],
+  "name_ru": "Бедствие",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Ruin",
+  "name_en": "Ruin",
+  "rarities": [
+   "Epic"
+  ],
+  "stats": [
+   {
+    "name": "Amount",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "",
+     "Epic": "+40%",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Whenever you apply Doom, a portion of the total damage is caused instantly, in addition to the normal effect.",
+  "pages": [
+   "Doom"
+  ],
+  "name_ru": "Крах",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FieryAmplification",
+  "name_en": "Fiery Amplification",
+  "rarities": [
+   "Common",
+   "Uncommon"
+  ],
+  "stats": [
+   {
+    "name": "Damage",
+    "values": {
+     "Common": "+30%",
+     "Uncommon": "+60%",
+     "Rare": "",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Increases the damage of every Burn you apply.",
+  "pages": [
+   "Burn"
+  ],
+  "name_ru": "Воспламеняемость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Incinerate",
+  "name_en": "Incinerate",
+  "rarities": [
+   "Epic"
+  ],
+  "stats": [
+   {
+    "name": "Amount",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "",
+     "Epic": "+40%",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Whenever you apply Burn, a portion of the total damage is caused instantly, in addition to the normal effect.",
+  "pages": [
+   "Burn"
+  ],
+  "name_ru": "Испепеление",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IntenseFire",
+  "name_en": "Intense Fire",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Frequency",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+30%",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Burn now causes damage more frequently.",
+  "pages": [
+   "Burn"
+  ],
+  "name_ru": "Пожар",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Havoc",
+  "name_en": "Havoc",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare",
+   "Epic",
+   "Legendary"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "50% (fixed)",
+     "Uncommon": "50% (fixed)",
+     "Rare": "50% (fixed)",
+     "Epic": "50% (fixed)",
+     "Legendary": "50% (fixed)"
+    }
+   },
+   {
+    "name": "Disarray | Extra Damage",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "-0.5% ↔ 2.5%(+1)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Your critical strikes may now apply Disarray.",
+  "name_ru": "Разрушение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Immobilize",
+  "name_en": "Immobilize",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare",
+   "Epic",
+   "Legendary"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "50% (fixed)",
+     "Uncommon": "50% (fixed)",
+     "Rare": "50% (fixed)",
+     "Epic": "50% (fixed)",
+     "Legendary": "50% (fixed)"
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Your critical strikes may now apply Slow.",
+  "name_ru": "Обездвиживание",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "WarExperience",
+  "name_en": "War Experience",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare",
+   "Epic",
+   "Legendary"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "25% (fixed)",
+     "Uncommon": "25% (fixed)",
+     "Rare": "25% (fixed)",
+     "Epic": "25% (fixed)",
+     "Legendary": "25% (fixed)"
+    }
+   },
+   {
+    "name": "Bulwark | Block Power",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+1%(+1)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Every time you apply Finesse, you have a chance to gain Bulwark.",
+  "name_ru": "Учение войны",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ShreddingArmor",
+  "name_en": "Shredding Armor",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare",
+   "Epic",
+   "Legendary"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "25% (fixed)",
+     "Uncommon": "25% (fixed)",
+     "Rare": "25% (fixed)",
+     "Epic": "25% (fixed)",
+     "Legendary": "25% (fixed)"
+    }
+   },
+   {
+    "name": "Aptitude | Critical Damage",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+2%(+1)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Every time you apply Bulwark, you have a chance to gain Aptitude.",
+  "name_ru": "Разрывающая броня",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DevastatingStrike",
+  "name_en": "Devastating Strike",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare",
+   "Epic",
+   "Legendary"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "25% (fixed)",
+     "Uncommon": "25% (fixed)",
+     "Rare": "25% (fixed)",
+     "Epic": "25% (fixed)",
+     "Legendary": "25% (fixed)"
+    }
+   },
+   {
+    "name": "Prowess | Damage Modifier",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+1%(+1)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Every time you apply Aptitude, you have a chance to gain Prowess.",
+  "name_ru": "Опустошающий удар",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FortifyingDamage",
+  "name_en": "Fortifying Damage",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare",
+   "Epic",
+   "Legendary"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "25% (fixed)",
+     "Uncommon": "25% (fixed)",
+     "Rare": "25% (fixed)",
+     "Epic": "25% (fixed)",
+     "Legendary": "25% (fixed)"
+    }
+   },
+   {
+    "name": "Resilience | Armor Power",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+1%(+1)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Every time you apply Prowess, you have a chance to gain Resilience.",
+  "name_ru": "Укрепляющий урон",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ArmoredAssault",
+  "name_en": "Armored Assault",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare",
+   "Epic",
+   "Legendary"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "25% (fixed)",
+     "Uncommon": "25% (fixed)",
+     "Rare": "25% (fixed)",
+     "Epic": "25% (fixed)",
+     "Legendary": "25% (fixed)"
+    }
+   },
+   {
+    "name": "Form | Critical Chance",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+1%(+1)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Every time you apply Resilience, you have a chance to gain Form.",
+  "name_ru": null,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "LethalCelerity",
+  "name_en": "Lethal Celerity",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare",
+   "Epic",
+   "Legendary"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "25% (fixed)",
+     "Uncommon": "25% (fixed)",
+     "Rare": "25% (fixed)",
+     "Epic": "25% (fixed)",
+     "Legendary": "25% (fixed)"
+    }
+   },
+   {
+    "name": "Haste | Movement Speed",
+    "values": {
+     "Common": "",
+     "Uncommon": "",
+     "Rare": "+1%(+1)",
+     "Epic": "",
+     "Legendary": ""
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Every time you apply Form, you have a chance to gain Haste.",
+  "name_ru": "Смертельная стремительность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Adrenaline",
+  "name_en": "Adrenaline",
+  "rarities": [
+   "Common",
+   "Uncommon",
+   "Rare",
+   "Epic",
+   "Legendary"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Common": "25% (fixed)",
+     "Uncommon": "25% (fixed)",
+     "Rare": "25% (fixed)",
+     "Epic": "25% (fixed)",
+     "Legendary": "25% (fixed)"
+    }
+   }
+  ],
+  "source": "table",
+  "description": "Every time you apply Haste, you have a chance to gain Finesse.",
+  "name_ru": "Адреналин",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "UltimateAssassin",
+  "name_en": "Ultimate Assassin",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Cast Frequency",
+    "values": {
+     "Titanic": "+50%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Increases your cast frequency and all your skills with the Ambush trait will now always cause an Ambush.",
+  "pages": [
+   "Ambush"
+  ],
+  "name_ru": "Идеальный убийца",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ImpendingBleed",
+  "name_en": "Impending Bleed",
+  "rarities": [
+   "Rare"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Rare": "50%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Whenever you apply Bleed you may now apply Poison as well.",
+  "pages": [
+   "Bleed"
+  ],
+  "name_ru": null,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "BloodParasites",
+  "name_en": "Blood Parasites",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Damage per Stack",
+    "values": {
+     "Titanic": "+0.1%"
+    }
+   },
+   {
+    "name": "Maximum Bonus",
+    "values": {
+     "Titanic": "+50%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Increases all damage you cause based on the number of stacks of Bleed on the target.",
+  "pages": [
+   "Bleed"
+  ],
+  "name_ru": "Кровяные паразиты",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "RustCorrosion",
+  "name_en": "Rust Corrosion",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Titanic": "75%"
+    }
+   },
+   {
+    "name": "Damage Taken",
+    "values": {
+     "Titanic": "15"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Whenver you apply Slow you may now apply Brittle as well.",
+  "pages": [
+   "Brittle",
+   "Slow"
+  ],
+  "name_ru": "Разъедание ржавчины",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Savagery",
+  "name_en": "Savagery",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [],
+  "source": "row power",
+  "description": "Increases the damage bonus of the Brutal trait.",
+  "pages": [
+   "Brutal"
+  ],
+  "name_ru": "Дикарство",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SandscaleWrath",
+  "name_en": "Sandscale Wrath",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Damage Multiplier",
+    "values": {
+     "Titanic": "x1.2 (+0.2)"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Whenever an enemy with Burn dies it explodes, causing a multiplier of the total accumulated Burn damage on the target in the area.",
+  "pages": [
+   "Burn"
+  ],
+  "name_ru": "Песчаный гнев",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ChaosStabilizer",
+  "name_en": "Chaos Stabilizer",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Titanic": "100%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Whenever Chaotic is triggered, you have a chance to gain Purity.",
+  "pages": [
+   "Chaotic"
+  ],
+  "name_ru": "Стабилизатор хаоса",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Sandstorm",
+  "name_en": "Sandstorm",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Required Stacks",
+    "values": {
+     "Titanic": "50"
+    }
+   },
+   {
+    "name": "Duration",
+    "values": {
+     "Titanic": "6s"
+    }
+   },
+   {
+    "name": "Damage",
+    "values": {
+     "Titanic": "500"
+    }
+   },
+   {
+    "name": "Cooldown",
+    "values": {
+     "Titanic": "0"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "For every 50 stacks of Colossal you gain, create a sandstorm around you that causes damage and applies Brittle to nearby enemies every 1 seconds.",
+  "pages": [
+   "Colossal",
+   "Dazed"
+  ],
+  "name_ru": "Песчаная буря",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PotentToxin",
+  "name_en": "Potent Toxin",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Titanic": "75%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Whenever you apply Poison you may now apply Dazed as well.",
+  "pages": [
+   "Dazed",
+   "Poison"
+  ],
+  "name_ru": "Мощный токсин",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DemolitionExpert",
+  "name_en": "Demolition Expert",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [],
+  "source": "row power",
+  "description": "Increases the damage bonus of the Devastating trait.",
+  "pages": [
+   "Devastating"
+  ],
+  "name_ru": "Профессиональный подрывник",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "WebofConfusion",
+  "name_en": "Web of Confusion",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Titanic": "50%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Whenever you apply Disarray you may now apply Disoriented as well.",
+  "pages": [
+   "Disarray",
+   "Disoriented"
+  ],
+  "name_ru": "Сети смятения",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FangsofDoom",
+  "name_en": "Fangs of Doom",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Titanic": "1%"
+    }
+   },
+   {
+    "name": "Amount",
+    "values": {
+     "Titanic": "1.0%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Whenever you apply Doom on a target, there is a chance that you will instantly cause a percentage of the total Doom damage accumulated on the target.",
+  "pages": [
+   "Doom"
+  ],
+  "name_ru": "Клыки рока",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Sandwalker",
+  "name_en": "Sandwalker",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Titanic": "5%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Every time you cast any skill, you have a chance to gain Form.",
+  "pages": [
+   "Form"
+  ],
+  "name_ru": "Ходящий по песку",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Sunpiercer",
+  "name_en": "Sunpiercer",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [],
+  "source": "row power",
+  "description": "Increases the damage bonus of the Piercing trait.",
+  "pages": [
+   "Piercing"
+  ],
+  "name_ru": "Пронзающий солнце",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ViolentToxin",
+  "name_en": "Violent Toxin",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Frequency",
+    "values": {
+     "Titanic": "+80%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Poison now causes damage more frequently.",
+  "pages": [
+   "Poison"
+  ],
+  "name_ru": null,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PurifyingSands",
+  "name_en": "Purifying Sands",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Titanic": "30%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Every time you apply Resilience, you have a chance to gain Purity.",
+  "pages": [
+   "Resilience"
+  ],
+  "name_ru": "Очищающие пески",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DarkRush",
+  "name_en": "Dark Rush",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Titanic": "5%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Every time you cast any skill, you have a chance to gain Swiftness.",
+  "pages": [
+   "Swiftness"
+  ],
+  "name_ru": "Темная спешка",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "CursedCrown",
+  "name_en": "Cursed Crown",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Titanic": "5%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Every time you cast any skill, you have a chance to gain Vigor.",
+  "pages": [
+   "Vigor"
+  ],
+  "name_ru": "Венец проклятия",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AbyssalWound",
+  "name_en": "Abyssal Wound",
+  "rarities": [
+   "Titanic"
+  ],
+  "stats": [
+   {
+    "name": "Chance",
+    "values": {
+     "Titanic": "40%"
+    }
+   }
+  ],
+  "source": "row power",
+  "description": "Your critical strikes may now apply Wound.",
+  "pages": [
+   "Wound"
+  ],
+  "name_ru": null,
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SkillChain",
+  "name_en": "Skill Chain",
+  "family": true,
+  "variant_format": "<Skill Type> -> <Skill Type>",
+  "description": "Chance for a skill of one type to automatically cast a skill of another type.",
+  "rarities": [
+   "Rare",
+   "Epic",
+   "Legendary"
+  ],
+  "source": "page Skill Chain",
+  "stats": [
+   {
+    "name": "Chain Chance",
+    "values": {
+     "Rare": "+6%",
+     "Epic": "+8%",
+     "Legendary": "+10%"
+    }
+   }
+  ],
+  "name_ru": "Связка навыков",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Strength",
+  "name_en": "Strength",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Сила",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Vigor",
+  "name_en": "Vigor",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Бодрость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Agility",
+  "name_en": "Agility",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Проворство",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Dexterity",
+  "name_en": "Dexterity",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Ловкость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Coordination",
+  "name_en": "Coordination",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Координация",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Wisdom",
+  "name_en": "Wisdom",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Мудрость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Intelligence",
+  "name_en": "Intelligence",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Интеллект",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Willpower",
+  "name_en": "Willpower",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Сила воли",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Mental",
+  "name_en": "Mental",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Ментальный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Spiritual",
+  "name_en": "Spiritual",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Духовный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Vicious",
+  "name_en": "Vicious",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Порочный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Brutal",
+  "name_en": "Brutal",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Жестокость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Forceful",
+  "name_en": "Forceful",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Сильный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Precise",
+  "name_en": "Precise",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Точность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Tactical",
+  "name_en": "Tactical",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Тактический",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Potent",
+  "name_en": "Potent",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Мощный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Meticulous",
+  "name_en": "Meticulous",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Дотошный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Elaborate",
+  "name_en": "Elaborate",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Продуманный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Skillful",
+  "name_en": "Skillful",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Искусный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Intricate",
+  "name_en": "Intricate",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Замысловатый",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Empowering",
+  "name_en": "Empowering",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Благодатный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Missile",
+  "name_en": "Missile",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Ракета",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Lasting",
+  "name_en": "Lasting",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Длительный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Aura",
+  "name_en": "Aura",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Аура",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Frontal",
+  "name_en": "Frontal",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Фронтальный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Chain",
+  "name_en": "Chain",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Цепной",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Burst",
+  "name_en": "Burst",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Взрывной",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Magical",
+  "name_en": "Magical",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Мистический",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Secret",
+  "name_en": "Secret",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Секрет",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "None",
+  "name_en": "None",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Пусто",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Gloom",
+  "name_en": "Gloom",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Уныние",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Gangrene",
+  "name_en": "Gangrene",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Гангрена",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Desperation",
+  "name_en": "Desperation",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Отчаяние",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ExposeWeaknesses",
+  "name_en": "Expose Weaknesses",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Выявить слабые стороны",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Frailty",
+  "name_en": "Frailty",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Немощность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AmmunitionEfficiency",
+  "name_en": "Ammunition Efficiency",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Эффективность боеприпасов",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SwiftAmmunition",
+  "name_en": "Swift Ammunition",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Боеприпасы под рукой",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "EnhancedAmmunition",
+  "name_en": "Enhanced Ammunition",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Дополнительные боеприпасы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Riftwalker",
+  "name_en": "Riftwalker",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Путник разлома",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Hemorrhage",
+  "name_en": "Hemorrhage",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Кровоизлияние",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "RadianceMultiplier",
+  "name_en": "Radiance Multiplier",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Множитель сияния",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IcyVeinsMultiplier",
+  "name_en": "Icy Veins Multiplier",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Множитель ледяных жил",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FinesseMultiplier",
+  "name_en": "Finesse Multiplier",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Множитель искусности",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FormMultiplier",
+  "name_en": "Form Multiplier",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Множитель техники",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ProwessMultiplier",
+  "name_en": "Prowess Multiplier",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Множитель хватки",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AptitudeMultiplier",
+  "name_en": "Aptitude Multiplier",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Множитель дара",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AmmunitionMultiplier",
+  "name_en": "Ammunition Multiplier",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Множитель боеприпасов",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ArtifactPowerMultiplier",
+  "name_en": "Artifact Power Multiplier",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Множитель силы артефакта",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "UntamedSpark",
+  "name_en": "Untamed Spark",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Необузданная искра",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "UncontrollableStrength",
+  "name_en": "Uncontrollable Strength",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Неудержимая сила",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "UnstoppableForce",
+  "name_en": "Unstoppable Force",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Неудержимая сила",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Cataclysm",
+  "name_en": "Cataclysm",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Катаклизм",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Epidemic",
+  "name_en": "Epidemic",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Эпидемия",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "NegathsBreath",
+  "name_en": "Negath's Breath",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Дыхание Негата",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ViolentElegance",
+  "name_en": "Violent Elegance",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Жестокая грация",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "VastWisdom",
+  "name_en": "Vast Wisdom",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Всеобъемлющая мудрость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "HighVoltage",
+  "name_en": "High Voltage",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Высокое напряжение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DivineProtection",
+  "name_en": "Divine Protection",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Божественная защита",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Luminescence",
+  "name_en": "Luminescence",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Свечение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "LingeringPower",
+  "name_en": "Lingering Power",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Витающая сила",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TitanicScale",
+  "name_en": "Titanic Scale",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Титанический рост",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Cautiousness",
+  "name_en": "Cautiousness",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Осторожность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PowerStreak",
+  "name_en": "Power Streak",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Поток силы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "NaturalTalent",
+  "name_en": "Natural Talent",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Врожденный талант",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Proficiency",
+  "name_en": "Proficiency",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Опыт",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AmmoBelt",
+  "name_en": "Ammo Belt",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Патронташ",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FireLordsEssence",
+  "name_en": "Fire Lord's Essence",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Сущность владыки огня",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "HeavyArtillery",
+  "name_en": "Heavy Artillery",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Тяжелая артиллерия",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "UnleashedPotential",
+  "name_en": "Unleashed Potential",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Раскрытый потенциал",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ColossalTendency",
+  "name_en": "Colossal Tendency",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Колоссальная устремленность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Electrostatic",
+  "name_en": "Electrostatic",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Электростатика",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Meticulousness",
+  "name_en": "Meticulousness",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Тщательность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FlowingStrikes",
+  "name_en": "Flowing Strikes",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Плавные удары",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FrostInfusion",
+  "name_en": "Frost Infusion",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Внутреннее обморожение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "BoldPosture",
+  "name_en": "Bold Posture",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Решительность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SacredDuty",
+  "name_en": "Sacred Duty",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Священная миссия",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "EmpoweredKnowledge",
+  "name_en": "Empowered Knowledge",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Неоспоримые знания",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ExtraAmmo",
+  "name_en": "Extra Ammo",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Больше боеприпасов",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Competence",
+  "name_en": "Competence",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Компетентность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ExtendedReach",
+  "name_en": "Extended Reach",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Увеличение дальности",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ElectricityAbsorption",
+  "name_en": "Electricity Absorption",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Поглощение электричества",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Triumph",
+  "name_en": "Triumph",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Триумф",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Perseverance",
+  "name_en": "Perseverance",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Самоотдача",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ColdBlood",
+  "name_en": "Cold Blood",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Хладнокровие",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TrainingExercise",
+  "name_en": "Training Exercise",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Тренировка",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "GuardiansOffering",
+  "name_en": "Guardian's Offering",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Подношение хранителя",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ShimmeringLight",
+  "name_en": "Shimmering Light",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Мерцающий свет",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ImpenetrableCuirass",
+  "name_en": "Impenetrable Cuirass",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Непробиваемая кираса",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Impetus",
+  "name_en": "Impetus",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Стимул",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "BlessedEssence",
+  "name_en": "Blessed Essence",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Благословенная сущность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AvatarofFire",
+  "name_en": "Avatar of Fire",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Аватар огня",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "CalloftheWild",
+  "name_en": "Call of the Wild",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Зов природы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ToxicPlant",
+  "name_en": "Toxic Plant",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Ядовитое растение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ToxicPuddle",
+  "name_en": "Toxic Puddle",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Токсичная лужа",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "BloodSurge",
+  "name_en": "Blood Surge",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Приток крови",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ChaoticConjuration",
+  "name_en": "Chaotic Conjuration",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Громы хаоса",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ColossalTremor",
+  "name_en": "Colossal Tremor",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Колоссальная дрожь",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "BladeDance",
+  "name_en": "Blade Dance",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Танец клинка",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "MultiShot",
+  "name_en": "Multi Shot",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Мультивыстрел",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AltarofChaos",
+  "name_en": "Altar of Chaos",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Алтарь хаоса",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Disorder",
+  "name_en": "Disorder",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Беспорядок",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ColossalChaos",
+  "name_en": "Colossal Chaos",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Колоссальный хаос",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "HoundsFeast",
+  "name_en": "Hound’s Feast",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Пир гончих",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "WrathfulFocus",
+  "name_en": "Wrathful Focus",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Гневное внимание",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DemonicBinding",
+  "name_en": "Demonic Binding",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Демоническое порабощение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TacticalAdvantage",
+  "name_en": "Tactical Advantage",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Тактическое преимущество",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "BattleStance",
+  "name_en": "Battle Stance",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Боевая стойка",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DivineInspiration",
+  "name_en": "Divine Inspiration",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Божественная благодать",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ShadowDomain",
+  "name_en": "Shadow Domain",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Царство теней",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "InvasiveDarkness",
+  "name_en": "Invasive Darkness",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Вездесущая тьма",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "LoomingVoid",
+  "name_en": "Looming Void",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Туманная бездна",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ObscureExecution",
+  "name_en": "Obscure Execution",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Таинственная казнь",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ClosedCircuit",
+  "name_en": "Closed Circuit",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Замкнутая цепь",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ResidualPower",
+  "name_en": "Residual Power",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Остаточная сила",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PowerSurge",
+  "name_en": "Power Surge",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Приток силы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ElementalOverload",
+  "name_en": "Elemental Overload",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Стихийная перегрузка",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FrozenWrath",
+  "name_en": "Frozen Wrath",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Морозный гнев",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Putrefaction",
+  "name_en": "Putrefaction",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Разложение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SmolderingFlames",
+  "name_en": "Smoldering Flames",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Тлеющее пламя",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Bloodthirsty",
+  "name_en": "Bloodthirsty",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Жажда крови",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ConsecutiveStrikes",
+  "name_en": "Consecutive Strikes",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Последовательные удары",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DefenderDominance",
+  "name_en": "Defender Dominance",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Превосходство защитника",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IntensifiedBlows",
+  "name_en": "Intensified Blows",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Усиленные удары",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Expertise",
+  "name_en": "Expertise",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Профессионализм",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Bludgeoning",
+  "name_en": "Bludgeoning",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Избиение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "EndlessCold",
+  "name_en": "Endless Cold",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Бесконечный холод",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DominionofFrost",
+  "name_en": "Dominion of Frost",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Царство мороза",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PiercingFrost",
+  "name_en": "Piercing Frost",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Пронизывающий мороз",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ManaInfusion",
+  "name_en": "Mana Infusion",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Наполнение маной",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "NaturesGuardian",
+  "name_en": "Nature's Guardian",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Хранитель природы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "VenomousProliferation",
+  "name_en": "Venomous Proliferation",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Распространение яда",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PersistentContamination",
+  "name_en": "Persistent Contamination",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Стойкое заражение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DivineGift",
+  "name_en": "Divine Gift",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Божественный дар",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ArdentFaith",
+  "name_en": "Ardent Faith",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Пылающая вера",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "EmpoweredExorcism",
+  "name_en": "Empowered Exorcism",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Властный экзорцизм",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AdvancedKnowledge",
+  "name_en": "Advanced Knowledge",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Углубленные знания",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ArcaneInsight",
+  "name_en": "Arcane Insight",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Тайное озарение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "EnergizedBeam",
+  "name_en": "Energized Beam",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Энергетический луч",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FocusedEnergy",
+  "name_en": "Focused Energy",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Концентрированная энергия",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "RageUnleashed",
+  "name_en": "Rage Unleashed",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Вспышки ярости",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Reanimation",
+  "name_en": "Reanimation",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Оживление",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "BountyHunter",
+  "name_en": "Bounty Hunter",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Охота за головами",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Centurionate",
+  "name_en": "Centurionate",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Слава центуриона",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Annihilation",
+  "name_en": "Annihilation",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Уничтожение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Accuracy",
+  "name_en": "Accuracy",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Меткость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SuddenExplosion",
+  "name_en": "Sudden Explosion",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Внезапный взрыв",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Perforation",
+  "name_en": "Perforation",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прокол",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Enhancement",
+  "name_en": "Enhancement",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Зачарование",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ArcaneKnowledge",
+  "name_en": "Arcane Knowledge",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Тайные знания",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ChaoticBoost",
+  "name_en": "Chaotic Boost",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Укрепление хаосом",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SubZero",
+  "name_en": "Sub Zero",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Минус",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ForceofNature",
+  "name_en": "Force of Nature",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Сила природы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "EmpoweringFire",
+  "name_en": "Empowering Fire",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Благодатный огонь",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PolarityShift",
+  "name_en": "Polarity Shift",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Смена полярности",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DoomIncarnate",
+  "name_en": "Doom Incarnate",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Рок во плоти",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "HolyGuidance",
+  "name_en": "Holy Guidance",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Священное наставление",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SharpBlades",
+  "name_en": "Sharp Blades",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Острые клинки",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "MomentumBoost",
+  "name_en": "Momentum Boost",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Усиление импульса",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "CrushingStrikes",
+  "name_en": "Crushing Strikes",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Сокрушительные удары",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ReinforcedProjectiles",
+  "name_en": "Reinforced Projectiles",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Усиленные снаряды",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "InfusedGunpowder",
+  "name_en": "Infused Gunpowder",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Усиленный порох",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "BlastSupport",
+  "name_en": "Blast Support",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Мощный взрыв",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "EarthAttunement",
+  "name_en": "Earth Attunement",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Гармония с землей",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SoulHarvest",
+  "name_en": "Soul Harvest",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Жатва душ",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TwilightHarmony",
+  "name_en": "Twilight Harmony",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Сумеречная гармония",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FireShield",
+  "name_en": "Fire Shield",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Огненный щит",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ExplosiveReflexes",
+  "name_en": "Explosive Reflexes",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Взрывные рефлексы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Empowered",
+  "name_en": "Empowered",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Уполномоченный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Forcefulness",
+  "name_en": "Forcefulness",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Напористость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Immovable",
+  "name_en": "Immovable",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Неподвижность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Nimble",
+  "name_en": "Nimble",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Шустрость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Unstoppable",
+  "name_en": "Unstoppable",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Неудержимость",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Wise",
+  "name_en": "Wise",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Разумность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AreaofEffect",
+  "name_en": "Area of Effect",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Область поражения",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AttackSpeed",
+  "name_en": "Attack Speed",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Скорость атаки",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Frequency",
+  "name_en": "Frequency",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Частота",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DamageIncrease",
+  "name_en": "Damage Increase",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Увеличение урона",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ForceIncrease",
+  "name_en": "Force Increase",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Увеличение силы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "CriticalChance",
+  "name_en": "Critical Chance",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Шанс критического урона",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "CriticalDamage",
+  "name_en": "Critical Damage",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Крит. урон",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IncreasedHealth",
+  "name_en": "Increased Health",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Увеличенное здоровье",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IncreasedDamage",
+  "name_en": "Increased Damage",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Увеличенный урон",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IncreasedProtection",
+  "name_en": "Increased Protection",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Повышенная защита",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IncreasedQuantity",
+  "name_en": "Increased Quantity",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Увеличенное количество",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IncreasedDuration",
+  "name_en": "Increased Duration",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Увеличенная длительность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IncreasedPotency",
+  "name_en": "Increased Potency",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Увеличенная мощность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ArmorPenetration",
+  "name_en": "Armor Penetration",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Пробитие брони",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DamageperTarget",
+  "name_en": "Damage per Target",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Урон за цель",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "BlessingoftheDepths",
+  "name_en": "Blessing of the Depths",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Благословение глубин",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ArtifactPower",
+  "name_en": "Artifact Power",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Сила артефакта",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofCorruption",
+  "name_en": "Touch of Corruption",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение скверны",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofEvil",
+  "name_en": "Touch of Evil",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение зла",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofDecadence",
+  "name_en": "Touch of Decadence",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение упадка",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofDepravity",
+  "name_en": "Touch of Depravity",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение порока",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofImmorality",
+  "name_en": "Touch of Immorality",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение аморальности",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofImpurity",
+  "name_en": "Touch of Impurity",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение грязи",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofPerversion",
+  "name_en": "Touch of Perversion",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение разврата",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofSinfulness",
+  "name_en": "Touch of Sinfulness",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение греховности",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofVulgarity",
+  "name_en": "Touch of Vulgarity",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение пошлости",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofWickedness",
+  "name_en": "Touch of Wickedness",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение испорченности",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofViciousness",
+  "name_en": "Touch of Viciousness",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение злости",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofMisery",
+  "name_en": "Touch of Misery",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение убожества",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofHate",
+  "name_en": "Touch of Hate",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение ненависти",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofMalevolence",
+  "name_en": "Touch of Malevolence",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение жестокости",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TouchofWrath",
+  "name_en": "Touch of Wrath",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Прикосновение гнева",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "GhostShip",
+  "name_en": "Ghost Ship",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Корабль-призрак",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ScorpidCarapace",
+  "name_en": "Scorpid Carapace",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Панцирь скорпидов",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ViolentToxins",
+  "name_en": "Violent Toxins",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Жестокие токсины",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "HeartofSand",
+  "name_en": "Heart of Sand",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Песчаная рука",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "QueensStinger",
+  "name_en": "Queen's Stinger",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Жало королевы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "CombatExpertise",
+  "name_en": "Combat Expertise",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Боевая экспертиза",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "GladiatorialInstincts",
+  "name_en": "Gladiatorial Instincts",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Инстинкты гладиатора",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SeasonedGladiator",
+  "name_en": "Seasoned Gladiator",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Закаленный гладиатор",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "EmperorsBlessing",
+  "name_en": "Emperor's Blessing",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Благословение императора",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FrenziedBites",
+  "name_en": "Frenzied Bites",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Бешеные укусы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "HuntresssSnare",
+  "name_en": "Huntress's Snare",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Силок охотницы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SpiderSenses",
+  "name_en": "Spider Senses",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Паучье чутье",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ArachnidFrenzy",
+  "name_en": "Arachnid Frenzy",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Бешенство арахнида",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AncestralRitual",
+  "name_en": "Ancestral Ritual",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Ритуал предков",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "HastyReload",
+  "name_en": "Hasty Reload",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Поспешная перезарядка",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ExcavatorsStrength",
+  "name_en": "Excavator's Strength",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Сила экскаватора",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "StaticStorm",
+  "name_en": "Static Storm",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Шторм статики",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "KoboldFortitude",
+  "name_en": "Kobold Fortitude",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Стойкость кобольдов",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "TinkersElegance",
+  "name_en": "Tinker’s Elegance",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Элегантность лудильщика",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Condemned",
+  "name_en": "Condemned",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Брошенный",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "MachineSpirit",
+  "name_en": "Machine Spirit",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Дух машины",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "CursedShrine",
+  "name_en": "Cursed Shrine",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Проклятый храм",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AbyssalWounds",
+  "name_en": "Abyssal Wounds",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Пустотные раны",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PresenceoftheDarkLord",
+  "name_en": "Presence of the Dark Lord",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Присутствие темного владыки",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ManifestedWrath",
+  "name_en": "Manifested Wrath",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Воплощенный гнев",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "CursedConversion",
+  "name_en": "Cursed Conversion",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Проклятое обращение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ExpanseofRuin",
+  "name_en": "Expanse of Ruin",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Пространство гибели",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ShadowFury",
+  "name_en": "Shadow Fury",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Ярость тьмы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "EyeofPrecision",
+  "name_en": "Eye of Precision",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Око точности",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Voidpiercer",
+  "name_en": "Voidpiercer",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Пронзатель бездны",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "WeightofPower",
+  "name_en": "Weight of Power",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Груз мощи",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "CorruptedSkin",
+  "name_en": "Corrupted Skin",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Оскверненная кожа",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "VeilofShadows",
+  "name_en": "Veil of Shadows",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Завеса теней",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "VoidCascade",
+  "name_en": "Void Cascade",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Каскад бездны",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ToxicProliferation",
+  "name_en": "Toxic Proliferation",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Токсичный рост",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SpikedCaparace",
+  "name_en": "Spiked Caparace",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Шипастый панцирь",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SkitteringPerception",
+  "name_en": "Skittering Perception",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Стремительное чутьё",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SearingAsh",
+  "name_en": "Searing Ash",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Обжигающий пепел",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Goldrush",
+  "name_en": "Goldrush",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Золотая лихорадка",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "RadiantCracks",
+  "name_en": "Radiant Cracks",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Сияющие разломы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "GoldenTremor",
+  "name_en": "Golden Tremor",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Золотая дрожь",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "ExposedSpores",
+  "name_en": "Exposed Spores",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Беззащитные споры",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PsychedelicPrecision",
+  "name_en": "Psychedelic Precision",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Дурманящая точность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "MaddeningMold",
+  "name_en": "Maddening Mold",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Плесень безумия",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "DistantDecay",
+  "name_en": "Distant Decay",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Грядущее увядание",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Ironshroom",
+  "name_en": "Ironshroom",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Железный гриб",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FungalFrenzy",
+  "name_en": "Fungal Frenzy",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Грибное безумие",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FungalImpact",
+  "name_en": "Fungal Impact",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Грибной удар",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PutridStrength",
+  "name_en": "Putrid Strength",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Сила гнили",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Crackleshield",
+  "name_en": "Crackleshield",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Искрящий щит",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Stonebreaker",
+  "name_en": "Stonebreaker",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Камнелом",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Pyrehowl",
+  "name_en": "Pyrehowl",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Погребальный вой",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "WarchiefsCrown",
+  "name_en": "Warchief’s Crown",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Корона воеводы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FangsofFortune",
+  "name_en": "Fangs of Fortune",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Клыки удачи",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Bloodfrenzy",
+  "name_en": "Bloodfrenzy",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Кровавое безумие",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AncestralFury",
+  "name_en": "Ancestral Fury",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Ярость предков",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "StickyBomb",
+  "name_en": "Sticky Bomb",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Бомба-липучка",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "BitingCold",
+  "name_en": "Biting Cold",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Кусачий мороз",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Frostbite",
+  "name_en": "Frostbite",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Обморожение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FrostpiercersTalon",
+  "name_en": "Frostpiercer’s Talon",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Коготь пронзающего холодом",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Frostfeather",
+  "name_en": "Frostfeather",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Морозное перо",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IcyPrecision",
+  "name_en": "Icy Precision",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Леденящая точность",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IceLance",
+  "name_en": "Ice Lance",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Ледяное копье",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PackleadersAura",
+  "name_en": "Packleader's Aura",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Аура, вожак стаи",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PathofFrost",
+  "name_en": "Path of Frost",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Морозные шаги",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Icebreaker",
+  "name_en": "Icebreaker",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Крушитель льда",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FrostbornMight",
+  "name_en": "Frostborn Might",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Морозная мощь",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FrostBomb",
+  "name_en": "Frost Bomb",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Морозная бомба",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "IcyChain",
+  "name_en": "Icy Chain",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Ледяная цепь",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "WintersBlessing",
+  "name_en": "Winter’s Blessing",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Благословение зимы",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FrozenStrength",
+  "name_en": "Frozen Strength",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Сила во льду",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "GlacialVenom",
+  "name_en": "Glacial Venom",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Леденящий яд",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "SplinteringCold",
+  "name_en": "Splintering Cold",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Трескучий холод",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "WraithPact",
+  "name_en": "Wraith Pact",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Призрачный союз",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "PhantomCurse",
+  "name_en": "Phantom Curse",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Невидимое проклятие",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Malediction",
+  "name_en": "Malediction",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Обречение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Desolation",
+  "name_en": "Desolation",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Опустошение",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "AptitudeofBones",
+  "name_en": "Aptitude of Bones",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Крепкие кости",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "LegionsWrath",
+  "name_en": "Legion’s Wrath",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Гнев легиона",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "MortalStrike",
+  "name_en": "Mortal Strike",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Удар самой смерти",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "FlameoftheUndying",
+  "name_en": "Flame of the Undying",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Пламя бессмертных",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ },
+ {
+  "id": "Divinity",
+  "name_en": "Divinity",
+  "rarities": [],
+  "stats": [],
+  "source": "game-glossary",
+  "name_ru": "Божественная сила",
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/Powers"
+ }
+]

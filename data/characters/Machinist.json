@@ -1,0 +1,197 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Machinist",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Механик - дальнобойный персонаж (Robotic Gun) с навыками Arcane, Ice, Fire, Electric и Blast; открывается за Sigil of Vileness в Titan Hunt. Бонусы: +20 здоровья, +15 Armor Power, +15% шанса мультикаста, но -10% скорости движения и нет бонуса к шансу крита. Единственный найденный гайд устарел (Steam, патч 1.2) и строит билд на Electrified (стаки на себе) и Dazed.",
+    "en": "The Machinist is a ranged Robotic Gun character with Arcane, Ice, Fire, Electric and Blast skills, unlocked via the Sigil of Vileness in Titan Hunt. Bonuses: +20 health, +15 Armor Power, +15% multi cast chance, but -10% movement speed and no crit chance bonus. The only guide found is outdated (Steam, patch 1.2) and builds around Electrified (self stacks) and Dazed."
+  },
+  "guides": [
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "machinist-electrotaser-legacy",
+          "name": { "ru": "Electrified и Dazed (старый)", "en": "Electrified and Dazed (legacy)" },
+          "weapon_id": "ElectrotaserRX",
+          "archetypes": ["stack"],
+          "core_mechanics": ["Electrified", "Dazed"],
+          "skills": [
+            { "id": "HighVoltage", "role": "core", "note": { "ru": "Уникальный навык персонажа: луч на 20 ударов с Dazed и шансом получить Electrified.", "en": "Character unique skill: a 20-hit beam applying Dazed with a chance to gain Electrified." } },
+            { "id": "LightningCoil", "role": "core", "obtained": "weapon_secondary", "note": { "ru": "Даёт 2 стака Electrified; урон растёт от шанса крита.", "en": "Grants 2 Electrified stacks; damage scales with crit chance." } },
+            { "id": "LightningShield", "role": "core", "obtained": "weapon_primary", "note": { "ru": "Даёт стак Electrified и накладывает Dazed.", "en": "Grants an Electrified stack and applies Dazed." } },
+            { "id": "ArcaneBeam", "role": "support", "note": { "ru": "Вешает дебафф Brittle.", "en": "Applies Brittle." } },
+            { "id": "MagicMissiles", "role": "support", "note": { "ru": "Вешает дебафф Fragility.", "en": "Applies Fragility." } },
+            { "id": "WeakeningShot", "role": "support" }
+          ],
+          "passives": [
+            {
+              "power_id": "Lethality",
+              "priority": "high",
+              "note": {
+                "ru": "Гайд советует набирать как можно больше: у персонажа мало шанса крита.",
+                "en": "The guide says to stack as much as possible: the character has little crit chance."
+              }
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              { "id": "OverwhelmingChaos" },
+              { "id": "ControlledChaos" },
+              { "id": "ElementalPower" },
+              { "id": "EfficiencyFocus" }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Навыки Electrotaser RX и High Voltage копят на персонаже стаки Electrified; при их разряде искры бьют врагов и вешают Dazed, который повышает шанс крита по цели. Arcane Beam и Magic Missiles добавляют дебаффы. Шанса крита у персонажа мало, поэтому по возможности брать Lethality.",
+            "en": "Electrotaser RX skills and High Voltage build Electrified stacks on you; when they discharge, sparks hit enemies and apply Dazed, raising crit chance against them. Arcane Beam and Magic Missiles add debuffs. The character has little crit chance, so take Lethality when possible."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "У Machinist мало шанса крита, поэтому стоит набирать Lethality.",
+                "en": "The Machinist has little crit chance, so stack Lethality."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: бонусы персонажа без шанса крита (здоровье, Armor Power, мультикаст, -10% скорости); Electrotaser RX даёт +30% крит. урона, но не шанс. Lethality: +4/8/12% шанса крита (Common/Uncommon/Rare). Lightning Coil умножает урон на шанс крита."
+            },
+            {
+              "text": {
+                "ru": "Lightning Shield и Lightning Coil играют главную роль в наборе стаков Electrified.",
+                "en": "Lightning Shield and Lightning Coil are key to building Electrified stacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Lightning Shield даёт 1 стак Electrified (кулдаун 4 с, Dazed 4%), Lightning Coil 2 стака (кулдаун 6 с). Electrified - стаки на самом персонаже, а не на врагах: при 12 стаках разряд из 12 искр по 1000 урона, каждая вешает 2 стака Dazed (в разделе Trivia той же статьи порог назван 15, вики противоречива). Efficiency Focus снижает порог на 4."
+            },
+            {
+              "text": {
+                "ru": "Arcane Beam и Magic Missiles помогают вешать дебаффы.",
+                "en": "Arcane Beam and Magic Missiles help apply debuffs."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Arcane Beam вешает Brittle каждые 0,4 с (15 ударов), Magic Missiles - Fragility (+3% урона, 20 снарядов)."
+            },
+            {
+              "text": {
+                "ru": "Руны дерева Machinist: Elemental Power усиливает Electrified, Efficiency Focus ускоряет его срабатывание.",
+                "en": "Machinist tree runes: Elemental Power boosts Electrified, Efficiency Focus makes it trigger sooner."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Elemental Power +200% урона Electrified, Icy Veins и Radiance; Efficiency Focus -4 стака для срабатывания Radiance, Ammunition, Electrified и Icy Veins. Обе руны из дерева Machinist."
+            },
+            {
+              "text": {
+                "ru": "Overwhelming Chaos и Controlled Chaos работают в паре.",
+                "en": "Overwhelming Chaos and Controlled Chaos work as a pair."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Overwhelming Chaos делает прямой урон навыков случайным от 1 до 220% (на эффекты не действует), Controlled Chaos бросает случайный урон дважды и берёт лучший. Сама связка в гайде не объяснена, это вывод по составу рун."
+            }
+          ],
+          "confidence": "low",
+          "legacy_check": [
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "По выжимке легендарное оружие Machinist добавлено в 1.5; в гайде 1.2 и на вики его нет. Titan Powers в билде не учтены.",
+                "en": "Per the digest the Machinist legendary weapon was added in 1.5; it is neither in the 1.2 guide nor on the wiki. Titan Powers are not considered."
+              }
+            },
+            {
+              "mechanic": "Stack builds",
+              "impact": "buffed",
+              "note": {
+                "ru": "Выжимка считает stack-архетип по-прежнему сильным и даже выросшим к 1.5d (аналитическая оценка, без данных именно по Electrified).",
+                "en": "The digest rates the stack archetype as still strong and even improved by 1.5d (an analytical estimate, nothing specific to Electrified)."
+              }
+            },
+            {
+              "mechanic": "Chaos / универсальные дебаффы",
+              "impact": "weakened",
+              "note": {
+                "ru": "Выжимка относит «старый Chaos/debuff-universal подход» к сильно изменившимся. Билд держит Overwhelming и Controlled Chaos и смесь дебаффов (Brittle, Fragility, Exposed); подробностей в выжимке нет.",
+                "en": "The digest lists the old Chaos/universal-debuff approach as substantially changed. The build relies on Overwhelming and Controlled Chaos plus mixed debuffs (Brittle, Fragility, Exposed); the digest gives no details."
+              }
+            },
+            {
+              "mechanic": "Linear -> exponential scaling (1.3)",
+              "impact": "unknown",
+              "note": {
+                "ru": "В 1.3 у части навыков изменилась формула роста; какие навыки билда это задело, по источникам не понять.",
+                "en": "In 1.3 some skills changed their scaling formula; the sources do not say which of this build's skills were affected."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под патч 1.2, без пассивок кроме Lethality, без Versatility-рун и чисел. Легендарное оружие Machinist (1.5) и Titan Powers не учтены, а связка рун Chaos по выжимке относится к устаревшим подходам. Актуального гайда с лучшей заменой нет.",
+        "en": "Written for 1.2, with no passives besides Lethality, no Versatility runes and no numbers. The Machinist legendary weapon (1.5) and Titan Powers are missing, and the digest counts the Chaos rune pairing among outdated approaches. There is no current guide offering a better replacement."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Bleed, Poison, Burn, Doom application passives",
+        "builds": ["machinist-electrotaser-legacy"],
+        "reason": {
+          "ru": "Вывод, не из источника: билд не использует DoT, а выжимка советует специализацию на одной механике; пассивки чужих ailment только размывают выбор.",
+          "en": "Inference, not from a source: the build uses no DoT, and the digest favours specializing in one mechanic; other ailment passives just dilute offers."
+        }
+      },
+      {
+        "target": "Ice and Fire skills",
+        "builds": ["machinist-electrotaser-legacy"],
+        "reason": {
+          "ru": "Вывод, не из источника: в билде нет навыков Ice и Fire, бан сужает пул к Electric, Arcane и Blast.",
+          "en": "Inference, not from a source: the build has no Ice or Fire skills; banning them narrows the pool to Electric, Arcane and Blast."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Брать Lethality при каждой возможности: у персонажа нет бонуса к шансу крита (из гайда).",
+        "en": "Take Lethality whenever offered: the character has no crit chance bonus (from the guide)."
+      },
+      {
+        "ru": "Ядро - High Voltage, Lightning Shield и Lightning Coil: они копят Electrified (из гайда).",
+        "en": "Core: High Voltage, Lightning Shield and Lightning Coil, which build Electrified (from the guide)."
+      },
+      {
+        "ru": "Arcane Beam и Magic Missiles брать для дебаффов Brittle и Fragility (из гайда; названия дебаффов по вики).",
+        "en": "Take Arcane Beam and Magic Missiles for Brittle and Fragility (from the guide; debuff names per the wiki)."
+      },
+      {
+        "ru": "Против боссов держать High Voltage на цели: 20 ударов с Dazed повышают шанс крита по ней (вывод по вики).",
+        "en": "Against bosses keep High Voltage on the target: 20 Dazed hits raise crit chance against it (inference from the wiki)."
+      }
+    ],
+    "basis": {
+      "ru": "Из гайда (Steam, 1.2): состав навыков, руны и совет набирать Lethality. Числа и механика Electrified/Dazed сверены с вики. Баны и правило против боссов - выводы по вики и выжимке меты, в гайде их нет. Актуального гайда нет, поэтому уверенность низкая.",
+      "en": "From the guide (Steam, 1.2): skills, runes and the advice to stack Lethality. Numbers and the Electrified/Dazed mechanics checked against the wiki. Bans and the boss rule are inferences from the wiki and the meta digest, not in the guide. No current guide exists, so confidence is low."
+    }
+  },
+  "gaps": [
+    "Нет актуального гайда (1.5d) на Machinist: есть только старый раздел Steam-гайда (патч 1.2).",
+    "Легендарное оружие Machinist добавлено в 1.5 (по выжимке), но на вики R5 нет; билда под него нет.",
+    "В Steam-гайде из пассивок названа только Lethality; versatility-руны не названы (разделения Tenacity/Versatility в гайде нет, все 4 руны положены в tenacity).",
+    "Гайд не говорит, какой навык Electrotaser RX основной: obtained выставлен по порядку навыков оружия на вики (Lightning Shield первый, Lightning Coil второй).",
+    "Порог Electrified на вики противоречив: в описании 12 стаков, в Trivia 15; проверить в игре, сколько остаётся с Efficiency Focus (-4).",
+    "Модуль рун на вики старее 1.5d; руны этого билда в списке известных расхождений нет, но изменения Chaos-рун по выжимке не уточнены."
+  ]
+}

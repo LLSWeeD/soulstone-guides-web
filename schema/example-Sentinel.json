@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Sentinel",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Хрупкий и быстрый стрелок с луком: много снарядов, крит и стаки. Живёт за счёт скорости и лишнего рывка.",
+    "en": "Fragile, fast bow user: projectile spam, crits and stacking. Survives through speed and an extra dash."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-sentinel",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2025/05/17/soulstone-survivors-guide-the-sentinel/",
+      "title": "Soulstone Survivors Guide: The Sentinel",
+      "game_version": "1.5d",
+      "updated": "2026-08-28",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "sentinel-projectile",
+          "name": { "ru": "Снаряды", "en": "Projectile" },
+          "weapon_id": "HuntressBow",
+          "archetypes": ["stack", "multiplier"],
+          "core_mechanics": ["Aptitude", "Ammunition", "Dazed"],
+          "skills": [
+            { "id": "Shoot", "role": "core", "obtained": "weapon_primary", "note": { "ru": "Низкий кулдаун, копит Aptitude." } },
+            { "id": "RainofArrows", "role": "core", "obtained": "weapon_secondary", "note": { "ru": "Берётся с руной Weapon Expert, урон растёт от стаков Aptitude." } },
+            { "id": "BoltBarrage", "role": "support", "obtained": "rune", "note": { "ru": "Добавляется в пул руной Skill Mastery: Projectile." } },
+            { "id": "RicochetShot", "role": "support" },
+            { "id": "SniperShot", "role": "damage", "note": { "ru": "Главный урон по боссам (Lords of the Void)." } },
+            { "id": "SplitShot", "role": "support", "note": { "ru": "Копит Aptitude и вешает Dazed." } },
+            { "id": "FragShot", "role": "support" },
+            { "id": "SpreadShot", "role": "support" }
+          ],
+          "passives": [
+            { "stat": "Movement Speed", "priority": "must" },
+            { "power_id": "Magnetic", "priority": "must" },
+            { "stat": "Critical Chance", "priority": "high" },
+            { "stat": "Critical Damage", "priority": "high" },
+            { "stat": "Cast Frequency", "priority": "high" },
+            { "stat": "Multi Cast Chance", "priority": "medium" }
+          ],
+          "runes": {
+            "tenacity": [
+              { "id": "ArmorpiercingRounds" },
+              { "id": "ExtendedMagazines" },
+              { "id": "CriticalMastery" },
+              { "id": "ImprovedRepertory" }
+            ],
+            "versatility": [
+              { "id": "WeaponExpert" },
+              { "id": "RerollMastery" },
+              { "id": "SkillMastery", "variant": "Projectile" }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Засыпать врагов снарядами: урон идёт от массы попаданий и стаков, а не от одного сильного навыка.",
+            "en": "Flood enemies with projectiles: damage comes from volume and stacks rather than one big skill."
+          },
+          "claims": [
+            {
+              "text": { "ru": "Стаки Aptitude поднимают крит. урон выше 1000%.", "en": "Aptitude stacks push critical damage above 1000%." },
+              "status": "unverified",
+              "detail": "Проверить по вики: сколько крит. урона даёт один стак Aptitude и сколько стаков реально."
+            }
+          ],
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "derived": {
+    "banish": [],
+    "level_up_rules": [],
+    "basis": { "ru": "Пример: блок derived заполняется на пилоте." }
+  },
+  "gaps": []
+}

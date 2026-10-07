@@ -1,0 +1,135 @@
+{
+  "source": {
+    "url": "https://game.lb-product.com/en/games/soulstone-survivors/guides/soulstone-survivors_builds-guide",
+    "title": "Soulstone Survivors Best Builds — Synergy Rules Ranked",
+    "author": "Verdict Games Editorial Team",
+    "updated": "2026-09-18",
+    "fetched": "2026-10-06"
+  },
+  "intro": {
+    "ru": "Общие правила сборки билда, не привязанные к персонажу. Пересказ стороннего гайда (ссылка внизу) с пометками, что подтверждается вики. Главная мысль: игра предлагает пассивки в зависимости от того, что у тебя уже есть, поэтому выигрывает тот, кто рано выбрал одну механику и упорно её копит.",
+    "en": "General build rules that apply to any character. A paraphrase of a third-party guide (link below) with notes on what the wiki confirms. Key idea: the game offers powers based on what you already have, so committing early to one mechanic beats picking the flashiest card."
+  },
+  "sections": [
+    {
+      "id": "rule",
+      "title": { "ru": "Главное правило: пассивки условные", "en": "The core rule: powers are conditional" },
+      "paras": [
+        { "ru": "Набор пассивок на повышении уровня фильтруется по твоему билду. Пассивка «вешать Burn при ударе» появится, только если у тебя уже есть источник Burn; усиления урона Burn — только когда источников три. То же для Poison, Bleed, Doom и для баффов.", "en": "Level-up powers are filtered by your build. 'Apply Burn on hit' only appears once you already have a Burn source; Burn damage boosts only once you have three. Same for Poison, Bleed, Doom and the buffs." },
+        { "ru": "Поэтому брать самую красивую карту каждый уровень хуже, чем трижды взять третью по красоте, но в одну механику.", "en": "So taking the best-looking card every level is worse than taking the third-best card three times for one mechanic." }
+      ],
+      "table": {
+        "head": [ { "ru": "Источников эффекта", "en": "Sources" }, { "ru": "Что открывается", "en": "Unlocks" }, { "ru": "Зачем", "en": "Why it matters" } ],
+        "rows": [
+          [ { "ru": "1", "en": "1" }, { "ru": "Шанс наложить эффект при ударе", "en": "Chance to apply on hit" }, { "ru": "Дешёвые лишние наложения с навыков, которые раньше его не вешали", "en": "Cheap extra applications from other skills" } ],
+          [ { "ru": "2", "en": "2" }, { "ru": "Шанс наложить при крите и следующий эффект цепочки", "en": "Apply on crit, plus the next effect in the chain" }, { "ru": "Главный приз — следующее звено цепочки", "en": "The real prize is the next chain link" } ],
+          [ { "ru": "3", "en": "3" }, { "ru": "Мгновенный урон при наложении, рост урона эффекта, частые тики", "en": "Instant damage on apply, more effect damage, faster ticks" }, { "ru": "Обрыв: три множителя на один и тот же урон сразу", "en": "The cliff: three multipliers on the same damage at once" } ]
+        ]
+      },
+      "checks": [
+        { "text": { "ru": "Пассивки требуют источников эффекта.", "en": "Powers require effect sources." }, "status": "verified", "detail": "Вики: у пассивок есть условия вида «At least 1 source of Bleed», «At least 2 sources of Disarray»." },
+        { "text": { "ru": "Точные пороги 1/2/3 для всех эффектов.", "en": "Exact 1/2/3 thresholds for all effects." }, "status": "unverified", "detail": "На вики условия указаны у отдельных пассивок, общей таблицы порогов нет." }
+      ]
+    },
+    {
+      "id": "archetypes",
+      "title": { "ru": "Три архетипа для высоких проклятий", "en": "Three archetypes for high curse" },
+      "table": {
+        "head": [ { "ru": "Место", "en": "Rank" }, { "ru": "Архетип", "en": "Build" }, { "ru": "На ком", "en": "Who" }, { "ru": "Почему", "en": "Why" }, { "ru": "Минус", "en": "Catch" } ],
+        "rows": [
+          [ { "ru": "1", "en": "1" }, { "ru": "Стаки Burn", "en": "Burn stack" }, { "ru": "Любой огненный, лучше всего @Pyromancer", "en": "Any Fire character, @Pyromancer best" }, { "ru": "Burn в начале цепочки, огненных навыков много, три источника приходят рано и открывают сразу три множителя", "en": "Burn heads the chain, Fire skills are common, three sources arrive early and unlock three multipliers" }, { "ru": "DoT плохо убивает одиночных боссов: нужен один навык мгновенного урона", "en": "DoT is slow on single bosses: keep one burst skill" } ],
+          [ { "ru": "2", "en": "2" }, { "ru": "Число призывов", "en": "Summon count" }, { "ru": "@Necromancer, раньше @Beastmaster", "en": "@Necromancer, earlier @Beastmaster" }, { "ru": "Мультикаст и частота каста прямо увеличивают число существ и складываются со всем остальным", "en": "Multi Cast and Cast Frequency directly add units and compound with everything" }, { "ru": "Урон там, где призывы, а не там, куда целишься: против подвижного босса проседает", "en": "Damage is where summons are, not where you aim: weak vs moving bosses" } ],
+          [ { "ru": "3", "en": "3" }, { "ru": "Физическая цепочка Swing -> Thrust", "en": "Physical chain Swing -> Thrust" }, { "ru": "@Barbarian, @Assassin, @Samurai", "en": "@Barbarian, @Assassin, @Samurai" }, { "ru": "Ближникам предлагают почти только эти типы, собирается сама; у Assassin растёт через Bleed", "en": "Melee characters are offered mostly these types, it builds itself; scales via Bleed on Assassin" }, { "ru": "Самый низкий потолок: физический урон упирается в броню, а проклятия добавляют элите броню", "en": "Lowest ceiling: physical damage hits armor, which curses add to elites" } ]
+        ]
+      },
+      "paras": [
+        { "ru": "Если забеги застревают и нужен один ответ: огненный персонаж и стаки Burn.", "en": "If you are stuck and want one answer: a Fire character stacking Burn." }
+      ],
+      "checks": [
+        { "text": { "ru": "У Necromancer +20% мультикаста и +15% частоты каста.", "en": "Necromancer has +20% Multi Cast and +15% Cast Frequency." }, "status": "verified", "detail": "Вики: Multi Cast Chance +20%, Cast Frequency +15%." }
+      ]
+    },
+    {
+      "id": "chains",
+      "title": { "ru": "Две цепочки эффектов", "en": "The two effect chains" },
+      "paras": [
+        { "ru": "Обе цепочки замкнуты в круг: два источника любого звена открывают пассивки следующего.", "en": "Both chains are loops: two sources of any link make the next link's powers eligible." },
+        { "ru": "Отдельное правило: пассивки вида «тип A -> не тип A» требуют двух навыков с типом и двух без него. Полностью однотипный билд сам закрывает себе часть пассивок. Практичная форма: 4-5 навыков общего типа и 1-2 других.", "en": "Separate rule: 'Type A -> non-Type A' powers need two skills with the type and two without. A fully mono-type build locks itself out of some powers. Practical shape: 4-5 skills sharing a type plus 1-2 others." }
+      ],
+      "table": {
+        "head": [ { "ru": "Цепочка", "en": "Chain" }, { "ru": "Порядок", "en": "Order" }, { "ru": "Как начать", "en": "How to start" } ],
+        "rows": [
+          [ { "ru": "Дебаффы (на врагах)", "en": "Debuffs (on enemies)" }, { "ru": "Burn -> Slow -> Disarray -> Bleed -> Poison -> Doom -> Burn", "en": "Burn -> Slow -> Disarray -> Bleed -> Poison -> Doom -> Burn" }, { "ru": "Взять первые два навыка, которые вешают родной эффект твоей стихии", "en": "Take the first two skills applying your element's native effect" } ],
+          [ { "ru": "Баффы (на себе)", "en": "Buffs (on you)" }, { "ru": "Finesse -> Bulwark -> Aptitude -> Prowess -> Resilience -> Form -> Haste -> Finesse", "en": "Finesse -> Bulwark -> Aptitude -> Prowess -> Resilience -> Form -> Haste -> Finesse" }, { "ru": "Смотреть на строку «Gain ...» в описании навыка, а не только на урон", "en": "Read the 'Gain ...' line, not just the damage" } ]
+        ]
+      },
+      "checks": [
+        { "text": { "ru": "Skill Chain: навыки с базовой перезарядкой больше 8 с не участвуют.", "en": "Skill Chain: skills with base cooldown above 8 s do not count." }, "status": "verified", "detail": "Вики, статья Skill Chain: у навыков с перезарядкой больше 8 секунд карточка Skill Chain не появляется." },
+        { "text": { "ru": "Пример связок баффов: War Experience (Finesse -> Bulwark), Shredding Armor (Bulwark -> Aptitude), Armored Assault (Resilience -> Form).", "en": "Buff chain examples: War Experience, Shredding Armor, Armored Assault." }, "status": "verified", "detail": "Вики: эти пассивки дают следующий бафф при наложении предыдущего, шанс 25%." }
+      ]
+    },
+    {
+      "id": "run",
+      "title": { "ru": "Порядок забега", "en": "Building a run, in order" },
+      "list": [
+        { "ru": "До матча поставь руны. Руны Versatility стоят 0 очков, пустыми их оставлять незачем.", "en": "Before the match, equip runes. Versatility runes cost 0 Runic Power, never leave them empty." },
+        { "ru": "Уровни 1-5: выбери эффект по стартовому навыку и бери ещё два источника того же эффекта. Карты «просто урон» пока игнорируй: покупаешь право на нужные пассивки, а не урон.", "en": "Levels 1-5: pick an effect from your starting skill and take two more sources of it. Ignore raw damage cards: you are buying eligibility." },
+        { "ru": "Уровни 6-10: убедись, что три источника есть и эффект реально висит на врагах. Бери все три усиления эффекта, как только появятся.", "en": "Levels 6-10: confirm three sources and that the effect lands. Take all three effect upgrades as they appear." },
+        { "ru": "Банить всё, что не по плану, особенно навыки с четвёртым ненужным эффектом.", "en": "Banish everything off-plan, especially skills with a fourth unwanted effect." },
+        { "ru": "Когда ядро собрано, бери множители: область и частота каста обычно лучше плоского урона.", "en": "Once the core is set, buy multipliers: Area and Cast Frequency usually beat flat damage." },
+        { "ru": "Оставь один слот под мгновенный урон для Lords of the Void: DoT-билды чистят волны, но застревают на одиночной толстой цели.", "en": "Keep one burst slot for Lords of the Void: DoT builds stall on single tough targets." }
+      ],
+      "checks": [
+        { "text": { "ru": "Руны Versatility стоят 0 очков рун.", "en": "Versatility runes cost 0 Runic Power." }, "status": "verified", "detail": "Вики: у всех 11 рун Versatility цена 0." }
+      ]
+    },
+    {
+      "id": "utilities",
+      "title": { "ru": "Бан, закрепление, переброс", "en": "Banish, Lock, Reroll" },
+      "table": {
+        "head": [ { "ru": "Действие", "en": "Utility" }, { "ru": "Что делает", "en": "What it does" }, { "ru": "Ценность", "en": "Value" } ],
+        "rows": [
+          [ { "ru": "Изгнание (Banish)", "en": "Banish" }, { "ru": "Навсегда убирает вариант из пула до конца забега", "en": "Removes an option from the pool for the run" }, { "ru": "Самое сильное: каждый следующий выбор идёт из меньшего и лучшего пула", "en": "Strongest: every later draw comes from a smaller, better pool" } ],
+          [ { "ru": "Закрепить (Lock)", "en": "Lock" }, { "ru": "Сохраняет карту до следующего уровня", "en": "Keeps a card for the next level-up" }, { "ru": "Когда не хватает одного источника, а нужная карта уже на столе", "en": "When one source short and the card is already offered" } ],
+          [ { "ru": "Переброс (Reroll)", "en": "Reroll" }, { "ru": "Новые три карты из того же пула", "en": "Three new cards from the same pool" }, { "ru": "Слабее всех: пул не меняется", "en": "Weakest: the pool doesn't change" } ]
+        ]
+      },
+      "paras": [
+        { "ru": "Баны не переносятся между забегами и ценнее всего в начале. Полное общее дерево навыков даёт до +10 банов, +10 закреплений и +10 перебросов.", "en": "Banishes don't carry over and are most valuable early. The full general Skill Tree grants up to +10 banish, +10 lock and +10 reroll." }
+      ],
+      "checks": [
+        { "text": { "ru": "+10 банов, закреплений и перебросов из дерева навыков.", "en": "+10 banish/lock/reroll from the Skill Tree." }, "status": "unverified", "detail": "Не сверено со страницей Skill Tree на вики." }
+      ]
+    },
+    {
+      "id": "rarity",
+      "title": { "ru": "Редкость и шансы", "en": "Rarity and odds" },
+      "paras": [
+        { "ru": "Сначала разыгрывается редкость, потом конкретная пассивка этой редкости, все с равным шансом. По гайду веса: Обычная 50, Необычная 25, Редкая 12, Эпическая 4, Легендарная 1. Из этого следует, что билд в основном состоит из обычных карт, выбранных правильно, а единственный способ поднять шанс конкретной пассивки — уменьшить пул банами.", "en": "Rarity is rolled first, then a power within it with equal odds. Per the guide the weights are Common 50, Uncommon 25, Rare 12, Epic 4, Legendary 1. So builds are mostly ordinary cards chosen well, and banishing is the only way to raise the odds of a specific power." }
+      ],
+      "checks": [
+        { "text": { "ru": "Сначала редкость по весам, потом пассивка.", "en": "Rarity is rolled first by weights." }, "status": "verified", "detail": "Вики, статья Powers: редкость разыгрывается по заранее заданным вероятностям с перевесом в сторону низких." },
+        { "text": { "ru": "Конкретные веса 50/25/12/4/1.", "en": "Exact weights 50/25/12/4/1." }, "status": "unverified", "detail": "На вики точных весов нет." }
+      ]
+    },
+    {
+      "id": "mistakes",
+      "title": { "ru": "Самые дорогие ошибки", "en": "The most costly mistakes" },
+      "list": [
+        { "ru": "Брать новый навык только потому, что он бьёт сильнее: седьмой навык с седьмым эффектом держит все эффекты ниже порогов.", "en": "Taking a new skill just for higher damage: a seventh effect keeps every effect below its threshold." },
+        { "ru": "Считать навык с перезарядкой больше 8 с источником для Skill Chain.", "en": "Counting a skill with cooldown above 8 s toward Skill Chain." },
+        { "ru": "Копить баны: они не переносятся, а в начале ценнее всего.", "en": "Saving banishes: they don't carry over and are worth most early." },
+        { "ru": "Строить полностью однотипный билд: закрывает часть пассивок.", "en": "Building fully mono-type: it locks out a category of powers." },
+        { "ru": "Пропускать экран рун перед матчем.", "en": "Ignoring the pre-match rune screen." }
+      ]
+    },
+    {
+      "id": "meta",
+      "title": { "ru": "Как это сочетается с метой 1.5d", "en": "How this fits the 1.5d meta" },
+      "paras": [
+        { "ru": "По выжимке изменений 1.2 -> 1.5d специализация на одном эффекте стала ещё важнее: урон от DoT с 1.4 нормально масштабируется, Synchrony усилили (награда за повторяющиеся типы навыков), а «всего понемногу» и универсальный мультикаст ослабли. Центр современных билдов — легендарное оружие и Titan Powers, их этот гайд не разбирает.", "en": "Per the 1.2 -> 1.5d digest, single-effect specialization matters even more: DoT scales properly since 1.4, Synchrony was buffed, while 'a bit of everything' and universal multicast got weaker. Modern builds centre on legendary weapons and Titan Powers, which this guide doesn't cover." },
+        { "ru": "Рекомендация гайда про 4-5 навыков общего типа хорошо ложится на Synchrony; Generalist (много разных типов) — противоположная стратегия и требует 20+ уникальных типов.", "en": "The guide's 4-5 shared-type skills fit Synchrony; Generalist is the opposite strategy and needs 20+ unique types." }
+      ]
+    }
+  ]
+}

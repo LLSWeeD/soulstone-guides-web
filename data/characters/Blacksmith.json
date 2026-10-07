@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Blacksmith",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Кузнец (Blacksmith) открывается, когда полностью выкуплены деревья навыков всех 22 остальных персонажей. По вики у него одно оружие, Hephaestus' Hammer (R1, навыки Anvil Slam и Blacksmith's Surge), нет собственного дерева навыков и нет вознесения. Его особенность: навыки-призывы оружий других персонажей (22 навыка типа Summon, например Barbaric Cleavers или Arcane Staff); призванное оружие сражается само, применяет два своих навыка и даёт баффы игроку и союзникам. Старый Steam-гайд (1.2) называет его билдом на миньонах и очень сильным персонажем, но конкретного билда не даёт.",
+    "en": "The Blacksmith unlocks once the skill trees of all 22 other characters are fully purchased. Per the wiki he has a single weapon, Hephaestus' Hammer (R1, skills Anvil Slam and Blacksmith's Surge), no character skill tree and no ascension. His hook is summon skills for the weapons of other characters (22 Summon-type skills, e.g. Barbaric Cleavers or Arcane Staff); a summoned weapon fights on its own, casts its two skills and buffs the player and allies. The old Steam guide (1.2) calls him a minion build and a very strong character but gives no concrete build."
+  },
+  "guides": [
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "legacy_note": {
+        "ru": "Раздел под патч 1.2 только описывает персонажа: навыки как летающие оружия-миньоны, забег до Red portal 10 за 22:36; навыков, пассивок, рун и банов в нём нет, поэтому билда нет. Автор прервал забег из-за падения FPS до 15: часть атак некорректно работает с настройкой «Special effects visibility». По выжимке 1.5d Blacksmith не ослаблен, а главным ограничителем остаётся производительность при большом числе призывов; актуального гайда с билдом нет.",
+        "en": "Written for 1.2, the section only describes the character: skills are floating weapon minions, and a run reached Red portal 10 in 22:36; it names no skills, passives, runes or bans, so there is no build. The author stopped because FPS dropped to 15: some attacks misbehave with the Special effects visibility setting. Per the 1.5d digest the Blacksmith was not nerfed and performance with many summons remains the main limit; there is no current guide with a build."
+      },
+      "builds": []
+    }
+  ],
+  "derived": {
+    "banish": [],
+    "level_up_rules": [
+      {
+        "ru": "Вывод: основа билда — навыки-призывы оружий других персонажей (тип Summon, перезарядка 20 с, 1 оружие на навык); каждое призванное оружие само применяет два навыка и даёт баффы, поэтому набирать их стоит в первую очередь.",
+        "en": "Inference: the build is built on summon skills for other characters' weapons (Summon type, 20 s cooldown, 1 weapon per skill); each summoned weapon casts two skills and gives buffs, so prioritise them."
+      },
+      {
+        "ru": "Вывод: по вики призванные юниты наследуют Damage Modifier, Multi Cast Chance и эффекты при попадании, а по выжимке 1.5d Multicast остаётся сильным для призывов оружий; пассивки на урон, Multi Cast и Cast Frequency выглядят приоритетными.",
+        "en": "Inference: per the wiki, summoned units inherit Damage Modifier, Multi Cast Chance and on-hit effects, and per the 1.5d digest Multicast stays strong for weapon summons; damage, Multi Cast and Cast Frequency passives look like priorities."
+      },
+      {
+        "ru": "Вывод: призванные оружия разных персонажей несут разные типы навыков (Fire, Electric, Arcane, Physical и т.д.), поэтому пассивки на один тип усиливают лишь часть призывов; надёжнее общие бонусы. Проверить в игре.",
+        "en": "Inference: summoned weapons carry different skill types (Fire, Electric, Arcane, Physical, etc.), so single-type passives boost only some summons; generic bonuses are safer. Verify in game."
+      }
+    ],
+    "basis": {
+      "ru": "Источников с билдом нет. Правила — выводы из вики (статьи The Blacksmith и Summon, описания навыков-призывов) и выжимки меты 1.5d (раздел Blacksmith и Multicast); Steam-гайд подтверждает только, что персонаж играет через летающие оружия-миньоны. Банов не предлагаем: ни один источник их не называет.",
+      "en": "No source gives a build. The rules are inferences from the wiki (The Blacksmith and Summon articles, summon skill descriptions) and the 1.5d meta digest (Blacksmith and Multicast sections); the Steam guide only confirms that the character plays through floating weapon minions. No bans are suggested: no source names any."
+    }
+  },
+  "gaps": [
+    "Нет актуального гайда (1.5d) на Blacksmith: есть только старый раздел Steam-гайда (патч 1.2), и в нём нет конкретного билда (навыков, пассивок, рун, банов), поэтому builds пустой.",
+    "Правила при повышении уровня — выводы из вики и выжимки меты, а не из гайда; какие из 22 призывов оружий сильнее и какие пассивки лучше, не проверено.",
+    "На вики не сказано, считаются ли призванные оружия союзниками для баффов Anvil Slam (Prowess, Swiftness) и Blacksmith's Surge (Electrified).",
+    "У артефактной силы Hammerfall нет числовых данных на вики; страницы не найдено.",
+    "Автор Steam-гайда отмечает падение FPS до 15 и некорректную работу части атак с настройкой «Special effects visibility»; выжимка 1.5d тоже называет производительность ограничителем. Как это выглядит в 1.5d, не проверено."
+  ]
+}

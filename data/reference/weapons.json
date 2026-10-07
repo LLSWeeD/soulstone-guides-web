@@ -1,0 +1,4365 @@
+[
+ {
+  "id": "ArcaneStaff",
+  "name_en": "Arcane Staff",
+  "name_ru": "Магический посох",
+  "character_id": "ArcaneWeaver",
+  "rarity": "R1",
+  "skill_type": "Arcane",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-10"
+   },
+   {
+    "name": "Experience",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "ArcaneMissiles",
+   "ArcaneExplosion"
+  ],
+  "artifact_power": "Mana Beam",
+  "artifact_power_description": "Summons a crystal close to your position that attempts to create an arcane connection for a few seconds if within range, causing damage and applying Brittle.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "3 (12)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "260"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Arcane_Weaver"
+ },
+ {
+  "id": "IgnisGreatstaffofDespair",
+  "name_en": "Ignis, Greatstaff of Despair",
+  "name_ru": "Игнис, Великий посох отчаяния",
+  "character_id": "ArcaneWeaver",
+  "rarity": "R2",
+  "skill_type": "Fire",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+5%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-10"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+5%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "-10%"
+   }
+  ],
+  "skills": [
+   "FieryMissiles",
+   "FirePillar"
+  ],
+  "artifact_power": "Mana Beam",
+  "artifact_power_description": "Summons a crystal close to your position that attempts to create an arcane connection for a few seconds if within range, causing damage and applying Burn.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "3 (12)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "260"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Arcane_Weaver"
+ },
+ {
+  "id": "BenedictioStaffofDawn",
+  "name_en": "Benedictio, Staff of Dawn",
+  "name_ru": "Бенедиктио, Посох рассвета",
+  "character_id": "ArcaneWeaver",
+  "rarity": "R3",
+  "skill_type": "Holy",
+  "stats": [
+   {
+    "name": "Max Health",
+    "value": "-20"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+15%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "SacredOrb",
+   "CelestialRetribution"
+  ],
+  "artifact_power": "Mana Beam",
+  "artifact_power_description": "Summons a crystal close to your position that attempts to create an arcane connection for a few seconds if within range, causing damage and applying Dazed.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "3 (12)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "210"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Arcane_Weaver"
+ },
+ {
+  "id": "GlaciesRodofEternalIce",
+  "name_en": "Glacies, Rod of Eternal Ice",
+  "name_ru": "Гласиус, Жезл вечного льда",
+  "character_id": "ArcaneWeaver",
+  "rarity": "R4",
+  "skill_type": "Ice",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "-20%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+20%"
+   }
+  ],
+  "skills": [
+   "FrostBeam",
+   "IceShield"
+  ],
+  "artifact_power": "Mana Beam",
+  "artifact_power_description": "Summons a crystal close to your position that attempts to create an arcane connection for a few seconds if within range, causing damage and applying Slow.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "3 (12)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "210"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Arcane_Weaver"
+ },
+ {
+  "id": "PandemoniumSpireofChaos",
+  "name_en": "Pandemonium, Spire of Chaos",
+  "name_ru": "Пандемониум, шпиль хаоса",
+  "character_id": "ArcaneWeaver",
+  "rarity": "R5",
+  "skill_type": "Chaos",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+20%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-5%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "FracturedVolley",
+   "ChaoticSwirl"
+  ],
+  "artifact_power": "Mana Beam",
+  "artifact_power_description": "Summons a crystal close to your position that attempts to create an arcane connection for a few seconds if within range, causing damage and applying Disarray.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "3 (12)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "1 ↔ 520"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Arcane_Weaver"
+ },
+ {
+  "id": "WornDaggers",
+  "name_en": "Worn Daggers",
+  "name_ru": "Ржавые кинжалы",
+  "character_id": "Assassin",
+  "rarity": "R1",
+  "skill_type": "Thrust",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+5%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+5%"
+   },
+   {
+    "name": "Mutli Cast Chance",
+    "value": "-10%"
+   }
+  ],
+  "skills": [
+   "SinisterStrike",
+   "Eviscerate"
+  ],
+  "artifact_power": "Shadow Dance",
+  "artifact_power_description": "Emits an aura that applies Bleed to nearby enemies ever 0.5 seconds. You become elusive and can walk through enemies.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage",
+    "value": "1400"
+   },
+   {
+    "name": "Duration",
+    "value": "15s"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Assassin"
+ },
+ {
+  "id": "CurvedDaggers",
+  "name_en": "Curved Daggers",
+  "name_ru": "Искривленные кинжалы",
+  "character_id": "Assassin",
+  "rarity": "R2",
+  "skill_type": "Swing",
+  "stats": [
+   {
+    "name": "Armor Power",
+    "value": "-15"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+10%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "TwinDaggers",
+   "Backstab"
+  ],
+  "artifact_power": "Shadow Dance",
+  "artifact_power_description": "Emits an aura that applies Fragility to nearby enemies ever 0.5 seconds. You become elusive and can walk through enemies.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage",
+    "value": "1600"
+   },
+   {
+    "name": "Duration",
+    "value": "15s"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Assassin"
+ },
+ {
+  "id": "GrenadiersMark",
+  "name_en": "Grenadier's Mark",
+  "name_ru": "Стрелковая метка",
+  "character_id": "Assassin",
+  "rarity": "R3",
+  "skill_type": "Bomb",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-30"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+5%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+20%"
+   }
+  ],
+  "skills": [
+   "DebilitatingBomb",
+   "FanofBombs"
+  ],
+  "artifact_power": "Shadow Dance",
+  "artifact_power_description": "Emits an aura that applies Disoriented to nearby enemies ever 0.5 seconds. You become elusive and can walk through enemies.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage",
+    "value": "1600"
+   },
+   {
+    "name": "Duration",
+    "value": "15s"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Assassin"
+ },
+ {
+  "id": "EdgeofDoom",
+  "name_en": "Edge of Doom",
+  "name_ru": "Клинок рока",
+  "character_id": "Assassin",
+  "rarity": "R4",
+  "skill_type": "Shadow",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-10"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+20%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "ShadowStab",
+   "Reap"
+  ],
+  "artifact_power": "Shadow Dance",
+  "artifact_power_description": "Emits an aura that applies Doom to nearby enemies ever 0.5 seconds. You become elusive and can walk through enemies.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage",
+    "value": "1200"
+   },
+   {
+    "name": "Duration",
+    "value": "15s"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Assassin"
+ },
+ {
+  "id": "WarbladesofOzzinath",
+  "name_en": "Warblades of Ozzinath",
+  "name_ru": "Клинки Оззината",
+  "character_id": "Assassin",
+  "rarity": "R5",
+  "skill_type": "Nature",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+20%"
+   },
+   {
+    "name": "Block Power",
+    "value": "-5"
+   }
+  ],
+  "skills": [
+   "VipersPounce",
+   "RiftFang"
+  ],
+  "artifact_power": "Shadow Dance",
+  "artifact_power_description": "Emits an aura that applies Poison to nearby enemies ever 0.5 seconds. You become elusive and can walk through enemies.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage",
+    "value": "1500"
+   },
+   {
+    "name": "Duration",
+    "value": "15s"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Assassin"
+ },
+ {
+  "id": "BarbaricCleavers",
+  "name_en": "Barbaric Cleavers",
+  "name_ru": "Варварские тесаки",
+  "character_id": "Barbarian",
+  "rarity": "R1",
+  "skill_type": "Swing",
+  "stats": [
+   {
+    "name": "Area Modifer",
+    "value": "+5%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-5"
+   }
+  ],
+  "skills": [
+   "Whirlwind",
+   "ThrowAxe"
+  ],
+  "artifact_power": "Warcry",
+  "artifact_power_description": "Shouts causing damage in a cone in front of you, temporarily increasing your multi cast chance based on how many enemies were hit.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage",
+    "value": "4000"
+   },
+   {
+    "name": "Base Bonus",
+    "value": "+10%"
+   },
+   {
+    "name": "Bonus per Stack",
+    "value": "+1.5%"
+   },
+   {
+    "name": "Duration",
+    "value": "10.0"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Barbarian"
+ },
+ {
+  "id": "Skullbreaker",
+  "name_en": "Skullbreaker",
+  "name_ru": "Крушитель черепов",
+  "character_id": "Barbarian",
+  "rarity": "R2",
+  "skill_type": "Earth",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+10%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "+5"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-10%"
+   }
+  ],
+  "skills": [
+   "Shockwave",
+   "Demolish"
+  ],
+  "artifact_power": "Warcry",
+  "artifact_power_description": "Shouts causing damage in a cone in front of you, temporarily increasing your area based on how many enemies were hit.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage",
+    "value": "4000"
+   },
+   {
+    "name": "Base Bonus",
+    "value": "+10%"
+   },
+   {
+    "name": "Bonus per Stack",
+    "value": "+1.5%"
+   },
+   {
+    "name": "Duration",
+    "value": "10.0"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Barbarian"
+ },
+ {
+  "id": "TempestBattleAxes",
+  "name_en": "Tempest Battle Axes",
+  "name_ru": "Боевые топоры бури",
+  "character_id": "Barbarian",
+  "rarity": "R3",
+  "skill_type": "Electric",
+  "stats": [
+   {
+    "name": "Critical Damage Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Pushback Modifier",
+    "value": "-20%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "ThunderingSlash",
+   "ThunderClap"
+  ],
+  "artifact_power": "Warcry",
+  "artifact_power_description": "Shouts causing damage in a cone in front of you, temporarily increasing your critical damage based on how many enemies were hit.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage",
+    "value": "4000"
+   },
+   {
+    "name": "Base Bonus",
+    "value": "+15%"
+   },
+   {
+    "name": "Bonus per Stack",
+    "value": "+3%"
+   },
+   {
+    "name": "Duration",
+    "value": "10.0"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Barbarian"
+ },
+ {
+  "id": "BloodgodsLegacy",
+  "name_en": "Bloodgod's Legacy",
+  "name_ru": "Наследие бога крови",
+  "character_id": "Barbarian",
+  "rarity": "R4",
+  "skill_type": "Slam",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+30"
+   },
+   {
+    "name": "Armor Power",
+    "value": "+10"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "HeavyStrike",
+   "GroundSlam"
+  ],
+  "artifact_power": "Warcry",
+  "artifact_power_description": "Shouts causing damage in a cone in front of you, temporarily increasing your damage modifier based on how many enemies were hit.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage",
+    "value": "4000"
+   },
+   {
+    "name": "Base Bonus",
+    "value": "+10%"
+   },
+   {
+    "name": "Bonus per Stack",
+    "value": "+1.5%"
+   },
+   {
+    "name": "Duration",
+    "value": "10.0"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Barbarian"
+ },
+ {
+  "id": "BladesofDamnation",
+  "name_en": "Blades of Damnation",
+  "name_ru": "Клинки приговора",
+  "character_id": "Barbarian",
+  "rarity": "R5",
+  "skill_type": "Thrust",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+15%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "FleshImpale",
+   "BattleShout"
+  ],
+  "artifact_power": "Warcry",
+  "artifact_power_description": "Shouts causing damage in a cone in front of you, temporarily increasing your critical chance based on how many enemies were hit.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage",
+    "value": "4000"
+   },
+   {
+    "name": "Base Bonus",
+    "value": "+15%"
+   },
+   {
+    "name": "Bonus per Stack",
+    "value": "+3%"
+   },
+   {
+    "name": "Duration",
+    "value": "10.0"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Barbarian"
+ },
+ {
+  "id": "WildCleaver",
+  "name_en": "Wild Cleaver",
+  "name_ru": "Дикий тесак",
+  "character_id": "Beastmaster",
+  "rarity": "R1",
+  "skill_type": "Nature",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+5%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-5"
+   }
+  ],
+  "skills": [
+   "VenomousStrike",
+   "PlagueViper"
+  ],
+  "artifact_power": "Watchful Hawk",
+  "artifact_power_description": "Releases a hawk that flies around you, causing damage and applying Poison.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage",
+    "value": "1200"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Beastmaster"
+ },
+ {
+  "id": "NaturesFury",
+  "name_en": "Nature’s Fury",
+  "name_ru": "Ярость природы",
+  "character_id": "Beastmaster",
+  "rarity": "R2",
+  "skill_type": "Swing",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "-10%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "WildStrike",
+   "SwampBoar"
+  ],
+  "artifact_power": "Watchful Hawk",
+  "artifact_power_description": "Releases a hawk that flies around you, causing damage and applying Fragility.",
+  "artifact_power_stats": [
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "1600"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Beastmaster"
+ },
+ {
+  "id": "Bonecrusher",
+  "name_en": "Bonecrusher",
+  "name_ru": "Костолом",
+  "character_id": "Beastmaster",
+  "rarity": "R3",
+  "skill_type": "Slam",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+40"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "-5%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "BrutalSlam",
+   "CaveBear"
+  ],
+  "artifact_power": "Watchful Hawk",
+  "artifact_power_description": "Releases a hawk that flies around you, causing damage and applying Shattered.",
+  "artifact_power_stats": [
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "1400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Beastmaster"
+ },
+ {
+  "id": "WidowsEmbrace",
+  "name_en": "Widow’s Embrace",
+  "name_ru": "Объятия вдовы",
+  "character_id": "Beastmaster",
+  "rarity": "R4",
+  "skill_type": "Bomb",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-5"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+35%"
+   }
+  ],
+  "skills": [
+   "SpiderCocoon",
+   "SpiderQueen"
+  ],
+  "artifact_power": "Watchful Hawk",
+  "artifact_power_description": "Releases a hawk that flies around you, causing damage and applying Bleed.",
+  "artifact_power_stats": [
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "1300"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Beastmaster"
+ },
+ {
+  "id": "AncestralFlame",
+  "name_en": "Ancestral Flame",
+  "name_ru": "Пламя предков",
+  "character_id": "Beastmaster",
+  "rarity": "R5",
+  "skill_type": "Fire",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+20"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+20%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+20%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "-10%"
+   }
+  ],
+  "skills": [
+   "SummonPyrodactil",
+   "SummonLavaTyrant"
+  ],
+  "artifact_power": "Watchful Hawk",
+  "artifact_power_description": "Releases a hawk that flies around you, causing damage and applying Burn.",
+  "artifact_power_stats": [
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "1500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Beastmaster"
+ },
+ {
+  "id": "HephaestusHammer",
+  "name_en": "Hephaestus' Hammer",
+  "name_ru": "Молот Гефеста",
+  "character_id": "Blacksmith",
+  "rarity": "R1",
+  "skill_type": "",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+10%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+5%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-15"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "AnvilSlam",
+   "BlacksmithsSurge"
+  ],
+  "artifact_power": "Hammerfall",
+  "artifact_power_description": "Conjures a hammer over you, causing damage to enemies and empowering your allies.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage",
+    "value": "2200"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+100%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+50%"
+   },
+   {
+    "name": "Duration",
+    "value": "8s"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Blacksmith"
+ },
+ {
+  "id": "SkullofDraxiz",
+  "name_en": "Skull of Draxiz",
+  "name_ru": "Череп Драксиза",
+  "character_id": "Chaoswalker",
+  "rarity": "R1",
+  "skill_type": "Chaos",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-20"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "ChaoticMissile",
+   "UnchainedChaos"
+  ],
+  "artifact_power": "Affliction Orbs",
+  "artifact_power_description": "Orbs rotate around you releasing projectiles at enemies that cause random damage and apply Disarray.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "3(9)"
+   },
+   {
+    "name": "Duration",
+    "value": "15s"
+   },
+   {
+    "name": "Damage",
+    "value": "1 ↔ 900"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Chaoswalker"
+ },
+ {
+  "id": "ArtifactofCorruption",
+  "name_en": "Artifact of Corruption",
+  "name_ru": "Артефакт скверны",
+  "character_id": "Chaoswalker",
+  "rarity": "R2",
+  "skill_type": "Nature",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "-5%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "InfectedShot",
+   "Corrosion"
+  ],
+  "artifact_power": "Affliction Orbs",
+  "artifact_power_description": "Orbs rotate around you releasing projectiles at enemies that cause random damage and apply Poison.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "3(9)"
+   },
+   {
+    "name": "Duration",
+    "value": "15s"
+   },
+   {
+    "name": "Damage",
+    "value": "450"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Chaoswalker"
+ },
+ {
+  "id": "FlamewalkersSpire",
+  "name_en": "Flamewalker’s Spire",
+  "name_ru": "Острие огнеходца",
+  "character_id": "Chaoswalker",
+  "rarity": "R3",
+  "skill_type": "Fire",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+5%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-10"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "OrbsofDestruction",
+   "VolcanoEruption"
+  ],
+  "artifact_power": "Affliction Orbs",
+  "artifact_power_description": "Orbs rotate around you releasing projectiles at enemies that cause random damage and apply Burn.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "3(9)"
+   },
+   {
+    "name": "Duration",
+    "value": "15s"
+   },
+   {
+    "name": "Damage",
+    "value": "450"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Chaoswalker"
+ },
+ {
+  "id": "AzramielsBlessing",
+  "name_en": "Azramiel’s Blessing",
+  "name_ru": "Благословение Азрамиэля",
+  "character_id": "Chaoswalker",
+  "rarity": "R4",
+  "skill_type": "Holy",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-20"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+20%"
+   },
+   {
+    "name": "Multi Cast Change",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "RippleofLight",
+   "SanctifiedOrb"
+  ],
+  "artifact_power": "Affliction Orbs",
+  "artifact_power_description": "Orbs rotate around you releasing projectiles at enemies that cause random damage and apply Dazed.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "3(9)"
+   },
+   {
+    "name": "Duration",
+    "value": "15s"
+   },
+   {
+    "name": "Damage",
+    "value": "450"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Chaoswalker"
+ },
+ {
+  "id": "VoidwalkersEcho",
+  "name_en": "Voidwalker's Echo",
+  "name_ru": "Эхо Идущего в бездне",
+  "character_id": "Chaoswalker",
+  "rarity": "R5",
+  "skill_type": "Shadow",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "-5%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+15%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+20%"
+   },
+   {
+    "name": "Multi Cast Change",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "DeathandDecay",
+   "CrushingDarkness"
+  ],
+  "artifact_power": "Affliction Orbs",
+  "artifact_power_description": "Orbs rotate around you releasing projectiles at enemies that cause random damage and apply Doom.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "3(9)"
+   },
+   {
+    "name": "Duration",
+    "value": "15s"
+   },
+   {
+    "name": "Damage",
+    "value": "450"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Chaoswalker"
+ },
+ {
+  "id": "IronTide",
+  "name_en": "Iron Tide",
+  "name_ru": "Железная волна",
+  "character_id": "CursedCaptain",
+  "rarity": "R1",
+  "skill_type": "Blast",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "-5%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "PlunderShot",
+   "GunpowderBurst"
+  ],
+  "artifact_power": "Ghost Crew",
+  "artifact_power_description": "Summons ghost sailors that cause damage and apply Exposed. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "2(4)"
+   },
+   {
+    "name": "Damage",
+    "value": "400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Cursed_Captain"
+ },
+ {
+  "id": "JawsoftheAbyss",
+  "name_en": "Jaws of the Abyss",
+  "name_ru": "Челюсти бездны",
+  "character_id": "CursedCaptain",
+  "rarity": "R2",
+  "skill_type": "Thrust",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+5%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "Sharktooth",
+   "ShiverofSharks"
+  ],
+  "artifact_power": "Ghost Crew",
+  "artifact_power_description": "Summons ghost sailors that cause damage and apply Distracted. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "5(20)"
+   },
+   {
+    "name": "Damage",
+    "value": "400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Cursed_Captain"
+ },
+ {
+  "id": "AdmiralsMight",
+  "name_en": "Admiral’s Might",
+  "name_ru": "Мощь адмирала",
+  "character_id": "CursedCaptain",
+  "rarity": "R3",
+  "skill_type": "Bomb",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-10"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+5%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "CannonBarrage",
+   "FleetStrike"
+  ],
+  "artifact_power": "Ghost Crew",
+  "artifact_power_description": "Summons ghost sailors that cause damage and apply Bleed. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(4)"
+   },
+   {
+    "name": "Damage",
+    "value": "450"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Cursed_Captain"
+ },
+ {
+  "id": "WrathoftheOldGods",
+  "name_en": "Wrath of the Old Gods",
+  "name_ru": "Гнев древних богов",
+  "character_id": "CursedCaptain",
+  "rarity": "R4",
+  "skill_type": "Projectile",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+20"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+30%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "CursedShot",
+   "GhostlyBurst"
+  ],
+  "artifact_power": "Ghost Crew",
+  "artifact_power_description": "Summons ghost sailors that cause damage and apply Fragility. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "2(4)"
+   },
+   {
+    "name": "Damage",
+    "value": "400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Cursed_Captain"
+ },
+ {
+  "id": "UnholyClaymore",
+  "name_en": "Unholy Claymore",
+  "name_ru": "Порочный клеймор",
+  "character_id": "DeathKnight",
+  "rarity": "R1",
+  "skill_type": "Shadow",
+  "stats": [
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "-10%"
+   }
+  ],
+  "skills": [
+   "Obliterate",
+   "RayofDoom"
+  ],
+  "artifact_power": "Dragonflight",
+  "artifact_power_description": "Calls a dragon that flies in the target direction leaving an area behind that causes damage and applies Disoriented.",
+  "artifact_power_stats": [
+   {
+    "name": "Duration",
+    "value": "12"
+   },
+   {
+    "name": "Damage",
+    "value": "1000"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Death_Knight"
+ },
+ {
+  "id": "GreatswordofCorruption",
+  "name_en": "Greatsword of Corruption",
+  "name_ru": "Большой меч скверны",
+  "character_id": "DeathKnight",
+  "rarity": "R2",
+  "skill_type": "Nature",
+  "stats": [
+   {
+    "name": "Armor Power",
+    "value": "-15"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "FesteringStrike",
+   "LethalBlade"
+  ],
+  "artifact_power": "Dragonflight",
+  "artifact_power_description": "Calls a dragon that flies in the target direction leaving an area behind that causes damage and applies Weakness.",
+  "artifact_power_stats": [
+   {
+    "name": "Duration",
+    "value": "12"
+   },
+   {
+    "name": "Damage",
+    "value": "1000"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Death_Knight"
+ },
+ {
+  "id": "LastSentence",
+  "name_en": "Last Sentence",
+  "name_ru": "Смертный приговор",
+  "character_id": "DeathKnight",
+  "rarity": "R3",
+  "skill_type": "Swing",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "-30%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+15%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+20%"
+   }
+  ],
+  "skills": [
+   "RavagingStrike",
+   "Carnage"
+  ],
+  "artifact_power": "Dragonflight",
+  "artifact_power_description": "Calls a dragon that flies in the target direction leaving an area behind that causes damage and applies Fragility.",
+  "artifact_power_stats": [
+   {
+    "name": "Duration",
+    "value": "12"
+   },
+   {
+    "name": "Damage",
+    "value": "1000"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Death_Knight"
+ },
+ {
+  "id": "Wintersorrow",
+  "name_en": "Wintersorrow",
+  "name_ru": "Зимняя скорбь",
+  "character_id": "DeathKnight",
+  "rarity": "R4",
+  "skill_type": "Ice",
+  "stats": [
+   {
+    "name": "Damage Modifer",
+    "value": "+20%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+20%"
+   }
+  ],
+  "skills": [
+   "FrostStrike",
+   "GlacialAffinity"
+  ],
+  "artifact_power": "Dragonflight",
+  "artifact_power_description": "Calls a dragon that flies in the target direction leaving an area behind that causes damage and applies Slow.",
+  "artifact_power_stats": [
+   {
+    "name": "Duration",
+    "value": "12"
+   },
+   {
+    "name": "Damage",
+    "value": "1000"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Death_Knight"
+ },
+ {
+  "id": "BloodbaneCrossbow",
+  "name_en": "Bloodbane Crossbow",
+  "name_ru": "Арбалет черной крови",
+  "character_id": "DemonHunter",
+  "rarity": "R1",
+  "skill_type": "Chaos",
+  "stats": [
+   {
+    "name": "Armor Power",
+    "value": "-5"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "UncontrolledArrows",
+   "MadnessShot"
+  ],
+  "artifact_power": "Demonic Portal",
+  "artifact_power_description": "Summon a demon at your position for a few seconds that fires bolts at nearby enemies, causing damage and applying Disarray. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(5)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "800"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Demon_Hunter"
+ },
+ {
+  "id": "HellfireCannon",
+  "name_en": "Hellfire Cannon",
+  "name_ru": "Адская пушка",
+  "character_id": "DemonHunter",
+  "rarity": "R2",
+  "skill_type": "Blast",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+5%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "Quickblast",
+   "AmmoOverload"
+  ],
+  "artifact_power": "Demonic Portal",
+  "artifact_power_description": "Summon a demon at your position for a few seconds that fires bolts at nearby enemies, causing damage and applying Shattered. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(5)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "850"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Demon_Hunter"
+ },
+ {
+  "id": "DemonicLauncher",
+  "name_en": "Demonic Launcher",
+  "name_ru": "Демоническая мортира",
+  "character_id": "DemonHunter",
+  "rarity": "R3",
+  "skill_type": "Bomb",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+10"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+15%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "HellspawnGrenade",
+   "DreadfulGrenade"
+  ],
+  "artifact_power": "Demonic Portal",
+  "artifact_power_description": "Summon a demon at your position for a few seconds that fires bolts at nearby enemies, causing damage and applying Bleed. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(5)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "850"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Demon_Hunter"
+ },
+ {
+  "id": "Bonereaper",
+  "name_en": "Bonereaper",
+  "name_ru": "Костяная коса",
+  "character_id": "DemonHunter",
+  "rarity": "R4",
+  "skill_type": "Shadow",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+20"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+15%"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+30%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "-10%"
+   }
+  ],
+  "skills": [
+   "ShadowSpiral",
+   "CursedRune"
+  ],
+  "artifact_power": "Demonic Portal",
+  "artifact_power_description": "Summon a demon at your position for a few seconds that fires bolts at nearby enemies, causing damage and applying Doom. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(5)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "850"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Demon_Hunter"
+ },
+ {
+  "id": "ScepterofThunder",
+  "name_en": "Scepter of Thunder",
+  "name_ru": "Громовой скипетр",
+  "character_id": "Elementalist",
+  "rarity": "R1",
+  "skill_type": "Electric",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+5%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "-5%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "LightningBeam",
+   "CallLightning"
+  ],
+  "artifact_power": "Ball of Lightning",
+  "artifact_power_description": "Launches an orb in the target direction that creates a lightning chain that jumps to nearby targets, causing damage and applying Dazed.",
+  "artifact_power_stats": [
+   {
+    "name": "Jumps",
+    "value": "14"
+   },
+   {
+    "name": "Damage",
+    "value": "700"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Elementalist"
+ },
+ {
+  "id": "ScepterofFrost",
+  "name_en": "Scepter of Frost",
+  "name_ru": "Ледяной скипетр",
+  "character_id": "Elementalist",
+  "rarity": "R2",
+  "skill_type": "Ice",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-5"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+5%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "SevereCold",
+   "FreezingBlow"
+  ],
+  "artifact_power": "Ball of Lightning",
+  "artifact_power_description": "Launches an orb in the target direction that creates a lightning chain that jumps to nearby targets, causing damage and applying Slow.",
+  "artifact_power_stats": [
+   {
+    "name": "Jumps",
+    "value": "14"
+   },
+   {
+    "name": "Damage",
+    "value": "900"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Elementalist"
+ },
+ {
+  "id": "ScepterofFlame",
+  "name_en": "Scepter of Flame",
+  "name_ru": "Пламенный скипетр",
+  "character_id": "Elementalist",
+  "rarity": "R3",
+  "skill_type": "Fire",
+  "stats": [
+   {
+    "name": "Damage Modifer",
+    "value": "+10%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "-10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "RayofFire",
+   "HeatExplosion"
+  ],
+  "artifact_power": "Ball of Lightning",
+  "artifact_power_description": "Launches an orb in the target direction that creates a lightning chain that jumps to nearby targets, causing damage and applying Burn.",
+  "artifact_power_stats": [
+   {
+    "name": "Jumps",
+    "value": "14"
+   },
+   {
+    "name": "Damage",
+    "value": "775"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Elementalist"
+ },
+ {
+  "id": "ScepterofNature",
+  "name_en": "Scepter of Nature",
+  "name_ru": "Природный скипетр",
+  "character_id": "Elementalist",
+  "rarity": "R4",
+  "skill_type": "Nature",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "-10%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+20%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "ContaminatedCut",
+   "Outbreak"
+  ],
+  "artifact_power": "Ball of Lightning",
+  "artifact_power_description": "Launches an orb in the target direction that creates a lightning chain that jumps to nearby targets, causing damage and applying Poison.",
+  "artifact_power_stats": [
+   {
+    "name": "Jumps",
+    "value": "14"
+   },
+   {
+    "name": "Damage",
+    "value": "740"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Elementalist"
+ },
+ {
+  "id": "ScepterofEarth",
+  "name_en": "Scepter of Earth",
+  "name_ru": "Земляной скипетр",
+  "character_id": "Elementalist",
+  "rarity": "R5",
+  "skill_type": "Earth",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "-5%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+15%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+20%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "GeomagneticPulse",
+   "TectonicImpact"
+  ],
+  "artifact_power": "Ball of Lightning",
+  "artifact_power_description": "Launches an orb in the target direction that creates a lightning chain that jumps to nearby targets, causing damage and applying Brittle.",
+  "artifact_power_stats": [
+   {
+    "name": "Jumps",
+    "value": "14"
+   },
+   {
+    "name": "Damage",
+    "value": "850"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Elementalist"
+ },
+ {
+  "id": "AmmoDevourer",
+  "name_en": "Ammo Devourer",
+  "name_ru": "Поглотитель патронов",
+  "character_id": "Engineer",
+  "rarity": "R1",
+  "skill_type": "Projectile",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+10%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+5"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-10%"
+   }
+  ],
+  "skills": [
+   "BurstofLead",
+   "GuidedMissiles"
+  ],
+  "artifact_power": "Plasma Sentry",
+  "artifact_power_description": "Builds a plasma sentry at your position that shoots at nearby enemies, causing damage and applying Fragility. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(5)"
+   },
+   {
+    "name": "Duration",
+    "value": "40s"
+   },
+   {
+    "name": "Damage",
+    "value": "450"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Engineer"
+ },
+ {
+  "id": "EZRobotLauncherXT1",
+  "name_en": "EZ Robot Launcher XT-1",
+  "name_ru": null,
+  "character_id": "Engineer",
+  "rarity": "R2",
+  "skill_type": "Blast",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "-15%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+15%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "EZSentry",
+   "EZMechanicalSpider"
+  ],
+  "artifact_power": "Plasma Sentry",
+  "artifact_power_description": "Builds a plasma sentry at your position that shoots at nearby enemies, causing damage and applying Shattered. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(5)"
+   },
+   {
+    "name": "Duration",
+    "value": "40s"
+   },
+   {
+    "name": "Damage",
+    "value": "325"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Engineer"
+ },
+ {
+  "id": "VoltCannon",
+  "name_en": "Volt Cannon",
+  "name_ru": "Вольт-пушка",
+  "character_id": "Engineer",
+  "rarity": "R3",
+  "skill_type": "Electric",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+15%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-15"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "Energizer",
+   "PowerGenerator"
+  ],
+  "artifact_power": "Plasma Sentry",
+  "artifact_power_description": "Builds a plasma sentry at your position that shoots at nearby enemies, causing damage and applying Dazed. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(5)"
+   },
+   {
+    "name": "Duration",
+    "value": "40s"
+   },
+   {
+    "name": "Damage",
+    "value": "400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Engineer"
+ },
+ {
+  "id": "BombLauncherQT22",
+  "name_en": "Bomb Launcher QT-22",
+  "name_ru": null,
+  "character_id": "Engineer",
+  "rarity": "R4",
+  "skill_type": "Bomb",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-20"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "-5%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+30%"
+   }
+  ],
+  "skills": [
+   "QTBombuddy1000",
+   "QTLandSurprise"
+  ],
+  "artifact_power": "Plasma Sentry",
+  "artifact_power_description": "Builds a plasma sentry at your position that shoots at nearby enemies, causing damage and applying Disoriented. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(5)"
+   },
+   {
+    "name": "Duration",
+    "value": "40s"
+   },
+   {
+    "name": "Damage",
+    "value": "375"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Engineer"
+ },
+ {
+  "id": "RustedBlaster",
+  "name_en": "Rusted Blaster",
+  "name_ru": "Ржавый взрывник",
+  "character_id": "HoundMaster",
+  "rarity": "R1",
+  "skill_type": "Bomb",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "-5%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "MortarShot",
+   "Bombardment"
+  ],
+  "artifact_power": "Feral Awakening",
+  "artifact_power_description": "Empowers your companions transforming them into feral dogs, increasing their stats temporarily.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+150%"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+50%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+40%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+150%"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Hound_Master"
+ },
+ {
+  "id": "RiflemensVengeance",
+  "name_en": "Riflemen’s Vengeance",
+  "name_ru": "Возмездие стрелка",
+  "character_id": "HoundMaster",
+  "rarity": "R2",
+  "skill_type": "Blast",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+5%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-5"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+5%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "Buckshot",
+   "PowerBlast"
+  ],
+  "artifact_power": "Feral Awakening",
+  "artifact_power_description": "Empowers your companions transforming them into feral dogs, increasing their stats temporarily.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+150%"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+100%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+50%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+100%"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Hound_Master"
+ },
+ {
+  "id": "ToxinCannon",
+  "name_en": "Toxin Cannon",
+  "name_ru": "Токсичная пушка",
+  "character_id": "HoundMaster",
+  "rarity": "R3",
+  "skill_type": "Nature",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-10"
+   },
+   {
+    "name": "Critical Damage Modifier",
+    "value": "+20%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "PesticideBurst",
+   "ThreshingBlast"
+  ],
+  "artifact_power": "Feral Awakening",
+  "artifact_power_description": "Empowers your companions transforming them into feral dogs, increasing their stats temporarily.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+200%"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+50%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+50%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+50%"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Hound_Master"
+ },
+ {
+  "id": "DragonfireScattergun",
+  "name_en": "Dragonfire Scattergun",
+  "name_ru": "Мушкетон драконьего пламени",
+  "character_id": "HoundMaster",
+  "rarity": "R4",
+  "skill_type": "Projectile",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Pushback Power",
+    "value": "-20%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+20%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "BoltBarrage",
+   "CycloneShot"
+  ],
+  "artifact_power": "Feral Awakening",
+  "artifact_power_description": "Empowers your companions transforming them into feral dogs, increasing their stats temporarily.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+50%"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+200%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+200%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+40%"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Hound_Master"
+ },
+ {
+  "id": "VulcansHowl",
+  "name_en": "Vulcan's Howl",
+  "name_ru": "Вой вулкана",
+  "character_id": "HoundMaster",
+  "rarity": "R5",
+  "skill_type": "Fire",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+30%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+15%"
+   },
+   {
+    "name": "Movement speed",
+    "value": "+0%"
+   },
+   {
+    "name": "Multi cast chance",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "BlazehoundShot",
+   "LavaHowl"
+  ],
+  "artifact_power": "Feral Awakening",
+  "artifact_power_description": "Empowers your companions transforming them into feral dogs, increasing their stats temporarily.",
+  "artifact_power_stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+200%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+150%"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+100%"
+   },
+   {
+    "name": "Movement speed",
+    "value": "+75%"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Hound_Master"
+ },
+ {
+  "id": "LightSpear",
+  "name_en": "Light Spear",
+  "name_ru": "Копье света",
+  "character_id": "Legionnaire",
+  "rarity": "R1",
+  "skill_type": "Thrust",
+  "stats": [
+   {
+    "name": "Armor Power",
+    "value": "+10"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-5%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "Thrust",
+   "ShieldBash"
+  ],
+  "artifact_power": "Summon Catapult",
+  "artifact_power_description": "Builds a catapult at your position for a few seconds that shoot projectiles at enemies, causing damage and applying Exposed. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(4)"
+   },
+   {
+    "name": "Duration",
+    "value": "25s"
+   },
+   {
+    "name": "Damage",
+    "value": "525"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Legionnaire"
+ },
+ {
+  "id": "JupitersReach",
+  "name_en": "Jupiter's Reach",
+  "name_ru": "Длань Юпитера",
+  "character_id": "Legionnaire",
+  "rarity": "R2",
+  "skill_type": "Electric",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-20"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "JupitersSpear",
+   "SummonInfantry"
+  ],
+  "artifact_power": "Summon Catapult",
+  "artifact_power_description": "Builds a catapult at your position for a few seconds that shoot projectiles at enemies, causing damage and applying Dazed. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(4)"
+   },
+   {
+    "name": "Duration",
+    "value": "25s"
+   },
+   {
+    "name": "Damage",
+    "value": "575"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Legionnaire"
+ },
+ {
+  "id": "FangofVipernus",
+  "name_en": "Fang of Vipernus",
+  "name_ru": "Клык гадюки",
+  "character_id": "Legionnaire",
+  "rarity": "R3",
+  "skill_type": "Nature",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "-30%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+20%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+20%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "CorrosiveSpear",
+   "PurgingSlam"
+  ],
+  "artifact_power": "Summon Catapult",
+  "artifact_power_description": "Builds a catapult at your position for a few seconds that shoot projectiles at enemies, causing damage and applying Weakness. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(4)"
+   },
+   {
+    "name": "Duration",
+    "value": "25s"
+   },
+   {
+    "name": "Damage",
+    "value": "450"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Legionnaire"
+ },
+ {
+  "id": "VulcansImpaler",
+  "name_en": "Vulcan's Impaler",
+  "name_ru": "Пронзатель вулкана",
+  "character_id": "Legionnaire",
+  "rarity": "R4",
+  "skill_type": "Fire",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+20"
+   },
+   {
+    "name": "Armor Power",
+    "value": "+15"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+15%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "-10%"
+   }
+  ],
+  "skills": [
+   "PiercingFlames",
+   "IncineratingSpear"
+  ],
+  "artifact_power": "Summon Catapult",
+  "artifact_power_description": "Builds a catapult at your position for a few seconds that shoot projectiles at enemies, causing damage and applying Shattered. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(4)"
+   },
+   {
+    "name": "Duration",
+    "value": "25s"
+   },
+   {
+    "name": "Damage",
+    "value": "500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Legionnaire"
+ },
+ {
+  "id": "CrimsonBastion",
+  "name_en": "Crimson Bastion",
+  "name_ru": "Багровый бастион",
+  "character_id": "Legionnaire",
+  "rarity": "R5",
+  "skill_type": "Chaos",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-5"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+20%"
+   }
+  ],
+  "skills": [
+   "ChaoticOnslaught",
+   "DisruptiveSlam"
+  ],
+  "artifact_power": "Summon Catapult",
+  "artifact_power_description": "Builds a catapult at your position for a few seconds that shoot projectiles at enemies, causing damage and applying Disarray. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(4)"
+   },
+   {
+    "name": "Duration",
+    "value": "25s"
+   },
+   {
+    "name": "Damage",
+    "value": "1 ↔ 1100"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Legionnaire"
+ },
+ {
+  "id": "SoulcoreMKV",
+  "name_en": "Soulcore MK-V",
+  "name_ru": null,
+  "character_id": "Machinist",
+  "rarity": "R1",
+  "skill_type": "Arcane",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+5%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "ResonatingCrystals",
+   "CrystalShard"
+  ],
+  "artifact_power": "Force Field",
+  "artifact_power_description": "Large rays rotate around you applying Brittle. Gain Radiance.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "4"
+   },
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "900"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Machinist"
+ },
+ {
+  "id": "M249HSG504",
+  "name_en": "M249 HSG .50 +4",
+  "name_ru": null,
+  "character_id": "Machinist",
+  "rarity": "R2",
+  "skill_type": "Blast",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+5%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "-10%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "UnstableReactor",
+   "ShrapnelSpiral"
+  ],
+  "artifact_power": "Force Field",
+  "artifact_power_description": "Large rays rotate around you applying Shattered. Gain Ammunition.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "4"
+   },
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "900"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Machinist"
+ },
+ {
+  "id": "CoremelterGTXTi",
+  "name_en": "Coremelter GTX Ti",
+  "name_ru": null,
+  "character_id": "Machinist",
+  "rarity": "R3",
+  "skill_type": "Fire",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+20"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+5%"
+   },
+   {
+    "name": "Block Power",
+    "value": "-10"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "BlazingRay",
+   "EmberDischarge"
+  ],
+  "artifact_power": "Force Field",
+  "artifact_power_description": "Large rays rotate around you applying Burn and Weakness.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "4"
+   },
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "900"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Machinist"
+ },
+ {
+  "id": "ElectrotaserRX",
+  "name_en": "Electrotaser RX",
+  "name_ru": null,
+  "character_id": "Machinist",
+  "rarity": "R4",
+  "skill_type": "Electric",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+20"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+30%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "LightningShield",
+   "LightningCoil"
+  ],
+  "artifact_power": "Force Field",
+  "artifact_power_description": "Large rays rotate around you applying Dazed. Gain Electrified.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "4"
+   },
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "900"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Machinist"
+ },
+ {
+  "id": "ImmortalsStaff",
+  "name_en": "Immortal’s Staff",
+  "name_ru": "Посох бессмертного",
+  "character_id": "MonkeyKing",
+  "rarity": "R1",
+  "skill_type": "Slam",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "-20%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "MassiveSlam",
+   "SpinningStaff"
+  ],
+  "artifact_power": "King's Illusion",
+  "artifact_power_description": "Summons static clones of the Monkey King that attack enemies causing damage and applying Shattered. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "2(6)"
+   },
+   {
+    "name": "Damage",
+    "value": "600"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Monkey_King"
+ },
+ {
+  "id": "Cloudseeker",
+  "name_en": "Cloudseeker",
+  "name_ru": "Искатель облаков",
+  "character_id": "MonkeyKing",
+  "rarity": "R2",
+  "skill_type": "Electric",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+15%"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-10"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "TempestuousSlash",
+   "NimbusLightning"
+  ],
+  "artifact_power": "King's Illusion",
+  "artifact_power_description": "Summons static clones of the Monkey King that attack enemies causing damage and applying Dazed. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "2(6)"
+   },
+   {
+    "name": "Damage",
+    "value": "725"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Monkey_King"
+ },
+ {
+  "id": "TrickstersBoomstick",
+  "name_en": "Trickster’s Boomstick",
+  "name_ru": "Громыхалка трикстера",
+  "character_id": "MonkeyKing",
+  "rarity": "R3",
+  "skill_type": "Bomb",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-20"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-5%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+25%"
+   }
+  ],
+  "skills": [
+   "GunpowderStrike",
+   "TricksterDecoy"
+  ],
+  "artifact_power": "King's Illusion",
+  "artifact_power_description": "Summons static clones of the Monkey King that attack enemies causing damage and applying Disoriented. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "2(6)"
+   },
+   {
+    "name": "Damage",
+    "value": "550"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Monkey_King"
+ },
+ {
+  "id": "MightoftheMountains",
+  "name_en": "Might of the Mountains",
+  "name_ru": "Превосходство гор",
+  "character_id": "MonkeyKing",
+  "rarity": "R4",
+  "skill_type": "Earth",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "-5%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "+25"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "FracturingBlow",
+   "RockCrushing"
+  ],
+  "artifact_power": "King's Illusion",
+  "artifact_power_description": "Summons static clones of the Monkey King that attack enemies causing damage and applying Brittle. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "2(6)"
+   },
+   {
+    "name": "Damage",
+    "value": "800"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Monkey_King"
+ },
+ {
+  "id": "SongoftheSirens",
+  "name_en": "Song of the Sirens",
+  "name_ru": "Песнь сирен",
+  "character_id": "Myrmidon",
+  "rarity": "R1",
+  "skill_type": "Ice",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "-20%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+5%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "GlacialTrident",
+   "FrozenShard"
+  ],
+  "artifact_power": "Gillkin Servants",
+  "artifact_power_description": "Summons servants that cause damage and apply Slow. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "5(20)"
+   },
+   {
+    "name": "Damage",
+    "value": "500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Myrmidon"
+ },
+ {
+  "id": "ChantoftheClaws",
+  "name_en": "Chant of the Claws",
+  "name_ru": "Напев когтей",
+  "character_id": "Myrmidon",
+  "rarity": "R2",
+  "skill_type": "Thrust",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+40%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-10"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "TidalThrust",
+   "IncisiveStrike"
+  ],
+  "artifact_power": "Gillkin Servants",
+  "artifact_power_description": "Summons servants that cause damage and apply Bleed. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "5(20)"
+   },
+   {
+    "name": "Damage",
+    "value": "500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Myrmidon"
+ },
+ {
+  "id": "HymnoftheDepths",
+  "name_en": "Hymn of the Depths",
+  "name_ru": "Гимн глубин",
+  "character_id": "Myrmidon",
+  "rarity": "R3",
+  "skill_type": "Holy",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+20%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "-10%"
+   }
+  ],
+  "skills": [
+   "SanctifiedThrow",
+   "HolyFrenzy"
+  ],
+  "artifact_power": "Gillkin Servants",
+  "artifact_power_description": "Summons servants that cause damage and apply Dazed. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "5(20)"
+   },
+   {
+    "name": "Damage",
+    "value": "500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Myrmidon"
+ },
+ {
+  "id": "WailoftheReefs",
+  "name_en": "Wail of the Reefs",
+  "name_ru": "Стенания рифов",
+  "character_id": "Myrmidon",
+  "rarity": "R4",
+  "skill_type": "Earth",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+25%"
+   }
+  ],
+  "skills": [
+   "AbyssalFissure",
+   "FuryoftheDepths"
+  ],
+  "artifact_power": "Gillkin Servants",
+  "artifact_power_description": "Summons servants that cause damage and apply Brittle. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "5(20)"
+   },
+   {
+    "name": "Damage",
+    "value": "500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Myrmidon"
+ },
+ {
+  "id": "WoodenScythe",
+  "name_en": "Wooden Scythe",
+  "name_ru": "Деревянная коса",
+  "character_id": "Necromancer",
+  "rarity": "R1",
+  "skill_type": "Shadow",
+  "stats": [
+   {
+    "name": "Armor Power",
+    "value": "-10"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "SkeletalWarriors",
+   "ShadowNova"
+  ],
+  "artifact_power": "Death's Owner",
+  "artifact_power_description": "Summons wraiths that cause damage and apply Disoriented. They gain bonus damage based on the quantity of summoned units you control. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "2(6)"
+   },
+   {
+    "name": "Damage",
+    "value": "450"
+   },
+   {
+    "name": "Damage per Unit",
+    "value": "+5%"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Necromancer"
+ },
+ {
+  "id": "GuardianofSouls",
+  "name_en": "Guardian of Souls",
+  "name_ru": "Хранитель душ",
+  "character_id": "Necromancer",
+  "rarity": "R2",
+  "skill_type": "Arcane",
+  "stats": [
+   {
+    "name": "Armor Power",
+    "value": "-5"
+   },
+   {
+    "name": "Cast Frequency Modifier",
+    "value": "-5%"
+   },
+   {
+    "name": "Experience Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "SpectralGuardian",
+   "SoulRelease"
+  ],
+  "artifact_power": "Death's Owner",
+  "artifact_power_description": "Summons wraiths that cause damage and apply Fragility. They gain bonus damage based on the quantity of summoned units you control. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "2(6)"
+   },
+   {
+    "name": "Damage",
+    "value": "450"
+   },
+   {
+    "name": "Damage per Unit",
+    "value": "+5%"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Necromancer"
+ },
+ {
+  "id": "NoxiousReaper",
+  "name_en": "Noxious Reaper",
+  "name_ru": "Ядовитая рапира",
+  "character_id": "Necromancer",
+  "rarity": "R3",
+  "skill_type": "Nature",
+  "stats": [
+   {
+    "name": "Critical Damage Chance",
+    "value": "+5%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-15"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "PlagueRats",
+   "Putrefy"
+  ],
+  "artifact_power": "Death's Owner",
+  "artifact_power_description": "Summons wraiths that cause damage and apply Weakness. They gain bonus damage based on the quantity of summoned units you control. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "2(6)"
+   },
+   {
+    "name": "Damage",
+    "value": "450"
+   },
+   {
+    "name": "Damage per Unit",
+    "value": "+5%"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Necromancer"
+ },
+ {
+  "id": "GrimtalonsScourge",
+  "name_en": "Grimtalon’s Scourge",
+  "name_ru": "Бич мрачного когтя",
+  "character_id": "Necromancer",
+  "rarity": "R4",
+  "skill_type": "Chaos",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-30"
+   },
+   {
+    "name": "Cast Frequency Modifier",
+    "value": "+25%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+20%"
+   }
+  ],
+  "skills": [
+   "MurderofCrows",
+   "CarrionCrows"
+  ],
+  "artifact_power": "Death's Owner",
+  "artifact_power_description": "Summons wraiths that cause damage and apply Disarray. They gain bonus damage based on the quantity of summoned units you control. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "2(6)"
+   },
+   {
+    "name": "Damage",
+    "value": "1 ↔ 950"
+   },
+   {
+    "name": "Damage per Unit",
+    "value": "+5%"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Necromancer"
+ },
+ {
+  "id": "SacredWarhammer",
+  "name_en": "Sacred Warhammer",
+  "name_ru": "Священный молот",
+  "character_id": "Paladin",
+  "rarity": "R1",
+  "skill_type": "Holy",
+  "stats": [
+   {
+    "name": "Cast Frequency",
+    "value": "+5%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "BladesofLight",
+   "HolyFire"
+  ],
+  "artifact_power": "Blessed Hammer",
+  "artifact_power_description": "Hammers rotate around you causing damage on impact with any enemy. Gain Purity.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "3"
+   },
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "1500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Paladin"
+ },
+ {
+  "id": "HarbingerofJustice",
+  "name_en": "Harbinger of Justice",
+  "name_ru": "Предвестник воздаяния",
+  "character_id": "Paladin",
+  "rarity": "R2",
+  "skill_type": "Swing",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-10"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+15%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "-10%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "HeroicStrike",
+   "HammerofJustice"
+  ],
+  "artifact_power": "Blessed Hammer",
+  "artifact_power_description": "Hammers rotate around you causing damage on impact with any enemy. Gain Finesse.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "3"
+   },
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "1500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Paladin"
+ },
+ {
+  "id": "ArcaneScepterofLight",
+  "name_en": "Arcane Scepter of Light",
+  "name_ru": "Магический скипетр света",
+  "character_id": "Paladin",
+  "rarity": "R3",
+  "skill_type": "Arcane",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "-5%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "-5%"
+   },
+   {
+    "name": "Experience",
+    "value": "+15%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "RadiantLight",
+   "ArcaneMace"
+  ],
+  "artifact_power": "Blessed Hammer",
+  "artifact_power_description": "Hammers rotate around you causing damage on impact with any enemy. Gain Radiance.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "3"
+   },
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "1500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Paladin"
+ },
+ {
+  "id": "DawnbreakersMace",
+  "name_en": "Dawnbreaker's Mace",
+  "name_ru": "Булава приносящего рассвет",
+  "character_id": "Paladin",
+  "rarity": "R4",
+  "skill_type": "Slam",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+25%"
+   },
+   {
+    "name": "Experience",
+    "value": "-10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "FissureStrike",
+   "StaggeringBlow"
+  ],
+  "artifact_power": "Blessed Hammer",
+  "artifact_power_description": "Hammers rotate around you causing damage on impact with any enemy. Gain Prowess.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "3"
+   },
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "1500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Paladin"
+ },
+ {
+  "id": "GoldenLionsCrusher",
+  "name_en": "Golden Lion's Crusher",
+  "name_ru": "Дробилка Золотого льва",
+  "character_id": "Paladin",
+  "rarity": "R5",
+  "skill_type": "Electric",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+20"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-5"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+25%"
+   }
+  ],
+  "skills": [
+   "HammerofWrath",
+   "GodsRebuke"
+  ],
+  "artifact_power": "Blessed Hammer",
+  "artifact_power_description": "Hammers rotate around you causing damage on impact with any enemy. Gain Electrified.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "3"
+   },
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "1500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Paladin"
+ },
+ {
+  "id": "PyromancersFirestarter",
+  "name_en": "Pyromancer's Firestarter",
+  "name_ru": "Поджигатель пиромантки",
+  "character_id": "Pyromancer",
+  "rarity": "R1",
+  "skill_type": "Fire",
+  "stats": [
+   {
+    "name": "Armor Power",
+    "value": "-5"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "FireSlash",
+   "FireWalk"
+  ],
+  "artifact_power": "Phoenix Rebirth",
+  "artifact_power_description": "Releases phoenixes that fly around you, causing damage and applying Burn.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "+7"
+   },
+   {
+    "name": "Damage",
+    "value": "2400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Pyromancer"
+ },
+ {
+  "id": "Stormcaller",
+  "name_en": "Stormcaller",
+  "name_ru": "Призыватель бурь",
+  "character_id": "Pyromancer",
+  "rarity": "R2",
+  "skill_type": "Electric",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "-10%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "-5%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "LightningField",
+   "OverchargedBlast"
+  ],
+  "artifact_power": "Phoenix Rebirth",
+  "artifact_power_description": "Releases phoenixes that fly around you, causing damage and applying Dazed.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "+7"
+   },
+   {
+    "name": "Damage",
+    "value": "2400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Pyromancer"
+ },
+ {
+  "id": "ShardofChaos",
+  "name_en": "Shard of Chaos",
+  "name_ru": "Осколок хаоса",
+  "character_id": "Pyromancer",
+  "rarity": "R3",
+  "skill_type": "Chaos",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+10"
+   },
+   {
+    "name": "Body Mass",
+    "value": "-10"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "ChaoticInferno",
+   "ChaosEruption"
+  ],
+  "artifact_power": "Phoenix Rebirth",
+  "artifact_power_description": "Releases phoenixes that fly around you, causing damage and applying Disarray.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "+7"
+   },
+   {
+    "name": "Damage",
+    "value": "2400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Pyromancer"
+ },
+ {
+  "id": "DamnatusSpireofShadows",
+  "name_en": "Damnatus, Spire of Shadows",
+  "name_ru": "Проклятус, Шпиль теней",
+  "character_id": "Pyromancer",
+  "rarity": "R4",
+  "skill_type": "Shadow",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "-10%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+20%"
+   }
+  ],
+  "skills": [
+   "DarkSwarm",
+   "GatheringShadows"
+  ],
+  "artifact_power": "Phoenix Rebirth",
+  "artifact_power_description": "Releases phoenixes that fly around you, causing damage and applying Doom.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "+7"
+   },
+   {
+    "name": "Damage",
+    "value": "2400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Pyromancer"
+ },
+ {
+  "id": "Emberweaver",
+  "name_en": "Emberweaver",
+  "name_ru": "Ткач углей",
+  "character_id": "Pyromancer",
+  "rarity": "R5",
+  "skill_type": "Arcane",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+15%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "RunicEmber",
+   "ArcaneStorm"
+  ],
+  "artifact_power": "Phoenix Rebirth",
+  "artifact_power_description": "Releases phoenixes that fly around you, causing damage and applying Fragility.",
+  "artifact_power_stats": [
+   {
+    "name": "Quantity",
+    "value": "+7"
+   },
+   {
+    "name": "Damage",
+    "value": "2400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Pyromancer"
+ },
+ {
+  "id": "Veilpiercer",
+  "name_en": "Veilpiercer",
+  "name_ru": "Завесопронзатель",
+  "character_id": "Samurai",
+  "rarity": "R1",
+  "skill_type": "Swing",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+5%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "-5%"
+   }
+  ],
+  "skills": [
+   "SliceandDice",
+   "RavenousCut"
+  ],
+  "artifact_power": "Untouchable",
+  "artifact_power_description": "Emits an aura of slashes that applies Fragility to nearby enemies every 0.5 seconds.",
+  "artifact_power_stats": [
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Samurai"
+ },
+ {
+  "id": "Shadowfang",
+  "name_en": "Shadowfang",
+  "name_ru": "Теневой клык",
+  "character_id": "Samurai",
+  "rarity": "R2",
+  "skill_type": "Shadow",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+5%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "-10%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "ShadowSlice",
+   "Nightfang"
+  ],
+  "artifact_power": "Untouchable",
+  "artifact_power_description": "Emits an aura of slashes that applies Doom to nearby enemies every 0.5 seconds.",
+  "artifact_power_stats": [
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Samurai"
+ },
+ {
+  "id": "ExecutionersBurden",
+  "name_en": "Executioner's Burden",
+  "name_ru": "Ноша палача",
+  "character_id": "Samurai",
+  "rarity": "R3",
+  "skill_type": "Slam",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+10"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+5%"
+   },
+   {
+    "name": "Block Power",
+    "value": "-5"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "EchoingRupture",
+   "BladeImpale"
+  ],
+  "artifact_power": "Untouchable",
+  "artifact_power_description": "Emits an aura of slashes that applies Shattered to nearby enemies every 0.5 seconds.",
+  "artifact_power_stats": [
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Samurai"
+ },
+ {
+  "id": "LastEmber",
+  "name_en": "Last Ember",
+  "name_ru": "Последний проблеск",
+  "character_id": "Samurai",
+  "rarity": "R4",
+  "skill_type": "Fire",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-10"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+30%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "MoltenFang",
+   "IgnitionSpiral"
+  ],
+  "artifact_power": "Untouchable",
+  "artifact_power_description": "Emits an aura of slashes that applies Burn to nearby enemies every 0.5 seconds.",
+  "artifact_power_stats": [
+   {
+    "name": "Duration",
+    "value": "12s"
+   },
+   {
+    "name": "Damage",
+    "value": "500"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Samurai"
+ },
+ {
+  "id": "HuntressBow",
+  "name_en": "Huntress Bow",
+  "name_ru": "Лук охотницы",
+  "character_id": "Sentinel",
+  "rarity": "R1",
+  "skill_type": "Projectile",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+5%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-5"
+   }
+  ],
+  "skills": [
+   "Shoot",
+   "RainofArrows"
+  ],
+  "artifact_power": "Arrow Barrage",
+  "artifact_power_description": "Fires a barrage of arrows in the target direction that causes damage and applies Fragility every 0.25 seconds.",
+  "artifact_power_stats": [
+   {
+    "name": "Number of Hits",
+    "value": "30"
+   },
+   {
+    "name": "Damage",
+    "value": "1100"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Sentinel"
+ },
+ {
+  "id": "SiegeRecurveBow",
+  "name_en": "Siege Recurve Bow",
+  "name_ru": "Осадный рекурсивный лук",
+  "character_id": "Sentinel",
+  "rarity": "R2",
+  "skill_type": "Bomb",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+10%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "-10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "ExplosiveArrows",
+   "ClusterBomb"
+  ],
+  "artifact_power": "Arrow Barrage",
+  "artifact_power_description": "Fires a barrage of arrows in the target direction that causes damage and applies Bleed every 0.25 seconds.",
+  "artifact_power_stats": [
+   {
+    "name": "Number of Hits",
+    "value": "30"
+   },
+   {
+    "name": "Damage",
+    "value": "1800"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Sentinel"
+ },
+ {
+  "id": "MiserysEnd",
+  "name_en": "Misery’s End",
+  "name_ru": "Конец страданий",
+  "character_id": "Sentinel",
+  "rarity": "R3",
+  "skill_type": "Shadow",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+5%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "-10%"
+   }
+  ],
+  "skills": [
+   "ObscureArrow",
+   "VoidTrap"
+  ],
+  "artifact_power": "Arrow Barrage",
+  "artifact_power_description": "Fires a barrage of arrows in the target direction that causes damage and applies Doom every 0.25 seconds.",
+  "artifact_power_stats": [
+   {
+    "name": "Number of Hits",
+    "value": "30"
+   },
+   {
+    "name": "Damage",
+    "value": "1400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Sentinel"
+ },
+ {
+  "id": "NoxiousLongbow",
+  "name_en": "Noxious Longbow",
+  "name_ru": "Ядовитый длинный лук",
+  "character_id": "Sentinel",
+  "rarity": "R4",
+  "skill_type": "Nature",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+30"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "-20%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+15%"
+   }
+  ],
+  "skills": [
+   "NoxiousShot",
+   "VenomousVolley"
+  ],
+  "artifact_power": "Arrow Barrage",
+  "artifact_power_description": "Fires a barrage of arrows in the target direction that causes damage and applies Poison every 0.25 seconds.",
+  "artifact_power_stats": [
+   {
+    "name": "Number of Hits",
+    "value": "30"
+   },
+   {
+    "name": "Damage",
+    "value": "2200"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Sentinel"
+ },
+ {
+  "id": "Soulfrost",
+  "name_en": "Soulfrost",
+  "name_ru": "Леденящий душу",
+  "character_id": "Sentinel",
+  "rarity": "R5",
+  "skill_type": "Ice",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-10%"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+40%"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "FrozenSalvo",
+   "ArcticShot"
+  ],
+  "artifact_power": "Arrow Barrage",
+  "artifact_power_description": "Fires a barrage of arrows in the target direction that causes damage and applies Slow every 0.25 seconds.",
+  "artifact_power_stats": [
+   {
+    "name": "Number of Hits",
+    "value": "30"
+   },
+   {
+    "name": "Damage",
+    "value": "1800"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Sentinel"
+ },
+ {
+  "id": "SpinevineWhip",
+  "name_en": "Spinevine Whip",
+  "name_ru": "Кнут из лозы",
+  "character_id": "Shaman",
+  "rarity": "R1",
+  "skill_type": "Nature",
+  "stats": [
+   {
+    "name": "Movement Speed",
+    "value": "-5%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "VineWhip",
+   "PoisonousThorn"
+  ],
+  "artifact_power": "Warding Totem",
+  "artifact_power_description": "Conjures a totem that fires projectiles that bounce between enemies, causing damage and apply Poison. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(4)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Shaman"
+ },
+ {
+  "id": "StarweaversTail",
+  "name_en": "Starweaver’s Tail",
+  "name_ru": "Хвост ткача звёзд",
+  "character_id": "Shaman",
+  "rarity": "R2",
+  "skill_type": "Arcane",
+  "stats": [
+   {
+    "name": "Damage Modifier",
+    "value": "+5%"
+   },
+   {
+    "name": "Experience Gain",
+    "value": "-10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+10%"
+   },
+   {
+    "name": "Multi-cast Chance",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "ArcaneReaping",
+   "AncestralEmpowerment"
+  ],
+  "artifact_power": "Warding Totem",
+  "artifact_power_description": "Conjures a totem that fires projectiles that bounce between enemies, causing damage and apply Exposed. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(4)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Shaman"
+ },
+ {
+  "id": "MaldrakarsFlamelash",
+  "name_en": "Maldrakar’s Flamelash",
+  "name_ru": "Пылающий хлыст Малдракара",
+  "character_id": "Shaman",
+  "rarity": "R3",
+  "skill_type": "Fire",
+  "stats": [
+   {
+    "name": "Critical Damage",
+    "value": "+20%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-10"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   },
+   {
+    "name": "Multi-cast Chance",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "FlamingSpiral",
+   "VolcanicEffigy"
+  ],
+  "artifact_power": "Warding Totem",
+  "artifact_power_description": "Conjures a totem that fires projectiles that bounce between enemies, causing damage and apply Burn. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(4)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Shaman"
+ },
+ {
+  "id": "TharuunsLasher",
+  "name_en": "Tharuun’s Lasher",
+  "name_ru": "Хлыст Фарууна",
+  "character_id": "Shaman",
+  "rarity": "R4",
+  "skill_type": "Earth",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+20"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+15%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-5%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "Earthbreaker",
+   "Quicksand"
+  ],
+  "artifact_power": "Warding Totem",
+  "artifact_power_description": "Conjures a totem that fires projectiles that bounce between enemies, causing damage and apply Brittle. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(4)"
+   },
+   {
+    "name": "Duration",
+    "value": "20s"
+   },
+   {
+    "name": "Damage",
+    "value": "400"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Shaman"
+ },
+ {
+  "id": "SilverSpellblade",
+  "name_en": "Silver Spellblade",
+  "name_ru": "Серебряный магический клинок",
+  "character_id": "Spellblade",
+  "rarity": "R1",
+  "skill_type": "Arcane",
+  "stats": [
+   {
+    "name": "Area Modifier",
+    "value": "-5%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+5%"
+   }
+  ],
+  "skills": [
+   "ArcaneSlash",
+   "ArcaneOverload"
+  ],
+  "artifact_power": "Ethereal Shadow",
+  "artifact_power_description": "Creates an ethereal clone for a few seconds that casts both of your weapon skills at nearby enemies. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(1)"
+   },
+   {
+    "name": "Duration",
+    "value": "20.0s"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Spellblade"
+ },
+ {
+  "id": "ArcaneScimitar",
+  "name_en": "Arcane Scimitar",
+  "name_ru": "Магический скимитар",
+  "character_id": "Spellblade",
+  "rarity": "R2",
+  "skill_type": "Swing",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-10"
+   },
+   {
+    "name": "Damage Modifier",
+    "value": "+15%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "-15"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "Slash",
+   "Uppercut"
+  ],
+  "artifact_power": "Ethereal Shadow",
+  "artifact_power_description": "Creates an ethereal clone for a few seconds that casts both of your weapon skills at nearby enemies. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(1)"
+   },
+   {
+    "name": "Duration",
+    "value": "20.0s"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Spellblade"
+ },
+ {
+  "id": "IcelordsBlade",
+  "name_en": "Icelord’s Blade",
+  "name_ru": "Клинок ледяного владыки",
+  "character_id": "Spellblade",
+  "rarity": "R3",
+  "skill_type": "Ice",
+  "stats": [
+   {
+    "name": "Critical Chance",
+    "value": "+10%"
+   },
+   {
+    "name": "Armor Power",
+    "value": "+5"
+   },
+   {
+    "name": "Cast Frequency",
+    "value": "+20%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "-15%"
+   }
+  ],
+  "skills": [
+   "ArcticAssault",
+   "FrozenBlade"
+  ],
+  "artifact_power": "Ethereal Shadow",
+  "artifact_power_description": "Creates an ethereal clone for a few seconds that casts both of your weapon skills at nearby enemies. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(1)"
+   },
+   {
+    "name": "Duration",
+    "value": "20.0s"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Spellblade"
+ },
+ {
+  "id": "ScorchingEdge",
+  "name_en": "Scorching Edge",
+  "name_ru": "Пламенное острие",
+  "character_id": "Spellblade",
+  "rarity": "R4",
+  "skill_type": "Fire",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "-15"
+   },
+   {
+    "name": "Critical Damage",
+    "value": "+15%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+10%"
+   },
+   {
+    "name": "Area Modifier",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "Firestorm",
+   "FieryBlades"
+  ],
+  "artifact_power": "Ethereal Shadow",
+  "artifact_power_description": "Creates an ethereal clone for a few seconds that casts both of your weapon skills at nearby enemies. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(1)"
+   },
+   {
+    "name": "Duration",
+    "value": "20.0s"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Spellblade"
+ },
+ {
+  "id": "RuneforgedGreatsword",
+  "name_en": "Runeforged Greatsword",
+  "name_ru": "Рунический меч",
+  "character_id": "Spellblade",
+  "rarity": "R5",
+  "skill_type": "Thrust",
+  "stats": [
+   {
+    "name": "Maximum Health",
+    "value": "+10"
+   },
+   {
+    "name": "Critical Chance",
+    "value": "+15%"
+   },
+   {
+    "name": "Movement Speed",
+    "value": "+10%"
+   },
+   {
+    "name": "Multi Cast Chance",
+    "value": "+10%"
+   }
+  ],
+  "skills": [
+   "PiercingTempest",
+   "SeekerBlades"
+  ],
+  "artifact_power": "Ethereal Shadow",
+  "artifact_power_description": "Creates an ethereal clone for a few seconds that casts both of your weapon skills at nearby enemies. Traits: Cunning.",
+  "artifact_power_stats": [
+   {
+    "name": "Units per Cast (Max)",
+    "value": "1(1)"
+   },
+   {
+    "name": "Duration",
+    "value": "20.0s"
+   }
+  ],
+  "wiki_url": "https://soulstone-survivors.fandom.com/wiki/The_Spellblade"
+ }
+]

@@ -1,0 +1,1079 @@
+{
+  "schema_version": "0.2",
+  "character_id": "Legionnaire",
+  "game_version": "1.5d",
+  "summary": {
+    "ru": "Ближний боец с копьём и щитом (Melee, Spear & Shield). Бонусы персонажа: +40 к здоровью, +30 к силе брони, +2 плоского снижения урона, но -5% шанса крита и -10% области; по гайду этого хватает, чтобы почти не брать защитные пассивки. Типы навыков: Chaos, Nature, Fire, Electric, Thrust; уникальные навыки Intimidating Shout, Shield Wall, Storm of Spears. Актуальный гайд строит билды под четыре оружия: Thrust, Electric, Poison и Burn, с армией легионеров от пассивки персонажа в помощь.",
+    "en": "A melee spear-and-shield fighter (Melee, Spear & Shield). Character bonuses: +40 maximum health, +30 armor power, +2 flat damage reduction, but -5% critical chance and -10% area; per the guide this is enough to skip most defensive passives. Skill types: Chaos, Nature, Fire, Electric, Thrust; unique skills Intimidating Shout, Shield Wall, Storm of Spears. The current guide builds around four weapons: Thrust, Electric, Poison and Burn, helped by the legionnaire army from the character passive."
+  },
+  "guides": [
+    {
+      "source_id": "cubic-legionnaire",
+      "kind": "current",
+      "url": "https://cubiccreativity.wordpress.com/2025/07/05/soulstone-survivors-guide-the-legionnaire/",
+      "title": "Soulstone Survivors Guide: The Legionnaire",
+      "game_version": "1.5d",
+      "updated": "2026-08-28",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "legionnaire-thrust",
+          "name": {
+            "ru": "Пронзание (Thrust)",
+            "en": "Thrust"
+          },
+          "weapon_id": "LightSpear",
+          "archetypes": [
+            "multiplier",
+            "generalist"
+          ],
+          "core_mechanics": [
+            "Form",
+            "Resilience",
+            "Haste",
+            "Piercing",
+            "Multi Cast"
+          ],
+          "skills": [
+            {
+              "id": "Thrust",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Стартовый навык, низкий кулдаун, копит Form и Resilience.",
+                "en": "Starting skill, low cooldown, stacks Form and Resilience."
+              }
+            },
+            {
+              "id": "ShieldBash",
+              "role": "support",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Масштабируется от силы брони; доступен сразу с Weapon Expert.",
+                "en": "Scales with armor power; available immediately with Weapon Expert."
+              }
+            },
+            {
+              "id": "QuickStrike",
+              "role": "damage",
+              "note": {
+                "ru": "Масштабируется от скорости передвижения, копит Form и Haste.",
+                "en": "Scales with movement speed, stacks Form and Haste."
+              }
+            },
+            {
+              "id": "IncisiveStrike",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Масштабируется от шанса крита, бьёт с Piercing.",
+                "en": "Scales with critical chance, hits with Piercing."
+              }
+            },
+            {
+              "id": "PrecisionWave",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Бафф на шанс крита, основа урона билда.",
+                "en": "Critical chance buff that enables most of the build's damage."
+              }
+            },
+            {
+              "id": "SharpSpear",
+              "role": "damage",
+              "note": {
+                "ru": "Смесь Quick Strike и Incisive Strike: Form, Haste, Piercing.",
+                "en": "A mix of Quick Strike and Incisive Strike: Form, Haste, Piercing."
+              }
+            },
+            {
+              "id": "StormofSpears",
+              "role": "support",
+              "note": {
+                "ru": "Зачистка толпы во все стороны, масштабируется от Form.",
+                "en": "Wave clear in every direction, scales with Form."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Movement Speed",
+              "priority": "must",
+              "note": {
+                "ru": "Можно банить после 100% бонуса.",
+                "en": "Can be banished after reaching 100% bonus."
+              }
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "must",
+              "note": {
+                "ru": "Можно банить после 100%.",
+                "en": "Can be banished after 100%."
+              }
+            },
+            {
+              "stat": "Critical Chance",
+              "priority": "high"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "high"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "FatefulStrike"
+              },
+              {
+                "id": "SavagePact"
+              },
+              {
+                "id": "Prophecy"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Thrust"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Thrust"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Больше значит лучше: много быстрых ударов и мультикаст, урон идёт от массы критов. Руна Prophecy позволяет банить ненужное (блок, Leviathan, скорость и Magnetic после 100%) ради улучшений высокой редкости.",
+            "en": "More is more: many fast hits and multi cast, damage comes from a mass of crits. The Prophecy rune lets you banish unneeded options (block, Leviathan, speed and Magnetic after 100%) for higher-rarity upgrades."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Движение и Magnetic можно банить, когда бонус достиг 100%.",
+                "en": "Movement speed and Magnetic can be banished once the bonus reaches 100%."
+              },
+              "status": "unverified",
+              "detail": "Мнение автора. На вики Magnetic даёт +50/100/150% области подбора и +10/20/30% опыта (Common/Uncommon/Rare), так что 100% достижимы одной-двумя пассивками; проверять нечем."
+            },
+            {
+              "text": {
+                "ru": "Skill Mastery: Thrust добавляет Incisive Strike, Precision Wave и Sinister Strike; Precision Wave поднимает шанс крита.",
+                "en": "Skill Mastery: Thrust adds Incisive Strike, Precision Wave and Sinister Strike; Precision Wave raises crit chance."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Precision Wave даёт +50% шанса крита на 10 с, кулдаун 25 с; все три навыка типа Thrust."
+            },
+            {
+              "text": {
+                "ru": "Savage Pact повышает крит. урон в зависимости от максимального здоровья.",
+                "en": "Savage Pact raises critical damage based on maximum health."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (старый модуль): максимум 40%. Выжимка 1.5d: максимум 30%, порог здоровья 700 вместо 500. Для 1.5d верить выжимке: руна стала слабее."
+            },
+            {
+              "text": {
+                "ru": "Storm of Spears бьёт во все стороны и растёт от стаков Form.",
+                "en": "Storm of Spears hits in all directions and scales with Form stacks."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 50 снарядов во все стороны, урон 100 + 15 за стак Form, кулдаун 13 с."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "legionnaire-electric",
+          "name": {
+            "ru": "Электричество (Electric)",
+            "en": "Electric"
+          },
+          "weapon_id": "JupitersReach",
+          "archetypes": [
+            "multiplier",
+            "summon"
+          ],
+          "core_mechanics": [
+            "Dazed",
+            "Electrified",
+            "Distracted",
+            "Cunning",
+            "Disarray"
+          ],
+          "skills": [
+            {
+              "id": "JupitersSpear",
+              "role": "core",
+              "obtained": "weapon_primary",
+              "note": {
+                "ru": "Перескакивает между целями, копит Electrified.",
+                "en": "Hops between targets, stacks Electrified."
+              }
+            },
+            {
+              "id": "SummonInfantry",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Призванная пехота бьёт, вешает Dazed, Cunning гонит приоритетные цели.",
+                "en": "Summoned infantry deals damage, applies Dazed, Cunning chases priority targets."
+              }
+            },
+            {
+              "id": "OverchargedBlast",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Урон от стаков Dazed, выше базовый урон.",
+                "en": "Damage scales with Dazed stacks, higher base damage."
+              }
+            },
+            {
+              "id": "ThunderingSlash",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Урон от стаков Dazed, ниже кулдаун.",
+                "en": "Damage scales with Dazed stacks, lower cooldown."
+              }
+            },
+            {
+              "id": "ElectricStrike",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Масштабируется от шанса крита, копит Electrified.",
+                "en": "Scales with critical chance, stacks Electrified."
+              }
+            },
+            {
+              "id": "LightningField",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Быстро копит Dazed в области и Electrified.",
+                "en": "Rapidly builds Dazed in the area, also stacks Electrified."
+              }
+            },
+            {
+              "id": "ChaoticSurge",
+              "role": "optional",
+              "obtained": "rune",
+              "note": {
+                "ru": "Бафф крит. урона и Disarray; вариант для последнего слота.",
+                "en": "Crit damage buff and Disarray; last-slot option."
+              }
+            },
+            {
+              "id": "LightningSurge",
+              "role": "optional",
+              "note": {
+                "ru": "Скорость передвижения и Dazed от навыков; альтернатива последнему слоту.",
+                "en": "Movement speed and Dazed from skills; alternative for the last slot."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "stat": "Critical Chance",
+              "priority": "must"
+            },
+            {
+              "stat": "Critical Damage",
+              "priority": "must"
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high"
+            },
+            {
+              "stat": "Damage Modifier",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            },
+            {
+              "stat": "Area Modifier",
+              "priority": "situational"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "FatefulStrike"
+              },
+              {
+                "id": "SavagePact"
+              },
+              {
+                "id": "CriticalMastery"
+              },
+              {
+                "id": "ImprovedRepertory"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Electric"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Chaos"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Стандартный крит-билд: стойте перед боссами или двигайтесь вокруг них, пока пехота и армия легионеров копят Dazed, а большой крит. урон персонажа быстро добивает цели. Защитные пассивки нужны разве что в Overload и Endless.",
+            "en": "A standard crit build: stand in front of or move around bosses while infantry and the legionnaire army stack Dazed and the character's big crit damage finishes targets. Defensive passives are only helpful in Overload or Endless."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Fateful Strike даёт +60% крит. урона ценой 20% общего урона.",
+                "en": "Fateful Strike gives +60% critical damage at the cost of 20% overall damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +60% крит. урона, -20% урона."
+            },
+            {
+              "text": {
+                "ru": "Savage Pact даёт до +40% крит. урона в зависимости от максимального здоровья.",
+                "en": "Savage Pact gives up to +40% critical damage depending on maximum health."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (старый модуль): до 40%, как в гайде. Выжимка 1.5d: максимум 30%, порог здоровья 700 вместо 500. Для 1.5d верить выжимке."
+            },
+            {
+              "text": {
+                "ru": "Critical Mastery добавляет 1/4 шанса крита к крит. урону.",
+                "en": "Critical Mastery adds 1/4 of critical chance to critical damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 25% шанса крита добавляется к множителю крит. урона, включая бонус от негативных эффектов (Dazed)."
+            },
+            {
+              "text": {
+                "ru": "Форма центуриона даёт +80% силы брони.",
+                "en": "Centurion form gives +80% armor power."
+              },
+              "status": "unverified",
+              "detail": "Пассивки персонажа (легионеры, форма центуриона) нет в справочнике вики; проверить нечем."
+            },
+            {
+              "text": {
+                "ru": "Thundering Slash имеет меньший кулдаун, Overcharged Blast выше базовый урон; оба растут от Dazed.",
+                "en": "Thundering Slash has the lower cooldown, Overcharged Blast the higher base damage; both scale with Dazed."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Thundering Slash 300 урона, кулдаун 1,8 с; Overcharged Blast 500 базового урона, кулдаун 4 с; оба +30 за стак Dazed."
+            }
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "legionnaire-poison",
+          "name": {
+            "ru": "Яд (Poison)",
+            "en": "Poison"
+          },
+          "weapon_id": "FangofVipernus",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Poison",
+            "Weakness",
+            "Ammunition"
+          ],
+          "skills": [
+            {
+              "id": "PurgingSlam",
+              "role": "core",
+              "obtained": "weapon_secondary",
+              "note": {
+                "ru": "Ближний добивающий навык: снимает стаки Poison и наносит их урон с множителем.",
+                "en": "Melee finisher: removes Poison stacks and deals their damage with a multiplier."
+              }
+            },
+            {
+              "id": "PoisonBolt",
+              "role": "support",
+              "note": {
+                "ru": "Снаряды взрываются и накладывают Poison.",
+                "en": "Projectiles explode and apply Poison."
+              }
+            },
+            {
+              "id": "ThreshingBlast",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Урон от стаков Poison, механика Ammunition.",
+                "en": "Damage scales with Poison stacks, Ammunition mechanic."
+              }
+            },
+            {
+              "id": "Pestilence",
+              "role": "damage",
+              "note": {
+                "ru": "Цепь яда между целями, масштабируется от стаков.",
+                "en": "Poison chain between targets, scales with stacks."
+              }
+            },
+            {
+              "id": "FesteringStrike",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Накладывает Poison и Weakness в малом радиусе.",
+                "en": "Applies Poison and Weakness in a small radius."
+              }
+            },
+            {
+              "id": "Corrosion",
+              "role": "support",
+              "obtained": "rune",
+              "note": {
+                "ru": "Копит Poison на врагах в области и взрывается по стакам.",
+                "en": "Stacks Poison on enemies in the area and detonates by stacks."
+              }
+            },
+            {
+              "id": "Bloodlust",
+              "role": "optional",
+              "note": {
+                "ru": "Скорость передвижения и частота каста.",
+                "en": "Movement speed and cast frequency."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "Venomous",
+              "priority": "must"
+            },
+            {
+              "power_id": "Corrosive",
+              "priority": "must"
+            },
+            {
+              "power_id": "DeathandDecay",
+              "priority": "must"
+            },
+            {
+              "power_id": "InfectedWounds",
+              "priority": "high",
+              "note": {
+                "ru": "В гайде без названия: «Poison накладывается на критах». На вики это Infected Wounds (50% шанс, нужно 2 источника Poison).",
+                "en": "Unnamed in the guide (Poison applied on critical hits). On the wiki this is Infected Wounds (50% chance, needs 2 Poison sources)."
+              }
+            },
+            {
+              "power_id": "Rotting",
+              "priority": "high",
+              "note": {
+                "ru": "В гайде без названия: «часть урона Poison наносится сразу». На вики это Rotting (Epic, +40%).",
+                "en": "Unnamed in the guide (a portion of Poison damage dealt instantly). On the wiki this is Rotting (Epic, +40%)."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "medium"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "medium"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "medium"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "medium"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "Synchrony"
+              },
+              {
+                "id": "SacrificedGrowth"
+              },
+              {
+                "id": "Prophecy"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "WeaponExpert"
+              },
+              {
+                "id": "UnconventionalStart"
+              },
+              {
+                "id": "SkillMastery",
+                "variant": "Nature"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Накладывайте как можно больше Poison на расстоянии, а Purging Slam используйте как ближний добивающий; если он снимает все стаки и душит остальные навыки, замените его на ещё один накладывающий яд навык. Защитные пассивки почти не берите.",
+            "en": "Stack as much Poison as possible at range and use Purging Slam as the melee finisher; if it strips all stacks and cripples the other skills, swap it for another Poison-applying skill. Skip almost all defensive passives."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Sacrificed Growth даёт около +25% урона при сниженном опыте.",
+                "en": "Sacrificed Growth gives roughly +25% damage at the cost of reduced experience."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1% урона за уровень, максимум 25%, опыт -10%. «Бесплатно» только на 25-м уровне и выше."
+            },
+            {
+              "text": {
+                "ru": "Unconventional Start даёт пять дополнительных рероллов.",
+                "en": "Unconventional Start grants five extra rerolls."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 1 очко навыка и 5 рероллов, но без базового навыка оружия (здесь Corrosive Spear, что и нужно автору)."
+            },
+            {
+              "text": {
+                "ru": "Purging Slam снимает стаки Poison и наносит их урон сразу с множителем.",
+                "en": "Purging Slam removes Poison stacks and deals their damage instantly with a multiplier."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: оставшиеся стаки Poison в области наносят 200% урона сразу и снимаются; урон 550, кулдаун 5 с."
+            },
+            {
+              "text": {
+                "ru": "Death and Decay заставляет Poison тикать чаще.",
+                "en": "Death and Decay makes Poison tick faster."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +30% частоты урона Poison (Rare)."
+            },
+            {
+              "text": {
+                "ru": "Threshing Blast растёт от стаков Poison и даёт Ammunition, которая иногда выпускает навык с максимумом мультикаста.",
+                "en": "Threshing Blast scales with Poison stacks and grants Ammunition, which occasionally fires a skill at max multi cast."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: 360 базового урона +40 за стак Poison, 2 стака Ammunition; при 20 стаках Ammunition следующий навык получает +5 зарядов мультикаста (у автора упрощённо «максимальный мультикаст»)."
+            }
+          ],
+          "confidence": "medium"
+        },
+        {
+          "id": "legionnaire-burn",
+          "name": {
+            "ru": "Горение (Burn)",
+            "en": "Burn"
+          },
+          "weapon_id": "VulcansImpaler",
+          "archetypes": [
+            "stack",
+            "dot",
+            "summon"
+          ],
+          "core_mechanics": [
+            "Burn",
+            "Weakness",
+            "Ancestry",
+            "Haste",
+            "Cunning"
+          ],
+          "skills": [
+            {
+              "id": "FlamingSpiral",
+              "role": "core",
+              "obtained": "rune",
+              "note": {
+                "ru": "Накладывает Burn и Weakness, Burn растёт от максимального здоровья.",
+                "en": "Applies Burn and Weakness, Burn scales with maximum health."
+              }
+            },
+            {
+              "id": "Bladestorm",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Зачистка толпы, часто бьёт по большой области (триггерит Spontaneous Combustion).",
+                "en": "Wave clear, hits often over a large area (triggers Spontaneous Combustion)."
+              }
+            },
+            {
+              "id": "Firestorm",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Огненный аналог Bladestorm, сам накладывает Burn и копит Haste.",
+                "en": "Fire counterpart of Bladestorm, applies Burn itself and stacks Haste."
+              }
+            },
+            {
+              "id": "StormofSpears",
+              "role": "support",
+              "note": {
+                "ru": "Бьёт часто, хорош для накладывания Burn через Spontaneous Combustion.",
+                "en": "Hits often, good for applying Burn via Spontaneous Combustion."
+              }
+            },
+            {
+              "id": "FieryBlades",
+              "role": "damage",
+              "obtained": "rune",
+              "note": {
+                "ru": "Призыв: урон от стаков Burn, мечи с Cunning гонят приоритетные цели.",
+                "en": "Summon: damage scales with Burn stacks, Cunning swords hunt priority targets."
+              }
+            },
+            {
+              "id": "Combustion",
+              "role": "support",
+              "note": {
+                "ru": "Аура, накладывающая Burn на всех в радиусе.",
+                "en": "Aura that applies Burn to everyone in the radius."
+              }
+            },
+            {
+              "id": "Bloodlust",
+              "role": "optional",
+              "note": {
+                "ru": "Последний слот: скорость и частота каста.",
+                "en": "Last slot: speed and cast frequency."
+              }
+            },
+            {
+              "id": "LightningSurge",
+              "role": "optional",
+              "note": {
+                "ru": "Последний слот: скорость и Dazed для критов.",
+                "en": "Last slot: speed and Dazed to enable crits."
+              }
+            }
+          ],
+          "passives": [
+            {
+              "power_id": "SpontaneousCombustion",
+              "priority": "must",
+              "note": {
+                "ru": "Несколько копий повышают урон.",
+                "en": "Multiple copies raise damage."
+              }
+            },
+            {
+              "power_id": "FieryAmplification",
+              "priority": "must"
+            },
+            {
+              "power_id": "Incinerate",
+              "priority": "high"
+            },
+            {
+              "power_id": "IgnitionPoint",
+              "priority": "high",
+              "note": {
+                "ru": "В гайде «Critical Fire» (Burn на критах). На вики эта пассивка называется Ignition Point (50% шанс, нужно 2 источника Burn).",
+                "en": "Called Critical Fire in the guide (Burn on crits). On the wiki this passive is Ignition Point (50% chance, needs 2 Burn sources)."
+              }
+            },
+            {
+              "stat": "Movement Speed",
+              "priority": "high"
+            },
+            {
+              "power_id": "Magnetic",
+              "priority": "high"
+            },
+            {
+              "stat": "Cast Frequency",
+              "priority": "high"
+            },
+            {
+              "stat": "Multi Cast Chance",
+              "priority": "high"
+            }
+          ],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ImprovedRepertory"
+              },
+              {
+                "id": "SearingIntensity"
+              },
+              {
+                "id": "AdaptiveEmpowerment"
+              },
+              {
+                "id": "ElementalFlow"
+              }
+            ],
+            "versatility": [
+              {
+                "id": "SkillMastery",
+                "variant": "Swing"
+              },
+              {
+                "id": "SkillInclination",
+                "variant": "Swing"
+              },
+              {
+                "id": "RerollMastery"
+              }
+            ]
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Спам-билд: быстро собрать 6 легионеров пассивкой персонажа, использовать Piercing Flames лишь для старта, затем завалить врагов Burn через множество навыков. Скорость и Magnetic нужны для уклонения и прокачки.",
+            "en": "A spam build: quickly get all six legionnaires from the character passive, use Piercing Flames only to start, then bury enemies in Burn through many skills. Speed and Magnetic help with dodging and leveling."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Improved Repertory (седьмой слот навыка) стоит потери 15% урона.",
+                "en": "Improved Repertory (seventh skill slot) is worth the 15% damage loss."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +1 слот навыка, весь урон -15%."
+            },
+            {
+              "text": {
+                "ru": "Searing Intensity повышает общий урон до 25%.",
+                "en": "Searing Intensity raises overall damage by up to 25%."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: +0,5% урона за стак Burn или Shattered на цели, максимум 25% (50 стаков)."
+            },
+            {
+              "text": {
+                "ru": "Пассивка персонажа при шести живых легионерах создаёт армию, которой хватает на ранние уровни; около трёх навыков уже достаточно.",
+                "en": "The character passive with all six legionnaires alive spawns an army that carries the early levels; around three skills are enough."
+              },
+              "status": "unverified",
+              "detail": "Пассивки персонажа нет в справочнике вики; наблюдение автора."
+            },
+            {
+              "text": {
+                "ru": "Elemental Flow ускоряет тики Burn и повышает их суммарный урон.",
+                "en": "Elemental Flow speeds up Burn ticks and raises their total damage."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (старый модуль): эффекты тикают на 100% чаще при той же длительности, как в гайде. Выжимка 1.5d: руна переделана, урон эффекта приходит сразу при наложении. Для 1.5d верить выжимке; ценность руны в этом билде надо проверить в игре."
+            },
+            {
+              "text": {
+                "ru": "Firestorm бьёт реже, чем Bladestorm, но сам накладывает Burn и даёт Haste.",
+                "en": "Firestorm hits less often than Bladestorm but applies Burn itself and grants Haste."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Firestorm удар каждые 0,3 с (15 ударов, Burn 120, Haste); Bladestorm каждые 0,2 с (20 ударов), без Burn."
+            }
+          ],
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "source_id": "steam-3251066730",
+      "kind": "legacy",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3251066730",
+      "title": "Unique and Detailed Character Builds (All Characters)",
+      "game_version": "1.2",
+      "updated": "2025-08-20",
+      "fetched": "2026-10-06",
+      "builds": [
+        {
+          "id": "legionnaire-poison-legacy",
+          "name": {
+            "ru": "Яд (старый, патч 1.2)",
+            "en": "Poison (legacy, patch 1.2)"
+          },
+          "weapon_id": "FangofVipernus",
+          "archetypes": [
+            "stack",
+            "dot"
+          ],
+          "core_mechanics": [
+            "Poison"
+          ],
+          "skills": [
+            {
+              "id": "PurgingSlam",
+              "role": "core"
+            },
+            {
+              "id": "Pestilence",
+              "role": "damage"
+            },
+            {
+              "id": "AcidRain",
+              "role": "damage"
+            },
+            {
+              "id": "CorrosiveSpear",
+              "role": "support"
+            },
+            {
+              "id": "PoisonBolt",
+              "role": "support"
+            },
+            {
+              "id": "PoisonCloud",
+              "role": "support"
+            }
+          ],
+          "passives": [],
+          "runes": {
+            "tenacity": [
+              {
+                "id": "ElementalFlow"
+              },
+              {
+                "id": "Decapitator"
+              },
+              {
+                "id": "OverwhelmingChaos"
+              },
+              {
+                "id": "ControlledChaos"
+              }
+            ],
+            "versatility": []
+          },
+          "titan_powers": [],
+          "playstyle": {
+            "ru": "Стартовать с Fang of Vipernus и играть через Poison; банить пассивки на Doom, Fire и Bleed, чтобы оставались только ядовитые.",
+            "en": "Start with Fang of Vipernus and play through Poison; banish Doom, Fire and Bleed passives so that only Poison ones remain."
+          },
+          "claims": [
+            {
+              "text": {
+                "ru": "Elemental Flow усиливает Poison (тики чаще).",
+                "en": "Elemental Flow boosts Poison (faster ticks)."
+              },
+              "status": "conflict",
+              "verified_by": "wiki",
+              "detail": "Вики (старый модуль): эффекты тикают на 100% чаще. Выжимка 1.5d: руна переделана, урон приходит сразу при наложении. Для 1.5d верить выжимке."
+            },
+            {
+              "text": {
+                "ru": "Overwhelming Chaos и Controlled Chaos работают в паре на случайный урон.",
+                "en": "Overwhelming Chaos and Controlled Chaos pair up for random damage."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: Overwhelming Chaos делает прямой урон навыков случайным от 1 до 220%, Controlled Chaos бросает дважды и берёт лучший. Оба не действуют на негативные эффекты, то есть на тики Poison."
+            },
+            {
+              "text": {
+                "ru": "Decapitator добивает врагов с низким здоровьем.",
+                "en": "Decapitator executes low-health enemies."
+              },
+              "status": "verified",
+              "verified_by": "wiki",
+              "detail": "Вики: прямой урон с шансом 10% убивает врагов ниже 40% здоровья, у Lords of the Void порог 10%. На тики Poison не действует."
+            }
+          ],
+          "confidence": "medium",
+          "legacy_check": [
+            {
+              "mechanic": "DoT scaling (Poison)",
+              "impact": "buffed",
+              "note": {
+                "ru": "С 1.4 Poison корректно масштабируется от модификаторов урона; яд-билд стал сильнее, чем в 1.2.",
+                "en": "Since 1.4 Poison scales properly with damage modifiers; the Poison build is stronger than in 1.2."
+              }
+            },
+            {
+              "mechanic": "Specialization (один ailment)",
+              "impact": "unchanged",
+              "note": {
+                "ru": "Совет банить Doom, Fire и Bleed ради чистого Poison совпадает с метой 1.5d.",
+                "en": "Banning Doom, Fire and Bleed for pure Poison matches the 1.5d meta."
+              }
+            },
+            {
+              "mechanic": "Elemental Flow",
+              "impact": "unknown",
+              "note": {
+                "ru": "Руна переделана: урон эффекта приходит сразу при наложении вместо ускорения тиков. Как это сочетается с Purging Slam, который снимает стаки, неясно.",
+                "en": "The rune was reworked: effect damage lands on application instead of faster ticks. How this interacts with Purging Slam, which consumes stacks, is unclear."
+              }
+            },
+            {
+              "mechanic": "Legendary Weapon / Titan Powers",
+              "impact": "unknown",
+              "note": {
+                "ru": "Не учтены в 1.2. У Legionnaire есть R5-оружие Crimson Bastion (Chaos), ни один гайд его не разбирает.",
+                "en": "Not considered in 1.2. Legionnaire has the R5 weapon Crimson Bastion (Chaos), which neither guide covers."
+              }
+            }
+          ]
+        }
+      ],
+      "legacy_note": {
+        "ru": "Гайд под 1.2: только список навыков и рун без пассивок. Три из четырёх рун (Decapitator, Overwhelming Chaos, Controlled Chaos) работают лишь на прямой урон, а Elemental Flow переделан, поэтому набор рун устарел. В актуальном гайде есть свой Poison-билд на том же Fang of Vipernus с Purging Slam и Pestilence, с пассивками и рунами под 1.5d: лучше брать его.",
+        "en": "Written for 1.2: just a list of skills and runes, no passives. Three of the four runes (Decapitator, Overwhelming Chaos, Controlled Chaos) only affect direct damage and Elemental Flow was reworked, so the rune set is outdated. The current guide has its own Poison build on the same Fang of Vipernus with Purging Slam and Pestilence, plus passives and runes for 1.5d: prefer it."
+      }
+    }
+  ],
+  "derived": {
+    "banish": [
+      {
+        "target": "Block passives",
+        "builds": [
+          "legionnaire-thrust"
+        ],
+        "reason": {
+          "ru": "Из гайда: блок не нужен, брони и снижения урона у персонажа и так хватает; с Prophecy бан даёт замену Epic+.",
+          "en": "From the guide: block is unnecessary, the character has enough armor and damage reduction; with Prophecy a banish yields an Epic+ replacement."
+        }
+      },
+      {
+        "target": "Leviathan",
+        "builds": [
+          "legionnaire-thrust"
+        ],
+        "reason": {
+          "ru": "Из гайда: автор не хочет терять скорость передвижения (Leviathan до -15% скорости).",
+          "en": "From the guide: the author keeps movement speed (Leviathan costs up to -15% speed)."
+        }
+      },
+      {
+        "target": "Movement Speed and Magnetic after 100%",
+        "builds": [
+          "legionnaire-thrust"
+        ],
+        "reason": {
+          "ru": "Из гайда: после 100% бонуса скорость и Magnetic можно банить ради более редких улучшений через Prophecy.",
+          "en": "From the guide: after a 100% bonus, speed and Magnetic can be banished for rarer upgrades via Prophecy."
+        }
+      },
+      {
+        "target": "Doom, Fire and Bleed passives",
+        "builds": [
+          "legionnaire-poison-legacy"
+        ],
+        "reason": {
+          "ru": "Из гайда (Steam, 1.2): банить пассивки Doom, Fire и Bleed, чтобы оставались только ядовитые.",
+          "en": "From the guide (Steam, 1.2): banish Doom, Fire and Bleed passives so only Poison ones remain."
+        }
+      },
+      {
+        "target": "Passives of other ailments (e.g. SpontaneousCombustion in Poison, Venomous in Burn)",
+        "builds": [
+          "legionnaire-poison",
+          "legionnaire-burn"
+        ],
+        "reason": {
+          "ru": "Вывод, не из источника: оба билда специализированы на одном ailment (как советует старый гайд и выжимка 1.5d); чужие пассивки размывают выпадения. В Poison-билде с Prophecy бан ещё и даёт замену Epic+.",
+          "en": "Inference, not from a source: both builds specialize in one ailment (as the old guide and the 1.5d digest advise); other ailments' passives dilute the offers. In the Poison build Prophecy also turns the banish into an Epic+ replacement."
+        }
+      }
+    ],
+    "level_up_rules": [
+      {
+        "ru": "Во всех билдах: скорость передвижения и Magnetic с ранних уровней; защитные пассивки почти не брать, персонаж и так живуч.",
+        "en": "All builds: movement speed and Magnetic early; skip almost all defensive passives, the character is tanky enough."
+      },
+      {
+        "ru": "Thrust и Electric: шанс и урон крита в приоритете; затем урон, частота каста и мультикаст по ситуации.",
+        "en": "Thrust and Electric: crit chance and crit damage first; then damage, cast frequency and multi cast as offered."
+      },
+      {
+        "ru": "Poison: Venomous, Corrosive и Death and Decay обязательны; Infected Wounds и Rotting брать, как только выпадут.",
+        "en": "Poison: Venomous, Corrosive and Death and Decay are mandatory; take Infected Wounds and Rotting as soon as they show up."
+      },
+      {
+        "ru": "Burn: Spontaneous Combustion (несколько копий), Fiery Amplification, затем Incinerate и Ignition Point («Critical Fire»).",
+        "en": "Burn: Spontaneous Combustion (several copies), Fiery Amplification, then Incinerate and Ignition Point (Critical Fire)."
+      },
+      {
+        "ru": "Burn: на старте бить Piercing Flames и поднимать легионеров до шести; армии хватает, пока не наберётся около трёх навыков.",
+        "en": "Burn: open with Piercing Flames and revive legionnaires up to six; the army carries you until you have about three skills."
+      },
+      {
+        "ru": "С руной Prophecy (Thrust, Poison): банить ненужные пассивки ради замены Epic+, а не тратить баны на активные навыки.",
+        "en": "With the Prophecy rune (Thrust, Poison): banish unwanted passives for Epic+ replacements instead of spending banishes on active skills."
+      }
+    ],
+    "basis": {
+      "ru": "Баны и правила взяты из гайда cubiccreativity (1.5d) и Steam-гайда (1.2); числа сверены с вики. Пятый бан (чужие ailment в Poison и Burn) мой вывод из специализации, авторы его прямо не называют.",
+      "en": "Bans and rules come from the cubiccreativity guide (1.5d) and the Steam guide (1.2); numbers checked against the wiki. The fifth ban (other ailments in Poison and Burn) is my inference from specialization; the authors do not state it directly."
+    }
+  },
+  "gaps": [
+    "В cubic_builds.md списки навыков в начале каждого билда пустые (были картинками); навыки собраны только по тексту, поэтому состав может быть неполным.",
+    "Конкретные пассивки Thrust- и Electric-билдов в гайде не названы (кроме Magnetic), только статы.",
+    "Пассивка персонажа (армия легионеров, форма центуриона +80% силы брони) отсутствует в справочнике вики; утверждения о ней не проверены.",
+    "«Critical Fire» из гайда сопоставлен с Ignition Point (Burn на критах), безымянные улучшения Poison: с Infected Wounds и Rotting, по описаниям на вики; в игре стоит проверить названия.",
+    "Piercing Flames (стартовый навык Burn-билда) намеренно не включён в skills: гайд использует его только для старта.",
+    "Источник навыков (obtained) указан только там, где гайд это говорит; у Quick Strike снят: Skill Mastery: Thrust его не добавляет.",
+    "В Steam-разделе нет разделения Tenacity/Versatility и нет пассивок; руны положены в tenacity.",
+    "Нет билда под R5-оружие Crimson Bastion (Chaos): ни один гайд его не разбирает.",
+    "Elemental Flow (Burn-билд) и Savage Pact (Thrust, Electric) на вики в старом виде; в 1.5d переделаны или ослаблены, реальный вклад в эти билды не проверен.",
+    "Приоритеты пассивок в гайдах нечёткие, priority выставлен по тону текста."
+  ]
+}
